@@ -1917,7 +1917,7 @@ export default function App() {
       setSubmitting(true);
       setSubmitError(false);
       const labelMap = {};
-      questions.forEach(q=>{ if(q.options) q.options.forEach(o=>{ labelMap[`${q.id}::${o.value}`]=o.label; }); });
+      allQs.forEach(q=>{ if(q.options) q.options.forEach(o=>{ labelMap[`${q.id}::${o.value}`]=o.label; }); });
       const answerSummary = Object.entries(answers).map(([k,v])=>{
         const q = allQs.find(q=>q.id===k);
         const label = q?.question||k;
