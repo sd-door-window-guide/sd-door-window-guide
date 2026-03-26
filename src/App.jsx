@@ -1874,6 +1874,8 @@ export default function App() {
   const [photos,setPhotos]=useState([]);
   const [scheduleFiles,setScheduleFiles]=useState([]);
   const [submitted,setSubmitted]=useState(false);
+  const [submitting,setSubmitting]=useState(false);
+  const [submitError,setSubmitError]=useState(false);
   // favorites state
   const [favorites,setFavorites]=useState([]);
   // vendor catalog state
@@ -1910,7 +1912,38 @@ export default function App() {
       setSelOpt(null);
     }
     if(step<totalSteps)setStep(s=>s+1);
-    else{setSubmitted(true);setMainTab("results");}
+    else{
+      // Submit to Formspree
+      setSubmitting(true);
+      setSubmitError(false);
+      const labelMap = {};
+      questions.forEach(q=>{ if(q.options) q.options.forEach(o=>{ labelMap[`${q.id}::${o.value}`]=o.label; }); });
+      const answerSummary = Object.entries(answers).map(([k,v])=>{
+        const q = questions.find(q=>q.id===k);
+        const label = q?.question||k;
+        const val = Array.isArray(v) ? v.map(vi=>labelMap[`${k}::${vi}`]||vi).join(", ") : (labelMap[`${k}::${v}`]||v);
+        return `${label}: ${val}`;
+      }).join("\n");
+      fetch("https://formspree.io/f/mzdkbjdn", {
+        method:"POST",
+        headers:{"Content-Type":"application/json","Accept":"application/json"},
+        body:JSON.stringify({
+          name: contact.name,
+          email: contact.email,
+          phone: contact.phone,
+          zip: contact.zip,
+          notes: contact.notes||"",
+          quiz_answers: answerSummary,
+        })
+      })
+      .then(r=>r.json())
+      .then(data=>{
+        setSubmitting(false);
+        if(data.ok||data.next){setSubmitted(true);setMainTab("results");}
+        else{setSubmitError(true);}
+      })
+      .catch(()=>{setSubmitting(false);setSubmitError(true);});
+    }
   };
   const handleBack=()=>{
     if(step>1){const prevQ=activeQs[step-2];setStep(s=>s-1);setSelOpt(answers[prevQ?.id]||null);}
@@ -2350,9 +2383,10 @@ export default function App() {
                   ))}</div>}
                 </div>
               </div>
+              {submitError&&<div style={{background:"#FFF0F0",border:"1px solid #ffcccc",borderRadius:"6px",padding:"10px 14px",marginBottom:"10px",fontSize:"13px",color:"#cc3333"}}>Something went wrong — please check your connection and try again.</div>}
               <div style={{display:"flex",justifyContent:"space-between"}}>
                 <button onClick={handleBack} style={{background:"none",border:`1px solid ${T.border}`,color:T.dim,padding:"9px 16px",borderRadius:"6px",cursor:"pointer",fontSize:"13px",fontFamily:"inherit"}}>{"\u2190"} Back</button>
-                <button className="btn" onClick={handleNext} disabled={!contact.name||!contact.phone} style={{background:contact.name&&contact.phone?T.gold:"#F8F5F0",border:"none",color:contact.name&&contact.phone?T.dark:"#C4CEC8",padding:"10px 26px",borderRadius:"6px",cursor:"pointer",fontSize:"14px",fontWeight:600,fontFamily:"inherit"}}>See My Results {"\u2192"}</button>
+                <button className="btn" onClick={handleNext} disabled={!contact.name||!contact.phone||submitting} style={{background:contact.name&&contact.phone?T.gold:"#F8F5F0",border:"none",color:contact.name&&contact.phone?T.dark:"#C4CEC8",padding:"10px 26px",borderRadius:"6px",cursor:"pointer",fontSize:"14px",fontWeight:600,fontFamily:"inherit"}}>{submitting?"Sending…":"See My Results →"}</button>
               </div>
             </div>
           )}
@@ -2362,6 +2396,13 @@ export default function App() {
       {/* ─── RESULTS ─── */}
       {mainTab==="results"&&submitted&&(
         <div style={{maxWidth:"780px",margin:"0 auto",padding:"32px 20px",animation:"fadeUp 0.3s ease"}}>
+          <div style={{background:`${T.teal}15`,border:`1px solid ${T.teal}44`,borderRadius:"10px",padding:"14px 20px",marginBottom:"24px",display:"flex",alignItems:"center",gap:"12px"}}>
+            <div style={{fontSize:"22px"}}>✓</div>
+            <div>
+              <div style={{fontSize:"13px",fontWeight:600,color:T.teal,marginBottom:"2px"}}>Request received — we'll be in touch within 1 business day.</div>
+              <div style={{fontSize:"12px",color:T.muted}}>Your personalized recommendations are ready below. A local specialist will follow up at {contact.email||contact.phone}.</div>
+            </div>
+          </div>
           <div style={{textAlign:"center",marginBottom:"28px"}}>
             <div style={{fontSize:"9px",letterSpacing:"5px",color:T.faint,marginBottom:"8px",fontFamily:"monospace"}}>YOUR PERSONALIZED RESULTS</div>
             <h2 style={{fontSize:"clamp(20px,3.5vw,28px)",fontWeight:400,margin:"0 0 8px"}}>{contact.name?`${contact.name.split(" ")[0]}, here are `:"Here are "}your <em style={{color:T.gold}}>top matches</em></h2>
