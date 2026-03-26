@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Analytics } from "@vercel/analytics/react";
 
 // ─── THEME ───────────────────────────────────────────────────────────────────
 const T = {
@@ -3963,6 +3964,7 @@ export default function App() {
           </div>
         </div>
       </div>
+      <Analytics />
     </div>
   );
 }
