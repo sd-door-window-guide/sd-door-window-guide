@@ -1919,7 +1919,7 @@ export default function App() {
       const labelMap = {};
       questions.forEach(q=>{ if(q.options) q.options.forEach(o=>{ labelMap[`${q.id}::${o.value}`]=o.label; }); });
       const answerSummary = Object.entries(answers).map(([k,v])=>{
-        const q = questions.find(q=>q.id===k);
+        const q = allQs.find(q=>q.id===k);
         const label = q?.question||k;
         const val = Array.isArray(v) ? v.map(vi=>labelMap[`${k}::${vi}`]||vi).join(", ") : (labelMap[`${k}::${v}`]||v);
         return `${label}: ${val}`;
