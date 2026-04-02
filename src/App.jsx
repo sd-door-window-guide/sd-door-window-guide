@@ -523,7 +523,7 @@ const vendors = {
 
     { id:"weathershield", website:"https://www.weathershield.com", name:"Weather Shield", logo:"WS", color:T.plum, tagline:"The Mountain & Coastal Luxury Wood Specialist", tier:"Luxury", tierColor:T.plum, origin:"Medford WI — family-owned since 1955", overview:"A family-owned Wisconsin manufacturer with 70+ years making aluminum-clad wood windows and doors. Three distinct collections: Signature Series for the full classic range, Contemporary Series for architect-specified modern builds, and Vue Series for slim-profile transitional projects. Less brand-recognized than Andersen or Marvin in San Diego — which means better margin for the dealer and similar quality tier.", productLines:[{name:"Signature Series",type:"Windows & Patio Doors",material:"Aluminum-clad Wood",description:"Weather Shield's classic aluminum-clad wood line — the core of what they've built for 70 years. Covers the full range: double hung, casement, awning, slider, specialty shapes, sliding patio doors, and hinged patio doors. Tricore™ frame technology with welded aluminum corners and a multi-chambered composite sub-frame for thermal performance. Pine wood interior standard; factory-finished white, black, or stained options. AAMA 2605 premium exterior paint. 20-year warranty, 30-year anti-rot on clad. Zo-e-shield® glazing system for energy efficiency.",uniqueFeatures:["Full window & door range — double hung to hinged patio","Tricore™ frame — welded corners, thermal composite sub-frame","Pine interior with factory stain/finish options","AAMA 2605 exterior paint — resists fading and chalking","Zo-e-shield® glazing — Low-E, argon, Real Warm-Edge spacer","20-yr warranty / 30-yr anti-rot on clad products"],maxWidth:"Custom",maxHeight:"Custom",priceRange:"$$$–$$$$",brochureUrl:"https://www.qualitywindowanddoorinc.com/wp-content/uploads/2017/09/Weather-Shield-Signature-Series-Catalog.pdf"},{name:"Contemporary Series",type:"Windows & Patio Doors",material:"Aluminum-clad Wood",description:"Architect-focused contemporary collection with clean lines, minimal frame profiles, and expansive glass areas. Designed for modern and transitional high-end builds where the window is part of the design statement. Custom sizes and configurations throughout.",uniqueFeatures:["Minimal sightlines for contemporary design","Expansive glass area capability","Custom sizes and configurations","Architect-specified"],maxWidth:"Custom",maxHeight:"Custom",priceRange:"$$$$",brochureUrl:"https://www.qualitywindowanddoorinc.com/wp-content/uploads/2017/09/Weather-Shield-Contemporary-Collection-Catalog.pdf"},{name:"Vue Series",type:"Windows & Patio Doors",material:"Aluminum-clad Wood",description:"Weather Shield's slim-profile contemporary line. Clean sightlines, modern proportions, aluminum-clad exterior with wood interior. Designed for transitional architecture where slim frames and large glass areas are the priority without going full architect-spec custom.",uniqueFeatures:["Slim contemporary profiles","Aluminum-clad exterior","Wood interior warmth","Large glass area capability"],maxWidth:"Custom",maxHeight:"Custom",priceRange:"$$$–$$$$",brochureUrl:"https://rockmanwindowsanddoors.com/wp-content/uploads/2022/08/Weather-shield-Vue-brochure.pdf"}],frameMaterials:["Aluminum-clad Wood","Extruded Aluminum","Vinyl"],finishes:[{name:"White",swatch:"#f0ede6"},{name:"Black",swatch:"#1A1A1A"},{name:"Bronze",swatch:"#5a3a1a"},{name:"150+ Colors",swatch:"linear-gradient(135deg,#B8A0C8,#4A7848)"},{name:"Custom Match",swatch:"linear-gradient(135deg,#8FA8C8,#C9A84C)"}],differentiators:["150+ exterior colors — widest palette in class","True custom shapes and specialty units — no upcharge","Family-owned — responsive and consistent","Strong coastal and high-elevation performance specs","Less over-specified in SD — gives rep a differentiated story"],idealFor:["Architects and designers wanting non-standard window shapes","Luxury builds wanting something other than Andersen/Marvin","Projects mixing windows and large patio door systems","High-elevation properties (Julian, Palomar, Cuyamaca)"],limitations:["Lower homeowner brand recognition than Andersen/Marvin","Lead times can be longer on full custom","Fewer dealer touchpoints locally than Andersen"],sdNotes:"Weather Shield is the brand to pull out when an architect or discerning homeowner asks 'what else is out there?' The 150+ color palette immediately differentiates from Milgard's 4 colors and Andersen's 50. Specialty custom windows for arched tops, radius, and unusual shapes are a genuine strength — no other brand handles non-standard shapes as cleanly. Worth pushing on high-elevation projects (Julian, Cuyamaca, Palomar) where the thermal and performance specs are engineered for exactly those conditions." },
 
-    { id:"milgard", heroImage:"/milgard-hero.avif", website:"https://www.milgard.com", name:"Milgard", logo:"MG", color:T.sage, tagline:"The California Value Leader", tier:"Mid-Premium", tierColor:T.sage, origin:"Tacoma WA — serving CA since 1962", overview:"Most trusted window brand in California. Lifetime warranty, popular black Trinsic Series, and California manufacturing make it the go-to for whole-house packages.", productLines:[{name:"Moving Glass Walls",type:"Folding/Multi-Slide",material:"Aluminum",description:"Top-hung bi-fold, stacking, and pocket configurations.",uniqueFeatures:["Top-hung bi-fold","ENERGY STAR","Competitive pricing"],maxWidth:"30ft",maxHeight:"10ft",priceRange:"$$$$–$$$$$",brochureUrl:"https://energyexteriorsnw.com/wp-content/uploads/2024/05/AX550_Brochure.pdf"},{name:"Ultra C700 Series — Fiberglass",type:"Windows",material:"Fiberglass",description:"Premium fiberglass. Paintable, excellent coastal performance.",uniqueFeatures:["Paintable any color","Stronger than vinyl","Lifetime warranty"],maxWidth:"Various",maxHeight:"Various",priceRange:"$$$$"},{name:"Tuscany V400 Series — Vinyl",type:"Windows",material:"Vinyl",description:"Milgard's flagship vinyl line. Traditional beveled frame profile with more substantial sightlines than the Trinsic. Priced above Trinsic — the premium vinyl option for clients who prefer a classic look over the slim contemporary profile.",uniqueFeatures:["Flagship vinyl line","Beveled frame profile","Lifetime warranty"],maxWidth:"Various",maxHeight:"Various",priceRange:"$$$–$$$$",brochureUrl:"https://www.milgard.com/sites/default/files/brochure/MG_V400-V2_TuscanySeries_brochure_110525_DIGI.pdf"},{name:"Trinsic V300 Series — Vinyl",type:"Windows",material:"Vinyl",description:"Contemporary slim-profile vinyl. Black Trinsic is #1 in SD luxury remodels. More affordable than the Tuscany flagship — the value play within Milgard's vinyl lineup without sacrificing the modern look.",uniqueFeatures:["Slim sightlines for vinyl","Black interior/exterior","Lifetime warranty"],maxWidth:"Various",maxHeight:"Various",priceRange:"$$$",brochureUrl:"https://www.hhrexteriors.com/wp-content/uploads/2022/12/Milgard-Trinsic-brochure.pdf"},{name:"Style Line V250 Series — Vinyl",type:"Windows",material:"Vinyl",description:"Builder-grade vinyl window line. Milgard's production builder workhorse — standard sizes, fast availability, competitive pricing. Clean profile, white standard, limited colors. The go-to for tract homes and production builds in Chula Vista, Otay Ranch, and Santee where cost per unit matters.",uniqueFeatures:["Builder-grade pricing","Fast availability in standard sizes","Lifetime warranty","Full operating style range"],maxWidth:"Various",maxHeight:"Various",priceRange:"$–$$",brochureUrl:"https://www.lighthouse-windows.com/wp-content/uploads/2021/04/milgard-style_line_series-2021.pdf"},{name:"A250 Series — Thermally Broken Aluminum",type:"Windows",material:"Thermally Broken Aluminum",description:"Milgard's thermally broken aluminum window line. Commercial-grade thermal performance in a residential aluminum profile. Title 24 compliant, coastal-rated, available in casement, fixed, awning, and slider configurations. Pairs with Milgard's aluminum door systems for whole-house aluminum continuity.",uniqueFeatures:["Thermally broken frame","Title 24 compliant","Coastal salt-air rated","Pairs with Milgard aluminum doors"],maxWidth:"Various",maxHeight:"Various",priceRange:"$$$–$$$$",brochureUrl:"https://constructionwindows.com/media/wysiwyg/images/resources/aluminum-thermal/pdf/Thermal-Break-Aluminum-A250-Brochure.pdf"}],frameMaterials:["Vinyl","Fiberglass","Thermally Broken Aluminum","Extruded Aluminum"],finishes:[{name:"White",swatch:"#f0ede6"},{name:"Black",swatch:"#1A1A1A"},{name:"Bronze",swatch:"#3d2b1f"},{name:"Tan",swatch:"#8A6020"}],differentiators:["Full Lifetime Warranty — transferable","Trinsic black — #1 SD luxury remodel window","California-made — fast ETAs","Best price-to-performance for packages"],idealFor:["High-value whole-house packages","Modern homes wanting black frame","Budget-managed luxury remodels"],limitations:["Only 4–5 colors","Not for ultra-luxury spec","Dark vinyl can warp in extreme heat"],sdNotes:"Trinsic black windows everywhere in SD luxury remodels. California presence = faster ETAs. Strong for Carmel Valley, Scripps Ranch, Encinitas." },
+    { id:"milgard", website:"https://www.milgard.com", name:"Milgard", logo:"MG", color:T.sage, tagline:"The California Value Leader", tier:"Mid-Premium", tierColor:T.sage, origin:"Tacoma WA — serving CA since 1962", overview:"Most trusted window brand in California. Lifetime warranty, popular black Trinsic Series, and California manufacturing make it the go-to for whole-house packages.", productLines:[{name:"Moving Glass Walls",type:"Folding/Multi-Slide",material:"Aluminum",description:"Top-hung bi-fold, stacking, and pocket configurations.",uniqueFeatures:["Top-hung bi-fold","ENERGY STAR","Competitive pricing"],maxWidth:"30ft",maxHeight:"10ft",priceRange:"$$$$–$$$$$",brochureUrl:"https://energyexteriorsnw.com/wp-content/uploads/2024/05/AX550_Brochure.pdf"},{name:"Ultra C700 Series — Fiberglass",type:"Windows",material:"Fiberglass",description:"Premium fiberglass. Paintable, excellent coastal performance.",uniqueFeatures:["Paintable any color","Stronger than vinyl","Lifetime warranty"],maxWidth:"Various",maxHeight:"Various",priceRange:"$$$$"},{name:"Tuscany V400 Series — Vinyl",type:"Windows",material:"Vinyl",description:"Milgard's flagship vinyl line. Traditional beveled frame profile with more substantial sightlines than the Trinsic. Priced above Trinsic — the premium vinyl option for clients who prefer a classic look over the slim contemporary profile.",uniqueFeatures:["Flagship vinyl line","Beveled frame profile","Lifetime warranty"],maxWidth:"Various",maxHeight:"Various",priceRange:"$$$–$$$$",brochureUrl:"https://www.milgard.com/sites/default/files/brochure/MG_V400-V2_TuscanySeries_brochure_110525_DIGI.pdf"},{name:"Trinsic V300 Series — Vinyl",type:"Windows",material:"Vinyl",description:"Contemporary slim-profile vinyl. Black Trinsic is #1 in SD luxury remodels. More affordable than the Tuscany flagship — the value play within Milgard's vinyl lineup without sacrificing the modern look.",uniqueFeatures:["Slim sightlines for vinyl","Black interior/exterior","Lifetime warranty"],maxWidth:"Various",maxHeight:"Various",priceRange:"$$$",brochureUrl:"https://www.hhrexteriors.com/wp-content/uploads/2022/12/Milgard-Trinsic-brochure.pdf"},{name:"Style Line V250 Series — Vinyl",type:"Windows",material:"Vinyl",description:"Builder-grade vinyl window line. Milgard's production builder workhorse — standard sizes, fast availability, competitive pricing. Clean profile, white standard, limited colors. The go-to for tract homes and production builds in Chula Vista, Otay Ranch, and Santee where cost per unit matters.",uniqueFeatures:["Builder-grade pricing","Fast availability in standard sizes","Lifetime warranty","Full operating style range"],maxWidth:"Various",maxHeight:"Various",priceRange:"$–$$",brochureUrl:"https://www.lighthouse-windows.com/wp-content/uploads/2021/04/milgard-style_line_series-2021.pdf"},{name:"A250 Series — Thermally Broken Aluminum",type:"Windows",material:"Thermally Broken Aluminum",description:"Milgard's thermally broken aluminum window line. Commercial-grade thermal performance in a residential aluminum profile. Title 24 compliant, coastal-rated, available in casement, fixed, awning, and slider configurations. Pairs with Milgard's aluminum door systems for whole-house aluminum continuity.",uniqueFeatures:["Thermally broken frame","Title 24 compliant","Coastal salt-air rated","Pairs with Milgard aluminum doors"],maxWidth:"Various",maxHeight:"Various",priceRange:"$$$–$$$$",brochureUrl:"https://constructionwindows.com/media/wysiwyg/images/resources/aluminum-thermal/pdf/Thermal-Break-Aluminum-A250-Brochure.pdf"}],frameMaterials:["Vinyl","Fiberglass","Thermally Broken Aluminum","Extruded Aluminum"],finishes:[{name:"White",swatch:"#f0ede6"},{name:"Black",swatch:"#1A1A1A"},{name:"Bronze",swatch:"#3d2b1f"},{name:"Tan",swatch:"#8A6020"}],differentiators:["Full Lifetime Warranty — transferable","Trinsic black — #1 SD luxury remodel window","California-made — fast ETAs","Best price-to-performance for packages"],idealFor:["High-value whole-house packages","Modern homes wanting black frame","Budget-managed luxury remodels"],limitations:["Only 4–5 colors","Not for ultra-luxury spec","Dark vinyl can warp in extreme heat"],sdNotes:"Trinsic black windows everywhere in SD luxury remodels. California presence = faster ETAs. Strong for Carmel Valley, Scripps Ranch, Encinitas." },
 
     { id:"alpine", website:"https://www.alpinewindowsystems.com", name:"Alpine Windows", logo:"AW", color:T.teal, tagline:"The Vinyl-Only Value Specialist", tier:"Mid-Premium", tierColor:T.teal, origin:"Salt Lake City UT — Western US vinyl specialist", overview:"Alpine Windows is a vinyl-only manufacturer focused on delivering high-performance, energy-efficient windows at a competitive price point for the Western US market. They are not a luxury brand — but that's precisely their strength. For whole-house replacement projects where budget discipline matters and the client wants a clean, reliable vinyl window without paying Milgard Trinsic prices, Alpine is a compelling story. Strong ENERGY STAR compliance, good sightline profiles, and Western US distribution make them a practical choice for value-managed SD remodels.", productLines:[{name:"Alpine 70 Series",type:"Windows",material:"Vinyl",description:"Alpine's premium vinyl window line. Heavier-duty frame construction, enhanced weatherstripping, and improved thermal performance over the standard series. The right spec when you want Alpine pricing but need a more robust product — upgrade from the base line without moving to Milgard.",uniqueFeatures:["Heavier-duty frame","Enhanced weatherstripping","Improved thermal performance","Full operating style range"],maxWidth:"Various",maxHeight:"Various",priceRange:"$$–$$$",brochureUrl:"https://cksidaho.com/wp-content/uploads/2020/04/Alpine-70-Series-Window-Brochure.pdf"},{name:"Alpine 80 Series",type:"Windows",material:"Vinyl",description:"Alpine's top-of-line vinyl window. Larger frame profile than the 70 Series, maximum structural rigidity, and the best thermal performance in the Alpine lineup. The spec for larger openings and projects where Alpine is the brand but performance requirements are higher.",uniqueFeatures:["Largest frame profile","Maximum structural rigidity","Best thermal performance in Alpine lineup","Full operating style range"],maxWidth:"Various",maxHeight:"Various",priceRange:"$$$",brochureUrl:"https://www.alpinewindowsystems.com/wp-content/uploads/sites/4/2024/06/Alpine-80-Series-Window-Brochure.pdf"}],frameMaterials:["Vinyl"],finishes:[{name:"White",swatch:"#f0ede6"},{name:"Tan / Almond",swatch:"#c8b89a"},{name:"Black",swatch:"#1A1A1A"},{name:"Bronze",swatch:"#3d2b1f"}],differentiators:["Best price-per-window in the Western US vinyl category","Strong ENERGY STAR compliance across all climate zones","Clean profiles — not builder-grade looking","Fast Western US lead times","Right-size solution when Milgard is over-budget"],idealFor:["Budget-managed whole-house vinyl replacements","Rental property and multi-unit upgrades","Secondary and back-of-house windows on premium projects","Clients who just need reliable, clean vinyl windows"],limitations:["Vinyl only — no fiberglass or wood options","Limited color selection vs. Pella or Andersen","Not appropriate for luxury or architect-specified projects","No large-format door wall systems"],sdNotes:"Alpine's sweet spot in San Diego is the Chula Vista, El Cajon, Santee, and Oceanside whole-house replacement market where the homeowner needs 15–25 windows replaced at a budget. Don't lead with Alpine on La Jolla or RSF — but when a Carmel Valley client says 'I need to stay under $X for the whole house,' Alpine lets you close the deal and still deliver a quality product. Also useful as the back-of-house or secondary window budget on projects where the main living areas get Milgard or Pella." },
 
@@ -937,37 +937,13 @@ function VendorLogo({ id, size = 52 }) {
 
     // ── Milgard ── bold red wordmark, diagonal ray
     milgard: (
-      <div style={{width:s,height:s,borderRadius:6,overflow:"hidden",background:"#fff",display:"flex",alignItems:"center",justifyContent:"center",padding:"6px"}}>
-        <svg viewBox="0 0 174 37" style={{width:"100%",height:"100%"}} xmlns="http://www.w3.org/2000/svg">
-          <defs><polygon id="mg-p1" points="0 0 4.1998 0 4.1998 3.732 0 3.732"/><polygon id="mg-p3" points="0 0 29.0737 0 29.0737 21.024 0 21.024"/><polygon id="mg-p5" points="0 36.527 174.239 36.527 174.239 0 0 0"/></defs>
-          <g stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
-            <g transform="translate(170.039200, 17.982100)"><mask id="mg-m2" fill="white"><use xlinkHref="#mg-p1"/></mask><path d="M1.597,1.923 L2.294,1.923 C2.559,1.923 2.7,1.791 2.7,1.579 C2.7,1.35 2.559,1.243 2.294,1.243 L1.597,1.243 L1.597,1.923 Z M2.779,2.205 L3.282,2.787 L2.691,2.787 L2.259,2.276 L1.597,2.276 L1.597,2.787 L1.085,2.787 L1.085,0.864 L2.391,0.864 C2.876,0.864 3.238,1.129 3.238,1.57 C3.238,1.879 3.053,2.099 2.779,2.205 Z M3.908,1.87 C3.908,0.838 3.114,0.255 2.1,0.255 C1.076,0.255 0.282,0.838 0.282,1.87 C0.282,2.893 1.076,3.485 2.1,3.485 C3.114,3.485 3.908,2.893 3.908,1.87 Z M4.2,1.87 C4.2,3.026 3.238,3.732 2.091,3.732 C0.944,3.732 0,3.026 0,1.87 C0,0.705 0.944,0 2.091,0 C3.238,0 4.2,0.705 4.2,1.87 Z" fill="#D6001C" mask="url(#mg-m2)"/></g>
-            <g transform="translate(0.000000, 0.689800)"><mask id="mg-m4" fill="white"><use xlinkHref="#mg-p3"/></mask><polygon fill="#D6001C" mask="url(#mg-m4)" points="14.4467 18.055 5.9167 7.599 5.9167 21.024 -0.0003 21.024 -0.0003 0 6.6977 0 14.5967 10.092 22.5557 0 29.0737 0 29.0737 21.024 22.9767 21.024 22.9767 7.599"/></g>
-            <mask id="mg-m6" fill="white"><use xlinkHref="#mg-p5"/></mask>
-            <polygon fill="#D6001C" mask="url(#mg-m6)" points="32.856 21.714 38.983 21.714 38.983 0.69 32.856 0.69"/>
-            <path d="M105.361,13.3346 L101.727,5.8856 L98.063,13.3346 L105.361,13.3346 Z M107.493,17.6896 L95.96,17.6896 L93.978,21.7136 L87.551,21.7136 L98.423,0.6906 L105.121,0.6906 L115.993,21.7136 L109.476,21.7136 L107.493,17.6896 Z" fill="#D6001C" mask="url(#mg-m6)"/>
-            <path d="M132.4446,10.6314 C134.6366,10.6314 136.2286,10.0304 136.2286,7.9884 C136.2286,5.9454 134.6366,5.3454 132.4446,5.3454 L124.2146,5.3454 L124.2146,10.6314 L132.4446,10.6314 Z M135.9886,21.7134 L130.4326,15.0764 L124.2456,15.0764 L124.2456,21.7134 L118.1486,21.7134 L118.1486,0.6904 L132.8946,0.6904 C138.2716,0.6904 142.4456,3.0634 142.4456,7.8684 C142.4456,11.3824 140.2236,13.6044 136.9196,14.5664 L143.1066,21.7134 L135.9886,21.7134 Z" fill="#D6001C" mask="url(#mg-m6)"/>
-            <path d="M164.2136,11.2023 C164.2136,7.4783 161.2706,5.5553 156.7646,5.5553 L151.6296,5.5553 L151.6296,16.8483 L156.7646,16.8483 C161.2706,16.8483 164.2136,14.9263 164.2136,11.2023 M170.4606,11.2023 C170.4606,17.8093 165.3246,21.7133 157.2456,21.7133 L145.5026,21.7133 L145.5026,0.6903 L157.2456,0.6903 C165.3246,0.6903 170.4606,4.5943 170.4606,11.2023" fill="#D6001C" mask="url(#mg-m6)"/>
-            <polygon fill="#D6001C" mask="url(#mg-m6)" points="60.3674 16.7884 48.8224 16.7884 48.8224 0.6904 42.6964 0.6904 42.6964 21.7134 60.3674 21.7134"/>
-            <path d="M76.4266,9.5504 L74.2056,13.8454 L81.3406,13.8454 L81.3406,15.7374 C79.8696,17.0884 77.8276,17.5994 75.2446,17.5994 C70.1386,17.5994 67.2556,15.3464 67.2556,11.2024 C67.2556,7.0874 70.0486,4.8344 75.1536,4.8344 C77.9776,4.8344 79.8696,5.5554 81.6716,7.1774 L86.1466,3.8734 C83.9546,1.8314 80.1996,-0.0006 75.0036,-0.0006 C66.3836,-0.0006 61.0376,4.0834 61.0376,11.2024 C61.0376,18.3204 66.3836,22.4054 75.0036,22.4054 C80.6206,22.4054 84.7646,20.5424 87.0176,17.7494 L87.0176,9.5504 L76.4266,9.5504 Z" fill="#D6001C" mask="url(#mg-m6)"/>
-            <polygon fill="#132048" mask="url(#mg-m6)" points="9.2076 30.5697 7.3176 36.3377 5.8126 36.3377 4.6036 32.3247 3.3886 36.3377 1.8976 36.3377 -0.0004 30.5697 1.5496 30.5697 2.6836 34.5327 3.9216 30.5697 5.3156 30.5697 6.5536 34.5327 7.6876 30.5697"/>
-            <polygon fill="#132048" mask="url(#mg-m6)" points="11.342 36.338 12.854 36.338 12.854 30.57 11.342 30.57"/>
-            <polygon fill="#132048" mask="url(#mg-m6)" points="21.6711 30.5697 21.6711 36.3377 20.3441 36.3377 16.9931 32.5477 16.9931 36.3377 15.5331 36.3377 15.5331 30.5697 17.1341 30.5697 20.2111 34.0957 20.2111 30.5697"/>
-            <path d="M28.9785,33.4533 C28.9785,32.4323 28.2515,31.9043 27.1395,31.9043 L25.8725,31.9043 L25.8725,35.0023 L27.1395,35.0023 C28.2515,35.0023 28.9785,34.4753 28.9785,33.4533 M30.5205,33.4533 C30.5205,35.2663 29.2525,36.3373 27.2585,36.3373 L24.3595,36.3373 L24.3595,30.5693 L27.2585,30.5693 C29.2525,30.5693 30.5205,31.6413 30.5205,33.4533" fill="#132048" mask="url(#mg-m6)"/>
-            <path d="M37.8499,33.4533 C37.8499,32.3663 37.1459,31.7483 36.0039,31.7483 C34.8699,31.7483 34.1579,32.3663 34.1579,33.4533 C34.1579,34.5413 34.8619,35.1593 36.0039,35.1593 C37.1459,35.1593 37.8499,34.5413 37.8499,33.4533 M32.6229,33.4533 C32.6229,31.5013 33.9509,30.3803 36.0039,30.3803 C38.0579,30.3803 39.3919,31.5013 39.3919,33.4533 C39.3919,35.4063 38.0579,36.5273 36.0039,36.5273 C33.9509,36.5273 32.6229,35.4063 32.6229,33.4533" fill="#132048" mask="url(#mg-m6)"/>
-            <polygon fill="#132048" mask="url(#mg-m6)" points="50.23 30.5697 48.34 36.3377 46.835 36.3377 45.626 32.3247 44.411 36.3377 42.92 36.3377 41.022 30.5697 42.572 30.5697 43.706 34.5327 44.944 30.5697 46.338 30.5697 47.576 34.5327 48.71 30.5697"/>
-            <path d="M57.9801,34.5326 C57.9801,35.7196 56.9941,36.5266 55.1111,36.5266 C53.7761,36.5266 52.6571,36.1236 51.8411,35.3986 L52.6351,34.3596 C53.2501,34.9366 54.1031,35.2576 55.1411,35.2576 C56.0301,35.2576 56.4751,35.0766 56.4751,34.6976 C56.4751,34.3266 56.0601,34.2036 54.9921,34.1046 C53.4501,33.9556 52.0491,33.5776 52.0491,32.2916 C52.0491,31.0556 53.2501,30.3806 54.8961,30.3806 C56.0081,30.3806 57.0311,30.6776 57.7431,31.2376 L56.9791,32.2836 C56.4011,31.8306 55.7041,31.6486 54.8961,31.6406 C54.2881,31.6406 53.5541,31.7476 53.5541,32.1596 C53.5541,32.5476 54.1551,32.5966 55.0811,32.6786 C56.7791,32.8356 57.9801,33.2066 57.9801,34.5326" fill="#132048" mask="url(#mg-m6)"/>
-            <path d="M65.4568,34.9037 C65.1758,34.4667 64.6568,34.3517 64.2338,34.3517 C63.8188,34.3517 63.2628,34.4667 63.2628,34.9527 C63.2628,35.4387 63.8188,35.5547 64.2338,35.5547 C64.6568,35.5547 65.1758,35.4387 65.4568,34.9947 L65.4568,34.9037 Z M66.8738,33.7747 L66.8738,35.4727 C66.8738,35.8017 66.9248,36.0737 67.0508,36.3377 L65.5678,36.3377 C65.4868,36.1977 65.4278,36.0247 65.4278,35.8677 L65.4278,35.8597 C65.1158,36.2217 64.5448,36.5027 63.8188,36.5027 C62.9518,36.5027 61.8468,36.1227 61.8468,34.9527 C61.8468,33.7827 62.9518,33.4037 63.8188,33.4037 C64.5448,33.4037 65.1158,33.6847 65.4278,34.0557 L65.4278,33.7587 C65.4278,33.0657 64.9678,32.7367 64.0708,32.7367 C63.5818,32.7367 63.0998,32.8107 62.5958,33.0907 L62.2618,32.0607 C62.8178,31.7647 63.6628,31.5917 64.3748,31.5917 C65.9388,31.5917 66.8738,32.3657 66.8738,33.7747 Z" fill="#132048" mask="url(#mg-m6)"/>
-            <path d="M67.8487,36.3374 L67.8487,31.7724 L69.3087,31.7724 L69.3087,32.4984 C69.6577,31.9294 70.2657,31.6074 70.9997,31.6074 C72.1927,31.6074 72.8377,32.4564 72.8377,33.6514 L72.8377,36.3374 L71.3777,36.3374 L71.3777,33.7584 C71.3777,33.1644 71.0737,32.8194 70.5177,32.8194 C70.0357,32.8194 69.6197,33.0744 69.3087,33.6344 L69.3087,36.3374 L67.8487,36.3374 Z" fill="#132048" mask="url(#mg-m6)"/>
-            <path d="M77.4426,34.6073 L77.4426,33.5033 C77.1236,33.0333 76.6646,32.8523 76.1676,32.8523 C75.3966,32.8523 74.9666,33.2973 74.9666,34.0553 C74.9666,34.8213 75.3966,35.2583 76.1676,35.2583 C76.6646,35.2583 77.1236,35.0763 77.4426,34.6073 M77.4496,32.4403 L77.4496,30.2403 L78.9106,30.2403 L78.9106,36.3373 L77.4496,36.3373 L77.4496,35.6703 C77.0866,36.1803 76.5086,36.5103 75.7606,36.5103 C74.4696,36.5103 73.5806,35.5623 73.5806,34.0553 C73.5806,32.5473 74.4696,31.6073 75.7606,31.6073 C76.5086,31.6073 77.0866,31.9293 77.4496,32.4403" fill="#132048" mask="url(#mg-m6)"/>
-            <path d="M88.0711,33.4533 C88.0711,32.4323 87.3441,31.9043 86.2321,31.9043 L84.9651,31.9043 L84.9651,35.0023 L86.2321,35.0023 C87.3441,35.0023 88.0711,34.4753 88.0711,33.4533 M89.6131,33.4533 C89.6131,35.2663 88.3451,36.3373 86.3511,36.3373 L83.4521,36.3373 L83.4521,30.5693 L86.3511,30.5693 C88.3451,30.5693 89.6131,31.6413 89.6131,33.4533" fill="#132048" mask="url(#mg-m6)"/>
-            <path d="M96.9424,33.4533 C96.9424,32.3663 96.2384,31.7483 95.0964,31.7483 C93.9614,31.7483 93.2504,32.3663 93.2504,33.4533 C93.2504,34.5413 93.9544,35.1593 95.0964,35.1593 C96.2384,35.1593 96.9424,34.5413 96.9424,33.4533 M91.7154,33.4533 C91.7154,31.5013 93.0424,30.3803 95.0964,30.3803 C97.1494,30.3803 98.4844,31.5013 98.4844,33.4533 C98.4844,35.4063 97.1494,36.5273 95.0964,36.5273 C93.0424,36.5273 91.7154,35.4063 91.7154,33.4533" fill="#132048" mask="url(#mg-m6)"/>
-            <path d="M105.8137,33.4533 C105.8137,32.3663 105.1097,31.7483 103.9677,31.7483 C102.8327,31.7483 102.1217,32.3663 102.1217,33.4533 C102.1217,34.5413 102.8257,35.1593 103.9677,35.1593 C105.1097,35.1593 105.8137,34.5413 105.8137,33.4533 M100.5867,33.4533 C100.5867,31.5013 101.9137,30.3803 103.9677,30.3803 C106.0207,30.3803 107.3557,31.5013 107.3557,33.4533 C107.3557,35.4063 106.0207,36.5273 103.9677,36.5273 C101.9137,36.5273 100.5867,35.4063 100.5867,33.4533" fill="#132048" mask="url(#mg-m6)"/>
-            <path d="M113.2766,33.2971 C113.8176,33.2971 114.2106,33.1321 114.2106,32.5721 C114.2106,32.0111 113.8176,31.8471 113.2766,31.8471 L111.2456,31.8471 L111.2456,33.2971 L113.2766,33.2971 Z M114.1516,36.3371 L112.7796,34.5161 L111.2526,34.5161 L111.2526,36.3371 L109.7476,36.3371 L109.7476,30.5701 L113.3876,30.5701 C114.7146,30.5701 115.7456,31.2201 115.7456,32.5391 C115.7456,33.5031 115.1966,34.1131 114.3816,34.3761 L115.9086,36.3371 L114.1516,36.3371 Z" fill="#132048" mask="url(#mg-m6)"/>
-            <path d="M123.8441,34.5326 C123.8441,35.7196 122.8581,36.5266 120.9751,36.5266 C119.6401,36.5266 118.5211,36.1236 117.7051,35.3986 L118.4981,34.3596 C119.1141,34.9366 119.9671,35.2576 121.0051,35.2576 C121.8941,35.2576 122.3391,35.0766 122.3391,34.6976 C122.3391,34.3266 121.9241,34.2036 120.8561,34.1046 C119.3141,33.9556 117.9131,33.5776 117.9131,32.2916 C117.9131,31.0556 119.1141,30.3806 120.7601,30.3806 C121.8721,30.3806 122.8951,30.6776 123.6071,31.2376 L122.8431,32.2836 C122.2651,31.8306 121.5681,31.6486 120.7601,31.6406 C120.1521,31.6406 119.4181,31.7476 119.4181,32.1596 C119.4181,32.5476 120.0181,32.5966 120.9451,32.6786 C122.6431,32.8356 123.8441,33.2066 123.8441,34.5326" fill="#132048" mask="url(#mg-m6)"/>
-          </g>
-        </svg>
-      </div>
+      <svg width={s} height={s} viewBox="0 0 64 64" style={{borderRadius:6,overflow:"hidden"}}>
+        <rect width="64" height="64" rx="6" fill="#EEF4F2"/>
+        <polygon points="46,6 64,6 64,36" fill="#CC2020" opacity="0.15"/>
+        <text x="32" y="34" textAnchor="middle" fontFamily={"'Arial Black','Arial',sans-serif"} fontWeight="900" fontSize="13" fill="#CC2020" letterSpacing="0">MILGARD</text>
+        <rect x="8" y="38" width="48" height="1.5" fill="#CC2020" opacity="0.4"/>
+        <text x="32" y="50" textAnchor="middle" fontFamily="monospace" fontSize="5" letterSpacing="0" fill="#4a5a54">WINDOWS &amp; DOORS</text>
+      </svg>
     ),
 
     // ── Pella ── bold red wordmark on white, clean horizontal rule
@@ -1318,10 +1294,6 @@ function VendorCard({vendor, favorites, setFavorites}) {
   const fProps={favorites,setFavorites};
   return (
     <div style={{background:T.card,border:`1px solid ${T.border}`,borderRadius:"12px",overflow:"hidden",borderTop:`3px solid ${c}`}}>
-      {vendor.heroImage&&<div style={{width:"100%",height:"180px",overflow:"hidden",position:"relative"}}>
-        <img src={vendor.heroImage} alt={vendor.name} style={{width:"100%",height:"100%",objectFit:"cover",objectPosition:"center",display:"block"}}/>
-        <div style={{position:"absolute",inset:0,background:`linear-gradient(to bottom, transparent 60%, ${T.card}99 100%)`}}/>
-      </div>}
       <div style={{padding:"18px 22px 0"}}>
         <div style={{display:"flex",justifyContent:"space-between",alignItems:"flex-start",marginBottom:"12px",flexWrap:"wrap",gap:"8px"}}>
           <div style={{display:"flex",alignItems:"center",gap:"12px"}}>
@@ -1913,35 +1885,23 @@ export default function App() {
     }
     if(step<totalSteps)setStep(s=>s+1);
     else{
-      // Submit to Formspree
       setSubmitting(true);
       setSubmitError(false);
-      const labelMap = {};
-      allQs.forEach(q=>{ if(q.options) q.options.forEach(o=>{ labelMap[`${q.id}::${o.value}`]=o.label; }); });
-      const answerSummary = Object.entries(answers).map(([k,v])=>{
-        const q = allQs.find(q=>q.id===k);
-        const label = q?.question||k;
-        const val = Array.isArray(v) ? v.map(vi=>labelMap[`${k}::${vi}`]||vi).join(", ") : (labelMap[`${k}::${v}`]||v);
+      const labelMap={};
+      allQs.forEach(q=>{if(q.options)q.options.forEach(o=>{labelMap[`${q.id}::${o.value}`]=o.label;});});
+      const answerSummary=Object.entries(answers).map(([k,v])=>{
+        const q=allQs.find(q=>q.id===k);
+        const label=q?.question||k;
+        const val=Array.isArray(v)?v.map(vi=>labelMap[`${k}::${vi}`]||vi).join(", "):(labelMap[`${k}::${v}`]||v);
         return `${label}: ${val}`;
       }).join("\n");
-      fetch("https://formspree.io/f/mzdkbjdn", {
+      fetch("https://formspree.io/f/mzdkbjdn",{
         method:"POST",
         headers:{"Content-Type":"application/json","Accept":"application/json"},
-        body:JSON.stringify({
-          name: contact.name,
-          email: contact.email,
-          phone: contact.phone,
-          zip: contact.zip,
-          notes: contact.notes||"",
-          quiz_answers: answerSummary,
-        })
+        body:JSON.stringify({name:contact.name,email:contact.email,phone:contact.phone,zip:contact.zip,notes:contact.notes||"",quiz_answers:answerSummary})
       })
       .then(r=>r.json())
-      .then(data=>{
-        setSubmitting(false);
-        if(data.ok||data.next){setSubmitted(true);setMainTab("results");}
-        else{setSubmitError(true);}
-      })
+      .then(data=>{setSubmitting(false);if(data.ok||data.next){setSubmitted(true);setMainTab("results");}else{setSubmitError(true);}})
       .catch(()=>{setSubmitting(false);setSubmitError(true);});
     }
   };
@@ -2112,7 +2072,6 @@ export default function App() {
                   <div style={{fontSize:"12px",color:"#2a4a46",lineHeight:1.6}}>Salt air accelerates corrosion on frames, hardware, and seals. Homes within 2 miles of the coast require specific materials and finish upgrades to maintain performance and warranty coverage.</div>
                 </div>
               )}
-
               {/* Elevation education */}
               {currentQ.isElevation&&(
                 <div style={{background:"#EEF5EE",border:`1px solid ${T.sage}44`,borderRadius:"8px",padding:"12px 16px",marginBottom:"18px"}}>
@@ -2120,3 +2079,1802 @@ export default function App() {
                   <div style={{fontSize:"12px",color:"#3a4a38",lineHeight:1.6}}>Homes above ~4,000 ft require insulated glass units with breather tubes to prevent seal failure and fogging caused by pressure differentials at altitude. This must be specified at the factory — flag it with your specialist before ordering.</div>
                 </div>
               )}
+              {currentQ.isFireZone&&(
+                <div style={{background:"#FEF0EE",border:"1px solid #E87A6A44",borderRadius:"8px",padding:"14px 16px",marginBottom:"18px"}}>
+                  <div style={{fontSize:"9px",letterSpacing:"3px",color:T.ember,marginBottom:"6px",fontFamily:"monospace"}}> WHY THIS MATTERS</div>
+                  <p style={{fontSize:"13px",color:"#885858",lineHeight:1.65,margin:"0 0 10px"}}>Properties in Very High or High Fire Hazard Severity Zones (FHSZ) are subject to stricter building code requirements. Certain window and door materials, ratings, and installation methods are mandated. Knowing your zone status before specifying products saves costly changes later.</p>
+                  <a href="https://osfm.fire.ca.gov/what-we-do/community-wildfire-preparedness-and-mitigation/fire-hazard-severity-zones" target="_blank" rel="noopener noreferrer" style={{fontSize:"11px",fontFamily:"monospace",color:T.ember,letterSpacing:"1px",textDecoration:"none"}}>
+                     CHECK MY ADDRESS AT OSFM.FIRE.CA.GOV →
+                  </a>
+                </div>
+              )}
+
+              {/* Tempered glass education */}
+              {currentQ.isTempered&&(
+                <div style={{background:"#EEF2FA",border:`1px solid ${T.slate}44`,borderRadius:"8px",padding:"14px 16px",marginBottom:"18px"}}>
+                  <div style={{fontSize:"9px",letterSpacing:"3px",color:T.slate,marginBottom:"8px",fontFamily:"monospace"}}> WHEN IS TEMPERED GLASS REQUIRED?</div>
+                  <div style={{display:"grid",gridTemplateColumns:"repeat(2,minmax(0,1fr))",gap:"6px",marginBottom:"10px"}}>
+                    {[["Within 24\" of a door","Any glazing within 24\" of a door's edge"],["Within 18\" of the floor","Glass starting within 18\" of the floor (over 9 sq ft)"],["Showers & tubs","All glass in or adjacent to wet areas"],["Pool / spa within 5ft","All glazing within 5 feet of pool or spa edge"],["Skylights","All skylights require tempered or laminated"],["Fire zones (WUI)","Fire-rated glazing required in FHSZ zones"]].map(([loc,detail])=>(
+                      <div key={loc} style={{background:"#EEF2FA",borderRadius:"5px",padding:"9px 11px",borderLeft:`2px solid ${T.slate}55`}}>
+                        <div style={{fontSize:"11px",fontWeight:500,color:"#4A6898",marginBottom:"2px"}}>{loc}</div>
+                        <div style={{fontSize:"10px",color:"#2A4A70",lineHeight:1.4}}>{detail}</div>
+                      </div>
+                    ))}
+                  </div>
+                  <div style={{fontSize:"11px",color:"#2A4A70",lineHeight:1.5}}>Not sure? Answer "Not Sure — Explain It" and your specialist will identify every required location during the quote.</div>
+                  <button onClick={()=>setMainTab("glass_guide")} style={{marginTop:"10px",background:"none",border:`1px solid ${T.slate}44`,color:T.slate,padding:"5px 12px",borderRadius:"4px",cursor:"pointer",fontSize:"9px",letterSpacing:"1px",fontFamily:"monospace"}}>READ FULL GLASS GUIDE {"\u2192"}</button>
+                </div>
+              )}
+
+              {currentQ.educationKey==="installType"&&(
+                <div style={{background:`${T.teal}10`,border:`1px solid ${T.teal}33`,borderRadius:"6px",padding:"12px 14px",marginBottom:"16px"}}>
+                  <p style={{fontSize:"12px",color:"#6a9a96",lineHeight:1.65,margin:"0 0 8px"}}><strong style={{color:T.teal}}>Retrofit</strong> = install inside your existing frame (less demolition). <strong style={{color:T.gold}}>New Construction</strong> = nailing fin attaches to rough framing (used in new builds AND full gut remodels). An existing home can take either type {"\u2014"} but the installation approach and cost are very different.</p>
+                </div>
+              )}
+
+              {currentQ.educationKey==="frameMaterial"&&(
+                <div style={{background:`${T.slate}10`,border:`1px solid ${T.slate}33`,borderRadius:"6px",padding:"12px 14px",marginBottom:"16px"}}>
+                  <p style={{fontSize:"12px",color:"#6a7a96",lineHeight:1.65,margin:0}}>Visit the <strong style={{color:T.slate}}>Door Types</strong> or <strong style={{color:T.slate}}>Vendor Profiles</strong> tabs for in-depth explanations of each frame material.</p>
+                </div>
+              )}
+
+              {/* Installation free measure callout */}
+              {currentQ.isInstall&&(
+                <div style={{background:"#EEF5EE",border:`1px solid ${T.sage}44`,borderRadius:"8px",padding:"14px 16px",marginBottom:"18px"}}>
+                  <div style={{fontSize:"9px",letterSpacing:"3px",color:T.sage,marginBottom:"8px",fontFamily:"monospace"}}> FREE IN-HOME MEASURE</div>
+                  <p style={{fontSize:"13px",color:"#7a9a7a",lineHeight:1.65,margin:"0 0 8px"}}>Local dealers matched through this guide offer a <strong style={{color:T.text}}>free in-home measure</strong> for clients who purchase and install through them. A measure technician will document every opening, confirm rough sizes, flag code requirements, and prepare a precise quote {"\u2014"} at no charge.</p>
+                  <p style={{fontSize:"12px",color:T.dim,lineHeight:1.5,margin:0}}>Supply-only clients are welcome too {"\u2014"} your specialist can work from your measurements or a window/door schedule.</p>
+                </div>
+              )}
+
+              {/* Other services info */}
+              {currentQ.isOtherServices&&(
+                <div style={{background:"#F2EEF8",border:`1px solid ${T.plum}44`,borderRadius:"8px",padding:"14px 16px",marginBottom:"18px"}}>
+                  <div style={{fontSize:"9px",letterSpacing:"3px",color:T.plum,marginBottom:"8px",fontFamily:"monospace"}}> FULL-SERVICE LOCAL DEALERS</div>
+                  <p style={{fontSize:"13px",color:"#9a8aaa",lineHeight:1.65,margin:"0 0 6px"}}>Many of the dealers in our network carry a full range of building materials beyond windows and doors {"\u2014"} lumber, decking, roofing, drywall, insulation, and kitchen and bath products. Letting us know what your project needs helps us match you with the right specialist for each category.</p>
+                  <p style={{fontSize:"11px",color:T.dim,margin:0}}>Select all that apply {"\u2014"} you can choose multiple options below.</p>
+                </div>
+              )}
+
+              {/* Option grid — multi-select or single select */}
+              {currentQ.isMultiSelect ? (
+                <div>
+                  <div style={{display:"grid",gridTemplateColumns:"repeat(2,minmax(0,1fr))",gap:"9px",marginBottom:"14px"}}>
+                    {currentQ.options.map(opt=>{
+                      const sel = Array.isArray(selOpt)&&selOpt.includes(opt.value);
+                      const toggleMulti = ()=>{
+                        if(opt.value==="none"){
+                          setSelOpt(["none"]);
+                        } else {
+                          setSelOpt(prev=>{
+                            const arr = Array.isArray(prev)?prev.filter(v=>v!=="none"):[];
+                            return arr.includes(opt.value)?arr.filter(v=>v!==opt.value):[...arr,opt.value];
+                          });
+                        }
+                      };
+                      return (
+                        <div key={opt.value} className="opt" onClick={toggleMulti} style={{background:sel?"#F8F5F0":T.card,border:`1px solid ${sel?sColor:T.border}`,borderRadius:"8px",padding:"15px 13px",transition:"all 0.15s",position:"relative"}}>
+                          {sel&&<div style={{position:"absolute",top:"8px",right:"10px",width:"16px",height:"16px",borderRadius:"50%",background:sColor,display:"flex",alignItems:"center",justifyContent:"center",fontSize:"9px",color:T.dark,fontWeight:700}}>{"\u2713"}</div>}
+                          <div style={{fontSize:"19px",marginBottom:"5px"}}>{opt.icon}</div>
+                          <div style={{fontSize:"13px",fontWeight:sel?500:400,color:sel?T.text:"#484848",marginBottom:"3px"}}>{opt.label}</div>
+                          <div style={{fontSize:"11px",color:T.dim,lineHeight:1.4}}>{opt.detail}</div>
+                        </div>
+                      );
+                    })}
+                  </div>
+                  {Array.isArray(selOpt)&&selOpt.length>0&&!selOpt.includes("none")&&(
+                    <div style={{background:`${sColor}10`,border:`1px solid ${sColor}33`,borderRadius:"6px",padding:"9px 13px",marginBottom:"14px"}}>
+                      <div style={{fontSize:"10px",color:sColor,fontFamily:"monospace",letterSpacing:"1px"}}>SELECTED: {selOpt.map(v=>currentQ.options.find(o=>o.value===v)?.label).join(" · ")}</div>
+                    </div>
+                  )}
+                </div>
+              ) : (
+                <div style={{display:"grid",gridTemplateColumns:currentQ.columns===3?"repeat(3,minmax(0,1fr))":"repeat(auto-fill,minmax(min(180px,100%),1fr))",gap:"9px",marginBottom:"22px"}}>
+                  {currentQ.options.map(opt=>{
+                    const isSel=selOpt===opt.value;
+                    return (
+                      <div key={opt.value} className="opt" onClick={()=>setSelOpt(opt.value)} style={{background:isSel?"#F8F5F0":T.card,border:`1px solid ${isSel?sColor:T.border}`,borderRadius:"8px",padding:currentQ.columns===3?"13px 11px":"15px 13px",transition:"all 0.15s"}}>
+                        <div style={{fontSize:currentQ.columns===3?"17px":"19px",marginBottom:"5px"}}>{opt.icon}</div>
+                        <div style={{fontSize:currentQ.columns===3?"12px":"13px",fontWeight:isSel?500:400,color:isSel?T.text:"#484848",marginBottom:"3px"}}>{opt.label}</div>
+                        <div style={{fontSize:"11px",color:T.dim,lineHeight:1.4}}>{opt.detail}</div>
+                      </div>
+                    );
+                  })}
+                </div>
+              )}
+
+              <div style={{display:"flex",justifyContent:"space-between",marginTop: currentQ.isMultiSelect?"0":"0"}}>
+                <button onClick={handleBack} style={{background:"none",border:`1px solid ${T.border}`,color:T.dim,padding:"9px 16px",borderRadius:"6px",cursor:"pointer",fontSize:"13px",fontFamily:"inherit"}}>{"\u2190"} Back</button>
+                <button className="btn" onClick={handleNext}
+                  disabled={currentQ.isMultiSelect?(!(Array.isArray(selOpt)&&selOpt.length>0)):!selOpt}
+                  style={{background:(currentQ.isMultiSelect?(Array.isArray(selOpt)&&selOpt.length>0):selOpt)?sColor:"#F8F5F0",border:"none",color:(currentQ.isMultiSelect?(Array.isArray(selOpt)&&selOpt.length>0):selOpt)?T.dark:"#C4CEC8",padding:"9px 24px",borderRadius:"6px",cursor:"pointer",fontSize:"13px",fontWeight:600,fontFamily:"inherit",transition:"all 0.2s"}}>
+                  {step===totalSteps-1?"Almost Done →":"Next →"}
+                </button>
+              </div>
+            </div>
+          )}
+
+          {step>0&&currentQ?.isContact&&(
+            <div key="contact" style={{animation:"fadeUp 0.22s ease"}}>
+              <div style={{marginBottom:"26px"}}>
+                <div style={{display:"flex",justifyContent:"space-between",marginBottom:"6px"}}>
+                  <span style={{fontSize:"9px",fontFamily:"monospace",color:T.gold,letterSpacing:"2px"}}>CONTACT {"\u00B7"} FINAL STEP</span>
+                  <span style={{fontSize:"9px",fontFamily:"monospace",color:T.faint}}>98%</span>
+                </div>
+                <div style={{height:"2px",background:"#F8F5F0",borderRadius:"1px"}}><div style={{height:"100%",width:"98%",background:T.gold,borderRadius:"1px"}}/></div>
+              </div>
+              <h2 style={{fontSize:"22px",fontWeight:400,margin:"0 0 5px"}}>{currentQ.question}</h2>
+              <p style={{color:T.dim,fontSize:"13px",margin:"0 0 22px"}}>{currentQ.subtitle}</p>
+
+              {/* Quote list summary */}
+              {favorites.length>0&&(
+                <div style={{background:`${T.gold}0e`,border:`1px solid ${T.gold}33`,borderRadius:"8px",padding:"14px 16px",marginBottom:"18px"}}>
+                  <div style={{display:"flex",justifyContent:"space-between",alignItems:"center",marginBottom:"10px"}}>
+                    <div style={{fontSize:"9px",letterSpacing:"3px",color:T.gold,fontFamily:"monospace"}}>{"\u2605"} YOUR QUOTE LIST — {favorites.length} ITEM{favorites.length!==1?"S":""}</div>
+                    <button onClick={()=>setMainTab("favorites")} style={{background:"none",border:`1px solid ${T.gold}44`,color:T.gold,padding:"3px 9px",borderRadius:"3px",cursor:"pointer",fontSize:"8px",letterSpacing:"1px",fontFamily:"monospace"}}>EDIT LIST</button>
+                  </div>
+                  {favorites.map(f=>{
+                    const qtyDisplay = f.qty==="Custom qty"?(f.customQty||"?"):f.qty;
+                    const sizeDisplay = f.size==="Custom"?(f.customSize||"size TBD"):f.size;
+                    return (
+                      <div key={f.id} style={{background:T.card2,borderRadius:"6px",padding:"9px 12px",marginBottom:"6px",borderLeft:`2px solid ${T.gold}55`}}>
+                        <div style={{display:"flex",justifyContent:"space-between",alignItems:"flex-start",gap:"8px",flexWrap:"wrap"}}>
+                          <div>
+                            <div style={{fontSize:"12px",color:"#484848",fontWeight:500}}>{f.vendorName}{f.productName?<span style={{color:T.dim,fontWeight:400}}> {"\u2014"} {f.productName}</span>:""}</div>
+                            {f.location&&<div style={{fontSize:"10px",color:T.dim,marginTop:"2px"}}> {f.location}</div>}
+                          </div>
+                          <div style={{display:"flex",gap:"8px",flexShrink:0}}>
+                            <span style={{fontSize:"9px",fontFamily:"monospace",color:T.gold,background:`${T.gold}15`,padding:"2px 7px",borderRadius:"3px"}}>QTY: {qtyDisplay}</span>
+                            <span style={{fontSize:"9px",fontFamily:"monospace",color:T.teal,background:`${T.teal}15`,padding:"2px 7px",borderRadius:"3px"}}>{sizeDisplay}</span>
+                          </div>
+                        </div>
+                        {f.notes&&<div style={{fontSize:"10px",color:T.dim,marginTop:"5px",fontStyle:"italic",lineHeight:1.4}}>{f.notes}</div>}
+                      </div>
+                    );
+                  })}
+                  <div style={{fontSize:"10px",color:T.dim,marginTop:"8px",lineHeight:1.5}}>Your specialist will use these details to prepare relevant pricing, lead times, and samples before your consultation.</div>
+                </div>
+              )}
+              {favorites.length===0&&(
+                <div style={{background:T.card2,border:`1px solid ${T.border}`,borderRadius:"8px",padding:"12px 15px",marginBottom:"18px"}}>
+                  <div style={{fontSize:"9px",letterSpacing:"2px",color:T.faint,fontFamily:"monospace",marginBottom:"4px"}}>{"\u2606"} QUOTE LIST IS EMPTY</div>
+                  <div style={{fontSize:"12px",color:T.dim,lineHeight:1.5}}>Browse the <button onClick={()=>setMainTab("vendors")} style={{background:"none",border:"none",color:T.gold,cursor:"pointer",fontSize:"12px",padding:0,fontFamily:"inherit",textDecoration:"underline"}}>Vendors</button>, <button onClick={()=>setMainTab("windows")} style={{background:"none",border:"none",color:T.gold,cursor:"pointer",fontSize:"12px",padding:0,fontFamily:"inherit",textDecoration:"underline"}}>Windows</button>, <button onClick={()=>setMainTab("door_types")} style={{background:"none",border:"none",color:T.gold,cursor:"pointer",fontSize:"12px",padding:0,fontFamily:"inherit",textDecoration:"underline"}}>Door Types</button>, or <button onClick={()=>setMainTab("large_doors")} style={{background:"none",border:"none",color:T.gold,cursor:"pointer",fontSize:"12px",padding:0,fontFamily:"inherit",textDecoration:"underline"}}>Patio Systems</button> tabs and click {"\u2606"} Add to Quote List on anything that interests you.</div>
+                </div>
+              )}
+
+              <div style={{display:"flex",flexDirection:"column",gap:"13px",marginBottom:"22px"}}>
+                {[{k:"name",l:"Your Name *",p:"First & Last Name",t:"text"},{k:"phone",l:"Phone Number *",p:"Best number to reach you",t:"tel"},{k:"email",l:"Email Address",p:"We'll email your results here",t:"email"},{k:"zip",l:"Project Zip Code",p:"92037, 92067, 92130…",t:"text"}].map(f=>(
+                  <div key={f.k}>
+                    <div style={{fontSize:"9px",letterSpacing:"2px",color:T.dim,marginBottom:"5px",fontFamily:"monospace"}}>{f.l}</div>
+                    <input type={f.t} placeholder={f.p} value={contact[f.k]} onChange={e=>setContact(p=>({...p,[f.k]:e.target.value}))} style={{width:"100%",background:T.card,border:`1px solid ${T.border}`,color:T.text,padding:"10px 13px",borderRadius:"6px",fontSize:"14px",outline:"none"}}/>
+                  </div>
+                ))}
+                <div>
+                  <div style={{fontSize:"9px",letterSpacing:"2px",color:T.dim,marginBottom:"5px",fontFamily:"monospace"}}>ADDITIONAL DETAILS</div>
+                  <textarea placeholder="Tell us more about your project…" value={contact.notes} onChange={e=>setContact(p=>({...p,notes:e.target.value}))} rows={3} style={{width:"100%",background:T.card,border:`1px solid ${T.border}`,color:T.text,padding:"10px 13px",borderRadius:"6px",fontSize:"14px",outline:"none",resize:"vertical"}}/>
+                </div>
+
+                {/* Schedule / documents upload */}
+                <div>
+                  <div style={{fontSize:"9px",letterSpacing:"2px",color:T.dim,marginBottom:"5px",fontFamily:"monospace"}}>DOOR &amp; WINDOW SCHEDULE <span style={{color:T.faint}}>(OPTIONAL)</span></div>
+                  <div style={{background:`${T.teal}0a`,border:`1px solid ${T.teal}33`,borderRadius:"6px",padding:"10px 13px",marginBottom:"8px"}}>
+                    <div style={{fontSize:"10px",color:"#5a9a96",lineHeight:1.6}}>Have a door/window schedule with sizes and locations? Upload it here {"\u2014"} PDF, Excel, or Word. Your specialist will review it before your consultation and prepare pricing based on your actual openings.</div>
+                  </div>
+                  <div onClick={()=>document.getElementById("scheduleInput").click()} style={{border:`2px dashed ${T.border}`,borderRadius:"8px",padding:"16px",textAlign:"center",cursor:"pointer",background:"#EEF4F2"}}>
+                    <div style={{fontSize:"20px",marginBottom:"4px"}}></div>
+                    <div style={{fontSize:"13px",color:T.muted}}>Upload schedule / drawings or <span style={{color:T.teal}}>click to browse</span></div>
+                    <div style={{fontSize:"10px",color:T.dim,marginTop:"3px"}}>PDF, Excel, Word, or image files accepted</div>
+                  </div>
+                  <input id="scheduleInput" type="file" accept=".pdf,.xlsx,.xls,.docx,.doc,.csv,image/*" multiple onChange={e=>{const files=Array.from(e.target.files).map(f=>({name:f.name,size:(f.size/1024).toFixed(0)+"KB",id:Date.now()+Math.random()}));setScheduleFiles(p=>[...p,...files]);}} style={{display:"none"}}/>
+                  {scheduleFiles.length>0&&<div style={{marginTop:"8px",display:"flex",flexDirection:"column",gap:"5px"}}>
+                    {scheduleFiles.map(f=>(
+                      <div key={f.id} style={{display:"flex",justifyContent:"space-between",alignItems:"center",background:T.card,border:`1px solid ${T.border}`,borderRadius:"5px",padding:"7px 11px"}}>
+                        <div style={{display:"flex",alignItems:"center",gap:"8px"}}>
+                          <span style={{fontSize:"14px"}}></span>
+                          <div><div style={{fontSize:"12px",color:"#484848"}}>{f.name}</div><div style={{fontSize:"10px",color:T.dim}}>{f.size}</div></div>
+                        </div>
+                        <button onClick={()=>setScheduleFiles(p=>p.filter(x=>x.id!==f.id))} style={{background:"none",border:"none",color:"#8A3A30",cursor:"pointer",fontSize:"14px"}}>{"\u2715"}</button>
+                      </div>
+                    ))}
+                  </div>}
+                </div>
+
+                {/* Photo upload */}
+                <div>
+                  <div style={{fontSize:"9px",letterSpacing:"2px",color:T.dim,marginBottom:"8px",fontFamily:"monospace"}}>UPLOAD PHOTOS <span style={{color:T.faint}}>(OPTIONAL)</span></div>
+                  <div onClick={()=>document.getElementById("photoInput").click()} style={{border:`2px dashed ${T.border}`,borderRadius:"8px",padding:"20px",textAlign:"center",cursor:"pointer",background:"#EEF4F2"}}>
+                    <div style={{fontSize:"22px",marginBottom:"6px"}}></div>
+                    <div style={{fontSize:"13px",color:T.muted}}>Drop photos or <span style={{color:T.gold}}>click to browse</span></div>
+                    <div style={{fontSize:"10px",color:T.dim,marginTop:"3px"}}>Existing windows, exterior walls, opening area</div>
+                  </div>
+                  <input id="photoInput" type="file" accept="image/*" multiple onChange={e=>{Array.from(e.target.files).forEach(f=>{const r=new FileReader();r.onload=ev=>setPhotos(p=>[...p,{name:f.name,url:ev.target.result}]);r.readAsDataURL(f);});}} style={{display:"none"}}/>
+                  {photos.length>0&&<div style={{display:"flex",flexWrap:"wrap",gap:"8px",marginTop:"12px"}}>{photos.map((p,i)=>(
+                    <div key={i} style={{position:"relative"}}>
+                      <img src={p.url} alt="" style={{width:"72px",height:"72px",objectFit:"cover",borderRadius:"5px",border:`1px solid ${T.border}`}}/>
+                      <button onClick={()=>setPhotos(prev=>prev.filter((_,idx)=>idx!==i))} style={{position:"absolute",top:"-5px",right:"-5px",background:"#C05040",border:"none",borderRadius:"50%",width:"16px",height:"16px",cursor:"pointer",fontSize:"9px",color:"#fff"}}>{"\u2715"}</button>
+                    </div>
+                  ))}</div>}
+                </div>
+              </div>
+              <div style={{display:"flex",justifyContent:"space-between"}}>
+                <button onClick={handleBack} style={{background:"none",border:`1px solid ${T.border}`,color:T.dim,padding:"9px 16px",borderRadius:"6px",cursor:"pointer",fontSize:"13px",fontFamily:"inherit"}}>{"\u2190"} Back</button>
+                <button className="btn" onClick={handleNext} disabled={!contact.name||!contact.phone||submitting} style={{background:contact.name&&contact.phone?T.gold:"#F8F5F0",border:"none",color:contact.name&&contact.phone?T.dark:"#C4CEC8",padding:"10px 26px",borderRadius:"6px",cursor:"pointer",fontSize:"14px",fontWeight:600,fontFamily:"inherit"}}>{submitting?"Sending\u2026":"See My Results \u2192"}</button>
+              </div>
+            </div>
+          )}
+        </div>
+      )}
+
+      {/* ─── RESULTS ─── */}
+      {mainTab==="results"&&submitted&&(
+        <div style={{maxWidth:"780px",margin:"0 auto",padding:"32px 20px",animation:"fadeUp 0.3s ease"}}>
+          <div style={{background:`${T.teal}15`,border:`1px solid ${T.teal}44`,borderRadius:"10px",padding:"14px 20px",marginBottom:"24px",display:"flex",alignItems:"center",gap:"12px"}}>
+            <div style={{fontSize:"22px"}}>✓</div>
+            <div>
+              <div style={{fontSize:"13px",fontWeight:600,color:T.teal,marginBottom:"2px"}}>Request received — we'll be in touch within 1 business day.</div>
+              <div style={{fontSize:"12px",color:T.muted}}>Your personalized recommendations are ready below. A local specialist will follow up at {contact.email||contact.phone}.</div>
+            </div>
+          </div>
+          <div style={{textAlign:"center",marginBottom:"28px"}}>
+            <div style={{fontSize:"9px",letterSpacing:"5px",color:T.faint,marginBottom:"8px",fontFamily:"monospace"}}>YOUR PERSONALIZED RESULTS</div>
+            <h2 style={{fontSize:"clamp(20px,3.5vw,28px)",fontWeight:400,margin:"0 0 8px"}}>{contact.name?`${contact.name.split(" ")[0]}, here are `:"Here are "}your <em style={{color:T.gold}}>top matches</em></h2>
+            {answers.fireZone&&(answers.fireZone==="yes_very_high"||answers.fireZone==="yes_high")&&(
+              <div style={{background:"#FEF0EE",border:"1px solid #E87A6A44",borderRadius:"8px",padding:"12px 16px",maxWidth:"500px",margin:"0 auto 16px"}}>
+                <div style={{fontSize:"9px",letterSpacing:"2px",color:T.ember,marginBottom:"4px",fontFamily:"monospace"}}> FIRE ZONE NOTE</div>
+                <div style={{fontSize:"12px",color:"#885858",lineHeight:1.6}}>Your property is in a {answers.fireZone==="yes_very_high"?"Very High":"High"} FHSZ. Your specialist will confirm fire-rated product requirements before finalizing specifications.</div>
+              </div>
+            )}
+          </div>
+          {recs[0]&&(()=>{const top=recs[0].brand;return(
+            <div style={{background:"#EEF5F2",border:`1px solid ${top.color}44`,borderRadius:"12px",padding:"22px 26px",marginBottom:"14px",position:"relative",overflow:"hidden"}}>
+              <div style={{position:"absolute",top:0,right:0,background:T.gold,color:T.dark,fontSize:"9px",letterSpacing:"3px",padding:"5px 12px",fontFamily:"monospace",fontWeight:700,borderBottomLeftRadius:"6px"}}>#1 MATCH</div>
+              <div style={{display:"flex",justifyContent:"space-between",alignItems:"flex-start",marginBottom:"12px",flexWrap:"wrap",gap:"8px"}}>
+                <div><div style={{fontSize:"22px",fontWeight:500}}>{top.name}</div><div style={{fontSize:"12px",fontStyle:"italic",color:top.color}}>{top.tagline}</div></div>
+                <Pill label={`${top.tier} · ${top.color}`} color={top.tierColor||top.color}/>
+              </div>
+              <p style={{color:T.muted,fontSize:"13px",lineHeight:1.7,marginBottom:"14px"}}>{top.idealFor.join(" · ")}</p>
+              <div style={{display:"grid",gridTemplateColumns:"repeat(auto-fill,minmax(min(200px,100%),1fr))",gap:"5px"}}>{top.differentiators.slice(0,4).map(d=><div key={d} style={{fontSize:"11px",color:"#606060"}}>{"\u2713"} {d}</div>)}</div>
+            </div>
+          );})()}
+          <div style={{display:"grid",gridTemplateColumns:"repeat(auto-fill,minmax(min(260px,100%),1fr))",gap:"12px",marginBottom:"22px"}}>
+            {recs.slice(1,3).map((rec,i)=>(
+              <div key={rec.key} style={{background:T.card,border:`1px solid ${T.border}`,borderRadius:"10px",padding:"16px 18px",borderTop:`3px solid ${rec.brand.color}`}}>
+                <div style={{fontSize:"9px",letterSpacing:"2px",color:T.faint,marginBottom:"5px",fontFamily:"monospace"}}>#{i+2} MATCH</div>
+                <div style={{fontSize:"16px",fontWeight:500,marginBottom:"2px"}}>{rec.brand.name}</div>
+                <div style={{fontSize:"11px",fontStyle:"italic",color:rec.brand.color,marginBottom:"10px"}}>{rec.brand.tagline}</div>
+                {rec.brand.differentiators.slice(0,2).map(d=><div key={d} style={{fontSize:"11px",color:"#555555",marginBottom:"3px"}}>{"\u2022"} {d}</div>)}
+              </div>
+            ))}
+          </div>
+          <div style={{background:T.card,border:`1px solid ${T.border}`,borderRadius:"10px",padding:"16px 20px",marginBottom:"14px"}}>
+            <SectionLabel>YOUR PROJECT PROFILE</SectionLabel>
+            <div style={{display:"grid",gridTemplateColumns:"repeat(auto-fill,minmax(140px,1fr))",gap:"10px"}}>
+              {Object.entries(answers).map(([key,val])=>{const q=allQs.find(q=>q.id===key);const opt=q?.options?.find(o=>o.value===val);if(!q||!opt)return null;return(<div key={key}><div style={{fontSize:"8px",letterSpacing:"1px",color:T.faint,fontFamily:"monospace",marginBottom:"2px"}}>{q.section}</div><div style={{fontSize:"12px",color:"#606060"}}>{opt.icon} {opt.label}</div></div>);})}
+            </div>
+          </div>
+          <div style={{background:"#F0F5F2",border:`1px solid ${T.gold}44`,borderRadius:"10px",padding:"18px 22px",display:"flex",justifyContent:"space-between",alignItems:"center",flexWrap:"wrap",gap:"12px"}}>
+            <div>
+              <SectionLabel color={T.gold}>NEXT STEP</SectionLabel>
+              <div style={{fontSize:"14px",color:T.text}}>A local specialist will follow up within 1 business day.</div>
+              <div style={{fontSize:"11px",color:T.dim,marginTop:"2px"}}>We'll review your project profile and photos before calling.</div>
+            </div>
+            <button onClick={restart} style={{background:"none",border:`1px solid ${T.border}`,color:T.dim,padding:"8px 14px",borderRadius:"6px",cursor:"pointer",fontSize:"10px",fontFamily:"inherit",letterSpacing:"1px"}}>Start Over</button>
+          </div>
+        </div>
+      )}
+
+      {/* ─── VENDORS ─── */}
+      {mainTab==="vendors"&&(
+        <div style={{padding:"26px",maxWidth:"1200px",margin:"0 auto",animation:"fadeUp 0.25s ease"}}>
+          <div style={{display:"flex",gap:0,borderBottom:`1px solid ${T.border}`,marginBottom:"22px",flexWrap:"wrap"}}>
+            {[
+              {id:"windows_doors",label:"Windows & Door Systems",color:T.gold},
+              {id:"entry_doors",label:"Entry Doors",color:T.rust},
+              {id:"interior_doors",label:"Interior Doors",color:T.plum},
+              {id:"skylights",label:"Skylights",color:T.teal},
+              {id:"closet",label:"Closet & Storage",color:T.sage},
+              {id:"utility",label:"Utility & Garage",color:T.slate},
+            ].map(t=>(
+              <button key={t.id} onClick={()=>{setVendorCat(t.id);setTierFilter("all");setMaterialFilter("all");}} style={{background:"none",border:"none",borderBottom:`2px solid ${vendorCat===t.id?t.color:"transparent"}`,color:vendorCat===t.id?T.text:T.dim,padding:"10px 16px",cursor:"pointer",fontSize:"9px",letterSpacing:"2px",textTransform:"uppercase",fontFamily:"monospace",whiteSpace:"nowrap"}}>
+                {t.label}
+              </button>
+            ))}
+          </div>
+          <div style={{display:"flex",gap:"6px",flexWrap:"wrap",marginBottom:"8px",alignItems:"center"}}>
+            <span style={{fontSize:"9px",fontFamily:"monospace",letterSpacing:"1px",color:T.muted,marginRight:"4px"}}>TIER</span>
+            {["all","Ultra Premium","Luxury","Premium","Mid-Premium"].map(t=>(
+              <button key={t} onClick={()=>setTierFilter(t)} style={{background:tierFilter===t?"#EEF2F0":"none",border:`1px solid ${tierFilter===t?T.gold:T.border}`,color:tierFilter===t?T.text:T.dim,padding:"4px 11px",borderRadius:"4px",cursor:"pointer",fontSize:"9px",letterSpacing:"1px",fontFamily:"monospace"}}>
+                {t==="all"?"All Tiers":t}
+              </button>
+            ))}
+          </div>
+          {(()=>{
+            const isAluminum = m => m && m.toLowerCase().includes("aluminum") && !m.toLowerCase().includes("clad");
+            const isFiberglass = m => m && (m.toLowerCase().includes("fiberglass") || m.toLowerCase().includes("fibrex"));
+            const isSteel = m => m && m.toLowerCase().includes("steel") && !m.toLowerCase().includes("powder");
+            const normalizeMat = m => isAluminum(m) ? "Aluminum" : isFiberglass(m) ? "Fiberglass / Composite" : isSteel(m) ? "Steel" : m;
+            const allMaterials = (vendors[vendorCat]||[]).flatMap(v=>v.frameMaterials||[]);
+            const normalizedMaterials = allMaterials.map(normalizeMat);
+            const uniqueMaterials = ["all",...Array.from(new Set(normalizedMaterials)).sort()];
+            const matLabels = {
+              "all":"All Materials",
+              "Aluminum":"Aluminum",
+              "Vinyl":"Vinyl",
+              "Fiberglass / Composite":"Fiberglass / Composite",
+              "Steel":"Steel",
+              "Aluminum-clad Wood":"Alum-Clad Wood",
+              "Solid Wood (stain grade)":"Solid Wood",
+              "Solid Wood":"Solid Wood",
+              "MDF (paint grade)":"MDF",
+              "MDF":"MDF",
+              "Moulded Composite":"Moulded Comp.",
+              "Solid Core":"Solid Core",
+              "Wood Composite":"Wood Comp.",
+            };
+            return uniqueMaterials.length > 2 ? (
+              <div style={{display:"flex",gap:"6px",flexWrap:"wrap",marginBottom:"20px",alignItems:"center"}}>
+                <span style={{fontSize:"9px",fontFamily:"monospace",letterSpacing:"1px",color:T.muted,marginRight:"4px"}}>MATERIAL</span>
+                {uniqueMaterials.map(m=>{
+                  const label = m==="all"?"All Materials":(matLabels[m]||m);
+                  return (
+                    <button key={m} onClick={()=>setMaterialFilter(m)} style={{background:materialFilter===m?"#EEF2F0":"none",border:`1px solid ${materialFilter===m?T.teal:T.border}`,color:materialFilter===m?T.text:T.dim,padding:"4px 11px",borderRadius:"4px",cursor:"pointer",fontSize:"9px",letterSpacing:"1px",fontFamily:"monospace"}}>
+                      {label}
+                    </button>
+                  );
+                })}
+              </div>
+            ) : <div style={{marginBottom:"20px"}}/>;
+          })()}
+          <div className="vendor-grid" style={{display:"grid",gridTemplateColumns:"repeat(auto-fill,minmax(min(460px,100%),1fr))",gap:"14px"}}>
+            {(vendors[vendorCat]||[]).filter(v=>{
+              const tierOk = tierFilter==="all"||v.tier===tierFilter;
+              const mats = v.frameMaterials||[];
+              const matOk = materialFilter==="all"||(
+                materialFilter==="Aluminum" ? mats.some(m=>m&&m.toLowerCase().includes("aluminum")&&!m.toLowerCase().includes("clad")) :
+                materialFilter==="Fiberglass / Composite" ? mats.some(m=>m&&(m.toLowerCase().includes("fiberglass")||m.toLowerCase().includes("fibrex"))) :
+                materialFilter==="Steel" ? mats.some(m=>m&&m.toLowerCase().includes("steel")&&!m.toLowerCase().includes("powder")) :
+                mats.includes(materialFilter));
+              return tierOk && matOk;
+            }).map(v=><VendorCard key={v.id} vendor={v} favorites={favorites} setFavorites={setFavorites}/>)}
+            <div style={{background:T.card2,border:`2px dashed ${T.border}`,borderRadius:"12px",padding:"28px",display:"flex",flexDirection:"column",alignItems:"center",justifyContent:"center",textAlign:"center",minHeight:"160px"}}>
+              <div style={{fontSize:"24px",opacity:.3,marginBottom:"8px"}}>+</div>
+              <div style={{fontSize:"11px",color:T.faint,fontFamily:"monospace",letterSpacing:"2px"}}>MORE VENDORS</div>
+              <div style={{fontSize:"10px",color:"#4A7848",marginTop:"4px"}}>Adding soon</div>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* ─── DOOR TYPES ─── */}
+      {mainTab==="door_types"&&(
+        <div style={{padding:"26px",maxWidth:"1200px",margin:"0 auto",animation:"fadeUp 0.25s ease"}}>
+          <div style={{display:"flex",gap:0,borderBottom:`1px solid ${T.border}`,marginBottom:"22px"}}>
+            {[{id:"exterior",label:"Exterior Materials",color:T.rust},{id:"interior",label:"Interior Materials",color:T.teal},{id:"operation",label:"Door Operation Types",color:T.gold}].map(t=>(
+              <button key={t.id} onClick={()=>setDoorTypeTab(t.id)} style={{background:"none",border:"none",borderBottom:`2px solid ${doorTypeTab===t.id?t.color:"transparent"}`,color:doorTypeTab===t.id?T.text:T.dim,padding:"10px 18px",cursor:"pointer",fontSize:"10px",letterSpacing:"2px",textTransform:"uppercase",fontFamily:"monospace"}}>
+                {t.label}
+              </button>
+            ))}
+          </div>
+
+          {doorTypeTab==="exterior"&&(
+            <div>
+              <div style={{marginBottom:"20px"}}>
+                <SectionLabel color={T.rust}>5 EXTERIOR DOOR MATERIALS</SectionLabel>
+                <p style={{margin:0,fontSize:"13px",color:T.muted,maxWidth:"600px",lineHeight:1.65}}>Material selection is the most important decision for an exterior door. It determines longevity, maintenance requirements, design options, and fire zone compliance. Each card below explains a material in depth {"\u2014"} including a fire zone tab for properties in San Diego{"'"}s high-risk areas.</p>
+              </div>
+              <div style={{background:"#F0F4FA",border:"1px solid #7A9ABB55",borderRadius:"10px",padding:"16px 20px",marginBottom:"20px",display:"flex",gap:"14px",alignItems:"flex-start"}}>
+                <div style={{fontSize:"22px",lineHeight:1,flexShrink:0,marginTop:"2px"}}>&#9729;</div>
+                <div>
+                  <div style={{fontSize:"9px",fontFamily:"monospace",letterSpacing:"2px",color:T.slate,marginBottom:"6px"}}>OVERHANG & EXPOSURE — KNOW BEFORE YOU SPEC</div>
+                  <p style={{margin:"0 0 8px",fontSize:"12px",color:"#5A6A7A",lineHeight:1.7}}>Most exterior door manufacturers publish minimum overhang requirements as a condition of warranty coverage. A roof eave or covered patio of <strong>at least 24"</strong> is the common baseline; wood and aluminum-clad wood products often require more. Doors installed without adequate overhead protection are at higher risk of seal failure, sill deterioration, and finish damage — and warranty claims in exposed conditions are routinely denied.</p>
+                  <p style={{margin:0,fontSize:"12px",color:"#5A6A7A",lineHeight:1.7}}><strong>Steel</strong> and <strong>fiberglass</strong> are the most tolerant of direct weather exposure. <strong>Wood</strong> and <strong>aluminum-clad wood</strong> require the most protection — verify the manufacturer's overhang spec before finalizing the product and set maintenance expectations with the client upfront. For exposed openings, fiberglass or steel with a standard raised sill is almost always the more defensible recommendation.</p>
+                </div>
+              </div>
+              <div style={{display:"grid",gridTemplateColumns:"repeat(auto-fill,minmax(420px,1fr))",gap:"14px"}}>
+                {exteriorDoorTypes.map(d=><DoorTypeCard key={d.id} door={d} type="exterior"/>)}
+              </div>
+            </div>
+          )}
+
+          {doorTypeTab==="interior"&&(
+            <div>
+              <div style={{marginBottom:"20px"}}>
+                <SectionLabel color={T.teal}>INTERIOR DOOR TYPES</SectionLabel>
+                <p style={{margin:0,fontSize:"13px",color:T.muted,maxWidth:"600px",lineHeight:1.65}}>Interior doors define the finish quality of a home. From budget moulded panels to fully custom router-carved statement pieces, the right door depends on architecture, budget, and whether the client wants paint or stain grade.</p>
+              </div>
+              <PaintStainGuide/>
+              <div style={{display:"grid",gridTemplateColumns:"repeat(auto-fill,minmax(420px,1fr))",gap:"14px"}}>
+                {interiorDoorTypes.map(d=><DoorTypeCard key={d.id} door={d} type="interior"/>)}
+              </div>
+
+              {/* ── POCKET DOOR DEEP DIVE ── */}
+              <div style={{marginTop:"36px",marginBottom:"16px"}}>
+                <SectionLabel color={T.plum}>INTERIOR POCKET DOORS & FRAMES</SectionLabel>
+                <p style={{margin:"0 0 20px",fontSize:"13px",color:T.muted,maxWidth:"700px",lineHeight:1.65}}>Pocket doors are one of the most misunderstood interior products in residential construction. Getting the frame right at rough-in is everything {"—"} the door panel itself is the easy part.</p>
+              </div>
+
+              {/* How it works + warning card */}
+              <div style={{display:"grid",gridTemplateColumns:"repeat(auto-fill,minmax(min(260px,100%),1fr))",gap:"14px",marginBottom:"14px"}}>
+                <div style={{background:T.card,border:`1px solid ${T.border}`,borderRadius:"12px",padding:"20px"}}>
+                  <div style={{fontSize:"9px",fontFamily:"monospace",letterSpacing:"1.5px",color:T.plum,marginBottom:"10px"}}>HOW IT WORKS</div>
+                  <p style={{margin:"0 0 10px",fontSize:"12px",color:T.text,lineHeight:1.75}}>A pocket door frame (also called a pocket kit) is a metal stud-and-track assembly installed inside the wall during rough framing. The door panel hangs from overhead rollers on a top track and slides horizontally into the cavity. A bottom floor guide keeps the door from swinging while in the pocket.</p>
+                  <p style={{margin:0,fontSize:"12px",color:T.text,lineHeight:1.75}}>Because the kit lives inside the wall, it must be specified and installed before drywall. You cannot add a pocket door to an existing finished wall without opening it entirely. This makes frame selection a one-time decision with long-term consequences.</p>
+                </div>
+                <div style={{background:"#FFF7F0",border:`2px solid ${T.rust}`,borderRadius:"12px",padding:"20px"}}>
+                  <div style={{fontSize:"9px",fontFamily:"monospace",letterSpacing:"1.5px",color:T.rust,marginBottom:"10px"}}>CRITICAL INSTALLATION ADVICE</div>
+                  <p style={{margin:"0 0 10px",fontSize:"12px",color:T.text,lineHeight:1.75,fontWeight:600}}>Never spec the cheapest pocket frame. Always upgrade to a reinforced heavy-duty mid-grade frame or better.</p>
+                  <p style={{margin:"0 0 10px",fontSize:"12px",color:T.text,lineHeight:1.75}}>Standard-grade pocket kits use lighter gauge metal that is prone to bowing and warping over time — especially with heavier door panels (solid core, solid wood, oversized). Once a pocket frame bows, the door binds, jumps the track, or stops seating properly when closed.</p>
+                  <p style={{margin:0,fontSize:"12px",color:T.rust,lineHeight:1.75,fontWeight:600}}>Replacing a pocket frame requires tearing open the entire wall, removing drywall, patching, repainting, and re-trimming. The labor cost of a frame replacement far exceeds the cost difference between standard and heavy-duty at initial install. Invest correctly the first time.</p>
+                </div>
+              </div>
+
+              {/* Frame grade comparison */}
+              <div style={{background:T.card,border:`1px solid ${T.border}`,borderRadius:"12px",padding:"20px",marginBottom:"14px"}}>
+                <div style={{fontSize:"9px",fontFamily:"monospace",letterSpacing:"1.5px",color:T.plum,marginBottom:"14px"}}>FRAME GRADE COMPARISON</div>
+                <div style={{display:"grid",gridTemplateColumns:"1fr 1fr 1fr",gap:"12px"}}>
+                  {[
+                    {grade:"Standard / Budget",price:"$",color:T.muted,who:"Johnson Hardware basic, generic box store kits",pros:["Lowest cost","Available at any lumber yard","Fine for hollow-core light doors"],cons:["Light gauge metal — prone to bowing","Not rated for heavy or oversized panels","Track can warp under load over time","Frame replacement is expensive — avoid this outcome"],verdict:"Acceptable only for light hollow-core interior doors in low-traffic locations. Not recommended for solid core, solid wood, or any door over 24 lbs."},
+                    {grade:"Mid-Grade Reinforced",price:"$$",color:T.teal,who:"Johnson Hardware heavy-duty, Häfele, Cavity Slider",pros:["Heavier gauge steel — resists bowing","Rated for solid core and solid wood panels","Better track quality — smoother long-term operation","The recommended minimum for any quality installation"],cons:["Moderately more expensive than basic","Requires correct rough opening sizing"],verdict:"The recommended standard for all quality residential construction. Handles solid core, solid wood, and panels up to standard 8ft height reliably."},
+                    {grade:"Premium / Commercial",price:"$$$",color:T.gold,who:"Cavity Slider, Häfele Pro, EL&EL heavy-duty",pros:["Commercial-grade steel — virtually zero flex","Handles oversized and very heavy panels","Soft-close integrated or field-installed","Best long-term investment on luxury builds"],cons:["Higher upfront cost","May require professional installer specification"],verdict:"The right choice for oversized doors, high-frequency use, solid wood statement panels, and any luxury build where long-term performance is expected."},
+                  ].map(f=>(
+                    <div key={f.grade} style={{background:`${f.color}08`,border:`1px solid ${f.color}25`,borderRadius:"8px",padding:"14px"}}>
+                      <div style={{display:"flex",justifyContent:"space-between",alignItems:"center",marginBottom:"6px"}}>
+                        <span style={{fontSize:"10px",fontWeight:700,color:f.color,fontFamily:"monospace"}}>{f.grade}</span>
+                        <span style={{fontSize:"12px",color:f.color,fontWeight:700}}>{f.price}</span>
+                      </div>
+                      <div style={{fontSize:"10px",color:T.muted,marginBottom:"8px",fontStyle:"italic"}}>{f.who}</div>
+                      {f.pros.map((p,i)=><div key={i} style={{display:"flex",gap:"5px",marginBottom:"3px"}}><span style={{color:f.color,fontSize:"9px",marginTop:"2px"}}>+</span><span style={{fontSize:"10px",color:T.text,lineHeight:1.4}}>{p}</span></div>)}
+                      <div style={{margin:"8px 0 4px",height:"1px",background:T.border}}/>
+                      {f.cons.map((c,i)=><div key={i} style={{display:"flex",gap:"5px",marginBottom:"3px"}}><span style={{color:T.muted,fontSize:"9px",marginTop:"2px"}}>{"\u2013"}</span><span style={{fontSize:"10px",color:T.muted,lineHeight:1.4}}>{c}</span></div>)}
+                      <div style={{marginTop:"10px",padding:"8px",background:`${f.color}10`,borderRadius:"6px"}}>
+                        <div style={{fontSize:"10px",color:f.color,lineHeight:1.5,fontWeight:600}}>{f.verdict}</div>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+              {/* Frame manufacturers */}
+              <div style={{background:T.card,border:`1px solid ${T.border}`,borderRadius:"12px",padding:"20px",marginBottom:"14px"}}>
+                <div style={{fontSize:"9px",fontFamily:"monospace",letterSpacing:"1.5px",color:T.plum,marginBottom:"14px"}}>POCKET FRAME MANUFACTURERS</div>
+                <div style={{display:"grid",gridTemplateColumns:"repeat(auto-fill,minmax(280px,1fr))",gap:"12px"}}>
+                  {[
+                    {name:"Johnson Hardware",grade:"Standard to Heavy-Duty",color:T.slate,desc:"The most widely distributed pocket door frame brand in North America. Available at most lumber yards and building supply houses. Their 1500 Series standard frame is common on production builds; the 2000 and Commercial series step up to heavier gauge for quality installations. Johnson is the baseline — specify the right series for the job.",recommended:"2000 Series or above for solid core and solid wood panels.",available:"Widely available through Dixieline and local lumber yards."},
+                    {name:"Cavity Slider",grade:"Mid-Grade to Premium",color:T.teal,desc:"A specialist pocket door frame brand with a strong reputation among custom builders and finish carpenters. Cavity Slider frames use heavier gauge steel, have cleaner track systems, and are engineered specifically for smooth long-term performance. Their Triumph and Jumbo series handle oversized and heavy panels well. Less commonly stocked than Johnson — may require order.",recommended:"Triumph or Jumbo series for luxury residential and oversized openings.",available:"Order through specialty hardware suppliers; ask about Dixieline availability."},
+                    {name:"EL&EL Wood Products",grade:"Premium Custom",color:T.sage,desc:"EL&EL brings their custom wood products expertise to pocket door systems. Where Johnson and Cavity Slider are metal-frame kit systems, EL&EL offers premium wood-trimmed pocket door assemblies suited to high-end finish work. Best when the pocket door needs to integrate seamlessly with custom millwork, paneling, or high-end trim packages. A luxury option for statement installations.",recommended:"For luxury custom builds where the pocket door is a design feature, not just a functional element.",available:"Through EL&EL — specify with your millwork package."},
+                    {name:"H\u00e4fele",grade:"Mid-Grade to Premium",color:T.gold,desc:"H\u00e4fele is a German hardware manufacturer known for quality architectural hardware and specialty systems. Their pocket door kits are well-engineered, come with integrated soft-close options, and are specified frequently on European-influenced luxury builds and contemporary homes. H\u00e4fele hardware is widely used in high-end kitchen and cabinet work, so specifying their pocket system means consistent hardware language throughout the project.",recommended:"When soft-close is required or when the project uses H\u00e4fele hardware elsewhere for consistency.",available:"Through architectural hardware suppliers and specialty distributors."},
+                  ].map(m=>(
+                    <div key={m.name} style={{border:`1px solid ${m.color}30`,borderRadius:"10px",padding:"14px",background:`${m.color}06`}}>
+                      <div style={{display:"flex",justifyContent:"space-between",alignItems:"flex-start",marginBottom:"4px"}}>
+                        <span style={{fontWeight:700,fontSize:"12px",color:m.color}}>{m.name}</span>
+                        <span style={{fontSize:"9px",fontFamily:"monospace",color:T.muted,textAlign:"right",maxWidth:"100px",lineHeight:1.3}}>{m.grade}</span>
+                      </div>
+                      <p style={{margin:"6px 0 8px",fontSize:"11px",color:T.text,lineHeight:1.65}}>{m.desc}</p>
+                      <div style={{fontSize:"10px",color:m.color,marginBottom:"4px",fontWeight:600}}>{m.recommended}</div>
+                      <div style={{fontSize:"10px",color:T.muted,fontStyle:"italic"}}>{m.available}</div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+              {/* Hardware + door panel note */}
+              <div style={{background:`${T.plum}08`,border:`1px solid ${T.plum}25`,borderRadius:"12px",padding:"18px"}}>
+                <div style={{fontSize:"9px",fontFamily:"monospace",letterSpacing:"1.5px",color:T.plum,marginBottom:"8px"}}>HARDWARE & DOOR PANEL NOTES</div>
+                <p style={{margin:"0 0 8px",fontSize:"12px",color:T.text,lineHeight:1.75}}>Pocket doors cannot use standard knobs or levers — the door sits flush with the wall face when closed. Specify recessed edge pulls (flush with the door face) and a recessed privacy latch or passage set. Emtek, Rocky Mountain Hardware, and Baldwin all make quality pocket door hardware. Emtek is the most widely available in San Diego at multiple price points.</p>
+                <p style={{margin:0,fontSize:"12px",color:T.text,lineHeight:1.75}}>For door panels: TM Cobb paint-grade shaker is the most specified pocket door panel in SD luxury remodels. Masonite and Simpson offer solid-core and solid wood options. For heavy solid wood panels (over 40 lbs), always confirm panel weight compatibility with the pocket frame before specifying.</p>
+              </div>
+            </div>
+          )}
+
+          {doorTypeTab==="operation"&&(
+            <div>
+              <div style={{marginBottom:"20px"}}>
+                <SectionLabel color={T.gold}>DOOR OPERATION TYPES</SectionLabel>
+                <p style={{margin:0,fontSize:"13px",color:T.muted,maxWidth:"660px",lineHeight:1.65}}>How a door operates is separate from what it{"'"}s made of. Swing, slide, fold, or disappear into a wall {"—"} each operation type has a different space requirement, aesthetic, and best use. This guide covers all the interior door types you{"'"}ll find in a home.</p>
+              </div>
+                <div style={{display:"grid",gridTemplateColumns:"repeat(auto-fill,minmax(min(440px,100%),1fr))",gap:"14px"}}>
+                  {interiorDoorOperations.map(op=>{
+                    const isOpen=openOp===op.id;
+                    return (
+                      <div key={op.id} style={{background:T.card,border:`1px solid ${isOpen?op.color:T.border}`,borderRadius:"12px",overflow:"hidden",transition:"border-color 0.2s"}}>
+                        {/* Header */}
+                        <div onClick={()=>setOpenOp(isOpen?null:op.id)} style={{padding:"18px 20px",cursor:"pointer",display:"flex",alignItems:"center",gap:"14px"}}>
+                          <div style={{width:"40px",height:"40px",borderRadius:"8px",background:`${op.color}18`,display:"flex",alignItems:"center",justifyContent:"center",flexShrink:0,fontSize:"18px",color:op.color,fontFamily:"monospace",border:`1px solid ${op.color}30`}}>
+                            {op.id==="utility"?(
+                              <svg width="28" height="28" viewBox="0 0 28 28">
+                                {/* door frame */}
+                                <rect x="5" y="3" width="18" height="22" rx="1" fill="none" stroke={op.color} strokeWidth="1.5" opacity="0.8"/>
+                                {/* louvered slats — angled lines suggesting ventilation */}
+                                {[7,10,13,16,19].map(y=>(
+                                  <line key={y} x1="7" y1={y} x2="21" y2={y+2} stroke={op.color} strokeWidth="1.3" opacity="0.75" strokeLinecap="round"/>
+                                ))}
+                                {/* door knob */}
+                                <circle cx="19" cy="14" r="1.2" fill={op.color} opacity="0.7"/>
+                              </svg>
+                            ):op.id==="barn"?(
+                              <svg width="28" height="28" viewBox="0 0 28 28">
+                                {/* rail */}
+                                <rect x="2" y="5" width="24" height="2.5" rx="1.2" fill={op.color} opacity="0.85"/>
+                                {/* left wheel */}
+                                <circle cx="7" cy="5" r="2.2" fill="none" stroke={op.color} strokeWidth="1.4"/>
+                                <circle cx="7" cy="5" r="0.7" fill={op.color}/>
+                                {/* right wheel */}
+                                <circle cx="21" cy="5" r="2.2" fill="none" stroke={op.color} strokeWidth="1.4"/>
+                                <circle cx="21" cy="5" r="0.7" fill={op.color}/>
+                                {/* door panel */}
+                                <rect x="4" y="9" width="20" height="16" rx="1" fill="none" stroke={op.color} strokeWidth="1.5" opacity="0.8"/>
+                                {/* door handle */}
+                                <rect x="18" y="16" width="1.2" height="4" rx="0.6" fill={op.color} opacity="0.7"/>
+                              </svg>
+                            ):op.id==="french"?(
+                              <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+                                {/* outer door frame */}
+                                <rect x="2" y="2" width="24" height="24" rx="1" fill="none" stroke={op.color} strokeWidth="1.5" opacity="0.65"/>
+                                {/* center mullion — where doors meet when closed */}
+                                <line x1="14" y1="2" x2="14" y2="26" stroke={op.color} strokeWidth="1" opacity="0.35" strokeDasharray="2 1.5"/>
+                                {/* LEFT panel — hinged on left jamb, swinging out-left (foreshortened parallelogram) */}
+                                <path d="M 2,3 L 11,6 L 11,22 L 2,25 Z" fill={`${op.color}20`} stroke={op.color} strokeWidth="1.3"/>
+                                {/* left knob — on free edge of left panel */}
+                                <circle cx="10" cy="14" r="1.2" fill={op.color} opacity="0.9"/>
+                                {/* left hinge marks */}
+                                <line x1="2" y1="7" x2="4" y2="7.5" stroke={op.color} strokeWidth="1" opacity="0.6" strokeLinecap="round"/>
+                                <line x1="2" y1="21" x2="4" y2="21.5" stroke={op.color} strokeWidth="1" opacity="0.6" strokeLinecap="round"/>
+                                {/* left swing arc */}
+                                <path d="M 11,6 A 9.5 9.5 0 0 0 2.5,3" stroke={op.color} strokeWidth="1.1" strokeDasharray="1.8 1.3" strokeLinecap="round" opacity="0.6"/>
+                                {/* left arc arrowhead */}
+                                <polyline points="4.5,2.2 2.2,3.2 3.5,5.5" fill="none" stroke={op.color} strokeWidth="1.1" strokeLinejoin="round" strokeLinecap="round" opacity="0.75"/>
+                                {/* RIGHT panel — hinged on right jamb, swinging out-right (mirror) */}
+                                <path d="M 26,3 L 17,6 L 17,22 L 26,25 Z" fill={`${op.color}20`} stroke={op.color} strokeWidth="1.3"/>
+                                {/* right knob */}
+                                <circle cx="18" cy="14" r="1.2" fill={op.color} opacity="0.9"/>
+                                {/* right hinge marks */}
+                                <line x1="26" y1="7" x2="24" y2="7.5" stroke={op.color} strokeWidth="1" opacity="0.6" strokeLinecap="round"/>
+                                <line x1="26" y1="21" x2="24" y2="21.5" stroke={op.color} strokeWidth="1" opacity="0.6" strokeLinecap="round"/>
+                                {/* right swing arc */}
+                                <path d="M 17,6 A 9.5 9.5 0 0 1 25.5,3" stroke={op.color} strokeWidth="1.1" strokeDasharray="1.8 1.3" strokeLinecap="round" opacity="0.6"/>
+                                {/* right arc arrowhead */}
+                                <polyline points="23.5,2.2 25.8,3.2 24.5,5.5" fill="none" stroke={op.color} strokeWidth="1.1" strokeLinejoin="round" strokeLinecap="round" opacity="0.75"/>
+                              </svg>
+                            ):op.id==="pocket"?(
+                              <svg width="28" height="28" viewBox="0 0 28 28">
+                                {/* pocket cavity — dotted frame */}
+                                <rect x="13" y="4" width="13" height="20" rx="1" fill="none" stroke={op.color} strokeWidth="1.4" strokeDasharray="2.2 1.8" opacity="0.6"/>
+                                {/* door panel sliding in from the left */}
+                                <rect x="3" y="4" width="12" height="20" rx="1" fill={`${op.color}18`} stroke={op.color} strokeWidth="1.5" opacity="0.9"/>
+                                {/* door handle on trailing edge */}
+                                <rect x="4.5" y="13" width="1.2" height="3.5" rx="0.6" fill={op.color} opacity="0.8"/>
+                                {/* motion arrow */}
+                                <line x1="9" y1="14" x2="13.5" y2="14" stroke={op.color} strokeWidth="1" opacity="0.5" strokeDasharray="1.5 1"/>
+                              </svg>
+                            ):op.id==="dutch"?(
+                              <svg width="28" height="28" viewBox="0 0 28 28">
+                                {/* outer door frame */}
+                                <rect x="5" y="3" width="18" height="22" rx="1" fill="none" stroke={op.color} strokeWidth="1.5" opacity="0.8"/>
+                                {/* horizontal split line */}
+                                <line x1="5" y1="13.5" x2="23" y2="13.5" stroke={op.color} strokeWidth="1.5" opacity="0.9"/>
+                                {/* top half window — small inset rect */}
+                                <rect x="8" y="5.5" width="12" height="6" rx="0.8" fill={`${op.color}20`} stroke={op.color} strokeWidth="1" opacity="0.8"/>
+                                {/* bottom knob */}
+                                <circle cx="19.5" cy="19" r="1.4" fill={op.color} opacity="0.8"/>
+                                {/* top lock / thumb turn */}
+                                <rect x="18.5" y="10" width="2" height="2.5" rx="0.5" fill={op.color} opacity="0.75"/>
+                              </svg>
+                            ):op.id==="swing"?(
+                              <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+                                {/* outer door frame */}
+                                <rect x="3" y="2" width="18" height="24" rx="1" fill="none" stroke={op.color} strokeWidth="1.5" opacity="0.7"/>
+                                {/* door panel — shown swung open ~50°, foreshortened, hinged left */}
+                                {/* panel as a parallelogram: top-left at hinge (3,3), swings right and into depth */}
+                                <path d="M 3,3 L 14,5 L 14,23 L 3,25 Z" fill={`${op.color}20`} stroke={op.color} strokeWidth="1.3" opacity="0.9"/>
+                                {/* lockset / knob on free edge of panel */}
+                                <circle cx="12.5" cy="14.5" r="1.3" fill={op.color} opacity="0.9"/>
+                                {/* hinge marks on left jamb */}
+                                <line x1="3" y1="7" x2="5.5" y2="7.4" stroke={op.color} strokeWidth="1.1" opacity="0.6" strokeLinecap="round"/>
+                                <line x1="3" y1="21" x2="5.5" y2="21.4" stroke={op.color} strokeWidth="1.1" opacity="0.6" strokeLinecap="round"/>
+                                {/* swing arc from free corner to closed position */}
+                                <path d="M 14,5 A 11.2 11.2 0 0 1 21,3" stroke={op.color} strokeWidth="1.2" strokeDasharray="2 1.5" strokeLinecap="round" opacity="0.65"/>
+                                {/* arrowhead at arc end */}
+                                <polyline points="19,2.2 21.2,3.2 20,5.2" fill="none" stroke={op.color} strokeWidth="1.2" strokeLinejoin="round" strokeLinecap="round" opacity="0.8"/>
+                              </svg>
+                            ):op.id==="sliding"?(
+                              <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+                                {/* track rail top */}
+                                <rect x="2" y="4" width="24" height="2" rx="1" fill={op.color} opacity="0.45"/>
+                                {/* track rail bottom */}
+                                <rect x="2" y="22" width="24" height="2" rx="1" fill={op.color} opacity="0.45"/>
+                                {/* back panel — left, faded */}
+                                <rect x="3" y="6" width="13" height="16" rx="0.5" fill="none" stroke={op.color} strokeWidth="1.2" opacity="0.35"/>
+                                {/* front panel — right, overlapping, the one in motion */}
+                                <rect x="12" y="6" width="13" height="16" rx="0.5" fill={`${op.color}18`} stroke={op.color} strokeWidth="1.5"/>
+                                {/* handle on front panel */}
+                                <rect x="13.5" y="12.5" width="1.2" height="4" rx="0.6" fill={op.color} opacity="0.85"/>
+                                {/* rightward motion arrow on front panel */}
+                                <line x1="17.5" y1="14" x2="22.5" y2="14" stroke={op.color} strokeWidth="1.3" strokeLinecap="round"/>
+                                <polyline points="20,11.5 23,14 20,16.5" fill="none" stroke={op.color} strokeWidth="1.3" strokeLinejoin="round" strokeLinecap="round"/>
+                              </svg>
+                            ):op.id==="bifold"?(
+                              <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+                                {/* top track */}
+                                <rect x="2" y="4" width="24" height="1.8" rx="0.9" fill={op.color} opacity="0.45"/>
+                                {/* bottom track */}
+                                <rect x="2" y="22.2" width="24" height="1.8" rx="0.9" fill={op.color} opacity="0.45"/>
+                                {/* left jamb pin */}
+                                <circle cx="3.5" cy="5" r="1.2" fill={op.color} opacity="0.6"/>
+                                {/* right jamb pin */}
+                                <circle cx="24.5" cy="5" r="1.2" fill={op.color} opacity="0.6"/>
+                                {/* left pair: panel A (attached to left jamb) */}
+                                <rect x="3" y="6" width="5.5" height="16" rx="0.5" fill={`${op.color}20`} stroke={op.color} strokeWidth="1.4"/>
+                                {/* left pair: panel B (folds toward center) */}
+                                <rect x="9.5" y="6" width="5.5" height="16" rx="0.5" fill={`${op.color}10`} stroke={op.color} strokeWidth="1.2" opacity="0.7"/>
+                                {/* left hinge pivot dot */}
+                                <circle cx="9.2" cy="14" r="1.4" fill={op.color} opacity="0.8"/>
+                                {/* right pair: panel C (folds toward center) */}
+                                <rect x="13" y="6" width="5.5" height="16" rx="0.5" fill={`${op.color}10`} stroke={op.color} strokeWidth="1.2" opacity="0.7"/>
+                                {/* right pair: panel D (attached to right jamb) */}
+                                <rect x="19.5" y="6" width="5.5" height="16" rx="0.5" fill={`${op.color}20`} stroke={op.color} strokeWidth="1.4"/>
+                                {/* right hinge pivot dot */}
+                                <circle cx="18.8" cy="14" r="1.4" fill={op.color} opacity="0.8"/>
+                                {/* left fold arrow — panels accordion toward left */}
+                                <polyline points="11.5,11 9,14 11.5,17" fill="none" stroke={op.color} strokeWidth="1.1" strokeLinejoin="round" strokeLinecap="round" opacity="0.65"/>
+                                {/* right fold arrow — mirror */}
+                                <polyline points="16.5,11 19,14 16.5,17" fill="none" stroke={op.color} strokeWidth="1.1" strokeLinejoin="round" strokeLinecap="round" opacity="0.65"/>
+                              </svg>
+                            ):(
+                              <span style={{fontSize:"18px"}}>{op.icon}</span>
+                            )}
+                          </div>
+                          <div style={{flex:1,minWidth:0}}>
+                            <div style={{display:"flex",alignItems:"center",gap:"8px",marginBottom:"2px"}}>
+                              <span style={{fontWeight:700,fontSize:"13px",color:T.text,fontFamily:"monospace",letterSpacing:"0.5px"}}>{op.label}</span>
+                            </div>
+                            <div style={{fontSize:"11px",color:T.muted,fontStyle:"italic"}}>{op.tagline}</div>
+                          </div>
+                          <div style={{fontSize:"18px",color:op.color,fontFamily:"monospace",flexShrink:0,transform:isOpen?"rotate(90deg)":"none",transition:"transform 0.2s"}}>{"›"}</div>
+                        </div>
+
+                        {/* Expanded */}
+                        {isOpen&&(
+                          <div style={{borderTop:`1px solid ${T.border}`,padding:"18px 20px 20px",display:"flex",flexDirection:"column",gap:"14px"}}>
+                            <p style={{margin:0,fontSize:"12px",color:T.text,lineHeight:1.75}}>{op.blurb}</p>
+
+                            <div style={{display:"grid",gridTemplateColumns:"repeat(2,minmax(0,1fr))",gap:"12px"}}>
+                              <div style={{background:`${op.color}08`,border:`1px solid ${op.color}20`,borderRadius:"8px",padding:"12px"}}>
+                                <div style={{fontSize:"9px",fontFamily:"monospace",letterSpacing:"1.5px",color:op.color,marginBottom:"8px"}}>ADVANTAGES</div>
+                                {op.pros.map((p,i)=>(
+                                  <div key={i} style={{display:"flex",gap:"6px",marginBottom:"5px",alignItems:"flex-start"}}>
+                                    <span style={{color:op.color,fontSize:"10px",marginTop:"1px",flexShrink:0}}>{"+"}</span>
+                                    <span style={{fontSize:"11px",color:T.text,lineHeight:1.5}}>{p}</span>
+                                  </div>
+                                ))}
+                              </div>
+                              <div style={{background:"#00000005",border:`1px solid ${T.border}`,borderRadius:"8px",padding:"12px"}}>
+                                <div style={{fontSize:"9px",fontFamily:"monospace",letterSpacing:"1.5px",color:T.muted,marginBottom:"8px"}}>LIMITATIONS</div>
+                                {op.cons.map((c,i)=>(
+                                  <div key={i} style={{display:"flex",gap:"6px",marginBottom:"5px",alignItems:"flex-start"}}>
+                                    <span style={{color:T.muted,fontSize:"10px",marginTop:"1px",flexShrink:0}}>{"\u2013"}</span>
+                                    <span style={{fontSize:"11px",color:T.muted,lineHeight:1.5}}>{c}</span>
+                                  </div>
+                                ))}
+                              </div>
+                            </div>
+
+                            <div style={{display:"grid",gridTemplateColumns:"repeat(2,minmax(0,1fr))",gap:"12px"}}>
+                              <div>
+                                <div style={{fontSize:"9px",fontFamily:"monospace",letterSpacing:"1.5px",color:T.muted,marginBottom:"6px"}}>BEST FOR</div>
+                                {op.bestFor.map((b,i)=>(
+                                  <div key={i} style={{display:"flex",gap:"6px",marginBottom:"4px",alignItems:"flex-start"}}>
+                                    <span style={{color:op.color,fontSize:"9px",marginTop:"2px",flexShrink:0}}>{"▸"}</span>
+                                    <span style={{fontSize:"11px",color:T.text,lineHeight:1.5}}>{b}</span>
+                                  </div>
+                                ))}
+                              </div>
+                              <div>
+                                <div style={{fontSize:"9px",fontFamily:"monospace",letterSpacing:"1.5px",color:T.muted,marginBottom:"6px"}}>VARIATIONS</div>
+                                {op.variants.map((v,i)=>(
+                                  <div key={i} style={{display:"flex",gap:"6px",marginBottom:"4px",alignItems:"flex-start"}}>
+                                    <span style={{color:T.dim,fontSize:"9px",marginTop:"2px",flexShrink:0}}>{"◦"}</span>
+                                    <span style={{fontSize:"11px",color:T.muted,lineHeight:1.5}}>{v}</span>
+                                  </div>
+                                ))}
+                              </div>
+                            </div>
+
+                            <div style={{background:`${T.gold}10`,border:`1px solid ${T.gold}30`,borderRadius:"8px",padding:"12px"}}>
+                              <div style={{fontSize:"9px",fontFamily:"monospace",letterSpacing:"1.5px",color:T.gold,marginBottom:"6px"}}>SAN DIEGO CONTEXT</div>
+                              <p style={{margin:0,fontSize:"11px",color:T.text,lineHeight:1.65}}>{op.sdContext}</p>
+                            </div>
+                          </div>
+                        )}
+                      </div>
+                    );
+                  })}
+                </div>
+            </div>
+          )}
+        </div>
+      )}
+
+      {/* ─── WINDOWS ─── */}
+      {mainTab==="windows"&&(()=>{
+        const windowNavItems=[
+          {id:"frame_materials",label:"Frame Materials",icon:"◻",color:T.slate},
+          {id:"operation_types",label:"Operation Types",icon:"↔",color:T.teal},
+          {id:"finishes",label:"Finishes by Frame",icon:"◑",color:T.gold},
+          {id:"glazing",label:"Glazing Options",icon:"⬡",color:T.sage},
+          {id:"sd_specs",label:"SD Climate Guide",icon:"",color:T.rust},
+        ];
+        const active=windowNavItems.find(n=>n.id===windowSub)||windowNavItems[0];
+
+        // ── FRAME MATERIALS data
+        const frameMaterials=[
+          {
+            id:"vinyl",name:"Vinyl (uPVC)",icon:"◼",color:T.slate,
+            tagline:"Best value in California. The most-installed window frame material in SD.",
+            overview:"Vinyl windows use extruded uPVC (unplasticized polyvinyl chloride) frames — a hollow-chamber plastic profile that is thermally broken by design, requires zero painting, and is impervious to moisture and salt air. In San Diego, vinyl is the dominant residential window material at every price point from production builder to upper-mid luxury. Milgard Trinsic black is the single most-specified window in SD luxury remodels right now.",
+            pros:["Zero maintenance — never paint, stain, or seal","Excellent thermal performance — hollow chambers trap air","Impervious to moisture and coastal salt air","Most competitive price point","Lifetime warranties from major manufacturers","Available in black, white, bronze, tan from major brands"],
+            cons:["Limited color options (typically 4–6 per brand)","Dark vinyl (especially black) can absorb heat and expand slightly in extreme temperatures","Sightlines slightly wider than aluminum — more frame visible","Cannot match custom or unusual colors","Lower perceived prestige vs. aluminum or wood for ultra-luxury"],
+            sdNote:"Black vinyl (Milgard Trinsic) is everywhere in San Diego luxury remodels right now. The slim sightlines on Trinsic read as architectural, not plastic. For coastal homes, vinyl actually outperforms aluminum-clad wood for corrosion resistance — no paint to fail, no metal to pit. Climate Zone 7/10 energy codes are easily met by any major vinyl window.",
+            brands:["Milgard (Trinsic, Ultra, Tuscany)","Andersen (A-Series, 100 Series)","JELD-WEN","PlyGem"],
+            priceRange:"$$ — Most competitive per unit",
+          },
+          {
+            id:"fiberglass",name:"Fiberglass (Ultrex® / Pultruded)",icon:"◈",color:T.teal,
+            tagline:"Strongest residential frame material. 8x stronger than vinyl. Paintable any color.",
+            overview:"Fiberglass window frames are made by pultrusion — pulling glass fibers through a resin bath to create an incredibly strong, dimensionally stable profile. The result is a frame that expands and contracts at nearly the same rate as the glass it holds (critical for seal longevity), is paintable to any color, and is significantly stronger than vinyl or aluminum at equivalent wall thickness. Marvin's Ultrex® and Milgard's Ultra Series are the flagship fiberglass offerings available in San Diego.",
+            pros:["Paintable to any color — unlimited color matching","8x stronger than vinyl at same thickness","Thinner sightlines than vinyl at equivalent strength","Dimensionally stable — minimal thermal expansion/contraction","Long-term durability — will not rot, corrode, or warp","Best seal longevity due to matched thermal expansion with glass"],
+            cons:["Higher price than vinyl","Heavier than aluminum for large openings","Paint requires recoating eventually (unlike factory-applied vinyl color)","Fewer brands offer fiberglass vs. vinyl or aluminum"],
+            sdNote:"Fiberglass is the right answer for coastal properties where vinyl can't be painted to a custom color and aluminum is a corrosion concern. Marvin Elevate (Ultrex® exterior, wood interior) and Milgard Ultra Series are both stocked or readily available through San Diego dealers. The paintability is the key feature — RSF and La Jolla custom builds frequently need a specific exterior color to match the stucco or siding.",
+            brands:["Marvin (Elevate, Essential — Ultrex®)","Milgard (Ultra Series)","Andersen (A-Series Fibrex® composite)","Pella (Impervia)"],
+            priceRange:"$$$ — Mid-premium",
+          },
+          {
+            id:"aluminum",name:"Aluminum",icon:"⊟",color:T.gold,
+            tagline:"Slimmest sightlines. Architectural-grade. Specify thermally broken for energy code.",
+            overview:"Aluminum frames offer the slimmest possible sightlines — the frame-to-glass ratio is the best of any operable window material, maximizing visible glass area. Aluminum is strong enough to span large openings with minimal frame depth, making it the preferred choice for contemporary architecture, large fixed windows, and floor-to-ceiling glazing. The critical spec detail: thermally broken aluminum has a polyamide thermal break between the interior and exterior aluminum profiles, dramatically improving energy performance. Non-thermally-broken aluminum will not meet California Title 24.",
+            pros:["Slimmest sightlines of any frame material — most glass visible","Extremely strong — suitable for large spans","Anodized or powder-coated — fade resistant, wide color range","Pairs naturally with contemporary and modern architecture","Long lifespan — structural integrity maintained indefinitely"],
+            cons:["Thermally broken required for Title 24 — adds cost","Conducts heat/cold more than vinyl or fiberglass without thermal break","In direct salt-air (beachfront), powder coat can fail over time — specify marine-grade","Higher cost than vinyl","Heavy — large aluminum window units require careful installation"],
+            sdNote:"Aluminum windows are standard specification on modern and contemporary custom homes in La Jolla, RSF, and Solana Beach. Always specify thermally broken for any permitted project — the Title 24 requirement eliminates non-TB aluminum. For beachfront properties within 500ft of direct ocean, specify anodized (not powder-coated) aluminum or switch to fiberglass — powder coat in direct salt air requires more maintenance than clients expect.",
+            brands:["NanaWall (SL70, HS systems)","LaCantina (aluminum folding/slide)","Western Window Systems","Arcadia Custom","Fleetwood"],
+            priceRange:"$$$$  — Premium to ultra-premium",
+          },
+          {
+            id:"wood",name:"Wood Interior / Aluminum-Clad",icon:"",color:T.rust,
+            tagline:"Warmth inside, weather protection outside. The architect's window for luxury residential.",
+            overview:"Aluminum-clad wood windows combine a real wood interior — available in multiple species and stainable to match any floor or millwork — with an aluminum-clad exterior that handles weather exposure. The wood interior is the key selling point: it creates a seamless visual connection between window frames and interior wood elements (floors, beams, cabinetry, door frames). This is the dominant specification on architect-designed luxury residential projects. Marvin, Andersen E-Series, and LaCantina Clad Wood are the primary options.",
+            pros:["Real wood interior — matches floors, millwork, and cabinetry","Aluminum exterior — weather-resistant without painting","Warmest aesthetic of any window type","Highest perceived luxury and craftsmanship","Custom interior stain colors available","Multiple wood species (pine, fir, oak, maple)"],
+            cons:["Wood interior requires periodic care in humid environments","Heavier than vinyl or aluminum","Higher cost","Salt air can compromise aluminum clad over time in direct ocean exposure","Custom sizes and configurations add significant lead time"],
+            sdNote:"Aluminum-clad wood is the window of choice for whole-house La Jolla and RSF projects where floors, cabinetry, and window frames are all specified to match. The stain-grade interior is what makes the room feel cohesive. Marvin's coastal stainless hardware program is specifically designed for this application — La Jolla oceanfront properties can get aluminum-clad wood windows with hardware that won't corrode.",
+            brands:["Marvin (Signature, Elevate — clad wood)","Andersen (E-Series — alum-clad Fibrex®)","LaCantina (Clad Wood folding)","Pella (Architect Series)"],
+            priceRange:"$$$$–$$$$$ — Luxury",
+          },
+          {
+            id:"composite",name:"Composite & Fibrex®",icon:"⊕",color:T.sage,
+            tagline:"Engineered hybrid. Better than vinyl, more affordable than fiberglass.",
+            overview:"Composite frames blend wood fiber with thermoplastic resin — creating a material that outperforms vinyl on strength and dimensional stability while maintaining the workability of wood (it can be routed, nailed, and painted). Andersen's proprietary Fibrex® material is the most prominent composite frame in the market. Composites sit between vinyl and fiberglass on the performance and price spectrum, and are a strong choice for clients who want paintability without the full cost of fiberglass.",
+            pros:["Paintable — wider color options than vinyl","Stronger and more dimensionally stable than standard vinyl","Won't rot, corrode, or require sealing","More affordable than fiberglass","Longer paint adhesion than wood — better exterior durability"],
+            cons:["Fewer manufacturers offer true composite vs. vinyl or fiberglass","Not as strong as pultruded fiberglass","Paint still requires eventual recoating","Andersen Fibrex® is proprietary — only available in Andersen products"],
+            sdNote:"Andersen Fibrex® composite is the strongest value proposition in the composite category — it's what makes the A-Series and 100-Series competitive against Milgard Trinsic. For clients who want a wider color range than standard vinyl but don't need the full custom color capability of fiberglass, Fibrex® composite bridges the gap cleanly.",
+            brands:["Andersen (Fibrex® — A-Series, 100 Series)","Simonton","ProVia"],
+            priceRange:"$$–$$$ — Mid range",
+          },
+        ];
+
+        // ── OPERATION TYPES data
+        const operationTypes=[
+          {
+            id:"casement",name:"Casement",icon:"casement",color:T.teal,
+            tagline:"Hinged on the side. Opens outward like a door. Best ventilation of any operable window.",
+            overview:"Casement windows are hinged on one vertical side and swing outward via a crank operator at the bottom. When fully open, the entire window area is unobstructed — a casement is the only window type that can capture 100% of its rough opening area as ventilation. The sash acts like a sail to scoop prevailing breezes, making casements particularly effective for cross-ventilation in coastal San Diego.",
+            howItWorks:"A worm-gear crank at the sill rotates to push the sash outward. Higher-end units use multi-point locking — the handle engages locks at multiple points along the frame simultaneously. The sash swings on concealed friction hinges that hold the window open at any position.",
+            configurations:["Single casement — one sash, hinged left or right","Double casement — two sashes side-by-side with a center post (mullion) between them; each sash cranks outward independently. The center post is fixed to the frame.","French casement — two sashes meeting at center with no center post at all; both sashes push outward simultaneously for a fully unobstructed opening. Push-out operation only — no crank. A rarer configuration not offered by all manufacturers.","Combination — casement flanking a fixed center unit","Stacked — casement over awning for varied ventilation control"],
+            bestFor:["Maximum ventilation — especially in coastal SD","Rooms where you want breeze control","Contemporary and craftsman architecture","Kitchen windows where a crank is easier than a double-hung"],
+            limitations:["Outswing requires clear exterior space — can't use over counters or decks without planning","Screen installs on interior (less weather-protected)","Not ideal in very windy exposures — can catch wind and stress hinges","French casement (no center post) is a specialty option — verify availability with manufacturer before specifying"],
+          },
+          {
+            id:"double_hung",name:"Double-Hung",icon:"double_hung",color:T.slate,
+            tagline:"Both sashes slide. America's most familiar window. Tilts in for cleaning.",
+            overview:"Double-hung windows have two independently operable sashes that slide vertically — the upper sash slides down and the lower sash slides up. Both sashes can be open simultaneously for top-and-bottom ventilation. Most modern double-hungs tilt both sashes inward for cleaning from inside the home — a significant advantage in upper-floor applications.",
+            howItWorks:"Each sash rides in its own channel with balancers (spring or weight) that hold the sash at any position. A tilt-in mechanism releases the sash from its channel for cleaning. The sashes move independently — you can open the top only, bottom only, or both.",
+            configurations:["Standard double-hung — both sashes operable","Single-hung — only lower sash moves (lower cost)","Double-hung in pairs flanking a fixed or picture center","Stacked double-hungs for tall openings"],
+            bestFor:["Traditional, craftsman, and transitional architecture","Upper floors where exterior cleaning is impractical (tilt-in cleaning)","Any application needing adjustable top-and-bottom ventilation","The most neutral architectural statement — works in almost any style"],
+            limitations:["Only ~50% of window area open at any one time (vs. 100% for casement)","Vertical sightlines can feel heavy in contemporary architecture","Balancer mechanisms require maintenance over time"],
+          },
+          {
+            id:"awning",name:"Awning",icon:"awning",color:T.gold,
+            tagline:"Hinged at top. Opens ~30° outward from bottom. Rain-resistant ventilation.",
+            overview:"Awning windows are hinged at the top and crank outward from the bottom — typically opening to about 25–30°. At this angle the open sash acts as an awning, shedding rain off the glass rather than into the opening. This limited opening angle is intentional: the worm-gear crank operator and standard friction stays are sized for moderate-width sashes (typically up to about 36\" wide and 24\" tall) where 30° gives adequate ventilation. Awnings are often stacked or paired with fixed picture windows for privacy with ventilation.",
+            howItWorks:"A worm-gear crank at the sill or side of the frame rotates to push the bottom of the sash outward. Standard friction stays hold the sash at any angle up to about 30°. Multi-point locks pull the sash tight against the frame when closed for an excellent compression weather seal. Note: for larger sashes or full 90° opening, see Gas Strut Awning below.",
+            configurations:["Single awning — standalone in a high or narrow opening","Awning under picture — ventilation below a fixed view window","Stacked awnings — graduated ventilation on a tall wall","Awning over casement — combined in one frame unit"],
+            bestFor:["High-wall placement for privacy with ventilation","Bathrooms, basements, and utility rooms","Coastal locations where rain-while-open capability is valued","Contemporary stacked configurations on modern facades"],
+            limitations:["Standard crank opens only ~25–30° — limited airflow compared to casement","Not suitable as egress in most configurations","Standard operators not designed for large or heavy sashes — see Gas Strut for those applications"],
+          },
+          {
+            id:"gas_strut_awning",name:"Gas Strut Awning",icon:"gas_strut",color:T.ember,
+            tagline:"Opens a full 90°. Large-format pass-through. No crank — push to open, gas holds it there.",
+            overview:"Gas strut awning windows use heavy-duty compressed gas struts (the same mechanism as a car hood or cabinet door) instead of a worm-gear crank. This allows the sash to open a full 90° — completely horizontal — and hold itself there without any operator or stay. The gas strut is the enabling technology for large-format awnings: units commonly run 5' wide × 3'–4' tall, far beyond what a standard crank operator can support. At 90° open, the sash becomes a fully horizontal shelf or pass-through counter — the defining feature of indoor-outdoor kitchen and bar designs across San Diego.",
+            howItWorks:"Two or four heavy-duty gas struts are mounted between the fixed frame and the sash. Push the sash outward and the struts extend, lifting and holding the panel at 90°. The gas pressure is tuned to the sash weight — a balanced strut requires only light finger pressure to open or close. Closing is a simple downward push; the compression seal locks automatically. No crank, no handle cranking, no stays to adjust.",
+            configurations:["Single large panel — 4'–6' wide × 3'–4' tall, single strut pair","Pass-through / serving window — opens over a counter at sill height, sash becomes a horizontal awning/shelf","Stacked pair — two large gas strut units stacked for a dramatic opening wall","Multiple units side by side — creates a long horizontal ribbon of openable glass"],
+            bestFor:["Kitchen pass-through to outdoor patio, bar, or BBQ area","Indoor-outdoor bar and entertainment setups","Large ventilation panels in contemporary architecture","Any opening where a full horizontal sash position is desired","Locations where a crank operator would be impractical or awkward"],
+            limitations:["Higher cost than standard awning — gas struts add mechanical complexity","Gas struts require replacement every 10–15 years as pressure fades","Not a standard stocked item — typically 4–8 week lead time","Heavier sash requires robust frame and header — structural planning required","Screen must be on interior (same as standard awning)"],
+            sdNote:"Gas strut pass-through windows are one of the hottest specifications in San Diego outdoor entertaining right now. A kitchen with a 5' gas strut window over the counter connecting to the patio — with a bar stool counter built at the exterior sill — is a feature that sells homes in the La Jolla, Del Mar, and RSF market. It's a relatively modest cost addition to a full kitchen remodel but dramatically expands the indoor-outdoor living experience.",
+          },
+          {
+            id:"sliding",name:"Sliding / Gliding",icon:"sliding",color:T.rust,
+            tagline:"Sash glides horizontally. No crank mechanism. Simple and clean.",
+            overview:"Sliding windows (also called gliding windows) have one or two sashes that move horizontally along a track. The most common configuration is one fixed and one operable sash — the operable panel slides to one side. Two-lite sliders have both sashes operable. Sliding windows have no crank mechanism — they operate by simply grabbing the sash and sliding it, making them intuitive and easy to use.",
+            howItWorks:"The operable sash rides on a bottom track and is guided by a top channel. Better units have ball-bearing rollers for smooth operation. The sash lifts slightly to remove for cleaning. A simple lever latch provides locking.",
+            configurations:["2-lite — one fixed, one operable","3-lite — fixed center, two operable side sashes","3-lite XOX — two operable flanking a fixed center (most common)","Tall slider — portrait orientation, similar operation"],
+            bestFor:["Contemporary and modern architecture","Wide horizontal openings where casement crank is awkward","Any location where outswing would be an obstruction","Beach and outdoor-facing rooms where simplicity is valued"],
+            limitations:["Only 50% of area opens at one time","Track requires cleaning — dirt accumulates in channel","Less weather-tight than casement (no compression seal)"],
+          },
+          {
+            id:"picture",name:"Picture / Fixed",icon:"picture",color:T.sage,
+            tagline:"Non-operable. Maximum glass, minimum frame. The view window.",
+            overview:"Picture windows (also called fixed windows) have no operable mechanism — the sash is permanently fixed in the frame. This makes them the simplest and most structurally efficient window type, allowing large spans of glass with minimal framing. Picture windows deliver the purest, most unobstructed view and the best thermal performance (no operable hardware means the best possible weather seal). They are often the centerpiece of a window composition — flanked by operable units for ventilation.",
+            howItWorks:"The sash is glazed directly into the frame or set in fixed stops with no moving parts. Sizes can be very large — limited only by glass weight and structural support. Sightlines are as thin as the frame material allows.",
+            configurations:["Standard rectangle — any size","Custom shapes — trapezoid, arch, circle, triangle","Picture in a composition — fixed center flanked by casement or double-hung","Floor-to-ceiling picture — often used in living rooms and great rooms"],
+            bestFor:["Primary view windows — ocean, canyon, garden","Any opening where ventilation is not needed","Large statement windows in living areas and master bedrooms","Contemporary and modern architecture where thin sightlines are desired"],
+            limitations:["No ventilation — must be combined with operable units for airflow","Cannot serve as egress","Cleaning requires exterior access on upper floors"],
+          },
+          {
+            id:"bay_bow",name:"Bay & Bow",icon:"bay_bow",color:T.plum,
+            tagline:"Projects outward from the wall. Creates interior depth and panoramic views.",
+            overview:"Bay windows project outward from the wall plane on three facets — a large center unit flanked by two angled side units (typically 30° or 45°). Bow windows are a softer version with 4–6 equal-width units forming a gentle curve. Both types add interior floor space (typically 12\"–18\" of depth) that can be used as a window seat, reading nook, or shelf. Bay and bow windows are structural additions — they require header support and a roof or ceiling treatment.",
+            howItWorks:"The center unit is typically a picture or double-hung. Side units are casement or double-hung. All units are joined by a structural head and seat board (the 'bay box'). The roof above is either a separate mini roof (copper, aluminum, or shingle) or the ceiling extends into the bump-out.",
+            configurations:["30° bay — more dramatic angular projection","45° bay — shallower, fits tighter spaces","Bow (4-unit) — gentle curve","Bow (6-unit) — more pronounced curve","Garden bay — often in kitchens, opens fully for herbs/plants"],
+            bestFor:["Traditional and craftsman homes","Creating interior depth and window seat opportunities","Panoramic views with no single sightline in the center","Kitchens and breakfast nooks","Master bedrooms with ocean or garden views"],
+            limitations:["Structural addition — requires permits and header framing","Higher cost than standard windows","Roof treatment requires separate planning","Cleaning exterior of side units can be difficult"],
+          },
+          {
+            id:"specialty",name:"Specialty / Geometric",icon:"specialty",color:T.ember,
+            tagline:"Circles, arches, triangles, trapezoids. Architectural accent windows.",
+            overview:"Specialty windows encompass any non-rectangular window shape — circles (oculus), half-rounds, eyebrows, quarter-rounds, triangles, trapezoids, and fully custom geometric shapes. These are fixed (non-operable) by necessity of their shape and are used as architectural accent elements — above entry doors, in gable ends, at stair landings, and in any location where a standard rectangular unit would be architecturally ordinary.",
+            howItWorks:"Each specialty window is manufactured to a specific template — custom-curved sashes or multi-piece assemblies depending on the shape. Installation requires a matching rough opening and often custom trim work. Lead times are longer than standard units.",
+            configurations:["Half-round — semicircle above a door or window","Full circle (oculus) — statement piece in gable ends or feature walls","Quarter-round — corner accent","Eyebrow — low, wide arch with subtle curve","Trapezoid — follows roofline angle in vaulted or cathedral spaces","Triangle — gable end or modern composition"],
+            bestFor:["Entry door transoms","Gable end accents","Stair landings needing light without views","Any architectural feature that needs a non-standard shape","Mediterranean, Spanish Colonial, and craftsman styles"],
+            limitations:["Fixed only — no ventilation","Custom fabrication — longer lead times","Custom trim work required","Higher cost than standard units"],
+          },
+        ];
+
+        // ── SVG operation illustrations
+        function WinOpSVG({type,color}){
+          const c=color||T.teal;
+          const bg="#EEF4F2";
+          const fr="#EEF4F0";
+          const gl="#2A8A8030";
+          const gls="#2A8A8050";
+          const svgs={
+            casement:(
+              <svg viewBox="0 0 110 140" width="110" height="140">
+                <rect width="110" height="140" fill={bg} rx="4"/>
+                {/* outer frame — portrait orientation */}
+                <rect x="10" y="10" width="90" height="118" rx="2" fill="none" stroke={fr} strokeWidth="5"/>
+                {/* closed sash ghost — full interior dashed */}
+                <rect x="15" y="15" width="80" height="108" fill={gl} stroke="#C4CEC8" strokeWidth="1" strokeDasharray="3,2"/>
+                {/* open sash — left-hinged, parallelogram showing ~40° outswing */}
+                <polygon
+                  points="15,15  48,8  48,130  15,123"
+                  fill={gls} stroke={c} strokeWidth="2"
+                />
+                {/* hinge marks on left frame stile */}
+                <rect x="10" y="30" width="6" height="10" rx="1" fill={c} opacity="0.85"/>
+                <rect x="10" y="98" width="6" height="10" rx="1" fill={c} opacity="0.85"/>
+                {/* handle on free edge of open sash */}
+                <rect x="42" y="64" width="5" height="12" rx="2" fill={c} opacity="0.8"/>
+                {/* crank at sill */}
+                <circle cx="65" cy="122" r="4" fill="none" stroke={c} strokeWidth="1.5" opacity="0.8"/>
+                <line x1="65" y1="118" x2="65" y2="113" stroke={c} strokeWidth="1.5" opacity="0.8"/>
+                <text x="55" y="136" textAnchor="middle" fill={c} fontSize="7" fontFamily="monospace" opacity="0.6">LEFT-HINGED OUTSWING</text>
+              </svg>
+            ),
+            double_hung:(
+              <svg viewBox="0 0 120 100" width="120" height="100">
+                <rect width="120" height="100" fill={bg} rx="4"/>
+                <rect x="10" y="8" width="100" height="84" rx="2" fill="none" stroke={fr} strokeWidth="5"/>
+                {/* upper sash — down */}
+                <rect x="14" y="13" width="92" height="36" fill={gls} stroke={c} strokeWidth="1.5"/>
+                <rect x="14" y="43" width="92" height="6" fill={fr} opacity="0.8"/>
+                {/* lower sash — up */}
+                <rect x="14" y="49" width="92" height="36" fill={gl} stroke={c} strokeWidth="1"/>
+                {/* arrows */}
+                <text x="60" y="34" textAnchor="middle" fill={c} fontSize="12" opacity="0.5">{"\u2193"}</text>
+                <text x="60" y="74" textAnchor="middle" fill={c} fontSize="12" opacity="0.5">{"\u2191"}</text>
+                {/* lock rail center */}
+                <rect x="50" y="43" width="20" height="7" rx="2" fill={c} opacity="0.4"/>
+                <text x="60" y="98" textAnchor="middle" fill={c} fontSize="7" fontFamily="monospace" opacity="0.6">BOTH SASHES MOVE</text>
+              </svg>
+            ),
+            awning:(
+              <svg viewBox="0 0 140 110" width="140" height="110">
+                <rect width="140" height="110" fill={bg} rx="4"/>
+                {/* outer frame */}
+                <rect x="8" y="8" width="124" height="94" rx="2" fill="none" stroke={fr} strokeWidth="5"/>
+                {/* closed sash ghost — full interior dashed */}
+                <rect x="13" y="13" width="114" height="82" fill={gl} stroke="#C4CEC8" strokeWidth="1" strokeDasharray="3,2"/>
+                {/* Open sash at ~30°: top edge hinged to frame top, bottom swings outward
+                    Trapezoid wider at bottom to give perspective depth of outswing */}
+                <polygon
+                  points="13,15  127,15  131,62  9,62"
+                  fill={gls} stroke={c} strokeWidth="2"
+                />
+                {/* top hinge marks */}
+                <rect x="22" y="8" width="10" height="6" rx="1" fill={c} opacity="0.85"/>
+                <rect x="108" y="8" width="10" height="6" rx="1" fill={c} opacity="0.85"/>
+                {/* crank at sill corner */}
+                <circle cx="120" cy="97" r="4" fill="none" stroke={c} strokeWidth="1.5" opacity="0.8"/>
+                <line x1="120" y1="93" x2="120" y2="89" stroke={c} strokeWidth="1.5" opacity="0.8"/>
+                <text x="70" y="108" textAnchor="middle" fill={c} fontSize="7" fontFamily="monospace" opacity="0.6">TOP-HINGED OUTSWING</text>
+              </svg>
+            ),
+            gas_strut_awning:(
+              <svg viewBox="0 0 160 130" width="160" height="130">
+                <rect width="160" height="130" fill={bg} rx="4"/>
+                {/* Side-view cross-section: wall left, frame, sash fully horizontal at 90° */}
+
+                {/* Wall section */}
+                <rect x="0" y="10" width="22" height="110" fill="#EEF4F2"/>
+                <rect x="20" y="10" width="3" height="110" fill={fr} opacity="0.6"/>
+
+                {/* Fixed frame — top and bottom rails visible from side */}
+                {/* Top frame rail */}
+                <rect x="20" y="28" width="6" height="6" fill={fr}/>
+                {/* Bottom frame rail (sill) */}
+                <rect x="20" y="88" width="6" height="6" fill={fr}/>
+                {/* Frame depth lines */}
+                <line x1="26" y1="28" x2="26" y2="94" stroke={fr} strokeWidth="2"/>
+
+                {/* Ghost closed position — vertical sash (dashed) */}
+                <rect x="26" y="28" width="110" height="6" fill={gls} stroke={c} strokeDasharray="3,2" strokeWidth="1" opacity="0.3"/>
+                <rect x="26" y="88" width="110" height="6" fill={gls} stroke={c} strokeDasharray="3,2" strokeWidth="1" opacity="0.2"/>
+                <line x1="136" y1="34" x2="136" y2="88" stroke={c} strokeWidth="1" strokeDasharray="2,2" opacity="0.25"/>
+
+                {/* OPEN SASH — horizontal at 90°, top-hinged */}
+                {/* Sash sits horizontal from hinge point (top of frame) extending outward */}
+                <rect x="26" y="28" width="118" height="8" fill={gls} stroke={c} strokeWidth="2" rx="1"/>
+                {/* Glass fill on the horizontal sash face */}
+                <rect x="28" y="30" width="114" height="4" fill={c} opacity="0.25"/>
+
+                {/* Hinge at pivot point — top left corner */}
+                <circle cx="26" cy="31" r="4" fill={c} opacity="0.9"/>
+                <circle cx="26" cy="31" r="2" fill={bg}/>
+
+                {/* GAS STRUTS — two diagonal lines from frame to underside of sash */}
+                {/* Strut 1 */}
+                <line x1="26" y1="70" x2="68" y2="36" stroke={c} strokeWidth="3" strokeLinecap="round" opacity="0.8"/>
+                <circle cx="26" cy="70" r="3" fill={c} opacity="0.7"/>
+                <circle cx="68" cy="36" r="3" fill={c} opacity="0.7"/>
+                {/* Strut 2 */}
+                <line x1="26" y1="85" x2="100" y2="36" stroke={c} strokeWidth="3" strokeLinecap="round" opacity="0.6"/>
+                <circle cx="26" cy="85" r="3" fill={c} opacity="0.55"/>
+                <circle cx="100" cy="36" r="3" fill={c} opacity="0.55"/>
+
+                {/* 90° angle arc indicator */}
+                <path d="M 26,55 A 24,24 0 0,1 50,31" fill="none" stroke={c} strokeWidth="1.2" strokeDasharray="2,2" opacity="0.5"/>
+                <text x="44" y="50" fill={c} fontSize="8" fontFamily="monospace" fontWeight="700" opacity="0.8">90{"\u00B0"}</text>
+
+                {/* Pass-through counter suggestion below */}
+                <rect x="26" y="94" width="130" height="10" rx="2" fill="#FAF6EE" stroke={c} strokeWidth="1" opacity="0.5"/>
+                <text x="91" y="101" textAnchor="middle" fill={c} fontSize="6" fontFamily="monospace" opacity="0.5">PASS-THROUGH COUNTER</text>
+
+                {/* Label */}
+                <text x="80" y="122" textAnchor="middle" fill={c} fontSize="7" fontFamily="monospace" opacity="0.65">GAS STRUT {"\u2014"} FULL 90° OPEN</text>
+
+                {/* Side label: INTERIOR / EXTERIOR */}
+                <text x="10" y="55" textAnchor="middle" fill={c} fontSize="5.5" fontFamily="monospace" opacity="0.4" transform="rotate(-90,10,55)">INTERIOR</text>
+                <text x="150" y="65" textAnchor="middle" fill={c} fontSize="5.5" fontFamily="monospace" opacity="0.4" transform="rotate(-90,150,65)">EXTERIOR</text>
+              </svg>
+            ),
+            sliding:(
+              <svg viewBox="0 0 120 100" width="120" height="100">
+                <rect width="120" height="100" fill={bg} rx="4"/>
+                <rect x="10" y="8" width="100" height="84" rx="2" fill="none" stroke={fr} strokeWidth="5"/>
+                {/* fixed left sash */}
+                <rect x="14" y="13" width="46" height="74" fill={gl} stroke={fr} strokeWidth="2"/>
+                <text x="37" y="52" textAnchor="middle" fill={c} fontSize="8" fontFamily="monospace" opacity="0.35">FIXED</text>
+                {/* operable right sash — offset/open */}
+                <rect x="62" y="13" width="44" height="74" fill={gls} stroke={c} strokeWidth="1.5"/>
+                <rect x="59" y="13" width="5" height="74" fill={fr} opacity="0.5"/>
+                {/* arrow */}
+                <text x="84" y="54" textAnchor="middle" fill={c} fontSize="14" opacity="0.5">{"\u2190"}</text>
+                {/* track lines */}
+                <line x1="14" y1="84" x2="106" y2="84" stroke={c} strokeWidth="1" opacity="0.3" strokeDasharray="2,2"/>
+                <text x="60" y="98" textAnchor="middle" fill={c} fontSize="7" fontFamily="monospace" opacity="0.6">GLIDES HORIZONTALLY</text>
+              </svg>
+            ),
+            picture:(
+              <svg viewBox="0 0 120 100" width="120" height="100">
+                <rect width="120" height="100" fill={bg} rx="4"/>
+                <rect x="10" y="8" width="100" height="84" rx="2" fill="none" stroke={fr} strokeWidth="6"/>
+                {/* large fixed glass */}
+                <rect x="16" y="14" width="88" height="72" fill={gls}/>
+                {/* mountain view silhouette */}
+                <polygon points="20,70 45,38 60,55 80,30 106,70" fill={c} opacity="0.08"/>
+                <rect x="16" y="70" width="88" height="16" fill={c} opacity="0.04"/>
+                {/* no-operation X */}
+                <text x="60" y="54" textAnchor="middle" fill={c} fontSize="22" opacity="0.12">{"\u25A3"}</text>
+                <text x="60" y="98" textAnchor="middle" fill={c} fontSize="7" fontFamily="monospace" opacity="0.6">FIXED {"\u2014"} NO OPERATION</text>
+              </svg>
+            ),
+            bay_bow:(
+              <svg viewBox="0 0 220 110" width="220" height="110">
+                <rect width="220" height="110" fill={bg} rx="4"/>
+                {/* wall plane indicators */}
+                <rect x="5" y="18" width="5" height="74" fill={fr} opacity="0.5" rx="1"/>
+                <rect x="210" y="18" width="5" height="74" fill={fr} opacity="0.5" rx="1"/>
+                {/* left angled panel — trapezoid from wall to center-left edge */}
+                <polygon points="10,20  80,12  80,92  10,92" fill={gl} stroke={fr} strokeWidth="2.5"/>
+                <polygon points="12,22  78,14  78,90  12,90" fill={gls}/>
+                {/* center panel — front-facing, same visual weight as flanking */}
+                <rect x="80" y="8" width="60" height="88" fill={gl} stroke={c} strokeWidth="3" rx="1"/>
+                <rect x="83" y="11" width="54" height="82" fill={gls}/>
+                {/* right angled panel — trapezoid from center-right edge to wall */}
+                <polygon points="140,12  210,20  210,92  140,92" fill={gl} stroke={fr} strokeWidth="2.5"/>
+                <polygon points="142,14  208,22  208,90  142,90" fill={gls}/>
+                <text x="110" y="106" textAnchor="middle" fill={c} fontSize="7" fontFamily="monospace" opacity="0.6">PROJECTS FROM WALL</text>
+              </svg>
+            ),
+            specialty:(
+              <svg viewBox="0 0 200 110" width="200" height="110">
+                <rect width="200" height="110" fill={bg} rx="4"/>
+
+                {/* ── ROUND / OCULUS ── centered at x=30 */}
+                <circle cx="30" cy="46" r="22" fill={gl} stroke={fr} strokeWidth="3"/>
+                <circle cx="30" cy="46" r="18" fill={gls}/>
+                <text x="30" y="78" textAnchor="middle" fill={c} fontSize="6" fontFamily="monospace" opacity="0.65">ROUND</text>
+
+                {/* ── TRIANGLE ── centered at x=100 */}
+                <polygon points="100,12  130,72  70,72" fill={gl} stroke={fr} strokeWidth="3"/>
+                <polygon points="100,17  125,68  75,68" fill={gls}/>
+                <text x="100" y="82" textAnchor="middle" fill={c} fontSize="6" fontFamily="monospace" opacity="0.65">TRIANGLE</text>
+
+                {/* ── RAKE — right trapezoid: left/bottom/right square, top diagonal ── */}
+                <polygon points="148,22  188,68  148,68" fill="none"/>
+                <polygon points="148,68  188,68  188,28  148,22" fill={gl} stroke={fr} strokeWidth="3"/>
+                <polygon points="151,65  185,65  185,31  151,25" fill={gls}/>
+                <text x="170" y="82" textAnchor="middle" fill={c} fontSize="6" fontFamily="monospace" opacity="0.65">RAKE</text>
+
+                <text x="100" y="96" textAnchor="middle" fill={c} fontSize="6.5" fontFamily="monospace" opacity="0.5">SPECIALTY / GEOMETRIC</text>
+              </svg>
+            ),
+          };
+          return svgs[type]||null;
+        }
+
+        // ── FINISHES data
+        const finishesData=[
+          {
+            material:"Vinyl",color:T.slate,
+            intro:"Vinyl color is integral to the frame — it runs through the full profile and never needs repainting. The color selection is limited compared to other materials, but the major brands cover the most popular San Diego specifications.",
+            finishTypes:[
+              {name:"Factory White",detail:"The default and most widely available. Bright white interior and exterior. Pairs with white trim and traditional or transitional interiors. Not available in custom shades — it's standard white.",swatch:"#f0ede6"},
+              {name:"Black (Black Satin / Matte Black)",detail:"The dominant SD luxury remodel specification right now. Milgard Trinsic black and Andersen A-Series black are both extremely popular. Interior and exterior are both black. Pairs with white or light interiors for a dramatic architectural contrast.",swatch:"#1A1A1A"},
+              {name:"Bronze",detail:"Medium warm bronze — reads as dark brown with warm undertones. Traditional and craftsman character. Common in 1990s–2010s homes — still popular for matching existing windows in remodels.",swatch:"#3d2b1f"},
+              {name:"Tan / Sandtone",detail:"A warm beige-tan — common in stucco-exterior homes throughout San Diego. Blends with beige or earth-toned stucco rather than contrasting against it. Practical and popular in Rancho Bernardo and Scripps Ranch tract homes.",swatch:"#8A6020"},
+            ],
+            sdGuidance:"The Milgard Trinsic black window is arguably the single most-specified window in SD luxury remodels. It reads slim and architectural — not plastic — because of the narrow sightline. For coastal properties, black vinyl is the maintenance-free alternative to black powder-coated aluminum.",
+          },
+          {
+            material:"Fiberglass",color:T.teal,
+            intro:"Fiberglass frames can be painted — the surface accepts paint adhesion far better than vinyl and holds paint longer than wood. This is the key differentiator: any Sherwin-Williams or Benjamin Moore color code can be applied to a fiberglass window.",
+            finishTypes:[
+              {name:"Factory White",detail:"Applied during manufacturing — the most common specification. Factory finishes on fiberglass have better adhesion and longevity than field-painted.",swatch:"#f0ede6"},
+              {name:"Factory Black",detail:"Available from Milgard Ultra and Marvin Essential as a factory-applied black. More durable than field painting.",swatch:"#1A1A1A"},
+              {name:"Custom Paint (Any Color)",detail:"The major advantage of fiberglass. Field painting by a painter is straightforward — fiberglass accepts latex and oil-based paints with a light sanding. Match to any Sherwin-Williams color. Marvin Elevate is available in Ultrex® factory colors or fully custom.",swatch:"linear-gradient(135deg,#4a8a7a,#c87a4a,#8fa8c8)"},
+              {name:"Stain (Wood-Interior Units)",detail:"On aluminum-clad wood or fiberglass with wood interiors (Marvin Elevate), the interior can be stained in any color to match wood floors, beams, or millwork. The exterior is painted or factory-coated.",swatch:"#7a4a1a"},
+            ],
+            sdGuidance:"For RSF and La Jolla projects that need a specific exterior color to match a custom stucco palette, fiberglass with custom paint is the answer. A house with a custom exterior color needs a window that matches — vinyl can't do it, aluminum may not hold up in direct coastal exposure, but fiberglass handles both.",
+          },
+          {
+            material:"Aluminum",color:T.gold,
+            intro:"Aluminum frames are finished by powder coating (most common) or anodizing (preferred for coastal). Both processes are applied to the raw aluminum extrusion before or after fabrication. The color range is extensive.",
+            finishTypes:[
+              {name:"Powder Coat — Matte Black",detail:"The architectural standard for contemporary homes. Powder coat is a dry paint electrostatically applied and oven-cured — very durable inland. In direct salt air, powder coat can begin to chalk or pit over time. Best for homes 1+ miles from direct ocean.",swatch:"#1e1e1e"},
+              {name:"Powder Coat — Custom Colors",detail:"Aluminum takes powder coat in virtually any color — standard RAL or custom match. NanaWall, LaCantina, and Andersen all offer extensive color libraries. Many architects specify a RAL code to match cladding, roofing, or door systems for a fully unified exterior.",swatch:"linear-gradient(135deg,#1a1a1a,#4a7a6a,#c9a84c)"},
+              {name:"Anodized (Clear / Dark Bronze)",detail:"Anodizing electrochemically converts the aluminum surface to aluminum oxide — a ceramic-like finish that is integral to the metal (not a coating). Anodized finishes do not peel, chip, or corrode in salt air. The preferred specification for beachfront aluminum. Available in clear (silver), dark bronze, and black.",swatch:"#5a4030"},
+              {name:"Dual Finish (Interior / Exterior)",detail:"Premium aluminum windows allow specifying different finishes for interior and exterior faces. Common application: black exterior (to match window wall) + white interior (to match drywall/trim). NanaWall and Andersen E-Series both offer dual-finish programs.",swatch:"linear-gradient(90deg,#1a1a1a 50%,#f0ede6 50%)"},
+            ],
+            sdGuidance:"For La Jolla beachfront, always specify anodized over powder coat for any aluminum element in direct ocean exposure — the 92037 ocean air is aggressive. Anodizing is meaningfully more expensive but eliminates the maintenance problem that powder coat creates in that environment. For homes a mile or more inland, powder coat performs fine.",
+          },
+          {
+            material:"Aluminum-Clad Wood",color:T.rust,
+            intro:"The split finish system: an aluminum exterior (powder-coated or factory-finished) handles weather exposure, while the interior wood surface is stained or painted to match interior finishes. This is the system that allows the interior of a window to perfectly match wood floors and millwork.",
+            finishTypes:[
+              {name:"Exterior — Factory Colors (Aluminum Clad)",detail:"The aluminum exterior clad is factory-finished in a range of colors. Marvin offers the broadest palette with 50+ Ultrex® colors and unlimited custom paint match. Andersen E-Series offers 50+ color options.",swatch:"#2a2a2a"},
+              {name:"Interior — Natural Wood Stain",detail:"The wood interior (pine, fir, maple, or oak depending on manufacturer) is stained to any color — matching floors, millwork, cabinetry, or exposed beams. This is the defining visual feature of alum-clad wood windows.",swatch:"#a07040"},
+              {name:"Interior — White or Custom Paint",detail:"The wood interior can be painted rather than stained — common in contemporary homes where a clean white interior is desired regardless of the exterior color. Painted interior is slightly easier to touch up than stained.",swatch:"#f0ede6"},
+              {name:"Marvin Coastal Stainless Hardware",detail:"For oceanfront properties, Marvin's coastal stainless hardware program replaces all exposed hardware (handles, locks, hinges, fasteners) with marine-grade stainless steel. Standard hardware will corrode within a few years in direct salt air — the coastal program eliminates this.",swatch:"#a8aaaa"},
+            ],
+            sdGuidance:"The interior stain match is where the sale closes. Pull out the stain samples, get a piece of the client's floor material, and show them how the window interior stain matches the floor. When a client sees that the window frame and the hardwood floor are the same stain color, the project feels like a considered whole rather than an assembly of parts.",
+          },
+        ];
+
+        // ── GLAZING OPTIONS (SD-specific)
+        const glazingOptions=[
+          {name:"Standard Low-E Double Pane",color:T.slate,detail:"The baseline for all SD residential windows. Low-E coating + argon fill meets Title 24 in both CZ7 and CZ10. This is what comes standard from all major manufacturers."},
+          {name:"LoE-366 / High-Performance Low-E",color:T.teal,detail:"Triple-silver Low-E coating (Cardinal LoE-366 or equivalent) for maximum solar heat rejection with high visible transmittance. Spec this for west and south-facing elevations in SD's sunny climate."},
+          {name:"i89 (Surface 4 Coating)",color:T.gold,detail:"Applied to the interior glass surface — improves U-factor without changing visible appearance. Recommended add-on for thermally broken aluminum windows to push Title 24 compliance."},
+          {name:"Acoustic / STC-Rated Glass",color:T.sage,detail:"Acoustic laminated glass unit for freeway, flight path, and rail noise reduction. See the Glass Guide → Acoustic section for full STC detail."},
+          {name:"Tempered Safety Glass",color:T.rust,detail:"Required in all windows within 18\" of the floor, within 24\" of a door, and in all windows in bathrooms. Standard from most manufacturers in these locations — confirm with your spec."},
+          {name:"Laminated Glass",color:T.plum,detail:"For security, hurricane zones, and acoustic applications. Holds together when broken unlike tempered. Required in some skylights and high-wind zones."},
+        ];
+
+        // ── SD CLIMATE data
+        const sdClimateItems=[
+          {icon:"",title:"Solar Heat Gain (SHGC) in SD",color:T.gold,body:"San Diego is sunny year-round — solar heat gain is the primary energy concern, not cold-weather heat loss. Specify low SHGC (0.22–0.26) on south and west elevations to reduce AC load. East and north elevations can use a slightly higher SHGC (0.27–0.30) to allow morning warmth without afternoon overheating."},
+          {icon:"",title:"Coastal Salt Air — Frame Selection",color:T.teal,body:"Within 500ft of direct ocean: specify anodized aluminum, fiberglass, or vinyl only. Powder-coated aluminum will begin to deteriorate. Aluminum-clad wood with marine-grade hardware (Marvin coastal stainless) is acceptable at this range. 500ft–1mi: powder coat is acceptable with periodic cleaning. Beyond 1mi: standard specifications apply."},
+          {icon:"",title:"Elevation — Breather Tubes",color:T.slate,body:"Above 4,000ft (Julian at 4,235ft, Mt. Laguna at ~6,000ft, Pine Valley at ~3,900ft), IGU seals can be stressed by the pressure differential at elevation. Specify breather tubes on all double-pane IGUs for properties at or above 4,000ft. This is a commonly missed spec detail — most dealers need to be asked specifically."},
+          {icon:"",title:"Fire Zone Glazing",color:T.rust,body:"FHSZ Very High properties require fire-rated glazing — tempered is not sufficient. Fire-rated laminated glass or ceramic glass is required in designated FHSZ zones. Check the CAL FIRE lookup before specifying standard glazing on any hillside or inland San Diego project."},
+          {icon:"",title:"Title 24 (CZ7 vs CZ10)",color:T.sage,body:"San Diego County spans Climate Zone 7 (coastal) and Climate Zone 10 (inland/desert-transitional). CZ10 has stricter U-factor requirements. Most of San Diego proper (La Jolla, Coronado, Mission Hills) is CZ7. Ramona, El Cajon, Santee, and the eastern portions are CZ10. Confirm the climate zone before finalizing the glazing spec for any permitted project."},
+          {icon:"",title:"Standard SD Window Spec",color:T.plum,body:"For a typical San Diego residential project in CZ7: Double-pane IGU · Argon fill · Low-E (LoE-272 or LoE-366) · U-factor ≤ 0.30 · SHGC ≤ 0.23 · Thermally broken frame (aluminum) or vinyl/fiberglass. This spec meets code, performs well in the mild climate, and is available from every major vendor without premium pricing."},
+        ];
+
+        return (
+          <div className="sidebar-layout" style={{animation:"fadeUp 0.25s ease"}}>
+            {/* Left nav */}
+            <div className="sidebar-nav" style={{width:"200px"}}>
+              <div style={{fontSize:"9px",letterSpacing:"3px",color:T.faint,fontFamily:"monospace",padding:"12px 18px",whiteSpace:"nowrap"}} className="sidebar-label">WINDOW GUIDE</div>
+              {windowNavItems.map(n=>(
+                <button key={n.id} onClick={()=>setWindowSub(n.id)} style={{display:"block",width:"100%",textAlign:"left",background:windowSub===n.id?`${n.color}12`:"none",border:"none",borderLeft:`3px solid ${windowSub===n.id?n.color:"transparent"}`,padding:"13px 18px",cursor:"pointer",transition:"all 0.15s"}}>
+                  <div className="sidebar-icon" style={{fontSize:"18px",color:windowSub===n.id?n.color:"#333333",marginBottom:"4px"}}>{n.icon}</div>
+                  <div className="sidebar-label" style={{fontSize:"11px",color:windowSub===n.id?n.color:T.dim,letterSpacing:"1px",lineHeight:1.3}}>{n.label}</div>
+                </button>
+              ))}
+            </div>
+
+            {/* Main content */}
+            <div className="sidebar-content" key={windowSub}>
+
+              {/* ══ FRAME MATERIALS ══ */}
+              {windowSub==="frame_materials"&&(
+                <div>
+                  <div style={{background:`${T.slate}0e`,border:`1px solid ${T.slate}33`,borderRadius:"12px",padding:"22px 26px",marginBottom:"24px"}}>
+                    <div style={{fontSize:"9px",letterSpacing:"4px",color:T.slate,fontFamily:"monospace",marginBottom:"6px"}}>WINDOW GUIDE</div>
+                    <div style={{fontSize:"22px",fontWeight:400,marginBottom:"6px"}}>Frame <em style={{color:T.slate}}>Materials</em></div>
+                    <p style={{margin:0,fontSize:"13px",color:T.muted,lineHeight:1.75,maxWidth:"720px"}}>Frame material is the most consequential decision in a window specification {"\u2014"} it determines durability, color options, sightline width, maintenance requirements, and overall cost. San Diego's coastal climate, fire zones, and year-round sun create a specific set of requirements that differ from most of the country.</p>
+                  </div>
+                  <div style={{display:"flex",flexDirection:"column",gap:"14px"}}>
+                    {frameMaterials.map(mat=>(
+                      <div key={mat.id} style={{background:T.card,border:`1px solid ${T.border}`,borderRadius:"12px",overflow:"hidden",borderLeft:`4px solid ${mat.color}`}}>
+                        <div style={{padding:"18px 22px 14px"}}>
+                          <div style={{display:"flex",justifyContent:"space-between",alignItems:"flex-start",flexWrap:"wrap",gap:"10px",marginBottom:"10px"}}>
+                            <div style={{display:"flex",alignItems:"center",gap:"10px"}}>
+                              <div style={{width:"36px",height:"36px",borderRadius:"8px",background:`${mat.color}18`,border:`1px solid ${mat.color}44`,display:"flex",alignItems:"center",justifyContent:"center",fontSize:"18px"}}>{mat.icon}</div>
+                              <div>
+                                <div style={{fontSize:"17px",fontWeight:500,color:T.text}}>{mat.name}</div>
+                                <div style={{fontSize:"11px",fontStyle:"italic",color:mat.color,marginTop:"2px"}}>{mat.tagline}</div>
+                              </div>
+                            </div>
+                            <Pill label={mat.priceRange} color={mat.color}/>
+                          </div>
+                          <p style={{margin:"0 0 16px",fontSize:"13px",color:T.muted,lineHeight:1.75}}>{mat.overview}</p>
+                          <div className="grid-2col" style={{marginBottom:"14px"}}>
+                            <div style={{background:T.card2,borderRadius:"8px",padding:"13px 15px"}}>
+                              <SectionLabel color={mat.color}>PROS</SectionLabel>
+                              {mat.pros.map(p=><div key={p} style={{fontSize:"11px",color:"#606060",marginBottom:"5px",display:"flex",gap:"6px"}}><span style={{color:mat.color,flexShrink:0}}>{"\u2713"}</span>{p}</div>)}
+                            </div>
+                            <div style={{background:T.card2,borderRadius:"8px",padding:"13px 15px"}}>
+                              <SectionLabel color="#C05040">CONS</SectionLabel>
+                              {mat.cons.map(c=><div key={c} style={{fontSize:"11px",color:"#7a5a54",marginBottom:"5px",display:"flex",gap:"6px"}}><span style={{flexShrink:0}}>{"\u00B7"}</span>{c}</div>)}
+                            </div>
+                          </div>
+                          <div style={{background:`${mat.color}0a`,border:`1px solid ${mat.color}22`,borderRadius:"7px",padding:"12px 15px",marginBottom:"12px"}}>
+                            <SectionLabel color={mat.color}>SAN DIEGO NOTES</SectionLabel>
+                            <p style={{margin:0,fontSize:"12px",color:T.muted,lineHeight:1.65}}>{mat.sdNote}</p>
+                          </div>
+                          <div>
+                            <SectionLabel color={mat.color}>AVAILABLE FROM</SectionLabel>
+                            <div style={{display:"flex",flexWrap:"wrap",gap:"6px"}}>{mat.brands.map(b=><Pill key={b} label={b} color={mat.color}/>)}</div>
+                          </div>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {/* ══ OPERATION TYPES ══ */}
+              {windowSub==="operation_types"&&(
+                <div>
+                  <div style={{background:`${T.teal}0e`,border:`1px solid ${T.teal}33`,borderRadius:"12px",padding:"22px 26px",marginBottom:"24px"}}>
+                    <div style={{fontSize:"9px",letterSpacing:"4px",color:T.teal,fontFamily:"monospace",marginBottom:"6px"}}>WINDOW GUIDE</div>
+                    <div style={{fontSize:"22px",fontWeight:400,marginBottom:"6px"}}>Operation <em style={{color:T.teal}}>Types</em></div>
+                    <p style={{margin:0,fontSize:"13px",color:T.muted,lineHeight:1.75,maxWidth:"720px"}}>How a window opens determines how much air it can move, what architecture it suits, and where it can be placed. Each operation type has specific strengths {"\u2014"} the right mix for a home depends on orientation, room function, and aesthetic.</p>
+                  </div>
+                  <div style={{display:"flex",flexDirection:"column",gap:"16px"}}>
+                    {operationTypes.map(op=>(
+                      <div key={op.id} style={{background:T.card,border:`1px solid ${T.border}`,borderRadius:"12px",overflow:"hidden"}}>
+                        <div style={{padding:"18px 22px 20px"}}>
+                          <div style={{display:"grid",gridTemplateColumns:"auto 1fr",gap:"20px",alignItems:"start"}}>
+                            {/* Illustration */}
+                            <div style={{background:"#EEF5EE",border:`1px solid ${op.color}22`,borderRadius:"10px",padding:"12px",display:"flex",flexDirection:"column",alignItems:"center",gap:"6px"}}>
+                              <div style={{fontSize:"8px",letterSpacing:"2px",color:op.color,fontFamily:"monospace",marginBottom:"4px"}}>ILLUSTRATION</div>
+                              <WinOpSVG type={op.id} color={op.color}/>
+                            </div>
+                            {/* Content */}
+                            <div>
+                              <div style={{display:"flex",alignItems:"baseline",gap:"10px",marginBottom:"6px",flexWrap:"wrap"}}>
+                                <div style={{fontSize:"17px",fontWeight:500,color:T.text}}>{op.name}</div>
+                                <div style={{fontSize:"11px",fontStyle:"italic",color:op.color}}>{op.tagline}</div>
+                              </div>
+                              <p style={{margin:"0 0 14px",fontSize:"13px",color:T.muted,lineHeight:1.75}}>{op.overview}</p>
+                              <div style={{background:T.card2,borderRadius:"8px",padding:"12px 14px",marginBottom:"12px"}}>
+                                <SectionLabel color={op.color}>HOW IT WORKS</SectionLabel>
+                                <p style={{margin:0,fontSize:"12px",color:T.muted,lineHeight:1.65}}>{op.howItWorks}</p>
+                              </div>
+                              <div style={{display:"grid",gridTemplateColumns:"repeat(2,minmax(0,1fr))",gap:"10px"}}>
+                                <div>
+                                  <SectionLabel color={op.color}>CONFIGURATIONS</SectionLabel>
+                                  {op.configurations.map(c=><div key={c} style={{fontSize:"11px",color:"#606060",marginBottom:"4px",paddingLeft:"8px",borderLeft:`2px solid ${op.color}44`}}>{c}</div>)}
+                                </div>
+                                <div>
+                                  <SectionLabel color={op.color}>BEST FOR</SectionLabel>
+                                  {op.bestFor.map(b=><div key={b} style={{fontSize:"11px",color:"#606060",marginBottom:"4px",display:"flex",gap:"5px"}}><span style={{color:op.color,flexShrink:0}}>{"\u2192"}</span>{b}</div>)}
+                                  {op.limitations&&<div style={{marginTop:"10px"}}>
+                                    <SectionLabel color="#C05040">LIMITATIONS</SectionLabel>
+                                    {op.limitations.map(l=><div key={l} style={{fontSize:"11px",color:"#8A3A30",marginBottom:"3px"}}>{"\u00B7"} {l}</div>)}
+                                  </div>}
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {/* ══ FINISHES BY FRAME ══ */}
+              {windowSub==="finishes"&&(
+                <div>
+                  <div style={{background:`${T.gold}0e`,border:`1px solid ${T.gold}33`,borderRadius:"12px",padding:"22px 26px",marginBottom:"24px"}}>
+                    <div style={{fontSize:"9px",letterSpacing:"4px",color:T.gold,fontFamily:"monospace",marginBottom:"6px"}}>WINDOW GUIDE</div>
+                    <div style={{fontSize:"22px",fontWeight:400,marginBottom:"6px"}}>Finishes <em style={{color:T.gold}}>by Frame Material</em></div>
+                    <p style={{margin:0,fontSize:"13px",color:T.muted,lineHeight:1.75,maxWidth:"720px"}}>Available colors and finish types vary entirely by frame material. Vinyl is limited to 4{"\u2013"}6 factory colors. Aluminum can be powder-coated or anodized to almost any color. Fiberglass can be field-painted. Aluminum-clad wood splits interior and exterior finishes independently. Understanding this matrix is essential for spec conversations with architects and designers.</p>
+                  </div>
+                  <div style={{display:"flex",flexDirection:"column",gap:"16px"}}>
+                    {finishesData.map(fd=>(
+                      <div key={fd.material} style={{background:T.card,border:`1px solid ${T.border}`,borderRadius:"12px",overflow:"hidden",borderTop:`3px solid ${fd.color}`}}>
+                        <div style={{padding:"18px 22px 20px"}}>
+                          <div style={{fontSize:"16px",fontWeight:500,color:T.text,marginBottom:"4px"}}>{fd.material}</div>
+                          <p style={{margin:"0 0 16px",fontSize:"13px",color:T.muted,lineHeight:1.7}}>{fd.intro}</p>
+                          <div style={{display:"grid",gridTemplateColumns:"repeat(auto-fill,minmax(min(220px,100%),1fr))",gap:"10px",marginBottom:"14px"}}>
+                            {fd.finishTypes.map(ft=>(
+                              <div key={ft.name} style={{background:T.card2,borderRadius:"8px",overflow:"hidden",border:`1px solid ${T.border}`}}>
+                                {/* Color swatch bar */}
+                                <div style={{height:"28px",background:ft.swatch,borderBottom:`1px solid ${T.border}`}}/>
+                                <div style={{padding:"10px 12px"}}>
+                                  <div style={{fontSize:"11px",fontWeight:500,color:"#484848",marginBottom:"4px"}}>{ft.name}</div>
+                                  <div style={{fontSize:"10px",color:T.dim,lineHeight:1.5}}>{ft.detail}</div>
+                                </div>
+                              </div>
+                            ))}
+                          </div>
+                          <div style={{background:`${fd.color}0a`,border:`1px solid ${fd.color}22`,borderRadius:"7px",padding:"12px 15px"}}>
+                            <SectionLabel color={fd.color}>SD SPEC GUIDANCE</SectionLabel>
+                            <p style={{margin:0,fontSize:"12px",color:T.muted,lineHeight:1.65}}>{fd.sdGuidance}</p>
+                          </div>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {/* ══ GLAZING OPTIONS ══ */}
+              {windowSub==="glazing"&&(
+                <div>
+                  <div style={{background:`${T.sage}0e`,border:`1px solid ${T.sage}33`,borderRadius:"12px",padding:"22px 26px",marginBottom:"24px"}}>
+                    <div style={{fontSize:"9px",letterSpacing:"4px",color:T.sage,fontFamily:"monospace",marginBottom:"6px"}}>WINDOW GUIDE</div>
+                    <div style={{fontSize:"22px",fontWeight:400,marginBottom:"6px"}}>Glazing <em style={{color:T.sage}}>Options</em></div>
+                    <p style={{margin:0,fontSize:"13px",color:T.muted,lineHeight:1.75,maxWidth:"720px"}}>The glass unit inside the frame performs most of the thermal and acoustic work. Frame material matters, but glazing specification {"\u2014"} Low-E coating type, gas fill, glass thickness, and lamination — often has more impact on comfort and energy bills than the frame itself. See the Glass Guide tab for comprehensive glazing detail.</p>
+                  </div>
+                  <div style={{display:"grid",gridTemplateColumns:"repeat(auto-fill,minmax(340px,1fr))",gap:"12px",marginBottom:"20px"}}>
+                    {glazingOptions.map(g=>(
+                      <div key={g.name} style={{background:T.card,border:`1px solid ${g.color}33`,borderRadius:"10px",padding:"16px 18px",borderLeft:`3px solid ${g.color}`}}>
+                        <div style={{fontSize:"13px",fontWeight:500,color:T.text,marginBottom:"6px"}}>{g.name}</div>
+                        <div style={{fontSize:"12px",color:T.muted,lineHeight:1.65}}>{g.detail}</div>
+                      </div>
+                    ))}
+                  </div>
+                  <div style={{background:"#F0F5F2",border:`1px solid ${T.gold}33`,borderRadius:"10px",padding:"16px 20px"}}>
+                    <SectionLabel color={T.gold}>GLASS GUIDE REFERENCE</SectionLabel>
+                    <p style={{margin:"0 0 10px",fontSize:"13px",color:T.muted,lineHeight:1.7}}>For comprehensive glazing detail {"\u2014"} STC ratings, Low-E coating comparisons, Title 24 compliance paths, acoustic glass specs, and single vs. dual vs. triple pane analysis — see the dedicated Glass Guide tab.</p>
+                    <button onClick={()=>setMainTab("glass_guide")} style={{background:T.gold,border:"none",color:T.text,padding:"8px 18px",borderRadius:"5px",cursor:"pointer",fontSize:"10px",letterSpacing:"2px",fontFamily:"monospace",fontWeight:700}}>OPEN GLASS GUIDE {"\u2192"}</button>
+                  </div>
+                </div>
+              )}
+
+              {/* ══ SD CLIMATE GUIDE ══ */}
+              {windowSub==="sd_specs"&&(
+                <div>
+                  <div style={{background:`${T.rust}0e`,border:`1px solid ${T.rust}33`,borderRadius:"12px",padding:"22px 26px",marginBottom:"24px"}}>
+                    <div style={{fontSize:"9px",letterSpacing:"4px",color:T.rust,fontFamily:"monospace",marginBottom:"6px"}}>WINDOW GUIDE</div>
+                    <div style={{fontSize:"22px",fontWeight:400,marginBottom:"6px"}}>San Diego <em style={{color:T.rust}}>Climate Spec Guide</em></div>
+                    <p style={{margin:0,fontSize:"13px",color:T.muted,lineHeight:1.75,maxWidth:"720px"}}>San Diego's climate creates specific window specification requirements that differ from most US markets. Coastal salt air, fire zones, year-round solar gain, and occasional mountain elevations each influence what should be specified. This guide covers the SD-specific considerations every rep and contractor should know.</p>
+                  </div>
+                  <div style={{display:"flex",flexDirection:"column",gap:"12px",marginBottom:"20px"}}>
+                    {sdClimateItems.map(item=>(
+                      <div key={item.title} style={{background:T.card,border:`1px solid ${item.color}33`,borderRadius:"10px",padding:"18px 22px",display:"grid",gridTemplateColumns:"40px 1fr",gap:"14px",alignItems:"start"}}>
+                        <div style={{fontSize:"24px",textAlign:"center",marginTop:"2px"}}>{item.icon}</div>
+                        <div>
+                          <div style={{fontSize:"14px",fontWeight:500,color:T.text,marginBottom:"6px"}}>{item.title}</div>
+                          <p style={{margin:0,fontSize:"13px",color:T.muted,lineHeight:1.75}}>{item.body}</p>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                  <div style={{background:"#EEF4F2",border:`1px solid ${T.teal}33`,borderRadius:"10px",padding:"18px 22px"}}>
+                    <SectionLabel color={T.teal}>STANDARD SD WINDOW SPEC {"\u2014"} QUICK REFERENCE</SectionLabel>
+                    <div style={{display:"grid",gridTemplateColumns:"repeat(auto-fill,minmax(200px,1fr))",gap:"8px"}}>
+                      {[
+                        {label:"Glass Unit",value:"Double pane IGU"},
+                        {label:"Gas Fill",value:"Argon"},
+                        {label:"Low-E",value:"LoE-272 or LoE-366"},
+                        {label:"U-Factor",value:"≤ 0.30 (CZ7)"},
+                        {label:"SHGC",value:"≤ 0.23 (south/west)"},
+                        {label:"Frame",value:"Thermally broken reqd. (aluminum)"},
+                        {label:"Coastal",value:"Anodized or fiberglass/vinyl"},
+                        {label:"Fire Zone",value:"Fire-rated laminated glass"},
+                      ].map(s=>(
+                        <div key={s.label} style={{background:T.card2,borderRadius:"6px",padding:"10px 12px"}}>
+                          <div style={{fontSize:"8px",letterSpacing:"2px",color:T.teal,fontFamily:"monospace",marginBottom:"3px"}}>{s.label}</div>
+                          <div style={{fontSize:"12px",color:"#484848"}}>{s.value}</div>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                </div>
+              )}
+
+            </div>
+          </div>
+        );
+      })()}
+
+      {/* ─── PATIO & LARGE DOOR SYSTEMS ─── */}
+      {mainTab==="large_doors"&&(()=>{
+        const sys = largeDoorSystems.find(s=>s.id===largeDoorSub)||largeDoorSystems[0];
+        return (
+          <div className="sidebar-layout" style={{animation:"fadeUp 0.25s ease"}}>
+            {/* Left nav */}
+            <div className="sidebar-nav" style={{width:"200px"}}>
+              <div style={{fontSize:"9px",letterSpacing:"3px",color:T.faint,fontFamily:"monospace",padding:"12px 18px",whiteSpace:"nowrap"}} className="sidebar-label">SYSTEM TYPES</div>
+              {largeDoorSystems.map(s=>(
+                <button key={s.id} onClick={()=>setLargeDoorSub(s.id)} style={{display:"block",width:"100%",textAlign:"left",background:largeDoorSub===s.id?`${s.color}12`:"none",border:"none",borderLeft:`3px solid ${largeDoorSub===s.id?s.color:"transparent"}`,padding:"13px 18px",cursor:"pointer",transition:"all 0.15s"}}>
+                  <div style={{width:"52px",height:"46px",marginBottom:"4px",overflow:"visible"}}><div style={{transform:"scale(1.6)",transformOrigin:"top left",color:largeDoorSub===s.id?s.color:"#555555"}} dangerouslySetInnerHTML={{__html:s.icon}}/></div>
+                  <div className="sidebar-label" style={{fontSize:"11px",color:largeDoorSub===s.id?s.color:T.dim,letterSpacing:"1px",lineHeight:1.3}}>{s.name.split("(")[0].split("/")[0].trim()}</div>
+                  <div className="sidebar-label" style={{fontSize:"10px",color:largeDoorSub===s.id?s.color+"aa":T.faint,marginTop:"2px",fontStyle:"italic"}}>{s.price}</div>
+                </button>
+              ))}
+            </div>
+
+            {/* Main content */}
+            <div className="sidebar-content" key={largeDoorSub}>
+              {/* Header */}
+              <div style={{background:`${sys.color}0e`,border:`1px solid ${sys.color}33`,borderRadius:"12px",padding:"22px 26px",marginBottom:"22px",position:"relative",overflow:"hidden"}}>
+                <div style={{position:"absolute",right:"-10px",top:"-10px",fontSize:"100px",opacity:0.04,color:sys.color,lineHeight:1}}>{sys.bg}</div>
+                <div style={{display:"flex",justifyContent:"space-between",alignItems:"flex-start",flexWrap:"wrap",gap:"10px",marginBottom:"12px"}}>
+                  <div>
+                    <div style={{fontSize:"9px",letterSpacing:"4px",color:sys.color,fontFamily:"monospace",marginBottom:"6px"}}>DOOR SYSTEM GUIDE</div>
+                    <div style={{fontSize:"22px",fontWeight:400,color:T.text,lineHeight:1.2}}>{sys.name}</div>
+                    <div style={{fontSize:"13px",fontStyle:"italic",color:sys.color,marginTop:"4px"}}>{sys.tagline}</div>
+                  </div>
+                  <div style={{display:"flex",flexDirection:"column",alignItems:"flex-end",gap:"6px"}}>
+                    <div style={{fontSize:"9px",letterSpacing:"2px",color:T.faint,fontFamily:"monospace"}}>PRICE RANGE</div>
+                    <div style={{fontSize:"16px",color:sys.color,letterSpacing:"2px"}}>{sys.price}</div>
+                    <div style={{fontSize:"9px",letterSpacing:"1px",color:T.faint,fontFamily:"monospace",textAlign:"right"}}>ETA: {sys.leadTime}</div>
+                  </div>
+                </div>
+                <p style={{margin:0,fontSize:"13px",color:T.muted,lineHeight:1.75,maxWidth:"720px"}}>{sys.blurb}</p>
+              </div>
+
+              <div style={{display:"grid",gridTemplateColumns:"repeat(auto-fill,minmax(480px,1fr))",gap:"16px"}}>
+
+                {/* How it works */}
+                <div style={{background:T.card,border:`1px solid ${T.border}`,borderRadius:"10px",padding:"18px 22px"}}>
+                  <SectionLabel color={sys.color}>HOW IT WORKS</SectionLabel>
+                  <p style={{margin:0,fontSize:"13px",color:T.muted,lineHeight:1.75}}>{sys.howItWorks}</p>
+                </div>
+
+                {/* Configurations */}
+                <div style={{background:T.card,border:`1px solid ${T.border}`,borderRadius:"10px",padding:"18px 22px"}}>
+                  <SectionLabel color={sys.color}>CONFIGURATIONS</SectionLabel>
+                  <div style={{display:"flex",flexDirection:"column",gap:"10px"}}>
+                    {sys.configurations.map(c=>(
+                      <div key={c.name} style={{background:T.card2,borderRadius:"7px",padding:"12px 14px",borderLeft:`3px solid ${sys.color}55`}}>
+                        <div style={{fontSize:"13px",fontWeight:500,color:"#484848",marginBottom:"4px"}}>{c.name}</div>
+                        <div style={{fontSize:"12px",color:T.dim,lineHeight:1.5}}>{c.detail}</div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+
+                {/* Frame options */}
+                <div style={{background:T.card,border:`1px solid ${T.border}`,borderRadius:"10px",padding:"18px 22px"}}>
+                  <SectionLabel color={sys.color}>FRAME OPTIONS</SectionLabel>
+                  {sys.frameOptions.map(f=><div key={f} style={{fontSize:"12px",color:"#606060",marginBottom:"6px",paddingLeft:"10px",borderLeft:`2px solid ${sys.color}44`}}>{f}</div>)}
+                  {sys.hardwareNotes&&<div style={{marginTop:"14px"}}>
+                    <SectionLabel color={sys.color}>HARDWARE NOTES</SectionLabel>
+                    <p style={{margin:0,fontSize:"12px",color:T.muted,lineHeight:1.65}}>{sys.hardwareNotes}</p>
+                  </div>}
+                </div>
+
+                {/* Glass & threshold */}
+                <div style={{background:T.card,border:`1px solid ${T.border}`,borderRadius:"10px",padding:"18px 22px"}}>
+                  <SectionLabel color={sys.color}>GLASS OPTIONS</SectionLabel>
+                  {sys.glassOptions.map(g=><div key={g} style={{fontSize:"12px",color:"#606060",marginBottom:"5px"}}>{"\u25FB"} {g}</div>)}
+                  {sys.thresholdTypes&&<div style={{marginTop:"14px"}}>
+                    <SectionLabel color={sys.color}>THRESHOLD TYPES</SectionLabel>
+                    {sys.thresholdTypes.map(t=>(
+                      <div key={t.name} style={{background:T.card2,borderRadius:"6px",padding:"10px 12px",marginBottom:"7px"}}>
+                        <div style={{fontSize:"12px",fontWeight:500,color:"#484848",marginBottom:"3px"}}>{t.name}</div>
+                        <div style={{fontSize:"11px",color:T.dim,lineHeight:1.5}}>{t.detail}</div>
+                      </div>
+                    ))}
+                  </div>}
+                </div>
+
+                {/* Pros & Cons */}
+                <div style={{background:T.card,border:`1px solid ${T.border}`,borderRadius:"10px",padding:"18px 22px"}}>
+                  <div style={{display:"grid",gridTemplateColumns:"repeat(auto-fill,minmax(min(260px,100%),1fr))",gap:"14px"}}>
+                    <div>
+                      <SectionLabel color={sys.color}>PROS</SectionLabel>
+                      {sys.pros.map(p=><div key={p} style={{fontSize:"12px",color:"#606060",marginBottom:"5px"}}>{"\u2713"} {p}</div>)}
+                    </div>
+                    <div>
+                      <SectionLabel color="#C05040">CONS</SectionLabel>
+                      {sys.cons.map(c=><div key={c} style={{fontSize:"12px",color:"#8A3A30",marginBottom:"5px"}}>{"\u00B7"} {c}</div>)}
+                    </div>
+                  </div>
+                  {sys.bestFor&&<div style={{marginTop:"14px",borderTop:`1px solid ${T.border}`,paddingTop:"12px"}}>
+                    <SectionLabel>BEST FOR</SectionLabel>
+                    {sys.bestFor.map(b=><div key={b} style={{fontSize:"12px",color:"#606060",marginBottom:"4px"}}>{"\u2192"} {b}</div>)}
+                  </div>}
+                </div>
+
+                {/* Vendors */}
+                <div style={{background:T.card,border:`1px solid ${T.border}`,borderRadius:"10px",padding:"18px 22px"}}>
+                  <SectionLabel color={sys.color}>VENDORS FOR THIS SYSTEM</SectionLabel>
+                  <div style={{display:"flex",flexWrap:"wrap",gap:"7px"}}>{sys.vendors.map(v=><Pill key={v} label={v} color={sys.color}/>)}</div>
+                </div>
+
+                {/* Overhang & exposure note */}
+                <div style={{background:"#F0F4FA",border:"1px solid #7A9ABB44",borderRadius:"10px",padding:"18px 22px",gridColumn:"1/-1"}}>
+                  <div style={{display:"flex",justifyContent:"space-between",alignItems:"flex-start",flexWrap:"wrap",gap:"10px"}}>
+                    <div style={{flex:1}}>
+                      <SectionLabel color={T.slate}>☁ OVERHANG & WEATHER EXPOSURE REQUIREMENTS</SectionLabel>
+                      <p style={{margin:"0 0 12px",fontSize:"13px",color:"#5A6A7A",lineHeight:1.75}}>Most manufacturers publish minimum overhang depth requirements for exterior patio and large door systems — and many require written acknowledgment of exposure conditions before honoring warranty claims. Insufficient overhead protection is one of the most common causes of premature seal failure, hardware corrosion, sill water intrusion, and wood degradation in the field.</p>
+                      <div style={{display:"grid",gridTemplateColumns:"repeat(auto-fill,minmax(min(260px,100%),1fr))",gap:"14px",marginBottom:"12px"}}>
+                        <div style={{background:"#E8EEF5",borderRadius:"8px",padding:"12px 14px",borderLeft:"3px solid #7A9ABB"}}>
+                          <div style={{fontSize:"9px",fontFamily:"monospace",letterSpacing:"2px",color:T.slate,marginBottom:"6px"}}>GENERAL GUIDANCE</div>
+                          <div style={{fontSize:"12px",color:"#5A6A7A",lineHeight:1.65}}>A covered patio or roof eave of <strong>24" minimum depth</strong> is the common threshold cited by most manufacturers for standard aluminum systems. Wood and aluminum-clad wood panels typically require more — some specs call for 36"+ or a fully covered installation. Always verify the specific product's installation manual before finalizing the spec.</div>
+                        </div>
+                        <div style={{background:"#EEE8F5",borderRadius:"8px",padding:"12px 14px",borderLeft:"3px solid #9A7ABB"}}>
+                          <div style={{fontSize:"9px",fontFamily:"monospace",letterSpacing:"2px",color:T.plum,marginBottom:"6px"}}>WOOD & CLAD-WOOD PANELS</div>
+                          <div style={{fontSize:"12px",color:"#5A6A7A",lineHeight:1.65}}>Wood and aluminum-clad wood panels are the most vulnerable to direct weather exposure. Standing water on a bare wood sill, repeated wet-dry cycling, and UV exposure to unfinished clad joints accelerates deterioration. Marvin, Andersen, and Weather Shield all publish overhang minimums in their installation documentation — review these before specifying clad-wood in an exposed opening.</div>
+                        </div>
+                        <div style={{background:"#F5EEE8",borderRadius:"8px",padding:"12px 14px",borderLeft:"3px solid #BB8A6A"}}>
+                          <div style={{fontSize:"9px",fontFamily:"monospace",letterSpacing:"2px",color:T.rust,marginBottom:"6px"}}>LOW PROFILE & FLUSH SILLS</div>
+                          <div style={{fontSize:"12px",color:"#5A6A7A",lineHeight:1.65}}>Low-profile and flush sill systems — including NanaWall's Low Profile Sill and most large multi-slide threshold configurations — are deliberately minimized for indoor-outdoor flow, which also means they offer less weather resistance than a standard raised sill. These installations benefit most from covered overhead protection. In exposed applications, a standard raised sill is the safer specification.</div>
+                        </div>
+                      </div>
+                      <div style={{fontSize:"11px",color:"#7A8A9A",fontStyle:"italic",lineHeight:1.6}}>Aluminum-only systems (NanaWall, LaCantina aluminum, Western Window, Fleetwood) are the most tolerant of direct weather exposure. Vinyl systems handle moisture well but UV and heat cycling affect seals over time. Wood and clad-wood require the most protection. A covered installation is always the safest choice for any large door system.</div>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Fire zone */}
+                <div style={{background:"#FEF0EE",border:"1px solid #E87A6A44",borderRadius:"10px",padding:"18px 22px",gridColumn:"1/-1"}}>
+                  <div style={{display:"flex",justifyContent:"space-between",alignItems:"flex-start",flexWrap:"wrap",gap:"10px"}}>
+                    <div style={{flex:1}}>
+                      <SectionLabel color={T.ember}> FIRE ZONE NOTES</SectionLabel>
+                      <p style={{margin:"0 0 10px",fontSize:"13px",color:"#885858",lineHeight:1.7}}>{sys.fireNote}</p>
+                      <a href="https://osfm.fire.ca.gov/what-we-do/community-wildfire-preparedness-and-mitigation/fire-hazard-severity-zones" target="_blank" rel="noopener noreferrer" style={{fontSize:"10px",fontFamily:"monospace",color:T.ember,letterSpacing:"1px",textDecoration:"none"}}>CHECK ADDRESS AT OSFM.FIRE.CA.GOV {"\u2192"}</a>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        );
+      })()}
+
+
+      {/* ─── HARDWARE ─── */}
+      {mainTab==="hardware"&&(
+        <div style={{padding:"26px",maxWidth:"1000px",margin:"0 auto",animation:"fadeUp 0.25s ease"}}>
+
+          {/* Header */}
+          <div style={{background:"#EEF5EE",border:`1px solid ${T.gold}44`,borderRadius:"12px",padding:"22px 28px",marginBottom:"22px",position:"relative",overflow:"hidden"}}>
+            <div style={{position:"absolute",right:"20px",top:"10px",fontSize:"80px",opacity:0.04,color:T.gold}}></div>
+            <div style={{fontSize:"9px",letterSpacing:"4px",color:T.gold,fontFamily:"monospace",marginBottom:"6px"}}>HARDWARE GUIDE</div>
+            <div style={{fontSize:"22px",fontWeight:400,marginBottom:"6px"}}>Door Hardware by <em style={{color:T.gold}}>Emtek</em></div>
+            <p style={{margin:"0 0 14px",fontSize:"13px",color:T.muted,lineHeight:1.75,maxWidth:"680px"}}>Emtek is the most customizable residential hardware line available {"\u2014"} lever style, rosette shape, and finish are all selected independently, giving every project a bespoke look without custom pricing. Our hardware guide covers every category from entry sets to smart locks.</p>
+            <a href="https://www.emtek.com" target="_blank" rel="noopener noreferrer" style={{fontSize:"10px",fontFamily:"monospace",color:T.gold,letterSpacing:"2px",textDecoration:"none"}}>EMTEK.COM {"\u2192"}</a>
+          </div>
+
+          {/* Finish selector */}
+          <div style={{background:T.card,border:`1px solid ${T.border}`,borderRadius:"12px",padding:"20px 22px",marginBottom:"22px"}}>
+            <div style={{fontSize:"9px",letterSpacing:"3px",color:T.slate,marginBottom:"6px",fontFamily:"monospace"}}>STEP 1 {"\u2014"} CHOOSE YOUR FINISH</div>
+            <div style={{fontSize:"13px",color:T.muted,marginBottom:"14px"}}>Finish selection is the foundation of hardware specification {"\u2014"} it should be consistent with hinges, cabinet pulls, plumbing, and light fixtures throughout the space.</div>
+            <div style={{display:"grid",gridTemplateColumns:"repeat(auto-fill,minmax(90px,1fr))",gap:"8px",marginBottom:selFinish?"14px":"0"}}>
+              {hardwareFinishes.map(f=>(
+                <div key={f.name} onClick={()=>setSelFinish(selFinish===f.name?null:f.name)} style={{background:selFinish===f.name?"#F8F5F0":T.card2,border:`1px solid ${selFinish===f.name?T.slate:T.border}`,borderRadius:"8px",padding:"10px 8px",cursor:"pointer",display:"flex",flexDirection:"column",alignItems:"center",gap:"6px",transition:"all 0.15s"}}>
+                  <div style={{width:"28px",height:"28px",borderRadius:"50%",background:f.swatch,border:`1px solid ${T.faint}`}}/>
+                  <div style={{fontSize:"9px",color:selFinish===f.name?T.text:T.dim,textAlign:"center",lineHeight:1.3}}>{f.name}</div>
+                  {f.popular&&<span style={{fontSize:"7px",fontFamily:"monospace",color:T.gold,letterSpacing:"1px"}}>POP</span>}
+                </div>
+              ))}
+            </div>
+            {selFinish&&(
+              <div style={{background:`${T.slate}10`,border:`1px solid ${T.slate}33`,borderRadius:"8px",padding:"13px 15px",animation:"fadeUp 0.2s ease"}}>
+                <SectionLabel color={T.slate}>{selFinish.toUpperCase()} — SD GUIDANCE</SectionLabel>
+                <div style={{fontSize:"13px",color:T.muted,lineHeight:1.65}}>{finishGuide[selFinish]}</div>
+              </div>
+            )}
+          </div>
+
+          <div style={{fontSize:"9px",letterSpacing:"3px",color:T.faint,marginBottom:"14px",fontFamily:"monospace"}}>STEP 2 {"\u2014"} HARDWARE CATEGORIES</div>
+
+          <div style={{display:"flex",flexDirection:"column",gap:"10px"}}>
+            {hardwareCategories.map(cat=>{
+              const isOpen = hwOpen===cat.id;
+
+              // SVG illustrations per category
+              const svgs = {
+                monolithic:(
+                  <svg viewBox="0 0 120 220" width="120" height="220" style={{display:"block"}}>
+                    {/* Door panel */}
+                    <rect x="10" y="5" width="100" height="210" rx="3" fill="#F2EEEA" stroke="#C8C8C4" strokeWidth="1.5"/>
+                    {/* Monolithic backplate */}
+                    <rect x="72" y="55" width="16" height="110" rx="3" fill="#333333" stroke={cat.color} strokeWidth="0.8" opacity="0.9"/>
+                    {/* Lever */}
+                    <rect x="72" y="82" width="32" height="8" rx="3" fill={cat.color} opacity="0.85"/>
+                    <rect x="80" y="78" width="8" height="16" rx="2" fill={cat.color} opacity="0.7"/>
+                    {/* Keyhole */}
+                    <circle cx="80" cy="130" r="4" fill="none" stroke={cat.color} strokeWidth="1.2" opacity="0.7"/>
+                    <rect x="78" y="130" width="4" height="7" rx="1" fill="none" stroke={cat.color} strokeWidth="1.2" opacity="0.7"/>
+                    {/* Label */}
+                    <text x="60" y="200" textAnchor="middle" fill="#444444" fontSize="7" fontFamily="monospace">MONOLITHIC SET</text>
+                  </svg>
+                ),
+                lever:(
+                  <svg viewBox="0 0 120 200" width="120" height="200" style={{display:"block"}}>
+                    <rect x="10" y="5" width="100" height="190" rx="3" fill="#F2EEEA" stroke="#C8C8C4" strokeWidth="1.5"/>
+                    {/* Oval rosette */}
+                    <ellipse cx="80" cy="80" rx="10" ry="18" fill="#E0E0DC" stroke={cat.color} strokeWidth="0.8" opacity="0.9"/>
+                    {/* Lever arm */}
+                    <rect x="80" y="74" width="28" height="7" rx="3" fill={cat.color} opacity="0.85"/>
+                    <rect x="78" y="70" width="8" height="20" rx="3" fill={cat.color} opacity="0.7"/>
+                    {/* Round rosette for deadbolt */}
+                    <circle cx="80" cy="128" r="10" fill="#E0E0DC" stroke={cat.color} strokeWidth="0.8" opacity="0.7"/>
+                    <circle cx="80" cy="128" r="4" fill="none" stroke={cat.color} strokeWidth="1.2" opacity="0.6"/>
+                    <text x="60" y="182" textAnchor="middle" fill="#444444" fontSize="7" fontFamily="monospace">LEVER + ROSETTE</text>
+                  </svg>
+                ),
+                pull:(
+                  <svg viewBox="0 0 120 220" width="120" height="220" style={{display:"block"}}>
+                    <rect x="10" y="5" width="100" height="210" rx="3" fill="#F2EEEA" stroke="#C8C8C4" strokeWidth="1.5"/>
+                    {/* Long pull bar */}
+                    <rect x="76" y="45" width="10" height="130" rx="5" fill={cat.color} opacity="0.85"/>
+                    {/* End caps */}
+                    <circle cx="81" cy="48" r="6" fill={cat.color} opacity="0.7"/>
+                    <circle cx="81" cy="172" r="6" fill={cat.color} opacity="0.7"/>
+                    {/* Mounting screws */}
+                    <circle cx="81" cy="75" r="2" fill="#C0C0BC" opacity="0.8"/>
+                    <circle cx="81" cy="145" r="2" fill="#C0C0BC" opacity="0.8"/>
+                    <text x="60" y="202" textAnchor="middle" fill="#444444" fontSize="7" fontFamily="monospace">18" DOOR PULL</text>
+                  </svg>
+                ),
+                barn:(
+                  <svg viewBox="0 0 160 180" width="160" height="180" style={{display:"block"}}>
+                    {/* Wall */}
+                    <rect x="5" y="20" width="150" height="5" rx="2" fill="#E0E0DC"/>
+                    {/* Track */}
+                    <rect x="8" y="22" width="144" height="6" rx="3" fill={cat.color} opacity="0.6"/>
+                    {/* Hanger wheels */}
+                    <circle cx="50" cy="31" r="5" fill="#333333" stroke={cat.color} strokeWidth="1"/>
+                    <circle cx="80" cy="31" r="5" fill="#333333" stroke={cat.color} strokeWidth="1"/>
+                    {/* Door panel */}
+                    <rect x="20" y="36" width="90" height="130" rx="2" fill="#F2EEEA" stroke="#C8C8C4" strokeWidth="1.5"/>
+                    {/* Wood grain lines */}
+                    {[60,75,90,105,120,135].map(y=>(
+                      <line key={y} x1="22" y1={y} x2="108" y2={y} stroke="#C8C8C4" strokeWidth="0.8"/>
+                    ))}
+                    {/* Flush pull */}
+                    <rect x="96" y="92" width="8" height="28" rx="2" fill={cat.color} opacity="0.8"/>
+                    {/* Floor guide */}
+                    <rect x="55" y="165" width="20" height="5" rx="2" fill="#333333" stroke={cat.color} strokeWidth="0.6" opacity="0.7"/>
+                    <text x="80" y="178" textAnchor="middle" fill="#444444" fontSize="7" fontFamily="monospace">BARN DOOR TRACK SYSTEM</text>
+                  </svg>
+                ),
+                smart:(
+                  <svg viewBox="0 0 120 220" width="120" height="220" style={{display:"block"}}>
+                    <rect x="10" y="5" width="100" height="210" rx="3" fill="#F2EEEA" stroke="#C8C8C4" strokeWidth="1.5"/>
+                    {/* Keypad body */}
+                    <rect x="62" y="50" width="36" height="80" rx="5" fill="#D8EED8" stroke={cat.color} strokeWidth="0.8" opacity="0.9"/>
+                    {/* Keypad dots */}
+                    {[0,1,2,3,4,5,6,7,8,9,10,11].map(i=>(
+                      <circle key={i} cx={70+(i%3)*10} cy={64+Math.floor(i/3)*12} r="2.5" fill={cat.color} opacity={0.5+i*0.04}/>
+                    ))}
+                    {/* Lever below */}
+                    <rect x="62" y="108" width="28" height="7" rx="3" fill={cat.color} opacity="0.8"/>
+                    <rect x="70" y="104" width="8" height="20" rx="2" fill={cat.color} opacity="0.65"/>
+                    {/* WiFi signal */}
+                    <text x="80" y="155" textAnchor="middle" fill={cat.color} fontSize="14" opacity="0.6"></text>
+                    {/* App phone */}
+                    <rect x="65" y="165" width="22" height="32" rx="3" fill="#D8D8EE" stroke={cat.color} strokeWidth="0.8" opacity="0.8"/>
+                    <rect x="68" y="170" width="16" height="16" rx="2" fill={cat.color} opacity="0.3"/>
+                    <circle cx="76" cy="192" r="2" fill={cat.color} opacity="0.5"/>
+                    <text x="60" y="210" textAnchor="middle" fill="#444444" fontSize="7" fontFamily="monospace">SMART LOCK + APP</text>
+                  </svg>
+                ),
+              };
+
+              return (
+                <div key={cat.id} style={{background:T.card,border:`1px solid ${isOpen?cat.color+"66":T.border}`,borderRadius:"10px",overflow:"hidden",transition:"border-color 0.2s"}}>
+                  {/* Category header */}
+                  <div onClick={()=>setHwOpen(isOpen?null:cat.id)} style={{padding:"16px 20px",cursor:"pointer",display:"flex",justifyContent:"space-between",alignItems:"center"}}>
+                    <div style={{display:"flex",alignItems:"center",gap:"12px"}}>
+                      <div style={{width:"40px",height:"40px",borderRadius:"8px",background:`${cat.color}18`,border:`1px solid ${cat.color}33`,display:"flex",alignItems:"center",justifyContent:"center",fontSize:"20px",flexShrink:0}}>{cat.icon}</div>
+                      <div>
+                        <div style={{fontSize:"14px",fontWeight:500,color:isOpen?T.text:"#484848"}}>{cat.label}</div>
+                        <div style={{fontSize:"11px",color:T.dim,marginTop:"2px"}}>{cat.description}</div>
+                      </div>
+                    </div>
+                    <div style={{display:"flex",alignItems:"center",gap:"10px"}}>
+                      <span style={{fontSize:"9px",fontFamily:"monospace",color:cat.color,letterSpacing:"1px",opacity:0.7}}>EMTEK</span>
+                      <span style={{color:T.faint,fontSize:"11px"}}>{isOpen?"▲":"▼"}</span>
+                    </div>
+                  </div>
+
+                  {isOpen&&(
+                    <div style={{borderTop:`1px solid ${T.border}`,animation:"fadeUp 0.2s ease"}}>
+                      {/* Emtek note banner */}
+                      <div style={{background:`${cat.color}0c`,borderBottom:`1px solid ${cat.color}22`,padding:"12px 20px",display:"flex",gap:"10px",alignItems:"flex-start"}}>
+                        <span style={{color:cat.color,fontSize:"14px",flexShrink:0,marginTop:"1px"}}>{"\u25C8"}</span>
+                        <div>
+                          <div style={{fontSize:"9px",letterSpacing:"2px",color:cat.color,fontFamily:"monospace",marginBottom:"3px"}}>EMTEK ADVANTAGE</div>
+                          <div style={{fontSize:"12px",color:T.muted,lineHeight:1.6}}>{cat.emtekNote}</div>
+                        </div>
+                      </div>
+
+                      {/* Illustration + types grid */}
+                      <div style={{padding:"20px",display:"grid",gridTemplateColumns:cat.svgKey&&svgs[cat.svgKey]?"auto 1fr":"1fr",gap:"20px",alignItems:"start"}}>
+
+                        {/* SVG Illustration */}
+                        {cat.svgKey&&svgs[cat.svgKey]&&(
+                          <div style={{background:"#EEF4F2",border:`1px solid ${cat.color}22`,borderRadius:"10px",padding:"16px",display:"flex",flexDirection:"column",alignItems:"center",gap:"8px",minWidth:"150px"}}>
+                            <div style={{fontSize:"9px",letterSpacing:"2px",color:cat.color,fontFamily:"monospace",marginBottom:"2px"}}>ILLUSTRATION</div>
+                            {svgs[cat.svgKey]}
+                            <div style={{fontSize:"9px",color:T.dim,textAlign:"center",lineHeight:1.4,maxWidth:"130px"}}>{cat.visual?.desc}</div>
+                          </div>
+                        )}
+
+                        {/* Types */}
+                        <div>
+                          <div style={{fontSize:"9px",letterSpacing:"2px",color:T.faint,fontFamily:"monospace",marginBottom:"10px"}}>TYPES &amp; OPTIONS</div>
+                          <div style={{display:"grid",gridTemplateColumns:"repeat(auto-fill,minmax(250px,1fr))",gap:"8px"}}>
+                            {cat.types.map(t=>(
+                              <div key={t.name} style={{background:t.highlight?`${cat.color}0e`:T.card2,border:`1px solid ${t.highlight?cat.color+"44":T.border}`,borderRadius:"7px",padding:"13px 15px"}}>
+                                <div style={{display:"flex",alignItems:"center",gap:"6px",marginBottom:"5px"}}>
+                                  {t.highlight&&<span style={{color:cat.color,fontSize:"9px"}}>{"\u2605"}</span>}
+                                  <div style={{fontSize:"12px",fontWeight:500,color:t.highlight?"#ddd":"#bbb"}}>{t.name}</div>
+                                </div>
+                                <div style={{fontSize:"11px",color:T.dim,lineHeight:1.55}}>{t.detail}</div>
+                              </div>
+                            ))}
+                          </div>
+
+                          {/* Vendors */}
+                          <div style={{marginTop:"14px",paddingTop:"12px",borderTop:`1px solid ${T.border}`}}>
+                            <div style={{fontSize:"9px",letterSpacing:"2px",color:cat.color,fontFamily:"monospace",marginBottom:"8px"}}>VENDORS</div>
+                            <div style={{display:"flex",flexWrap:"wrap",gap:"6px"}}>{cat.vendors.map(v=><Pill key={v} label={v} color={cat.color}/>)}</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  )}
+                </div>
+              );
+            })}
+          </div>
+
+          {/* Footer note */}
+          <div style={{marginTop:"22px",background:`${T.gold}10`,border:`1px solid ${T.gold}33`,borderRadius:"10px",padding:"16px 20px"}}>
+            <SectionLabel color={T.gold}>FINISH CONSISTENCY NOTE</SectionLabel>
+            <p style={{margin:0,fontSize:"13px",color:T.muted,lineHeight:1.7}}>Hardware finish should be consistent across all visible hardware in a space {"\u2014"} door handles, hinges, cabinet pulls, plumbing, and light fixtures. Mixing two finishes intentionally (e.g., matte black + satin brass) can be a strong design move when done deliberately. When in doubt, commit to one finish throughout. Emtek's broad line means every category from entry sets to barn doors is available in the same finish family.</p>
+          </div>
+        </div>
+      )}
+
+
+      {/* ─── GLASS GUIDE ─── */}
+      {mainTab==="glass_guide"&&<GlassGuideTab/>}
+
+      {/* ─── FAVORITES ─── */}
+      {mainTab==="favorites"&&(
+        <div style={{maxWidth:"760px",margin:"0 auto",padding:"clamp(16px,4vw,30px) clamp(14px,4vw,24px)",animation:"fadeUp 0.25s ease"}}>
+          <div style={{marginBottom:"24px"}}>
+            <div style={{fontSize:"9px",letterSpacing:"4px",color:T.faint,fontFamily:"monospace",marginBottom:"8px"}}>YOUR QUOTE LIST</div>
+            <h2 style={{fontSize:"22px",fontWeight:400,margin:"0 0 8px"}}>Items for <em style={{color:T.gold}}>Quoting &amp; Consultation</em></h2>
+            <p style={{margin:0,fontSize:"13px",color:T.muted,lineHeight:1.65,maxWidth:"540px"}}>Fill in quantity, rough size, and location for each item {"\u2014"} your matched specialist will use these details to prepare pricing, lead times, and samples before your consultation. The more detail you add, the more useful your first meeting will be.</p>
+          </div>
+          <FavoritesPanel favorites={favorites} setFavorites={setFavorites}/>
+          {favorites.length>0&&(
+            <div style={{marginTop:"20px",background:"#F0F5F2",border:`1px solid ${T.gold}44`,borderRadius:"10px",padding:"16px 20px",display:"flex",justifyContent:"space-between",alignItems:"center",flexWrap:"wrap",gap:"12px"}}>
+              <div>
+                <SectionLabel color={T.gold}>READY TO SUBMIT?</SectionLabel>
+                <div style={{fontSize:"13px",color:T.text}}>Complete the quote request to connect with a matched local specialist.</div>
+              </div>
+              <button onClick={()=>{setMainTab("quiz");if(step===0)setStep(1);}} style={{background:T.gold,border:"none",color:T.text,padding:"10px 20px",borderRadius:"6px",cursor:"pointer",fontSize:"13px",fontWeight:600,fontFamily:"inherit"}}>
+                {submitted?"View My Results →":"Start Quote Request →"}
+              </button>
+            </div>
+          )}
+          <div style={{marginTop:"16px",background:T.card,border:`1px solid ${T.border}`,borderRadius:"10px",padding:"16px 20px"}}>
+            <SectionLabel color={T.dim}>BROWSE TO ADD MORE</SectionLabel>
+            <div style={{display:"flex",flexWrap:"wrap",gap:"8px"}}>
+              {[{id:"vendors",label:"Vendors",icon:"◻"},{id:"door_types",label:"Door Types",icon:""},{id:"large_doors",label:"Patio & Door Systems",icon:"⬛"},{id:"glass_guide",label:"Glass Guide",icon:"◑"},{id:"hardware",label:"Hardware",icon:""}].map(t=>(
+                <button key={t.id} onClick={()=>setMainTab(t.id)} style={{background:T.card2,border:`1px solid ${T.border}`,color:T.dim,padding:"7px 13px",borderRadius:"5px",cursor:"pointer",fontSize:"10px",letterSpacing:"1px",fontFamily:"monospace"}}>
+                  {t.icon} {t.label}
+                </button>
+              ))}
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* ─── FOOTER ─── */}
+      <div style={{borderTop:`1px solid ${T.border}`,background:"#EEF5F2",marginTop:"40px",padding:"32px 28px 24px"}}>
+        <div style={{maxWidth:"1100px",margin:"0 auto"}}>
+          <div style={{display:"grid",gridTemplateColumns:"repeat(auto-fill,minmax(min(220px,100%),1fr))",gap:"28px",marginBottom:"28px"}}>
+            {/* Brand */}
+            <div>
+              <div style={{fontSize:"15px",marginBottom:"6px"}}>SD <em style={{color:T.gold}}>Window &amp; Door</em> Guide</div>
+              <div style={{fontSize:"10px",fontStyle:"italic",color:T.faint,marginBottom:"10px",lineHeight:1.5}}>Find the right window &amp; door system for your project {"\u2014"} free expert matching</div>
+              <div style={{fontSize:"10px",color:T.dim,lineHeight:1.7}}>San Diego County's independent resource for windows, doors, glass systems, and building materials. Serving homeowners, contractors, architects, and designers across La Jolla, Del Mar, Carmel Valley, Rancho Santa Fe, Encinitas, Solana Beach, and greater San Diego.</div>
+            </div>
+            {/* What we cover */}
+            <div>
+              <div style={{fontSize:"9px",letterSpacing:"3px",color:T.faint,fontFamily:"monospace",marginBottom:"10px"}}>WHAT WE COVER</div>
+              {["Window & door replacement","Custom home windows & doors","Folding & multi-slide door systems","Window walls & glass walls","Coastal remodel specifications","Fire zone (FHSZ) compliance","Glass types & performance glazing","Frame materials & finishes","Entry & interior doors","Architectural door systems"].map(item=>(
+                <div key={item} style={{fontSize:"11px",color:T.dim,marginBottom:"3px"}}>{"\u2192"} {item}</div>
+              ))}
+            </div>
+            {/* Who we serve */}
+            <div>
+              <div style={{fontSize:"9px",letterSpacing:"3px",color:T.faint,fontFamily:"monospace",marginBottom:"10px"}}>WHO WE SERVE</div>
+              {[["","Homeowners","Replacement windows, remodels, coastal homes"],["","Contractors & Builders","Product specs, lead times, volume sourcing"],["","Architects","System specs, fire zone compliance, custom sizing"],["","Interior Designers","Finishes, glass types, hardware matching"]].map(([icon,role,desc])=>(
+                <div key={role} style={{marginBottom:"10px"}}>
+                  <div style={{fontSize:"12px",color:"#606060",marginBottom:"2px"}}>{icon} {role}</div>
+                  <div style={{fontSize:"10px",color:T.dim,lineHeight:1.4}}>{desc}</div>
+                </div>
+              ))}
+            </div>
+            {/* SD service areas */}
+            <div>
+              <div style={{fontSize:"9px",letterSpacing:"3px",color:T.faint,fontFamily:"monospace",marginBottom:"10px"}}>SERVICE AREAS</div>
+              {[["La Jolla","92037 · Luxury coastal remodels"],["Rancho Santa Fe","92067 · Custom estate builds"],["Del Mar","92014 · Coastal replacement windows"],["Carmel Valley","92130 · Production & custom builds"],["Encinitas","92024 · Transitional & modern remodels"],["Solana Beach","92075 · Coastal window walls"],["Coronado","92118 · Historic & coastal restoration"],["Bird Rock / PB","92109 · Urban remodels"],["Olivenhain","92024 · Custom homes & ADUs"],["Greater San Diego","All coastal communities"]].map(([area,desc])=>(
+                <div key={area} style={{marginBottom:"6px"}}>
+                  <div style={{fontSize:"11px",color:"#606060"}}>{area} <span style={{color:T.faint,fontSize:"10px"}}>{"\u2014"} {desc}</span></div>
+                </div>
+              ))}
+            </div>
+          </div>
+          {/* Bottom bar */}
+          <div style={{borderTop:`1px solid ${T.border}`,paddingTop:"16px",display:"flex",justifyContent:"space-between",alignItems:"center",flexWrap:"wrap",gap:"8px"}}>
+            <div style={{fontSize:"10px",color:T.faint}}>{"\u00A9"} 2025 SD Window &amp; Door Guide · San Diego, CA · Independent resource · Not affiliated with any manufacturer</div>
+            <div style={{display:"flex",gap:"16px"}}>
+              {["Window Replacement","Folding Doors","Glass Guide","Door Types","Get a Quote"].map(link=>(
+                <button key={link} onClick={()=>setMainTab(link==="Get a Quote"?"quiz":link==="Glass Guide"?"glass_guide":link==="Door Types"?"door_types":link.includes("Door")?"large_doors":"quiz")} style={{background:"none",border:"none",color:T.faint,cursor:"pointer",fontSize:"10px",fontFamily:"inherit",padding:0,textDecoration:"underline",textDecorationColor:T.dim}}>{link}</button>
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
