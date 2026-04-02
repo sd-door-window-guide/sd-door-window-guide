@@ -509,7 +509,7 @@ const vendors = {
       {name:"HS/HSW — Single Track Sliding",type:"Multi-Slide",material:"Aluminum",description:"Ultra-slim single-track sliding glass wall with panel stacking or full pocket. Frameless corner and 3D corner configurations available. The NanaWall sliding system for projects where a folding wall is not appropriate — large horizontal spans, frameless corners, ultra-contemporary minimal aesthetic.",uniqueFeatures:["Frameless corner options","3D corner configurations","Panel stacking or true pocket","Minimal sightlines"],maxWidth:"50ft+",maxHeight:"14ft",priceRange:"$$$$$"},
       {name:"CW — Frameless Glass Wall",type:"Frameless",material:"Structural Glass Wall",description:"Near-invisible structural glass wall framing. Maximum transparency — virtually no frame visible. ADA compliant. Custom shapes. The system when the glass itself IS the architecture.",uniqueFeatures:["Virtually frameless","ADA compliant","Custom shapes and configurations","Maximum transparency"],maxWidth:"Custom",maxHeight:"Custom",priceRange:"$$$$$"}
     ],frameMaterials:["Thermally Broken Aluminum","Reinforced Aluminum","Wood","Aluminum-clad Wood","Structural Glass Wall"],finishes:[{name:"Matte Black",swatch:"#1A1A1A"},{name:"Dark Bronze",swatch:"#3d2b1f"},{name:"Silver Anodized",swatch:"#c0c0c0"},{name:"White",swatch:"#f0ede6"},{name:"50 Standard Colors",swatch:"linear-gradient(135deg,#C4956A,#3A6898)"},{name:"Steel Effect SE",swatch:"linear-gradient(135deg,#3A3A3A,#707878)"}],differentiators:["Generation 4 — 8 systems across aluminum, wood, clad, reinforced, and acoustical","SL60 — residential entry point with NanaWall quality at a more accessible price","Industry's slimmest profiles — 3⁷⁄₈\" (99mm) aluminum, 5¹¹⁄₁₆\" (144mm) wood","Bionic Turtle® concealed thermal break — security + efficiency in one profile","Gothic Arch stainless steel rollers — smoothest operation in class","FourFold/SixFold panel sets — unlimited system widths","50 standard finishes + Steel Effect SE colors for steel-look in aluminum","Midrise/high-rise rated systems (DP +/-85 psf) for commercial applications","Interior acoustical systems to Unit STC 45"],idealFor:["Architect-specified luxury custom homes in La Jolla, RSF, Del Mar","Projects where the glass wall IS the design centerpiece","Contemporary, modern, and transitional architecture","Residential renovation/remodel wanting NanaWall quality (SL60)","Mixed-use and commercial where high windload rating is required","Interior acoustic partition applications"],limitations:["Highest price in category — budget should be set before specifying","10–16 week lead times on most configurations","Requires experienced NanaWall-certified installer","Folding panels operate as linked chains — not independently slideable"],sdNotes:"NanaWall's key advantage is its bottom-rolling track — it hangs from below rather than a header above, requiring fewer structural modifications and making it easier to retrofit into existing homes. Commonly specified on architect-designed custom homes in La Jolla and Rancho Santa Fe where engineering constraints make top-hung systems impractical." },
-    { id:"lacantina", sells:["Folding Glass Walls","Big Door Systems","California Rooms","Patio Doors"], website:"https://www.lacantinadoors.com", name:"LaCantina", logo:"LC", color:T.teal, tagline:"The Indoor-Outdoor Specialist", tier:"Premium", tierColor:T.teal, origin:"Designed & made in California / JELD-WEN", overview:"California-made folding, multi-slide, and swing door systems in 6 materials including vinyl — the go-to for indoor-outdoor living at the $20K–$60K range. Matched 2¾\" profiles across all systems is the key differentiator.", productLines:[
+    { id:"lacantina", heroImage:"/El_Acebo_La_Cantina-2-RGB.jpg", sells:["Folding Glass Walls","Big Door Systems","California Rooms","Patio Doors"], website:"https://www.lacantinadoors.com", name:"LaCantina", logo:"LC", color:T.teal, tagline:"The Indoor-Outdoor Specialist", tier:"Premium", tierColor:T.teal, origin:"Designed & made in California / JELD-WEN", overview:"California-made folding, multi-slide, and swing door systems in 6 materials including vinyl — the go-to for indoor-outdoor living at the $20K–$60K range. Matched 2¾\" profiles across all systems is the key differentiator.", productLines:[
       {name:"Folding — Aluminum",type:"Folding/Bi-fold",material:"Aluminum",description:"LaCantina's entry-level folding system. Clean contemporary 2¾\" stile profile, top hung for ease of operation and longevity. Inswing or outswing. Up to 65' wide, 10' tall, max panel width 39\". Up to 20 panels (10 each direction). U-value 0.48 standard / achieves 0.32 or less with LoE-366 argon glazing upgrade. Concealed multi-point locking. Zero-post corner and window/door combination options. HVHZ impact-rated version available.",uniqueFeatures:["Up to 65ft wide, 10ft tall","20 panels (10 each direction)","Top hung — ease of operation + longevity","Zero-post corner configurations","HVHZ impact-rated version available","Inswing or outswing","U-0.32 or better with LoE-366 argon upgrade"],maxWidth:"65ft",maxHeight:"10ft",priceRange:"$$$",brochureUrl:"https://powersproducts.com/wp-content/uploads/2023/02/la-cantina-sliding-doors-product-brochure.pdf"},
       {name:"Folding — Aluminum Thermally Controlled",type:"Folding/Bi-fold",material:"Thermally Broken Aluminum",description:"Step-up aluminum folding system with thermal breaks throughout and a proprietary core-and-fascia design enabling split interior/exterior finish colors. 2 15/16\" stile profile. U-value 0.37 standard; achieves 0.32 or less with LoE-366 argon upgrade. Best choice when energy performance matters but budget doesn't extend to clad wood.",uniqueFeatures:["Thermally broken — improved energy performance","Split interior/exterior finish colors","2 15/16\" stile profile","U-0.37 / achieves 0.32 or better with upgrade","Same configurations as aluminum system"],maxWidth:"65ft",maxHeight:"10ft",priceRange:"$$$$",brochureUrl:"https://powersproducts.com/wp-content/uploads/2023/02/la-cantina-sliding-doors-product-brochure.pdf"},
       {name:"Folding — Contemporary Clad",type:"Folding/Bi-fold",material:"Aluminum-clad Wood",description:"LaCantina's most energy-efficient folding system. Low-maintenance aluminum exterior with natural wood interior warmth. Best U-value in the folding lineup at 0.31 standard — achieves 0.32 or better standard with LoE-366 argon. Narrow 2 15/16\" clad profile. In-stock in VG Fir or Sapele Mahogany; optional Quarter Sawn White Oak, Pine, Black Walnut, Clear Alder. The system for architect-specified residential projects wanting wood interior and aluminum exterior durability.",uniqueFeatures:["U-0.31 — most energy efficient LaCantina folding system","Wood interior: VG Fir, Sapele Mahogany standard","Optional oak, pine, walnut, alder","Low-maintenance aluminum exterior","2 15/16\" slim clad profile","Zero-post corner configurations"],maxWidth:"65ft",maxHeight:"10ft",priceRange:"$$$$",brochureUrl:"https://powersproducts.com/wp-content/uploads/2023/02/la-cantina-sliding-doors-product-brochure.pdf"},
@@ -878,13 +878,15 @@ function ProductLineCard({line,color}) {
 // ═══════════════════════════════════════════════════════════════════════════════
 // VENDOR LOGO SVGs — faithful brand-identity representations
 // ═══════════════════════════════════════════════════════════════════════════════
-function VendorLogo({ id, size = 52 }) {
+function VendorLogo({ id, size = 52, wide = false }) {
   const s = size;
+  const w = wide ? Math.round(size * 2.4) : size;
+  const h = wide ? Math.round(size * 0.8) : size;
   const logos = {
 
     // ── NanaWall ── all-caps architectural wordmark, dark/minimal
     nanawall: (
-      <div style={{width:s,height:s,borderRadius:6,overflow:"hidden",background:"#fff",display:"flex",alignItems:"center",justifyContent:"center",padding:"8px"}}>
+      <div style={{width:w,height:h,borderRadius:6,overflow:"hidden",background:"#fff",display:"flex",alignItems:"center",justifyContent:"center",padding:"8px 12px"}}>
         <svg viewBox="0 0 180 40" style={{width:"100%",height:"100%"}} xmlns="http://www.w3.org/2000/svg">
           <g fill="none" fillRule="evenodd">
             <g fill="#231F20">
@@ -904,18 +906,35 @@ function VendorLogo({ id, size = 52 }) {
 
     // ── LaCantina ── clean wordmark, teal accent bar
     lacantina: (
-      <svg width={s} height={s} viewBox="0 0 52 52">
-        <rect width="52" height="52" rx="6" fill="#EEF4F2"/>
-        <text x="26" y="21" textAnchor="middle" fontFamily="Georgia,serif" fontStyle="italic" fontWeight="400" fontSize="8.5" fill="#1A2028" letterSpacing="0.5">La</text>
-        <text x="26" y="31" textAnchor="middle" fontFamily={"'Arial',sans-serif"} fontWeight="700" fontSize="10" fill="#2A8A80" letterSpacing="1">CANTINA</text>
-        <rect x="14" y="35" width="24" height="1" rx="0.5" fill="#2A8A80" opacity="0.5"/>
-        <text x="26" y="44" textAnchor="middle" fontFamily="monospace" fontSize="4.5" letterSpacing="1" fill="#4a5a54">DOORS</text>
-      </svg>
+      <div style={{width:w,height:h,borderRadius:6,overflow:"hidden",background:"#fff",display:"flex",alignItems:"center",justifyContent:"center",padding:"8px 14px"}}>
+        <svg viewBox="0 0 285 53.5" style={{width:"100%",height:"100%"}} xmlns="http://www.w3.org/2000/svg">
+          <g>
+            <g>
+              <path d="M85.3,18.2a2.3,2.3,0,0,1,2.4-2.3A2.3,2.3,0,0,1,90,18.2V33.1h8.7a2.1,2.1,0,0,1,2.1,2.2,2.1,2.1,0,0,1-2.1,2.1h-11a2.3,2.3,0,0,1-2.4-2.3V18.2" fill="#59595b"/>
+              <path d="M116.1,31.6v-.8a8.3,8.3,0,0,0-2.9-.6c-2,0-3.2.8-3.2,2.3h0c0,1.3,1,2,2.5,2s3.6-1.2,3.6-2.9m-10.6,1.1h0c0-3.5,2.7-5.2,6.6-5.2a11.9,11.9,0,0,1,4,.7v-.3c0-1.9-1.2-2.9-3.5-2.9a9.6,9.6,0,0,0-3.2.4h-.7a1.8,1.8,0,0,1-1.9-1.9,2,2,0,0,1,1.2-1.8,15.8,15.8,0,0,1,5.2-.8,7.7,7.7,0,0,1,5.5,1.8,7.1,7.1,0,0,1,1.8,5.2v7.5a2.2,2.2,0,0,1-2.3,2.2,2.1,2.1,0,0,1-2.2-1.9h0a6.1,6.1,0,0,1-4.9,2.1c-3.1,0-5.6-1.8-5.6-5" fill="#59595b"/>
+              <path d="M126.6,26.8h0a10.9,10.9,0,0,1,11.1-11,11.6,11.6,0,0,1,7.2,2.2,2.4,2.4,0,0,1,.9,1.8,2.3,2.3,0,0,1-2.4,2.3,2.9,2.9,0,0,1-1.4-.4,6.7,6.7,0,0,0-4.3-1.6c-3.6,0-6.2,3-6.2,6.7h0c0,3.7,2.5,6.7,6.2,6.7a6.9,6.9,0,0,0,4.6-1.6,2.5,2.5,0,0,1,1.4-.6,2.2,2.2,0,0,1,2.2,2.2,2.5,2.5,0,0,1-.8,1.7,10.6,10.6,0,0,1-7.6,2.7,10.8,10.8,0,0,1-10.9-11" fill="#59595b"/>
+              <path d="M164.6,28.5l-3-7.1-2.9,7.1h5.9m-13.2,5.9,7.4-16.8a2.9,2.9,0,0,1,2.8-1.9h.2a2.8,2.8,0,0,1,2.7,1.9L172,34.4a2.9,2.9,0,0,1,.2.9,2.2,2.2,0,0,1-2.2,2.3,2.6,2.6,0,0,1-2.3-1.6l-1.4-3.4h-9.4l-1.5,3.5a2.4,2.4,0,0,1-2.1,1.5,2.2,2.2,0,0,1-2.2-2.2,1.9,1.9,0,0,1,.3-1" fill="#59595b"/>
+              <path d="M178.1,18.3a2.3,2.3,0,0,1,2.3-2.3h.5a2.8,2.8,0,0,1,2.4,1.3l9.1,11.9v-11a2.3,2.3,0,0,1,4.6,0v17a2.3,2.3,0,0,1-2.3,2.3h-.2a2.7,2.7,0,0,1-2.4-1.4l-9.4-12.3V35.3a2.3,2.3,0,1,1-4.6,0v-17" fill="#59595b"/>
+              <path d="M209.4,20.4h-4.5a2.2,2.2,0,1,1,0-4.3h13.7a2.1,2.1,0,0,1,2.1,2.1,2.1,2.1,0,0,1-2.1,2.2h-4.5V35.2a2.4,2.4,0,0,1-2.4,2.4,2.3,2.3,0,0,1-2.3-2.4V20.4" fill="#59595b"/>
+              <path d="M226.5,18.2a2.3,2.3,0,0,1,2.3-2.3,2.3,2.3,0,0,1,2.4,2.3v17a2.4,2.4,0,1,1-4.7,0v-17" fill="#59595b"/>
+              <path d="M239.2,18.3a2.3,2.3,0,0,1,2.3-2.3h.5a2.8,2.8,0,0,1,2.4,1.3l9.1,11.9v-11a2.3,2.3,0,0,1,4.6,0v17a2.3,2.3,0,0,1-2.3,2.3h-.2a2.7,2.7,0,0,1-2.4-1.4l-9.4-12.3V35.3a2.3,2.3,0,0,1-4.6,0v-17" fill="#59595b"/>
+              <path d="M277.4,28.5l-3-7.1-2.9,7.1h5.9m-13.2,5.9,7.4-16.8a2.9,2.9,0,0,1,2.8-1.9h.2a2.8,2.8,0,0,1,2.7,1.9l7.5,16.8a2.9,2.9,0,0,1,.2.9,2.2,2.2,0,0,1-2.2,2.3,2.6,2.6,0,0,1-2.3-1.6l-1.4-3.4h-9.4l-1.5,3.5a2.4,2.4,0,0,1-2.1,1.5,2.2,2.2,0,0,1-2.2-2.2,1.9,1.9,0,0,1,.3-1" fill="#59595b"/>
+            </g>
+            <g>
+              <path d="M69,.1a.7.7,0,0,0-.8,0l-1.5,1V52.4a13,13,0,0,1,1.5,1,.7.7,0,0,0,.8,0,.5.5,0,0,0,.3-.5V.6A.5.5,0,0,0,69,.1Z" fill="#59595b"/>
+              <path d="M73.5.1a.7.7,0,0,0-.8,0l-1.5,1V52.4a13,13,0,0,1,1.5,1,.7.7,0,0,0,.8,0,.5.5,0,0,0,.3-.5V.6A.5.5,0,0,0,73.5.1Z" fill="#59595b"/>
+              <path d="M2.4,10.4l20.5,36,12.4,2L3.6,10.2Z" fill="#59595b"/>
+              <path d="M52.1,13.1a.8.8,0,0,1,.4-.4L66.2,0,4.7,10.1,46.9,50.3l19.3,3.1L52.5,40.8c-.2-.1-.3-.2-.3-.4a1.2,1.2,0,0,1-.3-.9V14A2,2,0,0,1,52.1,13.1Z" fill="#59595b"/>
+              <path d="M7.8,26.8,1.6,10.6H1A1.3,1.3,0,0,0,0,12V40.5a9.2,9.2,0,0,0,.1,1.6,1.2,1.2,0,0,0,.6.6l.5.2h.3l13.2,2.1ZM1.6,43Z" fill="#59595b"/>
+            </g>
+          </g>
+        </svg>
+      </div>
     ),
 
     // ── Andersen ── orange upward triangle mark + wordmark
     andersen: (
-      <svg width={s} height={s} viewBox="0 0 64 64" style={{borderRadius:6,overflow:"hidden"}}>
+      <svg width={w} height={h} viewBox="0 0 64 64" style={{borderRadius:6,overflow:"hidden"}}>
         <rect width="64" height="64" rx="6" fill="#EEF4F2"/>
         <polygon points="32,9 41,25 23,25" fill="#E87820"/>
         <text x="32" y="38" textAnchor="middle" fontFamily={"'Arial',sans-serif"} fontWeight="700" fontSize="9" fill="#1A2028" letterSpacing="0">ANDERSEN</text>
@@ -925,7 +944,7 @@ function VendorLogo({ id, size = 52 }) {
 
     // ── Andersen Skylights — same triangle, skylight subtitle
     andersen_skylight: (
-      <svg width={s} height={s} viewBox="0 0 64 64" style={{borderRadius:6,overflow:"hidden"}}>
+      <svg width={w} height={h} viewBox="0 0 64 64" style={{borderRadius:6,overflow:"hidden"}}>
         <rect width="64" height="64" rx="6" fill="#EEF4F2"/>
         <polygon points="32,9 41,25 23,25" fill="#E87820"/>
         <text x="32" y="38" textAnchor="middle" fontFamily={"'Arial',sans-serif"} fontWeight="700" fontSize="9" fill="#1A2028" letterSpacing="0">ANDERSEN</text>
@@ -935,7 +954,7 @@ function VendorLogo({ id, size = 52 }) {
 
     // ── Marvin ── bold serif wordmark, warm linen
     marvin: (
-      <svg width={s} height={s} viewBox="0 0 64 64" style={{borderRadius:6,overflow:"hidden"}}>
+      <svg width={w} height={h} viewBox="0 0 64 64" style={{borderRadius:6,overflow:"hidden"}}>
         <rect width="64" height="64" rx="6" fill="#EEF4F2"/>
         <rect x="6" y="12" width="52" height="30" rx="2" fill="#FAF6EE"/>
         <text x="32" y="33" textAnchor="middle" fontFamily={"Georgia,'Times New Roman',serif"} fontWeight="700" fontSize="15" fill="#3A3020" letterSpacing="1">Marvin</text>
@@ -945,7 +964,7 @@ function VendorLogo({ id, size = 52 }) {
 
     // ── Milgard ── bold red wordmark, diagonal ray
     milgard: (
-      <div style={{width:s,height:s,borderRadius:6,overflow:"hidden",background:"#fff",display:"flex",alignItems:"center",justifyContent:"center",padding:"6px"}}>
+      <div style={{width:w,height:h,borderRadius:6,overflow:"hidden",background:"#fff",display:"flex",alignItems:"center",justifyContent:"center",padding:"6px 12px"}}>
         <svg viewBox="0 0 174 37" style={{width:"100%",height:"100%"}} xmlns="http://www.w3.org/2000/svg">
           <defs><polygon id="mg-p1" points="0 0 4.1998 0 4.1998 3.732 0 3.732"/><polygon id="mg-p3" points="0 0 29.0737 0 29.0737 21.024 0 21.024"/><polygon id="mg-p5" points="0 36.527 174.239 36.527 174.239 0 0 0"/></defs>
           <g stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
@@ -979,7 +998,7 @@ function VendorLogo({ id, size = 52 }) {
 
     // ── Pella ── bold red wordmark on white, clean horizontal rule
     pella: (
-      <svg width={s} height={s} viewBox="0 0 64 64" style={{borderRadius:6,overflow:"hidden"}}>
+      <svg width={w} height={h} viewBox="0 0 64 64" style={{borderRadius:6,overflow:"hidden"}}>
         <rect width="64" height="64" rx="6" fill="#FAFAF8"/>
         <rect x="0" y="0" width="64" height="6" rx="0" fill="#C8201A"/>
         <text x="32" y="34" textAnchor="middle" fontFamily={"'Arial Black','Arial',sans-serif"} fontWeight="900" fontSize="18" fill="#C8201A" letterSpacing="1">PELLA</text>
@@ -991,7 +1010,7 @@ function VendorLogo({ id, size = 52 }) {
 
     // ── Weather Shield ── shield icon + stacked wordmark, mountain-blue
     weathershield: (
-      <svg width={s} height={s} viewBox="0 0 64 64" style={{borderRadius:6,overflow:"hidden"}}>
+      <svg width={w} height={h} viewBox="0 0 64 64" style={{borderRadius:6,overflow:"hidden"}}>
         <rect width="64" height="64" rx="6" fill="#F8F6FA"/>
         <path d="M32,8 L44,14 L44,28 Q44,38 32,44 Q20,38 20,28 L20,14 Z" fill="#6848A0" opacity="0.15" stroke="#6848A0" strokeWidth="1.2"/>
         <text x="32" y="26" textAnchor="middle" fontFamily={"'Arial Narrow',Arial,sans-serif"} fontWeight="700" fontSize="7.5" fill="#6848A0" letterSpacing="1.5">WEATHER</text>
@@ -1003,7 +1022,7 @@ function VendorLogo({ id, size = 52 }) {
 
     // ── Alpine Windows ── mountain peak motif + wordmark, teal
     alpine: (
-      <svg width={s} height={s} viewBox="0 0 64 64" style={{borderRadius:6,overflow:"hidden"}}>
+      <svg width={w} height={h} viewBox="0 0 64 64" style={{borderRadius:6,overflow:"hidden"}}>
         <rect width="64" height="64" rx="6" fill="#F0F8F6"/>
         <polygon points="32,10 50,34 14,34" fill="#2A8A80" opacity="0.12" stroke="#2A8A80" strokeWidth="1.2"/>
         <polygon points="22,20 36,34 8,34" fill="#2A8A80" opacity="0.08"/>
@@ -1014,7 +1033,7 @@ function VendorLogo({ id, size = 52 }) {
 
     // ── JELD-WEN Windows ── bold hyphenated wordmark, navy slate
     jeldwen_win: (
-      <svg width={s} height={s} viewBox="0 0 64 64" style={{borderRadius:6,overflow:"hidden"}}>
+      <svg width={w} height={h} viewBox="0 0 64 64" style={{borderRadius:6,overflow:"hidden"}}>
         <rect width="64" height="64" rx="6" fill="#F0F2F8"/>
         <rect x="8" y="28" width="48" height="2" fill="#3A6898" opacity="0.2"/>
         <text x="32" y="27" textAnchor="middle" fontFamily={"'Arial Black',Arial,sans-serif"} fontWeight="900" fontSize="10" fill="#3A6898" letterSpacing="0.5">JELD-WEN</text>
@@ -1025,7 +1044,7 @@ function VendorLogo({ id, size = 52 }) {
 
     // ── Simonton ── clean wordmark with Daylight Max callout, warm gold
     simonton: (
-      <svg width={s} height={s} viewBox="0 0 64 64" style={{borderRadius:6,overflow:"hidden"}}>
+      <svg width={w} height={h} viewBox="0 0 64 64" style={{borderRadius:6,overflow:"hidden"}}>
         <rect width="64" height="64" rx="6" fill="#FAF8F0"/>
         <rect x="8" y="36" width="48" height="2.5" fill="#9A7020" opacity="0.3"/>
         <text x="32" y="30" textAnchor="middle" fontFamily={"'Arial Narrow',Arial,sans-serif"} fontWeight="700" fontSize="11" fill="#9A7020" letterSpacing="1">SIMONTON</text>
@@ -1036,7 +1055,7 @@ function VendorLogo({ id, size = 52 }) {
 
     // ── Western Window Systems ── clean WW monogram, ember/orange modern
     westernwindow: (
-      <svg width={s} height={s} viewBox="0 0 64 64" style={{borderRadius:6,overflow:"hidden"}}>
+      <svg width={w} height={h} viewBox="0 0 64 64" style={{borderRadius:6,overflow:"hidden"}}>
         <rect width="64" height="64" rx="6" fill="#FDF5F0"/>
         <text x="32" y="30" textAnchor="middle" fontFamily={"'Arial Black',Arial,sans-serif"} fontWeight="900" fontSize="18" fill="#C04020" letterSpacing="-1">WW</text>
         <rect x="10" y="34" width="44" height="1.5" fill="#C04020" opacity="0.3"/>
@@ -1047,7 +1066,7 @@ function VendorLogo({ id, size = 52 }) {
 
     // ── Nu Vista ── architectural aluminum wordmark, industrial slate-teal
     nuvista: (
-      <svg width={s} height={s} viewBox="0 0 64 64" style={{borderRadius:6,overflow:"hidden"}}>
+      <svg width={w} height={h} viewBox="0 0 64 64" style={{borderRadius:6,overflow:"hidden"}}>
         <rect width="64" height="64" rx="6" fill="#F0F5F5"/>
         <rect x="8" y="8" width="48" height="48" rx="2" fill="none" stroke="#2A8A80" strokeWidth="1.5" opacity="0.2"/>
         <rect x="8" y="8" width="12" height="48" fill="#2A8A80" opacity="0.08"/>
@@ -1060,7 +1079,7 @@ function VendorLogo({ id, size = 52 }) {
 
     // ── International Window Co. ── IWC monogram, slate/navy industrial
     iwc: (
-      <svg width={s} height={s} viewBox="0 0 64 64" style={{borderRadius:6,overflow:"hidden"}}>
+      <svg width={w} height={h} viewBox="0 0 64 64" style={{borderRadius:6,overflow:"hidden"}}>
         <rect width="64" height="64" rx="6" fill="#F0F2F8"/>
         <rect x="8" y="8" width="48" height="48" rx="4" fill="none" stroke="#3A6898" strokeWidth="1" opacity="0.2"/>
         <text x="32" y="32" textAnchor="middle" fontFamily={"'Arial Black',Arial,sans-serif"} fontWeight="900" fontSize="16" fill="#3A6898" letterSpacing="1">IWC</text>
@@ -1072,7 +1091,7 @@ function VendorLogo({ id, size = 52 }) {
 
     // ── Therma-Tru ── clean wordmark with hyphen accent
     thermatru: (
-      <svg width={s} height={s} viewBox="0 0 52 52">
+      <svg width={w} height={h} viewBox="0 0 52 52">
         <rect width="52" height="52" rx="6" fill="#EEF4F2"/>
         <text x="26" y="25" textAnchor="middle" fontFamily={"'Arial',sans-serif"} fontWeight="700" fontSize="9.5" fill="#1A2028" letterSpacing="0.3">THERMA</text>
         <rect x="18" y="28" width="16" height="2" rx="1" fill="#C87A4A"/>
@@ -1082,7 +1101,7 @@ function VendorLogo({ id, size = 52 }) {
     ),
 
     thermatru_util: (
-      <svg width={s} height={s} viewBox="0 0 52 52">
+      <svg width={w} height={h} viewBox="0 0 52 52">
         <rect width="52" height="52" rx="6" fill="#EEF4F2"/>
         <text x="26" y="25" textAnchor="middle" fontFamily={"'Arial',sans-serif"} fontWeight="700" fontSize="9.5" fill="#1A2028" letterSpacing="0.3">THERMA</text>
         <rect x="18" y="28" width="16" height="2" rx="1" fill="#C87A4A"/>
@@ -1093,7 +1112,7 @@ function VendorLogo({ id, size = 52 }) {
 
     // ── TM Cobb ── California craftsman, plum accent
     tmcobb: (
-      <svg width={s} height={s} viewBox="0 0 52 52">
+      <svg width={w} height={h} viewBox="0 0 52 52">
         <rect width="52" height="52" rx="6" fill="#EEF4F2"/>
         <rect x="8" y="12" width="36" height="20" rx="2" fill="#F5F0FA"/>
         <text x="26" y="21" textAnchor="middle" fontFamily="Georgia,serif" fontWeight="400" fontSize="8" fill="#6848A0" letterSpacing="1">T M</text>
@@ -1104,7 +1123,7 @@ function VendorLogo({ id, size = 52 }) {
     ),
 
     tmcobb_int: (
-      <svg width={s} height={s} viewBox="0 0 52 52">
+      <svg width={w} height={h} viewBox="0 0 52 52">
         <rect width="52" height="52" rx="6" fill="#EEF4F2"/>
         <rect x="8" y="12" width="36" height="20" rx="2" fill="#F5F0FA"/>
         <text x="26" y="21" textAnchor="middle" fontFamily="Georgia,serif" fontWeight="400" fontSize="8" fill="#6848A0" letterSpacing="1">T M</text>
@@ -1115,7 +1134,7 @@ function VendorLogo({ id, size = 52 }) {
     ),
 
     tmcobb_util: (
-      <svg width={s} height={s} viewBox="0 0 52 52">
+      <svg width={w} height={h} viewBox="0 0 52 52">
         <rect width="52" height="52" rx="6" fill="#EEF4F2"/>
         <rect x="8" y="12" width="36" height="20" rx="2" fill="#F5F0FA"/>
         <text x="26" y="21" textAnchor="middle" fontFamily="Georgia,serif" fontWeight="400" fontSize="8" fill="#6848A0" letterSpacing="1">T M</text>
@@ -1127,7 +1146,7 @@ function VendorLogo({ id, size = 52 }) {
 
     // ── Simpson Door ── serif wordmark, warm craftsman rust
     simpson: (
-      <svg width={s} height={s} viewBox="0 0 64 64" style={{borderRadius:6,overflow:"hidden"}}>
+      <svg width={w} height={h} viewBox="0 0 64 64" style={{borderRadius:6,overflow:"hidden"}}>
         <rect width="64" height="64" rx="6" fill="#FBF5EE"/>
         <path d="M10,18 Q32,10 54,18" fill="none" stroke="#B05828" strokeWidth="1" opacity="0.3"/>
         <text x="32" y="32" textAnchor="middle" fontFamily={"Georgia,'Times New Roman',serif"} fontWeight="700" fontSize="13" fill="#B05828" letterSpacing="0.5">SIMPSON</text>
@@ -1139,7 +1158,7 @@ function VendorLogo({ id, size = 52 }) {
 
     // ── Rogue Valley ── RV monogram + mountain arc, deep gold
     roguevalley: (
-      <svg width={s} height={s} viewBox="0 0 64 64" style={{borderRadius:6,overflow:"hidden"}}>
+      <svg width={w} height={h} viewBox="0 0 64 64" style={{borderRadius:6,overflow:"hidden"}}>
         <rect width="64" height="64" rx="6" fill="#FAF7EC"/>
         <path d="M12,40 Q22,20 32,16 Q42,20 52,40" fill="none" stroke="#9A7020" strokeWidth="1.5" opacity="0.25"/>
         <text x="32" y="31" textAnchor="middle" fontFamily={"'Arial Black',Arial,sans-serif"} fontWeight="900" fontSize="13" fill="#9A7020" letterSpacing="1">RV</text>
@@ -1151,7 +1170,7 @@ function VendorLogo({ id, size = 52 }) {
 
     // ── Dovecreek ── woodgrain texture motif + DC monogram, local sage green
     dovecreek: (
-      <svg width={s} height={s} viewBox="0 0 64 64" style={{borderRadius:6,overflow:"hidden"}}>
+      <svg width={w} height={h} viewBox="0 0 64 64" style={{borderRadius:6,overflow:"hidden"}}>
         <rect width="64" height="64" rx="6" fill="#F2F7F0"/>
         <path d="M10,22 Q20,18 32,22 Q44,26 54,22" fill="none" stroke="#4A7848" strokeWidth="1" opacity="0.25"/>
         <path d="M10,28 Q20,24 32,28 Q44,32 54,28" fill="none" stroke="#4A7848" strokeWidth="1" opacity="0.2"/>
@@ -1165,7 +1184,7 @@ function VendorLogo({ id, size = 52 }) {
 
     // ── WinDor Systems ── budget vinyl big doors, window-and-door icon, sage green
     windor: (
-      <svg width={s} height={s} viewBox="0 0 64 64" style={{borderRadius:6,overflow:"hidden"}}>
+      <svg width={w} height={h} viewBox="0 0 64 64" style={{borderRadius:6,overflow:"hidden"}}>
         <rect width="64" height="64" rx="6" fill="#F0F8F0"/>
         <rect x="8" y="12" width="22" height="28" rx="2" fill="none" stroke="#4A7848" strokeWidth="1.5" opacity="0.35"/>
         <rect x="34" y="12" width="22" height="28" rx="2" fill="none" stroke="#4A7848" strokeWidth="1.5" opacity="0.35"/>
@@ -1178,7 +1197,7 @@ function VendorLogo({ id, size = 52 }) {
 
     // ── Fleetwood ── ultra-slim horizontal bars + wordmark, ember/terracotta
     fleetwood: (
-      <svg width={s} height={s} viewBox="0 0 64 64" style={{borderRadius:6,overflow:"hidden"}}>
+      <svg width={w} height={h} viewBox="0 0 64 64" style={{borderRadius:6,overflow:"hidden"}}>
         <rect width="64" height="64" rx="6" fill="#FBF3EE"/>
         <rect x="8" y="14" width="48" height="1.2" fill="#C04020" opacity="0.5"/>
         <rect x="8" y="18" width="48" height="1.2" fill="#C04020" opacity="0.35"/>
@@ -1192,7 +1211,7 @@ function VendorLogo({ id, size = 52 }) {
 
     // ── Steel Traditions ── industrial grid motif + wordmark, deep slate
     steeltraditions: (
-      <svg width={s} height={s} viewBox="0 0 64 64" style={{borderRadius:6,overflow:"hidden"}}>
+      <svg width={w} height={h} viewBox="0 0 64 64" style={{borderRadius:6,overflow:"hidden"}}>
         <rect width="64" height="64" rx="6" fill="#F0F2F6"/>
         <rect x="8" y="10" width="20" height="26" rx="1" fill="none" stroke="#3A6898" strokeWidth="2" opacity="0.4"/>
         <rect x="32" y="10" width="24" height="12" rx="1" fill="none" stroke="#3A6898" strokeWidth="2" opacity="0.4"/>
@@ -1204,7 +1223,7 @@ function VendorLogo({ id, size = 52 }) {
 
     // ── French Steel ── arched window motif + serif wordmark, deep rust
     frenchsteel: (
-      <svg width={s} height={s} viewBox="0 0 64 64" style={{borderRadius:6,overflow:"hidden"}}>
+      <svg width={w} height={h} viewBox="0 0 64 64" style={{borderRadius:6,overflow:"hidden"}}>
         <rect width="64" height="64" rx="6" fill="#FBF3EE"/>
         <rect x="18" y="20" width="28" height="22" rx="1" fill="none" stroke="#B05828" strokeWidth="2" opacity="0.35"/>
         <path d="M18,20 Q32,8 46,20" fill="none" stroke="#B05828" strokeWidth="2" opacity="0.5"/>
@@ -1217,7 +1236,7 @@ function VendorLogo({ id, size = 52 }) {
 
     // ── Masonite ── bold M mark + clean wordmark
     masonite: (
-      <svg width={s} height={s} viewBox="0 0 52 52">
+      <svg width={w} height={h} viewBox="0 0 52 52">
         <rect width="52" height="52" rx="6" fill="#EEF4F2"/>
         {/* Stylized M */}
         <path d="M14,30 L14,16 L20,24 L26,16 L32,24 L38,16 L38,30" fill="none" stroke="#4A7848" strokeWidth="2.5" strokeLinejoin="round" strokeLinecap="round"/>
@@ -1227,7 +1246,7 @@ function VendorLogo({ id, size = 52 }) {
 
     // ── JELD-WEN ── distinctive hyphenated wordmark
     jeldwen_int: (
-      <svg width={s} height={s} viewBox="0 0 52 52">
+      <svg width={w} height={h} viewBox="0 0 52 52">
         <rect width="52" height="52" rx="6" fill="#EEF4F2"/>
         <rect x="6" y="16" width="40" height="20" rx="2" fill="#EEF2FA"/>
         <text x="26" y="30" textAnchor="middle" fontFamily={"'Arial Black',Arial,sans-serif"} fontWeight="900" fontSize="10" fill="#3A6898" letterSpacing="0.5">JELD-WEN</text>
@@ -1237,7 +1256,7 @@ function VendorLogo({ id, size = 52 }) {
 
     // ── VELUX ── iconic red/white V mark + wordmark
     velux: (
-      <svg width={s} height={s} viewBox="0 0 52 52">
+      <svg width={w} height={h} viewBox="0 0 52 52">
         <rect width="52" height="52" rx="6" fill="#EEF4F2"/>
         {/* Red rounded rectangle brand block */}
         <rect x="8" y="9" width="36" height="22" rx="4" fill="#CC1010"/>
@@ -1249,7 +1268,7 @@ function VendorLogo({ id, size = 52 }) {
 
     // ── Contractor's Wardrobe ── CW monogram, refined
     contractors_wardrobe: (
-      <svg width={s} height={s} viewBox="0 0 52 52">
+      <svg width={w} height={h} viewBox="0 0 52 52">
         <rect width="52" height="52" rx="6" fill="#EEF4F2"/>
         <text x="26" y="28" textAnchor="middle" fontFamily="Georgia,serif" fontStyle="italic" fontWeight="700" fontSize="20" fill="#9A7020" opacity="0.9">CW</text>
         <rect x="10" y="32" width="32" height="1" fill="#9A7020" opacity="0.3"/>
@@ -1260,7 +1279,7 @@ function VendorLogo({ id, size = 52 }) {
 
     // ── EL&amp;EL Wood Products — wood-grain feel
     elel_closet: (
-      <svg width={s} height={s} viewBox="0 0 52 52">
+      <svg width={w} height={h} viewBox="0 0 52 52">
         <rect width="52" height="52" rx="6" fill="#EEF4F2"/>
         {/* Wood grain lines */}
         <rect x="8" y="14" width="36" height="2" rx="1" fill="#a07040" opacity="0.3"/>
@@ -1273,7 +1292,7 @@ function VendorLogo({ id, size = 52 }) {
     ),
 
     elel_util: (
-      <svg width={s} height={s} viewBox="0 0 52 52">
+      <svg width={w} height={h} viewBox="0 0 52 52">
         <rect width="52" height="52" rx="6" fill="#EEF4F2"/>
         <rect x="8" y="14" width="36" height="2" rx="1" fill="#a07040" opacity="0.3"/>
         <rect x="8" y="18" width="36" height="1.5" rx="1" fill="#a07040" opacity="0.2"/>
@@ -1286,7 +1305,7 @@ function VendorLogo({ id, size = 52 }) {
 
     // ── Orepac ── Pacific NW distributor, industrial
     orepac: (
-      <svg width={s} height={s} viewBox="0 0 52 52">
+      <svg width={w} height={h} viewBox="0 0 52 52">
         <rect width="52" height="52" rx="6" fill="#EEF4F2"/>
         <rect x="7" y="15" width="38" height="22" rx="3" fill="#FAF0EA"/>
         <text x="26" y="25" textAnchor="middle" fontFamily={"'Arial',sans-serif"} fontWeight="700" fontSize="8" fill="#C87A4A" letterSpacing="2">ORE</text>
@@ -1297,7 +1316,7 @@ function VendorLogo({ id, size = 52 }) {
 
     // ── ABS American Building Supply ── industrial distributor
     abs: (
-      <svg width={s} height={s} viewBox="0 0 52 52">
+      <svg width={w} height={h} viewBox="0 0 52 52">
         <rect width="52" height="52" rx="6" fill="#EEF4F2"/>
         <text x="26" y="28" textAnchor="middle" fontFamily={"'Arial Black',Arial,sans-serif"} fontWeight="900" fontSize="18" fill="#3A6898" letterSpacing="1">ABS</text>
         <rect x="8" y="32" width="36" height="1.5" fill="#3A6898" opacity="0.3"/>
@@ -1311,7 +1330,7 @@ function VendorLogo({ id, size = 52 }) {
   if (!svg) {
     // fallback: styled monogram
     return (
-      <div style={{width:s,height:s,borderRadius:"8px",background:"#FFFFFF",border:"1px solid #1c2220",display:"flex",alignItems:"center",justifyContent:"center",fontSize:"12px",fontWeight:700,color:"#9A7020",fontFamily:"monospace"}}>
+      <div style={{width:w,height:h,borderRadius:"8px",background:"#FFFFFF",border:"1px solid #1c2220",display:"flex",alignItems:"center",justifyContent:"center",fontSize:"12px",fontWeight:700,color:"#9A7020",fontFamily:"monospace"}}>
         {id.substring(0,2).toUpperCase()}
       </div>
     );
@@ -1332,7 +1351,7 @@ function VendorCard({vendor, favorites, setFavorites}) {
       <div style={{padding:"18px 22px 0"}}>
         <div style={{display:"flex",justifyContent:"space-between",alignItems:"flex-start",marginBottom:"12px",flexWrap:"wrap",gap:"8px"}}>
           <div style={{display:"flex",alignItems:"center",gap:"12px"}}>
-            <VendorLogo id={vendor.id} size={56}/>
+            <VendorLogo id={vendor.id} size={72} wide={true}/>
             <div>
               <div style={{display:"flex",alignItems:"center",gap:"7px"}}>
                 <div style={{fontSize:"17px",fontWeight:500,color:T.text}}>{vendor.name}</div>
