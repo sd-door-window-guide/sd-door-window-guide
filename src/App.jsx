@@ -1346,7 +1346,7 @@ function VendorCard({vendor, favorites, setFavorites}) {
     <div style={{background:T.card,border:`1px solid ${T.border}`,borderRadius:"12px",overflow:"hidden",borderTop:`3px solid ${c}`}}>
       {vendor.heroImage&&<div style={{width:"100%",height:"180px",overflow:"hidden",position:"relative"}}>
         <img src={vendor.heroImage} alt={vendor.name} style={{width:"100%",height:"100%",objectFit:"cover",objectPosition:"center",display:"block"}}/>
-        <div style={{position:"absolute",inset:0,background:`linear-gradient(to bottom, transparent 60%, ${T.card}99 100%)`}}/>
+        <div style={{position:"absolute",inset:0,background:`linear-gradient(to bottom, transparent 70%, ${T.card}88 100%)`}}/>
       </div>}
       <div style={{padding:"18px 22px 0"}}>
         <div style={{display:"flex",justifyContent:"space-between",alignItems:"flex-start",marginBottom:"12px",flexWrap:"wrap",gap:"8px"}}>
