@@ -713,7 +713,7 @@ const buildQuestions = () => [
   { id:"wantsLargeOpening", section:"Door System", question:"Are you looking to open up your space with a large patio door or glass wall system?", subtitle:"Think sliding walls, folding doors, or multi-panel systems", options:[{value:"yes",label:"Yes — That's the Plan",icon:"",detail:"I want to open up a wall or create an indoor-outdoor connection"},{value:"maybe",label:"Possibly — Still Deciding",icon:"",detail:"I'm curious about what's possible"},{value:"no",label:"No — Just Windows & Standard Doors",icon:"",detail:"I'm focused on windows and regular doors"}] },
   { id:"openingSize", section:"Door System", question:"What size is the main opening you want to transform?", subtitle:"Approximate width of the glass wall or main door system", condition:(a)=>a.wantsLargeOpening==="yes"||a.wantsLargeOpening==="maybe", options:[{value:"small",label:"Up to 12 feet",icon:"←→",detail:"Single room connection"},{value:"medium",label:"12–24 feet",icon:"⟵⟶",detail:"Substantial opening"},{value:"large",label:"24–40 feet",icon:"⟵——⟶",detail:"Full wall removal"},{value:"xl",label:"40+ feet or Corner",icon:"⊓",detail:"Monumental or corner system"}] },
   { id:"systemType", section:"Door System", question:"Do you have a door system type in mind?", subtitle:"Or let us recommend the right one", condition:(a)=>a.wantsLargeOpening==="yes"||a.wantsLargeOpening==="maybe", options:[{value:"folding",label:"Folding / Bi-fold",icon:"≋",detail:"Panels accordion — widest clear opening"},{value:"multislide",label:"Multi-Slide / Pocket",icon:"⇥",detail:"Panels slide, stack, or disappear"},{value:"liftslide",label:"Lift & Slide",icon:"⬆",detail:"European-style monolithic panel"},{value:"unsure",label:"Not Sure",icon:"",detail:"Help me understand the options"}] },
-  { id:"budget", section:"Budget", question:"What's your approximate budget for the door system alone?", subtitle:"Excludes windows — just the main glass wall / door system", condition:(a)=>a.wantsLargeOpening==="yes"||a.wantsLargeOpening==="maybe", options:[{value:"moderate",label:"$10K – $25K",icon:"",detail:"Value-premium range"},{value:"premium",label:"$25K – $50K",icon:"",detail:"Premium range"},{value:"luxury",label:"$50K – $100K",icon:"",detail:"Luxury range"},{value:"ultra",label:"$100K+ / No Limit",icon:"",detail:"Best possible — no budget constraint"}] },
+  { id:"budget", section:"Budget", question:"What's your approximate budget for the door system alone?", subtitle:"Excludes windows — just the main glass wall / door system", condition:(a)=>a.wantsLargeOpening==="yes"||a.wantsLargeOpening==="maybe", options:[{value:"entry",label:"Under $10K",icon:"",detail:"Entry-level systems"},{value:"moderate",label:"$10K – $25K",icon:"",detail:"Value-premium range"},{value:"premium",label:"$25K – $50K",icon:"",detail:"Premium range"},{value:"luxury",label:"$50K – $100K",icon:"",detail:"Luxury range"}] },
   { id:"priority", section:"Priorities", question:"What matters most in your final product?", subtitle:"Pick the one that resonates most strongly", options:[{value:"aesthetics",label:"Aesthetics & Wow Factor",icon:"",detail:"It needs to be visually stunning"},{value:"performance",label:"Performance & Durability",icon:"",detail:"Built to last in coastal SD"},{value:"value",label:"Best Value for Budget",icon:"",detail:"Quality without overpaying"},{value:"customization",label:"Total Customization",icon:"",detail:"One-of-a-kind for my home"}] },
   { id:"timeline", section:"Timeline", question:"When are you looking to move forward?", subtitle:"Helps us prioritize your inquiry", options:[{value:"now",label:"Ready Now",icon:"",detail:"Project underway or starting within 30 days"},{value:"quarter",label:"1–3 Months",icon:"",detail:"Planning, gathering quotes"},{value:"sixmonths",label:"3–6 Months",icon:"",detail:"Early planning phase"},{value:"future",label:"Just Exploring",icon:"",detail:"Thinking about it for the future"}] },
   { id:"hasDeadline", section:"Timeline", question:"Do you have a hard deadline this project must be completed by?", subtitle:"Events, move-in dates, or construction milestones can affect vendor selection", options:[{value:"yes",label:"Yes — Hard Deadline",icon:"\u{1F4C5}",detail:"There's a specific date we must hit"},{value:"soft",label:"Soft Target",icon:"",detail:"A preferred timeframe but flexible"},{value:"no",label:"No Deadline",icon:"",detail:"Whenever it's done right"}] },
@@ -737,7 +737,7 @@ function scoreVendors(answers) {
   if(answers.budget==="moderate"){s.milgard+=4;s.lacantina+=2;}
   if(answers.budget==="premium"){s.lacantina+=4;s.andersen+=3;s.milgard+=2;}
   if(answers.budget==="luxury"){s.nanawall+=3;s.marvin+=3;s.andersen+=3;s.lacantina+=2;}
-  if(answers.budget==="ultra"){s.nanawall+=4;s.marvin+=4;}
+  if(answers.budget==="entry"){s.windor+=5;s.milgard+=3;}
   if(answers.priority==="aesthetics"){s.nanawall+=4;s.lacantina+=2;s.marvin+=2;}
   if(answers.priority==="performance"){s.marvin+=4;s.andersen+=3;s.nanawall+=2;}
   if(answers.priority==="value"){s.milgard+=4;s.lacantina+=3;s.andersen+=2;}
@@ -758,7 +758,7 @@ function scoreVendors(answers) {
   // Weather Shield scoring
   if(Array.isArray(answers.projectType)&&answers.projectType.includes("custom_new")){s.weathershield+=2;}
   if(answers.budget==="luxury"){s.weathershield+=2;}
-  if(answers.budget==="ultra"){s.weathershield+=2;}
+  
   if(answers.style==="traditional"){s.weathershield+=2;}
   if(answers.style==="coastal"){s.weathershield+=2;}
   if(answers.priority==="customization"){s.weathershield+=3;}
@@ -789,7 +789,7 @@ function scoreVendors(answers) {
   if(answers.style==="modern"){s.westernwindow+=4;}
   if(answers.desiredFrame==="aluminum"){s.westernwindow+=4;}
   if(answers.openingSize==="large"||answers.openingSize==="xl"){s.westernwindow+=3;}
-  if(answers.budget==="luxury"||answers.budget==="ultra"){s.westernwindow+=2;}
+  if(answers.budget==="luxury"){s.westernwindow+=2;}
   if(answers.priority==="aesthetics"){s.westernwindow+=2;}
   if(Array.isArray(answers.projectType)&&answers.projectType.includes("custom_new")){s.westernwindow+=2;}
   // NuVista scoring — budget architectural aluminum, ADU, commercial-adjacent
@@ -815,8 +815,7 @@ function scoreVendors(answers) {
   if(answers.priority==="value"){s.windor+=4;}
   if(answers.openingSize==="large"||answers.openingSize==="medium"){s.windor+=2;}
   // Fleetwood scoring — ultra-luxury aluminum, large openings, modern
-  if(answers.budget==="ultra"){s.fleetwood+=5;}
-  if(answers.budget==="luxury"){s.fleetwood+=3;}
+  if(answers.budget==="luxury"){s.fleetwood+=4;}
   if(answers.systemType==="multislide"){s.fleetwood+=4;}
   if(answers.systemType==="liftslide"){s.fleetwood+=5;}
   if(answers.systemType==="folding"){s.fleetwood+=3;}
@@ -833,7 +832,7 @@ function scoreVendors(answers) {
   if(answers.style==="transitional"){s.steeltraditions+=3;s.frenchsteel+=2;}
   if(answers.style==="traditional"){s.frenchsteel+=3;s.steeltraditions+=2;}
   if(answers.style==="coastal"){s.steeltraditions+=2;s.frenchsteel+=2;}
-  if(answers.budget==="luxury"||answers.budget==="ultra"){s.steeltraditions+=3;s.frenchsteel+=3;}
+  if(answers.budget==="luxury"){s.steeltraditions+=3;s.frenchsteel+=3;}
   if(answers.budget==="premium"){s.steeltraditions+=2;s.frenchsteel+=2;}
   if(answers.priority==="aesthetics"){s.steeltraditions+=3;s.frenchsteel+=3;}
   if(answers.priority==="customization"){s.steeltraditions+=2;s.frenchsteel+=3;}
@@ -1930,7 +1929,7 @@ export default function App() {
         *{box-sizing:border-box;} input,textarea{font-family:inherit;}
         @keyframes fadeUp{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
         ::-webkit-scrollbar{width:4px}::-webkit-scrollbar-track{background:#E8E4DC}::-webkit-scrollbar-thumb{background:#B8C4C0;border-radius:2px}
-        .opt:hover{border-color:#C4CEC8!important;background:#EEF2F0!important;cursor:pointer}
+        .opt{cursor:pointer;box-shadow:0 1px 3px rgba(0,0,0,0.08);} .opt:hover{border-color:#9abaB6!important;background:#EEF2F0!important;transform:translateY(-1px);box-shadow:0 3px 8px rgba(0,0,0,0.12)!important;}
         .btn:hover{opacity:.85}
         a{color:inherit}
         /* ── NAV: wraps to 2-3 rows as window narrows ── */
@@ -2153,7 +2152,7 @@ export default function App() {
                         }
                       };
                       return (
-                        <div key={opt.value} className="opt" onClick={toggleMulti} style={{background:sel?"#F8F5F0":T.card,border:`1px solid ${sel?sColor:T.border}`,borderRadius:"8px",padding:"15px 13px",transition:"all 0.15s",position:"relative"}}>
+                        <div key={opt.value} className="opt" onClick={toggleMulti} style={{background:sel?`${sColor}18`:T.card,border:`2px solid ${sel?sColor:"#C8D0CC"}`,borderRadius:"10px",padding:"15px 13px",transition:"all 0.15s",position:"relative",boxShadow:sel?`0 0 0 1px ${sColor}44`:"0 1px 3px rgba(0,0,0,0.08)"}}>
                           {sel&&<div style={{position:"absolute",top:"8px",right:"10px",width:"16px",height:"16px",borderRadius:"50%",background:sColor,display:"flex",alignItems:"center",justifyContent:"center",fontSize:"9px",color:T.dark,fontWeight:700}}>{"\u2713"}</div>}
                           <div style={{fontSize:"19px",marginBottom:"5px"}}>{opt.icon}</div>
                           <div style={{fontSize:"13px",fontWeight:sel?500:400,color:sel?T.text:"#484848",marginBottom:"3px"}}>{opt.label}</div>
@@ -2173,7 +2172,7 @@ export default function App() {
                   {currentQ.options.map(opt=>{
                     const isSel=selOpt===opt.value;
                     return (
-                      <div key={opt.value} className="opt" onClick={()=>setSelOpt(opt.value)} style={{background:isSel?"#F8F5F0":T.card,border:`1px solid ${isSel?sColor:T.border}`,borderRadius:"8px",padding:currentQ.columns===3?"13px 11px":"15px 13px",transition:"all 0.15s"}}>
+                      <div key={opt.value} className="opt" onClick={()=>setSelOpt(opt.value)} style={{background:isSel?`${sColor}18`:T.card,border:`2px solid ${isSel?sColor:"#C8D0CC"}`,borderRadius:"10px",padding:currentQ.columns===3?"13px 11px":"15px 13px",transition:"all 0.15s",boxShadow:isSel?`0 0 0 1px ${sColor}44`:"0 1px 3px rgba(0,0,0,0.08)"}}>
                         <div style={{fontSize:currentQ.columns===3?"17px":"19px",marginBottom:"5px"}}>{opt.icon}</div>
                         <div style={{fontSize:currentQ.columns===3?"12px":"13px",fontWeight:isSel?500:400,color:isSel?T.text:"#484848",marginBottom:"3px"}}>{opt.label}</div>
                         <div style={{fontSize:"11px",color:T.dim,lineHeight:1.4}}>{opt.detail}</div>
