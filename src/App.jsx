@@ -695,18 +695,18 @@ const buildQuestions = () => [
   { id:"whoAreYou", section:"About You", question:"Which best describes you?", subtitle:"Helps us tailor our recommendations and follow-up to your role", options:[{value:"homeowner",label:"Homeowner",icon:"",detail:"It's my home — I'm making the decisions"},{value:"contractor",label:"Contractor / Builder",icon:"",detail:"Building or remodeling on behalf of a client"},{value:"architect",label:"Architect",icon:"",detail:"Specifying products for a project"},{value:"designer",label:"Interior Designer",icon:"",detail:"Selecting finishes and products for a client"}] },
   { id:"needsInstall", section:"About You", question:"Are you looking for installation services?", subtitle:"Qualified local dealers offer free in-home measure for clients who purchase and install through them", isInstall:true, options:[{value:"yes_install",label:"Yes — Full Install",icon:"",detail:"I need supply and professional installation"},{value:"yes_measure",label:"Measure & Quote Only",icon:"",detail:"I'd like a free measure and quote first"},{value:"no_supply",label:"Supply Only",icon:"",detail:"I have my own installer — just need product"},{value:"unsure",label:"Not Sure Yet",icon:"",detail:"I'd like to discuss options"}] },
   { id:"otherServices", section:"About You", question:"Are you looking for any other building services or materials?", subtitle:"Many local dealers carry far more than windows and doors — check everything that applies", isMultiSelect:true, isOtherServices:true, options:[{value:"lumber",label:"Lumber & Framing",icon:"",detail:"Dimensional lumber, engineered wood, framing"},{value:"decking",label:"Decking & Outdoor",icon:"",detail:"Deck boards, railings, fencing, outdoor materials"},{value:"building_materials",label:"Building Materials",icon:"",detail:"Drywall, insulation, roofing, concrete products"},{value:"kitchen_bath",label:"Kitchen & Bath",icon:"",detail:"Cabinetry, countertops, fixtures, tile"},{value:"none",label:"Windows & Doors Only",icon:"",detail:"Just focused on windows and doors for now"}] },
-  { id:"projectType", section:"Your Project", question:"What best describes your project?", subtitle:"Helps us understand scope and installation approach", options:[{value:"custom_new",label:"Custom New Build",icon:"",detail:"Designing from scratch"},{value:"luxury_remodel",label:"Full Remodel",icon:"",detail:"Major renovation of existing home"},{value:"addition",label:"Room Addition / ADU",icon:"",detail:"Adding new living space"},{value:"door_replacement",label:"Window/Door Replacement",icon:"",detail:"Swapping specific openings"}] },
-  { id:"pullingPermits", section:"Your Project", question:"Will this project be permitted / inspected?", subtitle:"Permitted projects in California must meet Title 24 energy code requirements", isPermits:true, condition:(a)=>a.projectType==="luxury_remodel"||a.projectType==="addition"||a.projectType==="door_replacement", options:[{value:"yes",label:"Yes — Pulling Permits",icon:"",detail:"Full inspection required — Title 24 applies"},{value:"no",label:"No Permits",icon:"",detail:"Owner or contractor managing without permits"},{value:"unsure",label:"Not Sure Yet",icon:"",detail:"I need to check with my contractor or the city"},{value:"na",label:"N/A — New Build",icon:"",detail:"New construction always requires permits"}] },
+  { id:"projectType", section:"Your Project", question:"What best describes your project?", subtitle:"Select all that apply", isMultiSelect:true, options:[{value:"custom_new",label:"Custom New Build",icon:"",detail:"Designing from scratch"},{value:"luxury_remodel",label:"Full Remodel",icon:"",detail:"Major renovation of existing home"},{value:"addition",label:"Room Addition / ADU",icon:"",detail:"Adding new living space"},{value:"door_replacement",label:"Window/Door Replacement",icon:"",detail:"Swapping specific openings"}] },
+  { id:"pullingPermits", section:"Your Project", question:"Will this project be permitted / inspected?", subtitle:"Permitted projects in California must meet Title 24 energy code requirements", isPermits:true, condition:(a)=>Array.isArray(a.projectType)&&(a.projectType.includes("luxury_remodel")||a.projectType.includes("addition")||a.projectType.includes("door_replacement")), options:[{value:"yes",label:"Yes — Pulling Permits",icon:"",detail:"Full inspection required — Title 24 applies"},{value:"no",label:"No Permits",icon:"",detail:"Owner or contractor managing without permits"},{value:"unsure",label:"Not Sure Yet",icon:"",detail:"I need to check with my contractor or the city"},{value:"na",label:"N/A — New Build",icon:"",detail:"New construction always requires permits"}] },
   { id:"replacementPurpose", section:"Your Project", question:"What are your goals for this window & door upgrade?", subtitle:"Select everything that applies — helps us match the right products and glazing options", isMultiSelect:true, isReplacementPurpose:true, options:[{value:"energy",label:"Energy Efficiency",icon:"",detail:"Lower utility bills, Title 24 compliance, better insulation"},{value:"sound",label:"Sound Control",icon:"",detail:"Reduce traffic, aircraft, or neighborhood noise"},{value:"aesthetic",label:"Aesthetics & Style",icon:"",detail:"Update the look, modernize, or match architecture"},{value:"functionality",label:"Functionality",icon:"",detail:"Easier operation, better hardware, modern systems"},{value:"maintenance",label:"Low Maintenance",icon:"",detail:"Eliminate painting, warping, rot, and corrosion"},{value:"durability",label:"Durability & Longevity",icon:"",detail:"Products built to last 20–30+ years in SD climate"},{value:"indoor_outdoor",label:"Indoor-Outdoor Living",icon:"",detail:"Open the wall, create a glass wall or folding system"},{value:"security",label:"Security & Safety",icon:"",detail:"Better locks, impact glass, fire-rated products"}] },
   { id:"coastalProximity", section:"Property Details", question:"Is your home within 2 miles of the ocean or bay?", subtitle:"Salt air affects frame and hardware material recommendations.", isCoastal:true, options:[{value:"yes",label:"Yes",icon:"🌊",detail:"Within 2 miles of the ocean or bay"},{value:"no",label:"No",icon:"🏠",detail:"More than 2 miles inland"},{value:"unsure",label:"Not Sure",icon:"❓",detail:"I'm not certain"}] },
   { id:"elevation", section:"Property Details", question:"Is your home above approximately 4,000 feet elevation?", subtitle:"High-elevation properties (Julian, Alpine, Mt. Laguna) require special IG unit treatment", isElevation:true, options:[{value:"yes",label:"Yes — High Elevation",icon:"",detail:"Above ~4,000 ft — Julian, Alpine, Mt. Laguna area"},{value:"no",label:"No — Standard Elevation",icon:"",detail:"Sea level to ~4,000 ft — most of San Diego County"},{value:"unsure",label:"Not Sure",icon:"",detail:"I'm not certain of my elevation"}] },
   { id:"fireZone", section:"Property Details", question:"Is your property in a designated fire hazard zone?", subtitle:"Fire zone status affects product requirements, ratings, and material selection", isFireZone:true, options:[{value:"yes_very_high",label:"Yes — Very High",icon:"",detail:"Designated Very High Fire Hazard Severity Zone"},{value:"yes_high",label:"Yes — High",icon:"",detail:"Designated High Fire Hazard Severity Zone"},{value:"yes_moderate",label:"Yes — Moderate",icon:"",detail:"Designated Moderate Fire Hazard Severity Zone"},{value:"no",label:"No / Not in Fire Zone",icon:"",detail:"Not in a designated fire hazard zone"},{value:"unsure",label:"Not Sure",icon:"",detail:"I need to check — I'll look it up"}] },
-  { id:"temperedGlass", section:"Property Details", condition:(a)=>a.projectType!=="custom_new", question:"Do any of your windows or doors require tempered glass?", subtitle:"Certain locations require tempered safety glass by code — click to learn why", isTempered:true, options:[{value:"yes_know",label:"Yes — I Know Where",icon:"",detail:"I know which locations need tempered"},{value:"yes_unsure",label:"Probably — Not Sure Where",icon:"",detail:"I have some locations that might apply"},{value:"no",label:"No / Not Applicable",icon:"",detail:"No tempered locations"},{value:"unsure",label:"Not Sure — Explain It",icon:"",detail:"I'd like to understand when tempered is required"}] },
+  { id:"temperedGlass", section:"Property Details", condition:(a)=>!Array.isArray(a.projectType)||!a.projectType.includes("custom_new"), question:"Do any of your windows or doors require tempered glass?", subtitle:"Certain locations require tempered safety glass by code — click to learn why", isTempered:true, options:[{value:"yes_know",label:"Yes — I Know Where",icon:"",detail:"I know which locations need tempered"},{value:"yes_unsure",label:"Probably — Not Sure Where",icon:"",detail:"I have some locations that might apply"},{value:"no",label:"No / Not Applicable",icon:"",detail:"No tempered locations"},{value:"unsure",label:"Not Sure — Explain It",icon:"",detail:"I'd like to understand when tempered is required"}] },
   { id:"installType", section:"Installation Type", question:"Do you know whether your project needs retrofit or new construction windows?", subtitle:"Two very different installation methods — click to learn more if unsure", educationKey:"installType", educationLabel:"Learn the difference →", options:[{value:"retrofit",label:"Retrofit / Replacement",icon:"",detail:"Installing inside existing frame — less demolition"},{value:"new_construction",label:"New Construction",icon:"",detail:"Nailing fin attached to rough framing"},{value:"both",label:"Mix of Both",icon:"",detail:"Some areas retrofit, others full"},{value:"unsure",label:"Not Sure",icon:"",detail:"I'd like help understanding"}] },
-  { id:"exteriorMaterial", section:"Your Home's Exterior", condition:(a)=>a.projectType!=="custom_new", question:"What is the exterior wall covering of your home?", subtitle:"Affects how windows are flashed, sealed, and integrated", options:[{value:"stucco",label:"Stucco",icon:"",detail:"Hard plaster — most common in San Diego"},{value:"siding_wood",label:"Wood Siding",icon:"",detail:"Horizontal wood or engineered wood planks"},{value:"siding_fiber",label:"Fiber Cement Siding",icon:"",detail:"Hardieplank or similar"},{value:"brick_stone",label:"Brick or Stone",icon:"",detail:"Masonry exterior"},{value:"siding_vinyl",label:"Vinyl Siding",icon:"▦",detail:"Plastic lap siding"},{value:"mixed",label:"Mixed / Not Sure",icon:"",detail:"Multiple materials"}], columns:3 },
-  { id:"hasExistingWindows", section:"Existing Windows", condition:(a)=>a.projectType!=="custom_new", question:"Are you replacing existing windows or doors?", subtitle:"If yes, we'll ask a few more questions to help with matching", options:[{value:"yes_all",label:"Yes — Replacing Everything",icon:"",detail:"Full whole-house replacement"},{value:"yes_some",label:"Yes — Replacing Some",icon:"↩",detail:"Specific rooms or openings"},{value:"no_new",label:"No — All New Openings",icon:"",detail:"New construction or new openings"}] },
-  { id:"existingFrameMaterial", section:"Existing Windows", question:"What material are your existing window frames?", subtitle:"Check the frame edges and corners for clues", condition:(a)=>a.projectType!=="custom_new"&&(a.hasExistingWindows==="yes_all"||a.hasExistingWindows==="yes_some"), options:[{value:"aluminum",label:"Aluminum",icon:"⬛",detail:"Thin metal frame — very common in 1970s–2000s SD"},{value:"wood",label:"Wood",icon:"🪵",detail:"Natural or painted wood frame"},{value:"vinyl",label:"Vinyl",icon:"🔲",detail:"White/beige plastic frame"},{value:"fiberglass",label:"Fiberglass",icon:"💠",detail:"Looks like vinyl but heavier"},{value:"steel",label:"Steel",icon:"🔩",detail:"Very thin dark metal"},{value:"unsure",label:"Not Sure",icon:"❓",detail:"I'd need help identifying"}] },
-  { id:"matchExistingBrand", section:"Existing Windows", question:"Are you trying to match an existing window brand or style?", subtitle:"Some clients need consistency with windows staying in place", condition:(a)=>a.projectType!=="custom_new"&&(a.hasExistingWindows==="yes_all"||a.hasExistingWindows==="yes_some"), options:[{value:"yes_match",label:"Yes — Want to Match",icon:"",detail:"Need to blend with remaining windows"},{value:"open_upgrade",label:"Open to Upgrading Style",icon:"",detail:"Happy to change the look"},{value:"no_all_new",label:"Replacing Everything",icon:"",detail:"Full replacement — no need to match"}] },
+  { id:"exteriorMaterial", section:"Your Home's Exterior", condition:(a)=>!Array.isArray(a.projectType)||!a.projectType.includes("custom_new"), question:"What is the exterior wall covering of your home?", subtitle:"Affects how windows are flashed, sealed, and integrated", options:[{value:"stucco",label:"Stucco",icon:"",detail:"Hard plaster — most common in San Diego"},{value:"siding_wood",label:"Wood Siding",icon:"",detail:"Horizontal wood or engineered wood planks"},{value:"siding_fiber",label:"Fiber Cement Siding",icon:"",detail:"Hardieplank or similar"},{value:"brick_stone",label:"Brick or Stone",icon:"",detail:"Masonry exterior"},{value:"siding_vinyl",label:"Vinyl Siding",icon:"▦",detail:"Plastic lap siding"},{value:"mixed",label:"Mixed / Not Sure",icon:"",detail:"Multiple materials"}], columns:3 },
+  { id:"hasExistingWindows", section:"Existing Windows", condition:(a)=>!Array.isArray(a.projectType)||!a.projectType.includes("custom_new"), question:"Are you replacing existing windows or doors?", subtitle:"If yes, we'll ask a few more questions to help with matching", options:[{value:"yes_all",label:"Yes — Replacing Everything",icon:"",detail:"Full whole-house replacement"},{value:"yes_some",label:"Yes — Replacing Some",icon:"↩",detail:"Specific rooms or openings"},{value:"no_new",label:"No — All New Openings",icon:"",detail:"New construction or new openings"}] },
+  { id:"existingFrameMaterial", section:"Existing Windows", question:"What material are your existing window frames?", subtitle:"Check the frame edges and corners for clues", condition:(a)=>!Array.isArray(a.projectType)||!a.projectType.includes("custom_new")&&(a.hasExistingWindows==="yes_all"||a.hasExistingWindows==="yes_some"), options:[{value:"aluminum",label:"Aluminum",icon:"⬛",detail:"Thin metal frame — very common in 1970s–2000s SD"},{value:"wood",label:"Wood",icon:"🪵",detail:"Natural or painted wood frame"},{value:"vinyl",label:"Vinyl",icon:"🔲",detail:"White/beige plastic frame"},{value:"fiberglass",label:"Fiberglass",icon:"💠",detail:"Looks like vinyl but heavier"},{value:"steel",label:"Steel",icon:"🔩",detail:"Very thin dark metal"},{value:"unsure",label:"Not Sure",icon:"❓",detail:"I'd need help identifying"}] },
+  { id:"matchExistingBrand", section:"Existing Windows", question:"Are you trying to match an existing window brand or style?", subtitle:"Some clients need consistency with windows staying in place", condition:(a)=>!Array.isArray(a.projectType)||!a.projectType.includes("custom_new")&&(a.hasExistingWindows==="yes_all"||a.hasExistingWindows==="yes_some"), options:[{value:"yes_match",label:"Yes — Want to Match",icon:"",detail:"Need to blend with remaining windows"},{value:"open_upgrade",label:"Open to Upgrading Style",icon:"",detail:"Happy to change the look"},{value:"no_all_new",label:"Replacing Everything",icon:"",detail:"Full replacement — no need to match"}] },
   { id:"primaryGoal", section:"Your Vision", question:"What's the primary vision for this project?", subtitle:"What outcome matters most?", options:[{value:"indoor_outdoor",label:"Indoor-Outdoor Living",icon:"",detail:"Open the wall to yard, patio, or view"},{value:"views",label:"Maximize Views & Light",icon:"",detail:"Frame the view, flood with light"},{value:"entertaining",label:"Entertaining & Flow",icon:"",detail:"Seamless flow for hosting"},{value:"complete_package",label:"Whole-House Upgrade",icon:"",detail:"Replace all windows and doors"}] },
   { id:"style", section:"Your Vision", question:"How would you describe your home's architecture?", subtitle:"Guides frame material and finish recommendations", options:[{value:"modern",label:"Modern / Contemporary",icon:"◻",detail:"Clean lines, minimal frames, black aluminum"},{value:"transitional",label:"Transitional",icon:"◈",detail:"Mix of classic and modern"},{value:"traditional",label:"Traditional / Craftsman",icon:"⬡",detail:"Warm tones, classic profiles"},{value:"coastal",label:"Coastal / Mediterranean",icon:"🌊",detail:"Salt air environment, relaxed luxury"},{value:"unsure",label:"Not Sure",icon:"❓",detail:"I'd like help figuring it out"}] },
   { id:"desiredFrame", section:"Frame Material", question:"What frame material are you looking for in your new windows?", subtitle:"Each material has distinct advantages — click to compare all", educationKey:"frameMaterial", educationLabel:"Compare frame materials →", options:[{value:"aluminum",label:"Aluminum",icon:"⬛",detail:"Slim, strong, low maintenance — ideal for modern"},{value:"wood",label:"Wood or Clad Wood",icon:"🪵",detail:"Warm interior — traditional & craftsman"},{value:"vinyl",label:"Vinyl",icon:"🔲",detail:"Affordable, energy-efficient, maintenance-free"},{value:"fiberglass",label:"Fiberglass",icon:"💠",detail:"Premium strength — excellent for coastal"},{value:"steel",label:"Steel",icon:"🔩",detail:"Ultra-thin frames — architectural statement"},{value:"unsure",label:"Help Me Decide",icon:"❓",detail:"Recommend based on my project"}], columns:3 },
@@ -722,10 +722,10 @@ const buildQuestions = () => [
 
 function scoreVendors(answers) {
   const s = {nanawall:0,lacantina:0,andersen:0,marvin:0,milgard:0,pella:0,weathershield:0,alpine:0,jeldwen_win:0,simonton:0,westernwindow:0,nuvista:0,iwc:0,windor:0,fleetwood:0,steeltraditions:0,frenchsteel:0};
-  if(answers.projectType==="custom_new"){s.nanawall+=3;s.marvin+=3;s.andersen+=2;}
-  if(answers.projectType==="luxury_remodel"){s.lacantina+=3;s.andersen+=3;s.milgard+=2;}
-  if(answers.projectType==="addition"){s.lacantina+=2;s.milgard+=3;s.andersen+=2;}
-  if(answers.projectType==="door_replacement"){s.milgard+=3;s.lacantina+=2;}
+  if(Array.isArray(answers.projectType)&&answers.projectType.includes("custom_new")){s.nanawall+=3;s.marvin+=3;s.andersen+=2;}
+  if(Array.isArray(answers.projectType)&&answers.projectType.includes("luxury_remodel")){s.lacantina+=3;s.andersen+=3;s.milgard+=2;}
+  if(Array.isArray(answers.projectType)&&answers.projectType.includes("addition")){s.lacantina+=2;s.milgard+=3;s.andersen+=2;}
+  if(Array.isArray(answers.projectType)&&answers.projectType.includes("door_replacement")){s.milgard+=3;s.lacantina+=2;}
   if(answers.style==="modern"){s.nanawall+=3;s.lacantina+=3;s.milgard+=2;}
   if(answers.style==="transitional"){s.andersen+=3;s.lacantina+=2;s.milgard+=2;}
   if(answers.style==="traditional"){s.marvin+=4;s.andersen+=3;}
@@ -750,13 +750,13 @@ function scoreVendors(answers) {
   if(answers.desiredFrame==="vinyl"){s.milgard+=3;s.lacantina+=2;s.pella+=2;}
   if(answers.desiredFrame==="wood"){s.marvin+=3;s.andersen+=2;s.weathershield+=2;}
   // Pella scoring
-  if(answers.projectType==="door_replacement"){s.pella+=2;}
+  if(Array.isArray(answers.projectType)&&answers.projectType.includes("door_replacement")){s.pella+=2;}
   if(answers.budget==="moderate"){s.pella+=3;}
   if(answers.budget==="premium"){s.pella+=2;}
   if(answers.style==="transitional"){s.pella+=2;}
   if(answers.priority==="value"){s.pella+=2;}
   // Weather Shield scoring
-  if(answers.projectType==="custom_new"){s.weathershield+=2;}
+  if(Array.isArray(answers.projectType)&&answers.projectType.includes("custom_new")){s.weathershield+=2;}
   if(answers.budget==="luxury"){s.weathershield+=2;}
   if(answers.budget==="ultra"){s.weathershield+=2;}
   if(answers.style==="traditional"){s.weathershield+=2;}
@@ -766,7 +766,7 @@ function scoreVendors(answers) {
   // Alpine scoring — vinyl value, budget remodels
   if(answers.budget==="moderate"){s.alpine+=3;}
   if(answers.desiredFrame==="vinyl"){s.alpine+=3;}
-  if(answers.projectType==="door_replacement"){s.alpine+=2;}
+  if(Array.isArray(answers.projectType)&&answers.projectType.includes("door_replacement")){s.alpine+=2;}
   if(answers.priority==="value"){s.alpine+=3;}
   if(answers.openingSize==="small"||answers.openingSize==="medium"){s.alpine+=2;}
   // JELD-WEN Windows scoring — broad range, mixed-spec
@@ -774,13 +774,13 @@ function scoreVendors(answers) {
   if(answers.budget==="premium"){s.jeldwen_win+=2;}
   if(answers.desiredFrame==="vinyl"){s.jeldwen_win+=2;}
   if(answers.desiredFrame==="wood"){s.jeldwen_win+=2;}
-  if(answers.projectType==="luxury_remodel"){s.jeldwen_win+=1;}
+  if(Array.isArray(answers.projectType)&&answers.projectType.includes("luxury_remodel")){s.jeldwen_win+=1;}
   if(answers.priority==="value"){s.jeldwen_win+=2;}
   // Simonton scoring — production vinyl, budget, Daylight Max
   if(answers.budget==="moderate"){s.simonton+=3;}
   if(answers.desiredFrame==="vinyl"){s.simonton+=3;}
   if(answers.priority==="value"){s.simonton+=3;}
-  if(answers.projectType==="door_replacement"){s.simonton+=2;}
+  if(Array.isArray(answers.projectType)&&answers.projectType.includes("door_replacement")){s.simonton+=2;}
   if(answers.openingSize==="small"||answers.openingSize==="medium"){s.simonton+=1;}
   // Western Window Systems scoring — modern aluminum, large openings
   if(answers.systemType==="multislide"){s.westernwindow+=4;}
@@ -791,11 +791,11 @@ function scoreVendors(answers) {
   if(answers.openingSize==="large"||answers.openingSize==="xl"){s.westernwindow+=3;}
   if(answers.budget==="luxury"||answers.budget==="ultra"){s.westernwindow+=2;}
   if(answers.priority==="aesthetics"){s.westernwindow+=2;}
-  if(answers.projectType==="custom_new"){s.westernwindow+=2;}
+  if(Array.isArray(answers.projectType)&&answers.projectType.includes("custom_new")){s.westernwindow+=2;}
   // NuVista scoring — budget architectural aluminum, ADU, commercial-adjacent
   if(answers.desiredFrame==="aluminum"){s.nuvista+=4;}
   if(answers.style==="modern"){s.nuvista+=3;}
-  if(answers.projectType==="custom_new"){s.nuvista+=2;}
+  if(Array.isArray(answers.projectType)&&answers.projectType.includes("custom_new")){s.nuvista+=2;}
   if(answers.budget==="premium"){s.nuvista+=2;}
   if(answers.budget==="moderate"){s.nuvista+=2;}
   if(answers.priority==="value"){s.nuvista+=2;}
@@ -803,7 +803,7 @@ function scoreVendors(answers) {
   // IWC scoring — commercial-grade aluminum, custom, architect
   if(answers.desiredFrame==="aluminum"){s.iwc+=3;}
   if(answers.style==="modern"){s.iwc+=2;}
-  if(answers.projectType==="custom_new"){s.iwc+=2;}
+  if(Array.isArray(answers.projectType)&&answers.projectType.includes("custom_new")){s.iwc+=2;}
   if(answers.priority==="performance"){s.iwc+=2;}
   if(answers.priority==="customization"){s.iwc+=2;}
   if(answers.budget==="premium"||answers.budget==="luxury"){s.iwc+=1;}
@@ -826,7 +826,7 @@ function scoreVendors(answers) {
   if(answers.desiredFrame==="aluminum"){s.fleetwood+=4;}
   if(answers.priority==="aesthetics"){s.fleetwood+=3;}
   if(answers.priority==="performance"){s.fleetwood+=2;}
-  if(answers.projectType==="custom_new"){s.fleetwood+=3;}
+  if(Array.isArray(answers.projectType)&&answers.projectType.includes("custom_new")){s.fleetwood+=3;}
   // Steel Traditions scoring — steel frame, modern/transitional, luxury
   if(answers.desiredFrame==="steel"){s.steeltraditions+=5;s.frenchsteel+=4;}
   if(answers.style==="modern"){s.steeltraditions+=3;}
@@ -837,7 +837,7 @@ function scoreVendors(answers) {
   if(answers.budget==="premium"){s.steeltraditions+=2;s.frenchsteel+=2;}
   if(answers.priority==="aesthetics"){s.steeltraditions+=3;s.frenchsteel+=3;}
   if(answers.priority==="customization"){s.steeltraditions+=2;s.frenchsteel+=3;}
-  if(answers.projectType==="custom_new"){s.steeltraditions+=2;s.frenchsteel+=2;}
+  if(Array.isArray(answers.projectType)&&answers.projectType.includes("custom_new")){s.steeltraditions+=2;s.frenchsteel+=2;}
   // Fire zone — coastal stainless / fire-rated bonus
   if(answers.fireZone==="yes_very_high"||answers.fireZone==="yes_high"){s.marvin+=2;s.andersen+=1;}
   if(answers.style==="coastal"||answers.exteriorMaterial==="stucco"){s.marvin+=1;}
