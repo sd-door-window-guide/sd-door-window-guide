@@ -965,7 +965,7 @@ function VendorLogo({ id, size = 52, wide = false }) {
           </g>
         </svg>
       </div>
-    )
+    ),
 
     // ── Andersen Skylights — same triangle, skylight subtitle
     andersen_skylight: (
