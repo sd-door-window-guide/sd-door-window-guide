@@ -906,7 +906,7 @@ function VendorLogo({ id, size = 52, wide = false }) {
 
     // ── LaCantina ── clean wordmark, teal accent bar
     lacantina: (
-      <div style={{width:w,height:h,borderRadius:6,overflow:"hidden",background:"#fff",display:"flex",alignItems:"center",justifyContent:"center",padding:"8px 14px"}}>
+      <div style={{width:w,height:h,borderRadius:6,overflow:"hidden",background:"#fff",display:"flex",alignItems:"center",justifyContent:"center",padding:"4px 8px"}}>
         <svg viewBox="0 0 285 53.5" style={{width:"100%",height:"100%"}} xmlns="http://www.w3.org/2000/svg">
           <g>
             <g>
