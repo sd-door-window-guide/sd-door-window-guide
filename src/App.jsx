@@ -1020,8 +1020,8 @@ function VendorLogo({ id, size = 52, wide = false }) {
 
     // ── Pella ── bold red wordmark on white, clean horizontal rule
     pella: (
-      <div style={{width:w,height:h,borderRadius:6,overflow:"hidden",background:"#000",display:"flex",alignItems:"center",justifyContent:"center"}}>
-        <img src="/pellalogo.png" alt="Pella" style={{width:"100%",height:"100%",objectFit:"contain"}}/>
+      <div style={{width:w,height:h,borderRadius:6,overflow:"hidden",background:"#fff",display:"flex",alignItems:"center",justifyContent:"center"}}>
+        <img src="/pellalogo-white.png" alt="Pella" style={{width:"100%",height:"100%",objectFit:"contain"}}/>
       </div>
     ),
 
