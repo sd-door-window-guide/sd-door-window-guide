@@ -1069,8 +1069,8 @@ function VendorLogo({ id, size = 52, wide = false }) {
 
     // ── International Window Co. ── IWC monogram, slate/navy industrial
     iwc: (
-      <div style={{width:w,height:h,borderRadius:6,overflow:"hidden",background:"#fff",display:"flex",alignItems:"center",justifyContent:"center",padding:"4px 8px"}}>
-        <img src="/iwc-logo.jpg" alt="IWC" style={{width:"100%",height:"100%",objectFit:"contain"}}/>
+      <div style={{width:w,height:h,borderRadius:6,overflow:"hidden",background:"#F8F8F8",display:"flex",alignItems:"center",justifyContent:"center",padding:"4px 8px"}}>
+        <img src="/iwc-logo.png" alt="IWC" style={{width:"100%",height:"100%",objectFit:"contain"}}/>
       </div>
     ),
 
@@ -1176,7 +1176,7 @@ function VendorLogo({ id, size = 52, wide = false }) {
 
     // ── Fleetwood ── ultra-slim horizontal bars + wordmark, ember/terracotta
     fleetwood: (
-      <div style={{width:w,height:h,borderRadius:6,overflow:"hidden",background:"#fff",display:"flex",alignItems:"center",justifyContent:"center",padding:"4px 8px"}}>
+      <div style={{width:w,height:h,borderRadius:6,overflow:"hidden",background:"#F6F6F6",display:"flex",alignItems:"center",justifyContent:"center",padding:"4px 8px"}}>
         <img src="/fleetwood-logo.png" alt="Fleetwood" style={{width:"100%",height:"100%",objectFit:"contain"}}/>
       </div>
     ),
