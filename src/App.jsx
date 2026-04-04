@@ -1932,6 +1932,15 @@ export default function App() {
         .grid-2col{display:grid;grid-template-columns:1fr 1fr;gap:12px;}
         .grid-4col{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:8px;}
 
+        /* ── LANDING TWO-COLUMN ── */
+        .landing-layout{display:flex;gap:28px;align-items:stretch;}
+        .landing-hero{flex:0 0 55%;position:relative;border-radius:12px;overflow:hidden;min-height:420px;}
+        .landing-side{flex:1;display:flex;flex-direction:column;justify-content:center;gap:14px;}
+        @media(max-width:700px){
+          .landing-layout{flex-direction:column;}
+          .landing-hero{min-height:220px;flex:none;}
+        }
+
         @media(max-width:640px){
           .main-nav{gap:3px;}
           .nav-tab{padding:8px 7px;font-size:8px;letter-spacing:1px;}
@@ -1987,38 +1996,47 @@ export default function App() {
       {(mainTab==="quiz")&&(
         <div style={{maxWidth:"960px",margin:"0 auto",padding:"clamp(16px,4vw,36px) clamp(14px,4vw,20px)",animation:"fadeUp 0.25s ease"}}>
           {step===0&&(
-            <div style={{textAlign:"center"}}>
-              {/* Hero image */}
-              <div style={{position:"relative",width:"100%",height:"clamp(220px,35vw,420px)",borderRadius:"12px",overflow:"hidden",marginBottom:"28px"}}>
+            <div className="landing-layout">
+              {/* ── Left: Hero image ── */}
+              <div className="landing-hero">
                 <img src="/sd-hero.jpg" alt="San Diego coastline" style={{width:"100%",height:"100%",objectFit:"cover",objectPosition:"center 40%"}}/>
-                <div style={{position:"absolute",inset:0,background:"linear-gradient(to bottom, rgba(20,28,26,0.05) 0%, rgba(20,28,26,0.72) 100%)"}}/>
-                <div style={{position:"absolute",bottom:0,left:0,right:0,padding:"clamp(16px,4vw,36px)",textAlign:"left"}}>
+                <div style={{position:"absolute",inset:0,background:"linear-gradient(to bottom, rgba(20,28,26,0.05) 0%, rgba(20,28,26,0.75) 100%)"}}/>
+                <div style={{position:"absolute",bottom:0,left:0,right:0,padding:"clamp(16px,3vw,30px)",textAlign:"left"}}>
                   <div style={{fontSize:"9px",letterSpacing:"5px",color:"rgba(255,255,255,0.85)",marginBottom:"8px",fontFamily:"monospace",textShadow:"0 1px 6px rgba(0,0,0,0.5)"}}>SD WINDOW & DOOR GUIDE · SAN DIEGO COUNTY</div>
-                  <h1 style={{fontSize:"clamp(20px,4vw,34px)",fontWeight:400,margin:"0 0 8px",lineHeight:1.2,color:"#FFFFFF",textShadow:"0 1px 8px rgba(0,0,0,0.5), 0 2px 20px rgba(0,0,0,0.35)"}}>Find the right window & door system<br/><em style={{color:"#E8C87A"}}>for your project — free expert matching</em></h1>
-                  <p style={{color:"rgba(255,255,255,0.9)",fontSize:"13px",lineHeight:1.6,maxWidth:"480px",margin:0,textShadow:"0 1px 6px rgba(0,0,0,0.5)"}}>San Diego's independent resource for comparing windows, doors, and glass systems.</p>
+                  <h1 style={{fontSize:"clamp(18px,2.6vw,30px)",fontWeight:400,margin:"0 0 8px",lineHeight:1.2,color:"#FFFFFF",textShadow:"0 1px 8px rgba(0,0,0,0.5), 0 2px 20px rgba(0,0,0,0.35)"}}>Find the right window & door system<br/><em style={{color:"#E8C87A"}}>for your project — free expert matching</em></h1>
+                  <p style={{color:"rgba(255,255,255,0.85)",fontSize:"12px",lineHeight:1.6,margin:0,textShadow:"0 1px 6px rgba(0,0,0,0.5)"}}>San Diego's independent resource for comparing windows, doors, and glass systems.</p>
                 </div>
               </div>
-              {/* Audience pills */}
-              <div style={{display:"flex",justifyContent:"center",gap:"6px",flexWrap:"wrap",marginBottom:"22px"}}>
-                {[["","Homeowners"],["","Contractors"],["","Architects"],["","Designers"]].map(([icon,label])=>(
-                  <span key={label} style={{fontSize:"10px",fontFamily:"monospace",letterSpacing:"1px",color:T.dim,background:T.card,border:`1px solid ${T.border}`,padding:"4px 10px",borderRadius:"20px"}}>{icon} {label}</span>
-                ))}
+
+              {/* ── Right: Content panel ── */}
+              <div className="landing-side">
+                {/* Audience pills */}
+                <div style={{display:"flex",gap:"6px",flexWrap:"wrap"}}>
+                  {[["","Homeowners"],["","Contractors"],["","Architects"],["","Designers"]].map(([icon,label])=>(
+                    <span key={label} style={{fontSize:"10px",fontFamily:"monospace",letterSpacing:"1px",color:T.dim,background:T.card,border:`1px solid ${T.border}`,padding:"4px 10px",borderRadius:"20px"}}>{icon} {label}</span>
+                  ))}
+                </div>
+                {/* How This Works */}
+                <div style={{background:`${T.gold}10`,border:`1px solid ${T.gold}33`,borderRadius:"8px",padding:"14px 18px",textAlign:"left"}}>
+                  <div style={{fontSize:"9px",letterSpacing:"3px",color:T.gold,fontFamily:"monospace",marginBottom:"8px"}}> HOW THIS WORKS</div>
+                  <p style={{margin:"0 0 8px",fontSize:"12px",color:T.muted,lineHeight:1.65}}>Browse the <strong style={{color:T.text}}>Vendors</strong>, <strong style={{color:T.text}}>Windows</strong>, <strong style={{color:T.text}}>Glass Guide</strong>, <strong style={{color:T.text}}>Door Types</strong>, and <strong style={{color:T.text}}>Patio &amp; Door Systems</strong> tabs to research your options at your own pace.</p>
+                  <p style={{margin:0,fontSize:"12px",color:T.muted,lineHeight:1.65}}>When you're ready, take the <strong style={{color:T.gold}}>5-minute assessment</strong> to get matched with the right product and a qualified local specialist {"\u2014"} free. Click <strong style={{color:T.gold}}>{""} Add to Quote List</strong> on anything that interests you along the way.</p>
+                </div>
+                {/* Feature tiles */}
+                <div style={{display:"grid",gridTemplateColumns:"repeat(4,1fr)",gap:"8px"}}>
+                  {[["Free","Expert Matching"],["Free","In-Home Measure"],["Independent","Unbiased Guide"],["Local","SD Specialists"]].map(([a,b])=>(
+                    <div key={a+b} style={{background:T.card,border:`1px solid ${T.border}`,borderRadius:"8px",padding:"11px 6px",textAlign:"center"}}>
+                      <div style={{fontSize:"12px",fontWeight:500,color:T.gold}}>{a}</div>
+                      <div style={{fontSize:"9px",color:T.dim,marginTop:"2px",lineHeight:1.3}}>{b}</div>
+                    </div>
+                  ))}
+                </div>
+                {/* CTA */}
+                <div style={{textAlign:"center"}}>
+                  <button className="btn" onClick={()=>setStep(1)} style={{background:T.gold,border:`3px solid #9A6E10`,color:T.text,padding:"14px 40px",borderRadius:"6px",fontSize:"15px",fontWeight:700,letterSpacing:"1px",cursor:"pointer",fontFamily:"inherit",boxShadow:"0 4px 14px rgba(0,0,0,0.15)",width:"100%"}}>Start My Assessment {"\u2192"}</button>
+                  <div style={{fontSize:"11px",color:T.faint,marginTop:"8px",fontStyle:"italic"}}>No account required {"\u00B7"} No spam · Results in ~5 minutes</div>
+                </div>
               </div>
-              <div style={{background:`${T.gold}10`,border:`1px solid ${T.gold}33`,borderRadius:"8px",padding:"14px 18px",maxWidth:"460px",margin:"0 auto 22px",textAlign:"left"}}>
-                <div style={{fontSize:"9px",letterSpacing:"3px",color:T.gold,fontFamily:"monospace",marginBottom:"8px"}}> HOW THIS WORKS</div>
-                <p style={{margin:"0 0 8px",fontSize:"12px",color:T.muted,lineHeight:1.65}}>Browse the <strong style={{color:T.text}}>Vendors</strong>, <strong style={{color:T.text}}>Windows</strong>, <strong style={{color:T.text}}>Glass Guide</strong>, <strong style={{color:T.text}}>Door Types</strong>, and <strong style={{color:T.text}}>Patio &amp; Door Systems</strong> tabs to research your options at your own pace.</p>
-                <p style={{margin:0,fontSize:"12px",color:T.muted,lineHeight:1.65}}>When you're ready, take the <strong style={{color:T.gold}}>5-minute assessment</strong> to get matched with the right product and a qualified local specialist {"\u2014"} free. Click <strong style={{color:T.gold}}>{""} Add to Quote List</strong> on anything that interests you along the way.</p>
-              </div>
-              <div style={{display:"grid",gridTemplateColumns:"repeat(auto-fill,minmax(100px,1fr))",gap:"8px",maxWidth:"460px",margin:"0 auto 26px"}}>
-                {[["Free","Expert Matching"],["Free","In-Home Measure"],["Independent","Unbiased Guide"],["Local","SD Specialists"]].map(([a,b])=>(
-                  <div key={a+b} style={{background:T.card,border:`1px solid ${T.border}`,borderRadius:"8px",padding:"11px 6px",textAlign:"center"}}>
-                    <div style={{fontSize:"12px",fontWeight:500,color:T.gold}}>{a}</div>
-                    <div style={{fontSize:"9px",color:T.dim,marginTop:"2px",lineHeight:1.3}}>{b}</div>
-                  </div>
-                ))}
-              </div>
-              <button className="btn" onClick={()=>setStep(1)} style={{background:T.gold,border:`3px solid #9A6E10`,color:T.text,padding:"14px 40px",borderRadius:"6px",fontSize:"15px",fontWeight:700,letterSpacing:"1px",cursor:"pointer",fontFamily:"inherit",boxShadow:"0 4px 14px rgba(0,0,0,0.15)"}}>Start My Assessment {"\u2192"}</button>
-              <div style={{fontSize:"11px",color:T.faint,marginTop:"10px",fontStyle:"italic"}}>No account required {"\u00B7"} No spam · Results in ~5 minutes</div>
             </div>
           )}
 
