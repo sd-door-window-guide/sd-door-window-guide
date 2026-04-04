@@ -1985,7 +1985,7 @@ export default function App() {
 
       {/* ─── QUIZ ─── */}
       {(mainTab==="quiz")&&(
-        <div style={{maxWidth:"660px",margin:"0 auto",padding:"clamp(16px,4vw,36px) clamp(14px,4vw,20px)",animation:"fadeUp 0.25s ease"}}>
+        <div style={{maxWidth:"960px",margin:"0 auto",padding:"clamp(16px,4vw,36px) clamp(14px,4vw,20px)",animation:"fadeUp 0.25s ease"}}>
           {step===0&&(
             <div style={{textAlign:"center"}}>
               {/* Hero image */}
@@ -2023,7 +2023,7 @@ export default function App() {
           )}
 
           {step>0&&!currentQ?.isContact&&currentQ&&(
-            <div key={`q${step}`} style={{animation:"fadeUp 0.22s ease"}}>
+            <div key={`q${step}`} style={{animation:"fadeUp 0.22s ease",maxWidth:"660px",margin:"0 auto"}}>
               <div style={{marginBottom:"26px"}}>
                 <div style={{display:"flex",justifyContent:"space-between",marginBottom:"6px"}}>
                   <span style={{fontSize:"9px",fontFamily:"monospace",color:sColor,letterSpacing:"2px"}}>{currentQ.section.toUpperCase()} · Q{step}/{totalSteps}</span>
@@ -2182,7 +2182,7 @@ export default function App() {
           )}
 
           {step>0&&currentQ?.isContact&&(
-            <div key="contact" style={{animation:"fadeUp 0.22s ease"}}>
+            <div key="contact" style={{animation:"fadeUp 0.22s ease",maxWidth:"660px",margin:"0 auto"}}>
               <div style={{marginBottom:"26px"}}>
                 <div style={{display:"flex",justifyContent:"space-between",marginBottom:"6px"}}>
                   <span style={{fontSize:"9px",fontFamily:"monospace",color:T.gold,letterSpacing:"2px"}}>CONTACT {"\u00B7"} FINAL STEP</span>
@@ -2294,7 +2294,7 @@ export default function App() {
 
       {/* ─── RESULTS ─── */}
       {mainTab==="results"&&submitted&&(
-        <div style={{maxWidth:"780px",margin:"0 auto",padding:"32px 20px",animation:"fadeUp 0.3s ease"}}>
+        <div style={{maxWidth:"1000px",margin:"0 auto",padding:"32px 20px",animation:"fadeUp 0.3s ease"}}>
           <div style={{background:`${T.teal}15`,border:`1px solid ${T.teal}44`,borderRadius:"10px",padding:"14px 20px",marginBottom:"24px",display:"flex",alignItems:"center",gap:"12px"}}>
             <div style={{fontSize:"22px"}}>✓</div>
             <div>
@@ -3635,7 +3635,7 @@ export default function App() {
 
       {/* ─── HARDWARE ─── */}
       {mainTab==="hardware"&&(
-        <div style={{padding:"26px",maxWidth:"1000px",margin:"0 auto",animation:"fadeUp 0.25s ease"}}>
+        <div style={{padding:"26px",maxWidth:"1200px",margin:"0 auto",animation:"fadeUp 0.25s ease"}}>
 
           {/* Header */}
           <div style={{background:"#EEF5EE",border:`1px solid ${T.gold}44`,borderRadius:"12px",padding:"22px 28px",marginBottom:"22px",position:"relative",overflow:"hidden"}}>
@@ -3847,7 +3847,7 @@ export default function App() {
 
       {/* ─── FAVORITES ─── */}
       {mainTab==="favorites"&&(
-        <div style={{maxWidth:"760px",margin:"0 auto",padding:"clamp(16px,4vw,30px) clamp(14px,4vw,24px)",animation:"fadeUp 0.25s ease"}}>
+        <div style={{maxWidth:"960px",margin:"0 auto",padding:"clamp(16px,4vw,30px) clamp(14px,4vw,24px)",animation:"fadeUp 0.25s ease"}}>
           <div style={{marginBottom:"24px"}}>
             <div style={{fontSize:"9px",letterSpacing:"4px",color:T.faint,fontFamily:"monospace",marginBottom:"8px"}}>YOUR QUOTE LIST</div>
             <h2 style={{fontSize:"22px",fontWeight:400,margin:"0 0 8px"}}>Items for <em style={{color:T.gold}}>Quoting &amp; Consultation</em></h2>
