@@ -45,7 +45,7 @@ const exteriorDoorTypes = [
     color: T.rust,
     price: "$$$$",
     leadTime: "4–12 weeks (custom); 1–2 weeks (stock)",
-    blurb: "The classic choice for warmth, character, and natural beauty. Solid wood doors can be stained to show grain or painted to match any color. They're the most customizable option and pair beautifully with traditional, craftsman, and transitional architecture. The tradeoff: wood requires periodic maintenance — repainting or resealing every few years — especially in coastal climates where salt air and UV accelerate wear. Look for species like mahogany, Douglas fir, or alder for exterior applications.",
+    blurb: "The classic for warmth and custom beauty — stainable, fully paintable, and any size. Requires resealing every few years; not ideal for coastal moisture or fire zones.",
     pros: ["Unmatched natural beauty", "Fully paintable and stainable", "Completely custom sizes/designs", "Best acoustic performance"],
     cons: ["Requires periodic repainting/sealing", "Can warp or crack in extreme moisture", "Higher maintenance than fiberglass or steel"],
     bestFor: ["Traditional, craftsman, Mediterranean homes", "Clients wanting natural grain stain finish", "Custom architectural statements"],
@@ -60,7 +60,7 @@ const exteriorDoorTypes = [
     color: T.teal,
     price: "$$$–$$$$",
     leadTime: "1–3 weeks (standard); 4–6 weeks (custom paint/glass)",
-    blurb: "The best all-around exterior door material for San Diego. Fiberglass won't warp, rot, crack, or corrode — ever. Modern fiberglass doors have deep wood-grain textures that can be gel-stained to look nearly identical to real wood, without any of the maintenance. They're also significantly better insulated than steel, reducing energy transfer and noise. Therma-Tru pioneered this category and remains the market leader. An excellent choice for coastal properties where wood maintenance is a concern.",
+    blurb: "Best all-around for San Diego. Won't warp, rot, or corrode, and modern textures can mimic real wood grain convincingly. Low-maintenance even in coastal climates.",
     pros: ["Won't warp, rot, or corrode", "Can mimic real wood grain convincingly", "Excellent insulation / energy efficiency", "Low maintenance — no repainting needed for decades", "Available fire-rated for WUI zones"],
     cons: ["High-quality fiberglass can approach wood pricing", "Texture painting requires skilled finisher for wood look", "Fewer fully custom profile options vs. wood"],
     bestFor: ["Coastal and high-humidity locations", "Clients wanting wood look without wood upkeep", "Fire zone properties"],
@@ -75,7 +75,7 @@ const exteriorDoorTypes = [
     color: T.slate,
     price: "$$–$$$",
     leadTime: "1–2 weeks (standard); 3–4 weeks (custom)",
-    blurb: "Steel doors are the most secure and most affordable exterior door option. They're dent-resistant, dimensionally stable (won't warp), and offer excellent security. Steel is the dominant material for basic to mid-range exterior doors. The limitations: steel conducts temperature (can feel cold or hot to the touch), is prone to rust if the finish is compromised, and offers limited design variety compared to wood or fiberglass. Most residential steel doors have an embossed wood-grain pattern — less convincing than fiberglass but functional.",
+    blurb: "Most affordable and most secure exterior door material. Solid foam-core insulation, won't warp — but conducts heat and will rust if the finish is scratched.",
     pros: ["Most affordable option", "Excellent security — hardest to kick in", "Won't warp or twist", "Good basic insulation (polyurethane foam core)"],
     cons: ["Conducts temperature (thermal bridging)", "Can dent", "Will rust if surface is scratched and unpainted", "Limited design aesthetic vs. wood/fiberglass"],
     bestFor: ["Secondary entries, garage access doors", "Budget-conscious whole-house projects", "Security-first applications"],
@@ -90,7 +90,7 @@ const exteriorDoorTypes = [
     color: T.plum,
     price: "$$$$$",
     leadTime: "8–16 weeks (all custom)",
-    blurb: "Wrought iron and steel-frame glass doors are the ultimate architectural statement entry. These doors feature slim black metal frames with large glass panels — think Mediterranean courtyards, Spanish Colonial entries, and contemporary luxury homes. The dramatic sightlines and transparency between interior and exterior are unmatched by any other door type. All-custom fabrication means every door is unique. Heavier than other door types, requiring upgraded hinges and threshold hardware.",
+    blurb: "The architectural statement entry. Slim black metal frames with large glass panels — all custom, all dramatic. Long lead times and premium pricing.",
     pros: ["Unmatched visual drama and presence", "Slim frames — maximum glass visibility", "Extremely durable and secure", "Custom to exact dimensions and design"],
     cons: ["Highest price point — all custom", "Long lead times (custom fabrication)", "Metal conducts temperature", "Requires experienced installer"],
     bestFor: ["Spanish, Mediterranean, and Tuscan architecture", "Modern luxury entry statements", "Courtyard gates and passages"],
@@ -105,7 +105,7 @@ const exteriorDoorTypes = [
     color: T.sage,
     price: "$$–$$$",
     leadTime: "1–2 weeks",
-    blurb: "Vinyl and composite exterior doors are the most energy-efficient and lowest-maintenance option available. They won't warp, rot, rust, or need repainting — ever. The tradeoff is limited design variety and color options. Vinyl doors are typically available in white, beige, or a handful of standard colors and can't be repainted easily. Best suited for utilitarian or budget-focused applications where aesthetics are secondary to performance. Not common in the San Diego luxury market but worth considering for ADUs and rental properties.",
+    blurb: "Zero maintenance, best energy efficiency. Very limited color and style options — best for ADUs, secondary entries, and rental properties rather than primary entries.",
     pros: ["Zero maintenance required", "Best energy efficiency of all door types", "Will never warp, rot, or rust", "Lowest long-term cost"],
     cons: ["Very limited color and design options", "Cannot be repainted", "Lower-end aesthetic — not appropriate for luxury entries", "Less common in premium residential"],
     bestFor: ["ADUs and accessory structures", "Rental properties", "Secondary and utility entries", "Budget remodels"],
@@ -122,7 +122,7 @@ const interiorDoorOperations = [
     icon:"↪",
     color:T.slate,
     tagline:"The universal interior door — hinged, single-action",
-    blurb:"The swing door is the most common interior door type in residential construction. It hangs from hinges on one side and swings in a single direction — either into or out of the room. Swing doors are simple, reliable, easy to install, and work with virtually any door slab. They require clear floor space equal to the door's width for the swing arc, which is their main limitation in tight spaces. Available in any material, style, or size. The default choice for bedrooms, offices, and any room with adequate space.",
+    blurb:"The standard interior door — hinged, single-action, works anywhere with room for the swing arc. Best acoustic seal of any interior door type.",
     pros:["Simplest operation — no track or pocket","Works with any door slab style","Easy to install and adjust","Best acoustic seal when closed","Most hardware options available"],
     cons:["Requires swing clearance — unusable in very tight spaces","Door arc can interfere with furniture placement","Cannot be left partially open without a door stop"],
     bestFor:["Bedrooms","Home offices","Dining rooms","Any room with adequate floor space"],
@@ -135,7 +135,7 @@ const interiorDoorOperations = [
     icon:"⊞",
     color:T.rust,
     tagline:"Double glass doors that borrow light and open spaces visually",
-    blurb:"French doors are a pair of hinged doors — each with glass lites — that meet at the center and swing open simultaneously or independently. They're primarily a design and light-borrowing tool: the glass panels allow natural light to pass between rooms while still providing the ability to close off the space for privacy or sound. French doors are a classic architectural element in traditional, Mediterranean, and transitional homes. Available in full-lite (all glass), half-lite (glass on top, solid below), and with true divided lite or simulated divided lite glass patterns. Interior French doors are often used between a study or home office and a living area, or between a master bedroom and a sitting room.",
+    blurb:"Double glass-panel doors that share light between rooms while still closing off the space. A classic detail for home offices, dining rooms, and master suites.",
     pros:["Borrow light between rooms","Classic, elegant appearance","Can open both panels for a full-width opening","Wide variety of glass and divided lite options","Available in wood, fiberglass, and steel"],
     cons:["Both doors need swing clearance","Center meeting point can rattle if not latched","Less acoustic privacy than solid doors","Requires more wall space than a single swing door"],
     bestFor:["Home office to living room connection","Dining room to kitchen or hallway","Master bedroom to sitting room or balcony","Library or study with natural light needs"],
@@ -148,7 +148,7 @@ const interiorDoorOperations = [
     icon:"⇄",
     color:T.teal,
     tagline:"Space-efficient doors that glide on a track — no swing needed",
-    blurb:"Interior sliding doors operate on a top-mounted or bottom-track system, gliding horizontally rather than swinging. They're the best interior door choice when swing clearance is unavailable — tight hallways, small bathrooms, walk-in closets, and compact utility rooms. Sliding doors come in several configurations: a standard bypass slider (two panels that pass each other), a single panel that slides along the wall, or a multi-panel configuration that stacks to one side. The tradeoff is that a sliding door can only cover part of the opening at a time (in bypass configurations), and the track requires maintenance to keep debris-free. Not as acoustically tight as a swing door when closed.",
+    blurb:"Slides horizontally on a track — no swing clearance needed. The go-to for closets, tight bathrooms, and compact spaces.",
     pros:["No swing clearance needed — ideal for tight spaces","Clean contemporary look","Multi-panel options for wide openings","Available in glass for light borrowing"],
     cons:["Bypass sliders can only expose half the opening at a time","Track can collect dust and debris","Less acoustic performance than swing doors","Hardware and track must be well-installed for smooth operation"],
     bestFor:["Closet doors (bypass is the classic closet door)","Small bathrooms and powder rooms","Pantry and utility room access","Contemporary open-plan homes separating zones"],
@@ -161,7 +161,7 @@ const interiorDoorOperations = [
     icon:"⟩⟨",
     color:T.sage,
     tagline:"Folding panels that maximize opening width in minimal space",
-    blurb:"Bi-fold doors are hinged panels connected in pairs that fold against each other when opened. They run on a top track and typically have a bottom guide pin. When opened, the panels accordion-fold to one or both sides, exposing the full opening width — something neither a swing door nor a bypass slider can do. Bi-fold doors are most commonly used for closets, laundry rooms, and pantry access where you want full visibility and reach into the space when open. They require only a fraction of the swing clearance of a regular door. Available in louvered, solid panel, mirrored, and glass configurations.",
+    blurb:"Hinged panels that fold accordion-style, exposing the full opening width. The standard closet door — best when you need full visibility into the space.",
     pros:["Full opening width when folded — best closet access","Minimal clearance required to operate","Wide variety of styles including louvered and mirrored","Can span large openings with multiple panel sets"],
     cons:["Not as architecturally refined as other door types","Bottom guide pin can be a trip hazard or pop out of track","Center fold point can flex or warp on lower-quality units","Not ideal for acoustic privacy"],
     bestFor:["Reach-in closets (the classic application)","Laundry room and utility room access","Pantry doors","Mechanical room access"],
@@ -174,7 +174,7 @@ const interiorDoorOperations = [
     icon:"⬚",
     color:T.plum,
     tagline:"The space-free door — slides entirely into the wall",
-    blurb:"A pocket door slides on a track and disappears entirely into a wall cavity — a framed pocket built between wall studs — when fully open. The result is a completely clear opening with zero door visible and zero floor space consumed. When the door is closed, it fills the opening normally. Pocket doors are the best solution for spaces where no swing arc is possible and a flush wall plane when open is desirable. They're commonly used between rooms where the door needs to completely disappear — between a great room and dining area, a master bathroom and closet, or wherever the door being 'out of the way' is the point. Pocket doors require the wall to be framed specially — best installed during construction or a full remodel.",
+    blurb:"Slides entirely into a wall cavity and disappears when open. Zero floor space used — but requires special wall framing, best done during construction or full remodel.",
     pros:["Zero floor space consumed — door fully disappears","Clean flush wall plane when open","Perfect for tight spaces with no swing room","Can create a completely open plan when desired"],
     cons:["Wall must be framed as a pocket — harder to retrofit","Cannot run plumbing or electrical in pocket wall","Hardware access is limited when door is recessed","Sound seal is less effective than swing doors","Track and rollers require occasional maintenance"],
     bestFor:["Master bathroom to closet connections","Kitchen to dining room pass-throughs","Great room flex space dividers","Anywhere zero swing clearance is available"],
@@ -187,7 +187,7 @@ const interiorDoorOperations = [
     icon:"⊟",
     color:T.gold,
     tagline:"Surface-mounted sliding doors — the modern-rustic statement",
-    blurb:"A barn door is a panel that slides along a surface-mounted track above the door opening rather than running inside a wall pocket or on a floor track. The hardware — the track, hangers, and rollers — is fully exposed and is often a design feature in itself. Barn doors have surged in popularity in contemporary, farmhouse, and transitional residential design over the past decade. They're practical when a pocket door isn't feasible (no wall space for a pocket) but a swing door would intrude. The main limitations are that the door panel hangs in front of the wall when open (covering wall space beside the opening) and the seal is less tight than other door types.",
+    blurb:"Hangs on a surface-mounted track and slides in front of the wall. Statement hardware, easy retrofit — but covers wall space beside the opening when open.",
     pros:["Statement hardware — a design element in itself","No wall framing required — easier retrofit than pocket doors","Large panel sizes possible","Wide variety of styles from rustic plank to modern flush"],
     cons:["Panel hangs on wall beside opening when open — uses wall space","Not acoustically tight — light gap around all edges","Not ADA compliant in most configurations","Hardware quality varies widely — invest in quality track and rollers"],
     bestFor:["Laundry rooms and utility rooms","Home office to hallway","Master bathroom or closet access","Pantry and mudroom entries","Any space where barn door aesthetic fits the design"],
@@ -1407,21 +1407,21 @@ function DoorTypeCard({door,type}) {
       </div>
       <div style={{padding:"16px 22px 20px"}}>
         {tab==="overview"&&<div>
-          <p style={{fontSize:"13px",color:T.muted,lineHeight:1.75,marginTop:0,marginBottom:"16px"}}>{door.blurb}</p>
+          <p style={{fontSize:"13px",color:T.text,lineHeight:1.6,marginTop:0,marginBottom:"14px",fontStyle:"italic"}}>{door.blurb}</p>
+          {door.bestFor&&<div style={{marginBottom:"14px"}}>
+            <SectionLabel>BEST FOR</SectionLabel>
+            {door.bestFor.map(b=><div key={b} style={{fontSize:"12px",color:"#606060",marginBottom:"4px"}}>{"\u2192"} {b}</div>)}
+          </div>}
           <div style={{display:"grid",gridTemplateColumns:"repeat(2,minmax(0,1fr))",gap:"12px"}}>
             <div>
               <SectionLabel color={c}>PROS</SectionLabel>
-              {door.pros.map(p=><div key={p} style={{fontSize:"12px",color:"#606060",marginBottom:"4px"}}>{"\u2713"} {p}</div>)}
+              {door.pros.map(p=><div key={p} style={{fontSize:"12px",color:"#4A7848",marginBottom:"4px"}}>{"\u2713"} {p}</div>)}
             </div>
             <div>
               <SectionLabel color="#C05040">CONS</SectionLabel>
               {door.cons.map(p=><div key={p} style={{fontSize:"12px",color:"#8A3A30",marginBottom:"4px"}}>{"\u00B7"} {p}</div>)}
             </div>
           </div>
-          {door.bestFor&&<div style={{marginTop:"14px"}}>
-            <SectionLabel>BEST FOR</SectionLabel>
-            {door.bestFor.map(b=><div key={b} style={{fontSize:"12px",color:"#606060",marginBottom:"3px"}}>{"\u2192"} {b}</div>)}
-          </div>}
         </div>}
         {tab==="specs"&&<div>
           <SectionLabel>VENDORS</SectionLabel>
@@ -2474,12 +2474,11 @@ export default function App() {
                 <SectionLabel color={T.rust}>5 EXTERIOR DOOR MATERIALS</SectionLabel>
                 <p style={{margin:0,fontSize:"13px",color:T.muted,maxWidth:"600px",lineHeight:1.65}}>Material selection is the most important decision for an exterior door. It determines longevity, maintenance requirements, design options, and fire zone compliance. Each card below explains a material in depth {"\u2014"} including a fire zone tab for properties in San Diego{"'"}s high-risk areas.</p>
               </div>
-              <div style={{background:"#F0F4FA",border:"1px solid #7A9ABB55",borderRadius:"10px",padding:"16px 20px",marginBottom:"20px",display:"flex",gap:"14px",alignItems:"flex-start"}}>
-                <div style={{fontSize:"22px",lineHeight:1,flexShrink:0,marginTop:"2px"}}>&#9729;</div>
-                <div>
-                  <div style={{fontSize:"9px",fontFamily:"monospace",letterSpacing:"2px",color:T.slate,marginBottom:"6px"}}>OVERHANG & EXPOSURE — KNOW BEFORE YOU SPEC</div>
-                  <p style={{margin:"0 0 8px",fontSize:"12px",color:"#5A6A7A",lineHeight:1.7}}>Most exterior door manufacturers publish minimum overhang requirements as a condition of warranty coverage. A roof eave or covered patio of <strong>at least 24"</strong> is the common baseline; wood and aluminum-clad wood products often require more. Doors installed without adequate overhead protection are at higher risk of seal failure, sill deterioration, and finish damage — and warranty claims in exposed conditions are routinely denied.</p>
-                  <p style={{margin:0,fontSize:"12px",color:"#5A6A7A",lineHeight:1.7}}><strong>Steel</strong> and <strong>fiberglass</strong> are the most tolerant of direct weather exposure. <strong>Wood</strong> and <strong>aluminum-clad wood</strong> require the most protection — verify the manufacturer's overhang spec before finalizing the product and set maintenance expectations with the client upfront. For exposed openings, fiberglass or steel with a standard raised sill is almost always the more defensible recommendation.</p>
+              <div style={{background:"#F0F4FA",border:"1px solid #7A9ABB55",borderRadius:"10px",padding:"14px 18px",marginBottom:"20px",display:"flex",gap:"12px",alignItems:"flex-start"}}>
+                <div style={{fontSize:"20px",lineHeight:1,flexShrink:0,marginTop:"2px"}}>&#9729;</div>
+                <div style={{fontSize:"12px",color:"#5A6A7A",lineHeight:1.65}}>
+                  <span style={{fontSize:"9px",fontFamily:"monospace",letterSpacing:"2px",color:T.slate,display:"block",marginBottom:"5px"}}>OVERHANG & EXPOSURE</span>
+                  Min. <strong>24" overhang</strong> required for most exterior doors. Wood and clad-wood need more — check the install manual. <strong>Fiberglass and steel</strong> are most tolerant of direct exposure; <strong>wood</strong> requires the most protection. Warranty claims in exposed conditions are routinely denied.
                 </div>
               </div>
               <div style={{display:"grid",gridTemplateColumns:"repeat(auto-fill,minmax(420px,1fr))",gap:"14px"}}>
@@ -2822,50 +2821,50 @@ export default function App() {
           {
             id:"vinyl",name:"Vinyl (uPVC)",icon:"◼",color:T.slate,
             tagline:"Best value in California. The most-installed window frame material in SD.",
-            overview:"Vinyl windows use extruded uPVC (unplasticized polyvinyl chloride) frames — a hollow-chamber plastic profile that is thermally broken by design, requires zero painting, and is impervious to moisture and salt air. In San Diego, vinyl is the dominant residential window material at every price point from production builder to upper-mid luxury. Milgard Trinsic black is the single most-specified window in SD luxury remodels right now.",
+            overview:"Extruded uPVC frames — thermally broken by design, zero painting, impervious to salt air. The dominant residential window material in San Diego at every price point.",
             pros:["Zero maintenance — never paint, stain, or seal","Excellent thermal performance — hollow chambers trap air","Impervious to moisture and coastal salt air","Most competitive price point","Lifetime warranties from major manufacturers","Available in black, white, bronze, tan from major brands"],
             cons:["Limited color options (typically 4–6 per brand)","Dark vinyl (especially black) can absorb heat and expand slightly in extreme temperatures","Sightlines slightly wider than aluminum — more frame visible","Cannot match custom or unusual colors","Lower perceived prestige vs. aluminum or wood for ultra-luxury"],
-            sdNote:"Black vinyl (Milgard Trinsic) is everywhere in San Diego luxury remodels right now. The slim sightlines on Trinsic read as architectural, not plastic. For coastal homes, vinyl actually outperforms aluminum-clad wood for corrosion resistance — no paint to fail, no metal to pit. Climate Zone 7/10 energy codes are easily met by any major vinyl window.",
+            sdNote:"Black vinyl (Milgard Trinsic) dominates SD luxury remodels. Slim sightlines read as architectural, not plastic. For coastal homes, vinyl outperforms aluminum-clad wood — no paint to fail, no metal to pit.",
             brands:["Milgard (Trinsic, Ultra, Tuscany)","Andersen (A-Series, 100 Series)","JELD-WEN","PlyGem"],
             priceRange:"$$ — Most competitive per unit",
           },
           {
             id:"fiberglass",name:"Fiberglass (Ultrex® / Pultruded)",icon:"◈",color:T.teal,
             tagline:"Strongest residential frame material. 8x stronger than vinyl. Paintable any color.",
-            overview:"Fiberglass window frames are made by pultrusion — pulling glass fibers through a resin bath to create an incredibly strong, dimensionally stable profile. The result is a frame that expands and contracts at nearly the same rate as the glass it holds (critical for seal longevity), is paintable to any color, and is significantly stronger than vinyl or aluminum at equivalent wall thickness. Marvin's Ultrex® and Milgard's Ultra Series are the flagship fiberglass offerings available in San Diego.",
+            overview:"Pultruded glass fiber frames — 8× stronger than vinyl, paintable to any color, and dimensionally stable enough to maintain seals for decades. The right answer when vinyl can't be painted to a custom color.",
             pros:["Paintable to any color — unlimited color matching","8x stronger than vinyl at same thickness","Thinner sightlines than vinyl at equivalent strength","Dimensionally stable — minimal thermal expansion/contraction","Long-term durability — will not rot, corrode, or warp","Best seal longevity due to matched thermal expansion with glass"],
             cons:["Higher price than vinyl","Heavier than aluminum for large openings","Paint requires recoating eventually (unlike factory-applied vinyl color)","Fewer brands offer fiberglass vs. vinyl or aluminum"],
-            sdNote:"Fiberglass is the right answer for coastal properties where vinyl can't be painted to a custom color and aluminum is a corrosion concern. Marvin Elevate (Ultrex® exterior, wood interior) and Milgard Ultra Series are both stocked or readily available through San Diego dealers. The paintability is the key feature — RSF and La Jolla custom builds frequently need a specific exterior color to match the stucco or siding.",
+            sdNote:"The answer for coastal properties needing a custom paint color — RSF and La Jolla builds frequently need a specific exterior color to match stucco. Marvin Elevate and Milgard Ultra are both readily available through SD dealers.",
             brands:["Marvin (Elevate, Essential — Ultrex®)","Milgard (Ultra Series)","Andersen (A-Series Fibrex® composite)","Pella (Impervia)"],
             priceRange:"$$$ — Mid-premium",
           },
           {
             id:"aluminum",name:"Aluminum",icon:"⊟",color:T.gold,
             tagline:"Slimmest sightlines. Architectural-grade. Specify thermally broken for energy code.",
-            overview:"Aluminum frames offer the slimmest possible sightlines — the frame-to-glass ratio is the best of any operable window material, maximizing visible glass area. Aluminum is strong enough to span large openings with minimal frame depth, making it the preferred choice for contemporary architecture, large fixed windows, and floor-to-ceiling glazing. The critical spec detail: thermally broken aluminum has a polyamide thermal break between the interior and exterior aluminum profiles, dramatically improving energy performance. Non-thermally-broken aluminum will not meet California Title 24.",
+            overview:"Slimmest possible sightlines with the best frame-to-glass ratio of any material. Specify thermally broken — non-TB aluminum won't meet California Title 24.",
             pros:["Slimmest sightlines of any frame material — most glass visible","Extremely strong — suitable for large spans","Anodized or powder-coated — fade resistant, wide color range","Pairs naturally with contemporary and modern architecture","Long lifespan — structural integrity maintained indefinitely"],
             cons:["Thermally broken required for Title 24 — adds cost","Conducts heat/cold more than vinyl or fiberglass without thermal break","In direct salt-air (beachfront), powder coat can fail over time — specify marine-grade","Higher cost than vinyl","Heavy — large aluminum window units require careful installation"],
-            sdNote:"Aluminum windows are standard specification on modern and contemporary custom homes in La Jolla, RSF, and Solana Beach. Always specify thermally broken for any permitted project — the Title 24 requirement eliminates non-TB aluminum. For beachfront properties within 500ft of direct ocean, specify anodized (not powder-coated) aluminum or switch to fiberglass — powder coat in direct salt air requires more maintenance than clients expect.",
+            sdNote:"Standard spec on modern and contemporary custom homes in La Jolla and RSF. Always specify thermally broken for permitted projects. For beachfront within 500ft of ocean, specify anodized (not powder-coated) or switch to fiberglass.",
             brands:["NanaWall (SL70, HS systems)","LaCantina (aluminum folding/slide)","Western Window Systems","Arcadia Custom","Fleetwood"],
             priceRange:"$$$$  — Premium to ultra-premium",
           },
           {
             id:"wood",name:"Wood Interior / Aluminum-Clad",icon:"",color:T.rust,
             tagline:"Warmth inside, weather protection outside. The architect's window for luxury residential.",
-            overview:"Aluminum-clad wood windows combine a real wood interior — available in multiple species and stainable to match any floor or millwork — with an aluminum-clad exterior that handles weather exposure. The wood interior is the key selling point: it creates a seamless visual connection between window frames and interior wood elements (floors, beams, cabinetry, door frames). This is the dominant specification on architect-designed luxury residential projects. Marvin, Andersen E-Series, and LaCantina Clad Wood are the primary options.",
+            overview:"Real wood interior stainable to match floors and millwork, aluminum-clad exterior that handles weather without painting. The architect's window for luxury residential.",
             pros:["Real wood interior — matches floors, millwork, and cabinetry","Aluminum exterior — weather-resistant without painting","Warmest aesthetic of any window type","Highest perceived luxury and craftsmanship","Custom interior stain colors available","Multiple wood species (pine, fir, oak, maple)"],
             cons:["Wood interior requires periodic care in humid environments","Heavier than vinyl or aluminum","Higher cost","Salt air can compromise aluminum clad over time in direct ocean exposure","Custom sizes and configurations add significant lead time"],
-            sdNote:"Aluminum-clad wood is the window of choice for whole-house La Jolla and RSF projects where floors, cabinetry, and window frames are all specified to match. The stain-grade interior is what makes the room feel cohesive. Marvin's coastal stainless hardware program is specifically designed for this application — La Jolla oceanfront properties can get aluminum-clad wood windows with hardware that won't corrode.",
+            sdNote:"The window for whole-house La Jolla and RSF projects where floors, cabinetry, and window frames are all specified to match. Marvin's coastal stainless hardware program handles La Jolla oceanfront without corrosion.",
             brands:["Marvin (Signature, Elevate — clad wood)","Andersen (E-Series — alum-clad Fibrex®)","LaCantina (Clad Wood folding)","Pella (Architect Series)"],
             priceRange:"$$$$–$$$$$ — Luxury",
           },
           {
             id:"composite",name:"Composite & Fibrex®",icon:"⊕",color:T.sage,
             tagline:"Engineered hybrid. Better than vinyl, more affordable than fiberglass.",
-            overview:"Composite frames blend wood fiber with thermoplastic resin — creating a material that outperforms vinyl on strength and dimensional stability while maintaining the workability of wood (it can be routed, nailed, and painted). Andersen's proprietary Fibrex® material is the most prominent composite frame in the market. Composites sit between vinyl and fiberglass on the performance and price spectrum, and are a strong choice for clients who want paintability without the full cost of fiberglass.",
+            overview:"Wood fiber + thermoplastic resin — stronger and more dimensionally stable than vinyl, paintable, and more affordable than fiberglass. Andersen's Fibrex® is the standout product in this category.",
             pros:["Paintable — wider color options than vinyl","Stronger and more dimensionally stable than standard vinyl","Won't rot, corrode, or require sealing","More affordable than fiberglass","Longer paint adhesion than wood — better exterior durability"],
             cons:["Fewer manufacturers offer true composite vs. vinyl or fiberglass","Not as strong as pultruded fiberglass","Paint still requires eventual recoating","Andersen Fibrex® is proprietary — only available in Andersen products"],
-            sdNote:"Andersen Fibrex® composite is the strongest value proposition in the composite category — it's what makes the A-Series and 100-Series competitive against Milgard Trinsic. For clients who want a wider color range than standard vinyl but don't need the full custom color capability of fiberglass, Fibrex® composite bridges the gap cleanly.",
+            sdNote:"Andersen Fibrex® is what makes the A-Series and 100-Series competitive against Milgard Trinsic. Bridges the gap between vinyl and full custom-color fiberglass cleanly.",
             brands:["Andersen (Fibrex® — A-Series, 100 Series)","Simonton","ProVia"],
             priceRange:"$$–$$$ — Mid range",
           },
@@ -2876,17 +2875,17 @@ export default function App() {
           {
             id:"casement",name:"Casement",icon:"casement",color:T.teal,
             tagline:"Hinged on the side. Opens outward like a door. Best ventilation of any operable window.",
-            overview:"Casement windows are hinged on one vertical side and swing outward via a crank operator at the bottom. When fully open, the entire window area is unobstructed — a casement is the only window type that can capture 100% of its rough opening area as ventilation. The sash acts like a sail to scoop prevailing breezes, making casements particularly effective for cross-ventilation in coastal San Diego.",
-            howItWorks:"A worm-gear crank at the sill rotates to push the sash outward. Higher-end units use multi-point locking — the handle engages locks at multiple points along the frame simultaneously. The sash swings on concealed friction hinges that hold the window open at any position.",
-            configurations:["Single casement — one sash, hinged left or right","Double casement — two sashes side-by-side with a center post (mullion) between them; each sash cranks outward independently. The center post is fixed to the frame.","French casement — two sashes meeting at center with no center post at all; both sashes push outward simultaneously for a fully unobstructed opening. Push-out operation only — no crank. A rarer configuration not offered by all manufacturers.","Combination — casement flanking a fixed center unit","Stacked — casement over awning for varied ventilation control"],
+            overview:"Hinged on one side, cranks outward. When fully open, the entire window area is unobstructed — the only window type that captures 100% of its opening as ventilation.",
+            howItWorks:"A worm-gear crank at the sill pushes the sash outward on concealed friction hinges. Higher-end units use multi-point locking — one handle engages locks at multiple points simultaneously.",
+            configurations:["Single casement — one sash, hinged left or right","Double casement — two sashes side-by-side with a fixed center post; each cranks independently","French casement — two sashes, no center post; both push outward simultaneously. Push-out only, no crank — not offered by all manufacturers","Combination — casement flanking a fixed center unit","Stacked — casement over awning for varied ventilation control"],
             bestFor:["Maximum ventilation — especially in coastal SD","Rooms where you want breeze control","Contemporary and craftsman architecture","Kitchen windows where a crank is easier than a double-hung"],
             limitations:["Outswing requires clear exterior space — can't use over counters or decks without planning","Screen installs on interior (less weather-protected)","Not ideal in very windy exposures — can catch wind and stress hinges","French casement (no center post) is a specialty option — verify availability with manufacturer before specifying"],
           },
           {
             id:"double_hung",name:"Double-Hung",icon:"double_hung",color:T.slate,
             tagline:"Both sashes slide. America's most familiar window. Tilts in for cleaning.",
-            overview:"Double-hung windows have two independently operable sashes that slide vertically — the upper sash slides down and the lower sash slides up. Both sashes can be open simultaneously for top-and-bottom ventilation. Most modern double-hungs tilt both sashes inward for cleaning from inside the home — a significant advantage in upper-floor applications.",
-            howItWorks:"Each sash rides in its own channel with balancers (spring or weight) that hold the sash at any position. A tilt-in mechanism releases the sash from its channel for cleaning. The sashes move independently — you can open the top only, bottom only, or both.",
+            overview:"Two independently operable sashes slide vertically. Both can open simultaneously for top-and-bottom ventilation, and both tilt inward for cleaning without exterior access.",
+            howItWorks:"Each sash rides in its own channel with spring or weight balancers that hold it at any position. A tilt-in mechanism releases the sash from its channel for cleaning without going outside.",
             configurations:["Standard double-hung — both sashes operable","Single-hung — only lower sash moves (lower cost)","Double-hung in pairs flanking a fixed or picture center","Stacked double-hungs for tall openings"],
             bestFor:["Traditional, craftsman, and transitional architecture","Upper floors where exterior cleaning is impractical (tilt-in cleaning)","Any application needing adjustable top-and-bottom ventilation","The most neutral architectural statement — works in almost any style"],
             limitations:["Only ~50% of window area open at any one time (vs. 100% for casement)","Vertical sightlines can feel heavy in contemporary architecture","Balancer mechanisms require maintenance over time"],
@@ -2894,8 +2893,8 @@ export default function App() {
           {
             id:"awning",name:"Awning",icon:"awning",color:T.gold,
             tagline:"Hinged at top. Opens ~30° outward from bottom. Rain-resistant ventilation.",
-            overview:"Awning windows are hinged at the top and crank outward from the bottom — typically opening to about 25–30°. At this angle the open sash acts as an awning, shedding rain off the glass rather than into the opening. This limited opening angle is intentional: the worm-gear crank operator and standard friction stays are sized for moderate-width sashes (typically up to about 36\" wide and 24\" tall) where 30° gives adequate ventilation. Awnings are often stacked or paired with fixed picture windows for privacy with ventilation.",
-            howItWorks:"A worm-gear crank at the sill or side of the frame rotates to push the bottom of the sash outward. Standard friction stays hold the sash at any angle up to about 30°. Multi-point locks pull the sash tight against the frame when closed for an excellent compression weather seal. Note: for larger sashes or full 90° opening, see Gas Strut Awning below.",
+            overview:"Hinged at the top, cranks outward from the bottom ~25–30°. The angled sash sheds rain while still ventilating — the window you can leave open when it drizzles.",
+            howItWorks:"A worm-gear crank at the sill or side pushes the bottom of the sash outward. Multi-point locks pull the sash tight against the frame when closed for a solid compression weather seal.",
             configurations:["Single awning — standalone in a high or narrow opening","Awning under picture — ventilation below a fixed view window","Stacked awnings — graduated ventilation on a tall wall","Awning over casement — combined in one frame unit"],
             bestFor:["High-wall placement for privacy with ventilation","Bathrooms, basements, and utility rooms","Coastal locations where rain-while-open capability is valued","Contemporary stacked configurations on modern facades"],
             limitations:["Standard crank opens only ~25–30° — limited airflow compared to casement","Not suitable as egress in most configurations","Standard operators not designed for large or heavy sashes — see Gas Strut for those applications"],
@@ -2903,18 +2902,18 @@ export default function App() {
           {
             id:"gas_strut_awning",name:"Gas Strut Awning",icon:"gas_strut",color:T.ember,
             tagline:"Opens a full 90°. Large-format pass-through. No crank — push to open, gas holds it there.",
-            overview:"Gas strut awning windows use heavy-duty compressed gas struts (the same mechanism as a car hood or cabinet door) instead of a worm-gear crank. This allows the sash to open a full 90° — completely horizontal — and hold itself there without any operator or stay. The gas strut is the enabling technology for large-format awnings: units commonly run 5' wide × 3'–4' tall, far beyond what a standard crank operator can support. At 90° open, the sash becomes a fully horizontal shelf or pass-through counter — the defining feature of indoor-outdoor kitchen and bar designs across San Diego.",
-            howItWorks:"Two or four heavy-duty gas struts are mounted between the fixed frame and the sash. Push the sash outward and the struts extend, lifting and holding the panel at 90°. The gas pressure is tuned to the sash weight — a balanced strut requires only light finger pressure to open or close. Closing is a simple downward push; the compression seal locks automatically. No crank, no handle cranking, no stays to adjust.",
-            configurations:["Single large panel — 4'–6' wide × 3'–4' tall, single strut pair","Pass-through / serving window — opens over a counter at sill height, sash becomes a horizontal awning/shelf","Stacked pair — two large gas strut units stacked for a dramatic opening wall","Multiple units side by side — creates a long horizontal ribbon of openable glass"],
+            overview:"Uses compressed gas struts instead of a crank — opens a full 90° and holds itself there with no operator needed. The technology behind kitchen pass-through windows and large-format openings.",
+            howItWorks:"Heavy-duty gas struts between the fixed frame and sash extend when you push the sash outward, lifting and holding it at 90°. Light finger pressure opens or closes it — no crank, no handle.",
+            configurations:["Single large panel — 4'–6' wide × 3'–4' tall, single strut pair","Pass-through / serving window — sash opens over a counter and holds at 90° as a horizontal shelf","Stacked pair — two large gas strut units stacked for a dramatic opening wall","Multiple units side by side — long horizontal ribbon of openable glass"],
             bestFor:["Kitchen pass-through to outdoor patio, bar, or BBQ area","Indoor-outdoor bar and entertainment setups","Large ventilation panels in contemporary architecture","Any opening where a full horizontal sash position is desired","Locations where a crank operator would be impractical or awkward"],
             limitations:["Higher cost than standard awning — gas struts add mechanical complexity","Gas struts require replacement every 10–15 years as pressure fades","Not a standard stocked item — typically 4–8 week lead time","Heavier sash requires robust frame and header — structural planning required","Screen must be on interior (same as standard awning)"],
-            sdNote:"Gas strut pass-through windows are one of the hottest specifications in San Diego outdoor entertaining right now. A kitchen with a 5' gas strut window over the counter connecting to the patio — with a bar stool counter built at the exterior sill — is a feature that sells homes in the La Jolla, Del Mar, and RSF market. It's a relatively modest cost addition to a full kitchen remodel but dramatically expands the indoor-outdoor living experience.",
+            sdNote:"One of the hottest SD specs right now. A kitchen gas strut pass-through connecting to the patio bar — stools at the exterior sill — is a feature that sells homes in La Jolla, Del Mar, and RSF.",
           },
           {
             id:"sliding",name:"Sliding / Gliding",icon:"sliding",color:T.rust,
             tagline:"Sash glides horizontally. No crank mechanism. Simple and clean.",
-            overview:"Sliding windows (also called gliding windows) have one or two sashes that move horizontally along a track. The most common configuration is one fixed and one operable sash — the operable panel slides to one side. Two-lite sliders have both sashes operable. Sliding windows have no crank mechanism — they operate by simply grabbing the sash and sliding it, making them intuitive and easy to use.",
-            howItWorks:"The operable sash rides on a bottom track and is guided by a top channel. Better units have ball-bearing rollers for smooth operation. The sash lifts slightly to remove for cleaning. A simple lever latch provides locking.",
+            overview:"One or two sashes glide horizontally on a track. No crank — just grab and slide. Simple, clean, and space-efficient where outswing isn't possible.",
+            howItWorks:"The operable sash rides on a bottom track guided by a top channel. Better units have ball-bearing rollers. A simple lever latch provides locking.",
             configurations:["2-lite — one fixed, one operable","3-lite — fixed center, two operable side sashes","3-lite XOX — two operable flanking a fixed center (most common)","Tall slider — portrait orientation, similar operation"],
             bestFor:["Contemporary and modern architecture","Wide horizontal openings where casement crank is awkward","Any location where outswing would be an obstruction","Beach and outdoor-facing rooms where simplicity is valued"],
             limitations:["Only 50% of area opens at one time","Track requires cleaning — dirt accumulates in channel","Less weather-tight than casement (no compression seal)"],
@@ -2922,8 +2921,8 @@ export default function App() {
           {
             id:"picture",name:"Picture / Fixed",icon:"picture",color:T.sage,
             tagline:"Non-operable. Maximum glass, minimum frame. The view window.",
-            overview:"Picture windows (also called fixed windows) have no operable mechanism — the sash is permanently fixed in the frame. This makes them the simplest and most structurally efficient window type, allowing large spans of glass with minimal framing. Picture windows deliver the purest, most unobstructed view and the best thermal performance (no operable hardware means the best possible weather seal). They are often the centerpiece of a window composition — flanked by operable units for ventilation.",
-            howItWorks:"The sash is glazed directly into the frame or set in fixed stops with no moving parts. Sizes can be very large — limited only by glass weight and structural support. Sightlines are as thin as the frame material allows.",
+            overview:"Fixed, non-operable. Maximum glass with minimum frame — the best thermal performance and thinnest sightlines of any window type. Always pair with operable units nearby for ventilation.",
+            howItWorks:"The sash is glazed directly into the frame with no moving parts. Sizes are limited only by glass weight and structural support.",
             configurations:["Standard rectangle — any size","Custom shapes — trapezoid, arch, circle, triangle","Picture in a composition — fixed center flanked by casement or double-hung","Floor-to-ceiling picture — often used in living rooms and great rooms"],
             bestFor:["Primary view windows — ocean, canyon, garden","Any opening where ventilation is not needed","Large statement windows in living areas and master bedrooms","Contemporary and modern architecture where thin sightlines are desired"],
             limitations:["No ventilation — must be combined with operable units for airflow","Cannot serve as egress","Cleaning requires exterior access on upper floors"],
@@ -2931,8 +2930,8 @@ export default function App() {
           {
             id:"bay_bow",name:"Bay & Bow",icon:"bay_bow",color:T.plum,
             tagline:"Projects outward from the wall. Creates interior depth and panoramic views.",
-            overview:"Bay windows project outward from the wall plane on three facets — a large center unit flanked by two angled side units (typically 30° or 45°). Bow windows are a softer version with 4–6 equal-width units forming a gentle curve. Both types add interior floor space (typically 12\"–18\" of depth) that can be used as a window seat, reading nook, or shelf. Bay and bow windows are structural additions — they require header support and a roof or ceiling treatment.",
-            howItWorks:"The center unit is typically a picture or double-hung. Side units are casement or double-hung. All units are joined by a structural head and seat board (the 'bay box'). The roof above is either a separate mini roof (copper, aluminum, or shingle) or the ceiling extends into the bump-out.",
+            overview:"Projects outward from the wall on three facets (bay) or a gentle curve (bow), adding 12\"–18\" of interior depth usable as a window seat or shelf. A structural addition requiring header support.",
+            howItWorks:"The center unit is typically a picture or double-hung; side units are casement or double-hung, all joined by a structural head and seat board. The roof above requires its own treatment.",
             configurations:["30° bay — more dramatic angular projection","45° bay — shallower, fits tighter spaces","Bow (4-unit) — gentle curve","Bow (6-unit) — more pronounced curve","Garden bay — often in kitchens, opens fully for herbs/plants"],
             bestFor:["Traditional and craftsman homes","Creating interior depth and window seat opportunities","Panoramic views with no single sightline in the center","Kitchens and breakfast nooks","Master bedrooms with ocean or garden views"],
             limitations:["Structural addition — requires permits and header framing","Higher cost than standard windows","Roof treatment requires separate planning","Cleaning exterior of side units can be difficult"],
@@ -2940,8 +2939,8 @@ export default function App() {
           {
             id:"specialty",name:"Specialty / Geometric",icon:"specialty",color:T.ember,
             tagline:"Circles, arches, triangles, trapezoids. Architectural accent windows.",
-            overview:"Specialty windows encompass any non-rectangular window shape — circles (oculus), half-rounds, eyebrows, quarter-rounds, triangles, trapezoids, and fully custom geometric shapes. These are fixed (non-operable) by necessity of their shape and are used as architectural accent elements — above entry doors, in gable ends, at stair landings, and in any location where a standard rectangular unit would be architecturally ordinary.",
-            howItWorks:"Each specialty window is manufactured to a specific template — custom-curved sashes or multi-piece assemblies depending on the shape. Installation requires a matching rough opening and often custom trim work. Lead times are longer than standard units.",
+            overview:"Any non-rectangular shape — circles, arches, triangles, trapezoids. Fixed only, used as architectural accent elements above entries, in gable ends, or at stair landings.",
+            howItWorks:"Each specialty window is manufactured to a specific template — custom-curved sashes or multi-piece assemblies. Installation requires a matching rough opening and custom trim.",
             configurations:["Half-round — semicircle above a door or window","Full circle (oculus) — statement piece in gable ends or feature walls","Quarter-round — corner accent","Eyebrow — low, wide arch with subtle curve","Trapezoid — follows roofline angle in vaulted or cathedral spaces","Triangle — gable end or modern composition"],
             bestFor:["Entry door transoms","Gable end accents","Stair landings needing light without views","Any architectural feature that needs a non-standard shape","Mediterranean, Spanish Colonial, and craftsman styles"],
             limitations:["Fixed only — no ventilation","Custom fabrication — longer lead times","Custom trim work required","Higher cost than standard units"],
@@ -3552,27 +3551,12 @@ export default function App() {
                 </div>
 
                 {/* Overhang & exposure note */}
-                <div style={{background:"#F0F4FA",border:"1px solid #7A9ABB44",borderRadius:"10px",padding:"18px 22px",gridColumn:"1/-1"}}>
-                  <div style={{display:"flex",justifyContent:"space-between",alignItems:"flex-start",flexWrap:"wrap",gap:"10px"}}>
-                    <div style={{flex:1}}>
-                      <SectionLabel color={T.slate}>☁ OVERHANG & WEATHER EXPOSURE REQUIREMENTS</SectionLabel>
-                      <p style={{margin:"0 0 12px",fontSize:"13px",color:"#5A6A7A",lineHeight:1.75}}>Most manufacturers publish minimum overhang depth requirements for exterior patio and large door systems — and many require written acknowledgment of exposure conditions before honoring warranty claims. Insufficient overhead protection is one of the most common causes of premature seal failure, hardware corrosion, sill water intrusion, and wood degradation in the field.</p>
-                      <div style={{display:"grid",gridTemplateColumns:"repeat(auto-fill,minmax(min(260px,100%),1fr))",gap:"14px",marginBottom:"12px"}}>
-                        <div style={{background:"#E8EEF5",borderRadius:"8px",padding:"12px 14px",borderLeft:"3px solid #7A9ABB"}}>
-                          <div style={{fontSize:"9px",fontFamily:"monospace",letterSpacing:"2px",color:T.slate,marginBottom:"6px"}}>GENERAL GUIDANCE</div>
-                          <div style={{fontSize:"12px",color:"#5A6A7A",lineHeight:1.65}}>A covered patio or roof eave of <strong>24" minimum depth</strong> is the common threshold cited by most manufacturers for standard aluminum systems. Wood and aluminum-clad wood panels typically require more — some specs call for 36"+ or a fully covered installation. Always verify the specific product's installation manual before finalizing the spec.</div>
-                        </div>
-                        <div style={{background:"#EEE8F5",borderRadius:"8px",padding:"12px 14px",borderLeft:"3px solid #9A7ABB"}}>
-                          <div style={{fontSize:"9px",fontFamily:"monospace",letterSpacing:"2px",color:T.plum,marginBottom:"6px"}}>WOOD & CLAD-WOOD PANELS</div>
-                          <div style={{fontSize:"12px",color:"#5A6A7A",lineHeight:1.65}}>Wood and aluminum-clad wood panels are the most vulnerable to direct weather exposure. Standing water on a bare wood sill, repeated wet-dry cycling, and UV exposure to unfinished clad joints accelerates deterioration. Marvin, Andersen, and Weather Shield all publish overhang minimums in their installation documentation — review these before specifying clad-wood in an exposed opening.</div>
-                        </div>
-                        <div style={{background:"#F5EEE8",borderRadius:"8px",padding:"12px 14px",borderLeft:"3px solid #BB8A6A"}}>
-                          <div style={{fontSize:"9px",fontFamily:"monospace",letterSpacing:"2px",color:T.rust,marginBottom:"6px"}}>LOW PROFILE & FLUSH SILLS</div>
-                          <div style={{fontSize:"12px",color:"#5A6A7A",lineHeight:1.65}}>Low-profile and flush sill systems — including NanaWall's Low Profile Sill and most large multi-slide threshold configurations — are deliberately minimized for indoor-outdoor flow, which also means they offer less weather resistance than a standard raised sill. These installations benefit most from covered overhead protection. In exposed applications, a standard raised sill is the safer specification.</div>
-                        </div>
-                      </div>
-                      <div style={{fontSize:"11px",color:"#7A8A9A",fontStyle:"italic",lineHeight:1.6}}>Aluminum-only systems (NanaWall, LaCantina aluminum, Western Window, Fleetwood) are the most tolerant of direct weather exposure. Vinyl systems handle moisture well but UV and heat cycling affect seals over time. Wood and clad-wood require the most protection. A covered installation is always the safest choice for any large door system.</div>
-                    </div>
+                <div style={{background:"#F0F4FA",border:"1px solid #7A9ABB44",borderRadius:"10px",padding:"16px 20px",gridColumn:"1/-1"}}>
+                  <SectionLabel color={T.slate}>☁ OVERHANG & WEATHER EXPOSURE</SectionLabel>
+                  <div style={{display:"flex",flexWrap:"wrap",gap:"10px",marginTop:"8px"}}>
+                    <div style={{flex:"1 1 180px",fontSize:"12px",color:"#5A6A7A",lineHeight:1.6}}><strong>Min. 24" overhang</strong> required by most manufacturers for aluminum systems. Wood and clad-wood typically need 36"+. Always check the product's install manual.</div>
+                    <div style={{flex:"1 1 180px",fontSize:"12px",color:"#5A6A7A",lineHeight:1.6}}><strong>Aluminum-only</strong> (NanaWall, LaCantina, Fleetwood) most weather-tolerant. <strong>Wood & clad-wood</strong> most vulnerable — verify overhang spec before finalizing.</div>
+                    <div style={{flex:"1 1 180px",fontSize:"12px",color:"#5A6A7A",lineHeight:1.6}}><strong>Flush sills</strong> (NanaWall Low Profile, multi-slide thresholds) offer less water resistance — covered overhead protection is especially important for these.</div>
                   </div>
                 </div>
 
