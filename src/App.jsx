@@ -1941,6 +1941,12 @@ export default function App() {
           .landing-hero{min-height:220px;flex:none;}
         }
 
+        /* ── WINDOW OP GRID ── */
+        .win-op-grid{display:grid;grid-template-columns:auto 1fr;gap:20px;align-items:start;}
+        @media(max-width:600px){
+          .win-op-grid{grid-template-columns:1fr;}
+        }
+
         @media(max-width:640px){
           .main-nav{gap:3px;}
           .nav-tab{padding:8px 7px;font-size:8px;letter-spacing:1px;}
@@ -2385,51 +2391,57 @@ export default function App() {
               </button>
             ))}
           </div>
-          <div style={{display:"flex",gap:"6px",flexWrap:"wrap",marginBottom:"8px",alignItems:"center"}}>
-            <span style={{fontSize:"9px",fontFamily:"monospace",letterSpacing:"1px",color:T.muted,marginRight:"4px"}}>TIER</span>
-            {["all","Ultra Premium","Luxury","Premium","Mid-Premium"].map(t=>(
-              <button key={t} onClick={()=>setTierFilter(t)} style={{background:tierFilter===t?"#EEF2F0":"none",border:`1px solid ${tierFilter===t?T.gold:T.border}`,color:tierFilter===t?T.text:T.dim,padding:"4px 11px",borderRadius:"4px",cursor:"pointer",fontSize:"9px",letterSpacing:"1px",fontFamily:"monospace"}}>
-                {t==="all"?"All Tiers":t}
-              </button>
-            ))}
+          <div style={{display:"flex",gap:"12px",flexWrap:"wrap",alignItems:"flex-start",marginBottom:"20px",background:T.card,border:`1px solid ${T.border}`,borderRadius:"8px",padding:"10px 14px"}}>
+            {/* Tier filter */}
+            <div style={{display:"flex",gap:"6px",flexWrap:"wrap",alignItems:"center"}}>
+              <span style={{fontSize:"9px",fontFamily:"monospace",letterSpacing:"2px",color:T.faint,marginRight:"2px"}}>TIER</span>
+              {["all","Ultra Premium","Luxury","Premium","Mid-Premium"].map(t=>(
+                <button key={t} onClick={()=>setTierFilter(t)} style={{background:tierFilter===t?`${T.gold}18`:"none",border:`1px solid ${tierFilter===t?T.gold:T.border}`,color:tierFilter===t?T.gold:T.dim,padding:"3px 10px",borderRadius:"4px",cursor:"pointer",fontSize:"9px",letterSpacing:"1px",fontFamily:"monospace"}}>
+                  {t==="all"?"All":t}
+                </button>
+              ))}
+            </div>
+            {/* Vertical divider */}
+            <div style={{width:"1px",background:T.border,alignSelf:"stretch",flexShrink:0,minHeight:"24px"}}/>
+            {/* Material filter */}
+            {(()=>{
+              const isAluminum = m => m && m.toLowerCase().includes("aluminum") && !m.toLowerCase().includes("clad");
+              const isFiberglass = m => m && (m.toLowerCase().includes("fiberglass") || m.toLowerCase().includes("fibrex"));
+              const isSteel = m => m && m.toLowerCase().includes("steel") && !m.toLowerCase().includes("powder");
+              const normalizeMat = m => isAluminum(m) ? "Aluminum" : isFiberglass(m) ? "Fiberglass / Composite" : isSteel(m) ? "Steel" : m;
+              const allMaterials = (vendors[vendorCat]||[]).flatMap(v=>v.frameMaterials||[]);
+              const normalizedMaterials = allMaterials.map(normalizeMat);
+              const uniqueMaterials = ["all",...Array.from(new Set(normalizedMaterials)).sort()];
+              const matLabels = {
+                "all":"All Materials",
+                "Aluminum":"Aluminum",
+                "Vinyl":"Vinyl",
+                "Fiberglass / Composite":"Fiberglass / Composite",
+                "Steel":"Steel",
+                "Aluminum-clad Wood":"Alum-Clad Wood",
+                "Solid Wood (stain grade)":"Solid Wood",
+                "Solid Wood":"Solid Wood",
+                "MDF (paint grade)":"MDF",
+                "MDF":"MDF",
+                "Moulded Composite":"Moulded Comp.",
+                "Solid Core":"Solid Core",
+                "Wood Composite":"Wood Comp.",
+              };
+              return uniqueMaterials.length > 2 ? (
+                <div style={{display:"flex",gap:"6px",flexWrap:"wrap",alignItems:"center"}}>
+                  <span style={{fontSize:"9px",fontFamily:"monospace",letterSpacing:"2px",color:T.faint,marginRight:"2px"}}>MATERIAL</span>
+                  {uniqueMaterials.map(m=>{
+                    const label = m==="all"?"All":(matLabels[m]||m);
+                    return (
+                      <button key={m} onClick={()=>setMaterialFilter(m)} style={{background:materialFilter===m?`${T.teal}18`:"none",border:`1px solid ${materialFilter===m?T.teal:T.border}`,color:materialFilter===m?T.teal:T.dim,padding:"3px 10px",borderRadius:"4px",cursor:"pointer",fontSize:"9px",letterSpacing:"1px",fontFamily:"monospace"}}>
+                        {label}
+                      </button>
+                    );
+                  })}
+                </div>
+              ) : null;
+            })()}
           </div>
-          {(()=>{
-            const isAluminum = m => m && m.toLowerCase().includes("aluminum") && !m.toLowerCase().includes("clad");
-            const isFiberglass = m => m && (m.toLowerCase().includes("fiberglass") || m.toLowerCase().includes("fibrex"));
-            const isSteel = m => m && m.toLowerCase().includes("steel") && !m.toLowerCase().includes("powder");
-            const normalizeMat = m => isAluminum(m) ? "Aluminum" : isFiberglass(m) ? "Fiberglass / Composite" : isSteel(m) ? "Steel" : m;
-            const allMaterials = (vendors[vendorCat]||[]).flatMap(v=>v.frameMaterials||[]);
-            const normalizedMaterials = allMaterials.map(normalizeMat);
-            const uniqueMaterials = ["all",...Array.from(new Set(normalizedMaterials)).sort()];
-            const matLabels = {
-              "all":"All Materials",
-              "Aluminum":"Aluminum",
-              "Vinyl":"Vinyl",
-              "Fiberglass / Composite":"Fiberglass / Composite",
-              "Steel":"Steel",
-              "Aluminum-clad Wood":"Alum-Clad Wood",
-              "Solid Wood (stain grade)":"Solid Wood",
-              "Solid Wood":"Solid Wood",
-              "MDF (paint grade)":"MDF",
-              "MDF":"MDF",
-              "Moulded Composite":"Moulded Comp.",
-              "Solid Core":"Solid Core",
-              "Wood Composite":"Wood Comp.",
-            };
-            return uniqueMaterials.length > 2 ? (
-              <div style={{display:"flex",gap:"6px",flexWrap:"wrap",marginBottom:"20px",alignItems:"center"}}>
-                <span style={{fontSize:"9px",fontFamily:"monospace",letterSpacing:"1px",color:T.muted,marginRight:"4px"}}>MATERIAL</span>
-                {uniqueMaterials.map(m=>{
-                  const label = m==="all"?"All Materials":(matLabels[m]||m);
-                  return (
-                    <button key={m} onClick={()=>setMaterialFilter(m)} style={{background:materialFilter===m?"#EEF2F0":"none",border:`1px solid ${materialFilter===m?T.teal:T.border}`,color:materialFilter===m?T.text:T.dim,padding:"4px 11px",borderRadius:"4px",cursor:"pointer",fontSize:"9px",letterSpacing:"1px",fontFamily:"monospace"}}>
-                      {label}
-                    </button>
-                  );
-                })}
-              </div>
-            ) : <div style={{marginBottom:"20px"}}/>;
-          })()}
           <div className="vendor-grid" style={{display:"grid",gridTemplateColumns:"repeat(auto-fill,minmax(min(460px,100%),1fr))",gap:"14px"}}>
             {(vendors[vendorCat]||[]).filter(v=>{
               const tierOk = tierFilter==="all"||v.tier===tierFilter;
@@ -3368,7 +3380,7 @@ export default function App() {
                     {operationTypes.map(op=>(
                       <div key={op.id} style={{background:T.card,border:`1px solid ${T.border}`,borderRadius:"12px",overflow:"hidden"}}>
                         <div style={{padding:"18px 22px 20px"}}>
-                          <div style={{display:"grid",gridTemplateColumns:"auto 1fr",gap:"20px",alignItems:"start"}}>
+                          <div className="win-op-grid">
                             {/* Illustration */}
                             <div style={{background:"#EEF5EE",border:`1px solid ${op.color}22`,borderRadius:"10px",padding:"12px",display:"flex",flexDirection:"column",alignItems:"center",gap:"6px"}}>
                               <div style={{fontSize:"8px",letterSpacing:"2px",color:op.color,fontFamily:"monospace",marginBottom:"4px"}}>ILLUSTRATION</div>
@@ -3811,7 +3823,7 @@ export default function App() {
                       </div>
 
                       {/* Illustration + types grid */}
-                      <div style={{padding:"20px",display:"grid",gridTemplateColumns:cat.svgKey&&svgs[cat.svgKey]?"auto 1fr":"1fr",gap:"20px",alignItems:"start"}}>
+                      <div style={{padding:"20px"}} className={cat.svgKey&&svgs[cat.svgKey]?"win-op-grid":""}>
 
                         {/* SVG Illustration */}
                         {cat.svgKey&&svgs[cat.svgKey]&&(
