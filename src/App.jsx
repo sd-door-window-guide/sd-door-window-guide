@@ -1952,7 +1952,7 @@ export default function App() {
           gap:4px;
         }
         .nav-tab{
-          padding:7px 13px;
+          padding:7px 10px;
           font-size:9px;
           white-space:nowrap;
         }
@@ -1965,7 +1965,8 @@ export default function App() {
         .grid-4col{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:8px;}
 
         @media(max-width:640px){
-          .nav-tab{padding:10px 12px;}
+          .main-nav{gap:3px;}
+          .nav-tab{padding:8px 7px;font-size:8px;letter-spacing:1px;}
           .sidebar-layout{flex-direction:column;}
           .sidebar-nav{width:100%!important;border-right:none!important;border-bottom:1px solid #D8D4CC;padding:0;overflow-y:visible;overflow-x:auto;display:flex!important;flex-direction:row!important;-webkit-overflow-scrolling:touch;scrollbar-width:none;}
           .sidebar-nav::-webkit-scrollbar{display:none;}
@@ -2877,36 +2878,36 @@ export default function App() {
             tagline:"Hinged on the side. Opens outward like a door. Best ventilation of any operable window.",
             overview:"Hinged on one side, cranks outward. When fully open, the entire window area is unobstructed — the only window type that captures 100% of its opening as ventilation.",
             howItWorks:"A worm-gear crank at the sill pushes the sash outward on concealed friction hinges. Higher-end units use multi-point locking — one handle engages locks at multiple points simultaneously.",
-            configurations:["Single casement — one sash, hinged left or right","Double casement — two sashes side-by-side with a fixed center post; each cranks independently","French casement — two sashes, no center post; both push outward simultaneously. Push-out only, no crank — not offered by all manufacturers","Combination — casement flanking a fixed center unit","Stacked — casement over awning for varied ventilation control"],
-            bestFor:["Maximum ventilation — especially in coastal SD","Rooms where you want breeze control","Contemporary and craftsman architecture","Kitchen windows where a crank is easier than a double-hung"],
-            limitations:["Outswing requires clear exterior space — can't use over counters or decks without planning","Screen installs on interior (less weather-protected)","Not ideal in very windy exposures — can catch wind and stress hinges","French casement (no center post) is a specialty option — verify availability with manufacturer before specifying"],
+            configurations:["Single — one sash, hinged left or right","Double — two sashes, fixed center post","French — two sashes, no center post, push-out only","Combination — casement + fixed center","Stacked — casement over awning"],
+            bestFor:["Maximum ventilation","Coastal breeze capture","Contemporary and craftsman homes","Kitchens and hard-to-reach locations"],
+            limitations:["Needs clear exterior swing space","Screen on interior","Not ideal in very windy exposures","French casement not available from all manufacturers"],
           },
           {
             id:"double_hung",name:"Double-Hung",icon:"double_hung",color:T.slate,
             tagline:"Both sashes slide. America's most familiar window. Tilts in for cleaning.",
             overview:"Two independently operable sashes slide vertically. Both can open simultaneously for top-and-bottom ventilation, and both tilt inward for cleaning without exterior access.",
             howItWorks:"Each sash rides in its own channel with spring or weight balancers that hold it at any position. A tilt-in mechanism releases the sash from its channel for cleaning without going outside.",
-            configurations:["Standard double-hung — both sashes operable","Single-hung — only lower sash moves (lower cost)","Double-hung in pairs flanking a fixed or picture center","Stacked double-hungs for tall openings"],
-            bestFor:["Traditional, craftsman, and transitional architecture","Upper floors where exterior cleaning is impractical (tilt-in cleaning)","Any application needing adjustable top-and-bottom ventilation","The most neutral architectural statement — works in almost any style"],
-            limitations:["Only ~50% of window area open at any one time (vs. 100% for casement)","Vertical sightlines can feel heavy in contemporary architecture","Balancer mechanisms require maintenance over time"],
+            configurations:["Standard — both sashes operable","Single-hung — lower sash only (lower cost)","Paired flanking a fixed center","Stacked for tall openings"],
+            bestFor:["Traditional and craftsman homes","Upper floors — tilt-in for easy cleaning","Top-and-bottom adjustable ventilation","Works in almost any architectural style"],
+            limitations:["Only 50% open at once","Heavy sightlines in contemporary settings","Balancers need maintenance over time"],
           },
           {
             id:"awning",name:"Awning",icon:"awning",color:T.gold,
             tagline:"Hinged at top. Opens ~30° outward from bottom. Rain-resistant ventilation.",
             overview:"Hinged at the top, cranks outward from the bottom ~25–30°. The angled sash sheds rain while still ventilating — the window you can leave open when it drizzles.",
             howItWorks:"A worm-gear crank at the sill or side pushes the bottom of the sash outward. Multi-point locks pull the sash tight against the frame when closed for a solid compression weather seal.",
-            configurations:["Single awning — standalone in a high or narrow opening","Awning under picture — ventilation below a fixed view window","Stacked awnings — graduated ventilation on a tall wall","Awning over casement — combined in one frame unit"],
-            bestFor:["High-wall placement for privacy with ventilation","Bathrooms, basements, and utility rooms","Coastal locations where rain-while-open capability is valued","Contemporary stacked configurations on modern facades"],
-            limitations:["Standard crank opens only ~25–30° — limited airflow compared to casement","Not suitable as egress in most configurations","Standard operators not designed for large or heavy sashes — see Gas Strut for those applications"],
+            configurations:["Single — standalone in high or narrow openings","Under picture — ventilation below a fixed view window","Stacked — graduated ventilation on a tall wall","Over casement — combined unit"],
+            bestFor:["High wall placement for privacy + ventilation","Bathrooms and utility rooms","Coastal — can stay open in light rain","Contemporary stacked configurations"],
+            limitations:["Limited airflow vs. casement","Not egress-rated in most configurations","Standard crank not for large/heavy sashes — use gas strut"],
           },
           {
             id:"gas_strut_awning",name:"Gas Strut Awning",icon:"gas_strut",color:T.ember,
             tagline:"Opens a full 90°. Large-format pass-through. No crank — push to open, gas holds it there.",
             overview:"Uses compressed gas struts instead of a crank — opens a full 90° and holds itself there with no operator needed. The technology behind kitchen pass-through windows and large-format openings.",
             howItWorks:"Heavy-duty gas struts between the fixed frame and sash extend when you push the sash outward, lifting and holding it at 90°. Light finger pressure opens or closes it — no crank, no handle.",
-            configurations:["Single large panel — 4'–6' wide × 3'–4' tall, single strut pair","Pass-through / serving window — sash opens over a counter and holds at 90° as a horizontal shelf","Stacked pair — two large gas strut units stacked for a dramatic opening wall","Multiple units side by side — long horizontal ribbon of openable glass"],
-            bestFor:["Kitchen pass-through to outdoor patio, bar, or BBQ area","Indoor-outdoor bar and entertainment setups","Large ventilation panels in contemporary architecture","Any opening where a full horizontal sash position is desired","Locations where a crank operator would be impractical or awkward"],
-            limitations:["Higher cost than standard awning — gas struts add mechanical complexity","Gas struts require replacement every 10–15 years as pressure fades","Not a standard stocked item — typically 4–8 week lead time","Heavier sash requires robust frame and header — structural planning required","Screen must be on interior (same as standard awning)"],
+            configurations:["Single large panel — 4'–6' wide","Pass-through / serving window over a counter","Stacked pair for dramatic opening wall","Multiple side-by-side units"],
+            bestFor:["Kitchen pass-through to patio or bar","Indoor-outdoor entertaining setups","Large ventilation in contemporary homes","Where a crank operator is impractical"],
+            limitations:["Higher cost than standard awning","Gas struts need replacement every 10–15 years","4–8 week lead time — not stocked","Heavier sash requires robust header","Screen on interior only"],
             sdNote:"One of the hottest SD specs right now. A kitchen gas strut pass-through connecting to the patio bar — stools at the exterior sill — is a feature that sells homes in La Jolla, Del Mar, and RSF.",
           },
           {
@@ -2914,36 +2915,36 @@ export default function App() {
             tagline:"Sash glides horizontally. No crank mechanism. Simple and clean.",
             overview:"One or two sashes glide horizontally on a track. No crank — just grab and slide. Simple, clean, and space-efficient where outswing isn't possible.",
             howItWorks:"The operable sash rides on a bottom track guided by a top channel. Better units have ball-bearing rollers. A simple lever latch provides locking.",
-            configurations:["2-lite — one fixed, one operable","3-lite — fixed center, two operable side sashes","3-lite XOX — two operable flanking a fixed center (most common)","Tall slider — portrait orientation, similar operation"],
-            bestFor:["Contemporary and modern architecture","Wide horizontal openings where casement crank is awkward","Any location where outswing would be an obstruction","Beach and outdoor-facing rooms where simplicity is valued"],
-            limitations:["Only 50% of area opens at one time","Track requires cleaning — dirt accumulates in channel","Less weather-tight than casement (no compression seal)"],
+            configurations:["2-lite — one fixed, one operable","3-lite XOX — two operable + fixed center","Tall slider — portrait orientation"],
+            bestFor:["Contemporary and modern homes","Wide horizontal openings","Where outswing isn't possible","Beach and outdoor-facing rooms"],
+            limitations:["Only 50% open at once","Track collects dirt and debris","Less weather-tight than casement"],
           },
           {
             id:"picture",name:"Picture / Fixed",icon:"picture",color:T.sage,
             tagline:"Non-operable. Maximum glass, minimum frame. The view window.",
             overview:"Fixed, non-operable. Maximum glass with minimum frame — the best thermal performance and thinnest sightlines of any window type. Always pair with operable units nearby for ventilation.",
             howItWorks:"The sash is glazed directly into the frame with no moving parts. Sizes are limited only by glass weight and structural support.",
-            configurations:["Standard rectangle — any size","Custom shapes — trapezoid, arch, circle, triangle","Picture in a composition — fixed center flanked by casement or double-hung","Floor-to-ceiling picture — often used in living rooms and great rooms"],
-            bestFor:["Primary view windows — ocean, canyon, garden","Any opening where ventilation is not needed","Large statement windows in living areas and master bedrooms","Contemporary and modern architecture where thin sightlines are desired"],
-            limitations:["No ventilation — must be combined with operable units for airflow","Cannot serve as egress","Cleaning requires exterior access on upper floors"],
+            configurations:["Standard rectangle — any size","Custom shapes — arch, circle, trapezoid","Fixed center flanked by operable units","Floor-to-ceiling statement windows"],
+            bestFor:["Primary view windows","Where ventilation isn't needed","Statement living room and bedroom windows","Contemporary and modern homes"],
+            limitations:["No ventilation","Not egress-rated","Upper floors require exterior access to clean"],
           },
           {
             id:"bay_bow",name:"Bay & Bow",icon:"bay_bow",color:T.plum,
             tagline:"Projects outward from the wall. Creates interior depth and panoramic views.",
             overview:"Projects outward from the wall on three facets (bay) or a gentle curve (bow), adding 12\"–18\" of interior depth usable as a window seat or shelf. A structural addition requiring header support.",
             howItWorks:"The center unit is typically a picture or double-hung; side units are casement or double-hung, all joined by a structural head and seat board. The roof above requires its own treatment.",
-            configurations:["30° bay — more dramatic angular projection","45° bay — shallower, fits tighter spaces","Bow (4-unit) — gentle curve","Bow (6-unit) — more pronounced curve","Garden bay — often in kitchens, opens fully for herbs/plants"],
-            bestFor:["Traditional and craftsman homes","Creating interior depth and window seat opportunities","Panoramic views with no single sightline in the center","Kitchens and breakfast nooks","Master bedrooms with ocean or garden views"],
-            limitations:["Structural addition — requires permits and header framing","Higher cost than standard windows","Roof treatment requires separate planning","Cleaning exterior of side units can be difficult"],
+            configurations:["30° bay — dramatic angular projection","45° bay — shallower, tighter spaces","Bow (4-unit) — gentle curve","Garden bay — kitchen herb window"],
+            bestFor:["Traditional and craftsman homes","Window seats and interior depth","Panoramic views","Kitchens, breakfast nooks, and master bedrooms"],
+            limitations:["Structural addition — requires permits","Higher cost","Roof treatment requires planning","Exterior cleaning can be difficult"],
           },
           {
             id:"specialty",name:"Specialty / Geometric",icon:"specialty",color:T.ember,
             tagline:"Circles, arches, triangles, trapezoids. Architectural accent windows.",
             overview:"Any non-rectangular shape — circles, arches, triangles, trapezoids. Fixed only, used as architectural accent elements above entries, in gable ends, or at stair landings.",
             howItWorks:"Each specialty window is manufactured to a specific template — custom-curved sashes or multi-piece assemblies. Installation requires a matching rough opening and custom trim.",
-            configurations:["Half-round — semicircle above a door or window","Full circle (oculus) — statement piece in gable ends or feature walls","Quarter-round — corner accent","Eyebrow — low, wide arch with subtle curve","Trapezoid — follows roofline angle in vaulted or cathedral spaces","Triangle — gable end or modern composition"],
-            bestFor:["Entry door transoms","Gable end accents","Stair landings needing light without views","Any architectural feature that needs a non-standard shape","Mediterranean, Spanish Colonial, and craftsman styles"],
-            limitations:["Fixed only — no ventilation","Custom fabrication — longer lead times","Custom trim work required","Higher cost than standard units"],
+            configurations:["Half-round — above a door or window","Full circle / oculus — gable statement","Quarter-round — corner accent","Trapezoid — follows roofline in vaulted spaces","Triangle — gable end"],
+            bestFor:["Entry door transoms","Gable end accents","Stair landings","Mediterranean and craftsman styles"],
+            limitations:["Fixed only — no ventilation","Longer lead times","Custom trim required","Higher cost than standard units"],
           },
         ];
 
@@ -2956,125 +2957,170 @@ export default function App() {
           const gls="#2A8A8050";
           const svgs={
             casement:(
-              <svg viewBox="0 0 110 140" width="110" height="140">
-                <rect width="110" height="140" fill={bg} rx="4"/>
-                {/* outer frame — portrait orientation */}
-                <rect x="10" y="10" width="90" height="118" rx="2" fill="none" stroke={fr} strokeWidth="5"/>
-                {/* closed sash ghost — full interior dashed */}
-                <rect x="15" y="15" width="80" height="108" fill={gl} stroke="#C4CEC8" strokeWidth="1" strokeDasharray="3,2"/>
-                {/* open sash — left-hinged, parallelogram showing ~40° outswing */}
-                <polygon
-                  points="15,15  48,8  48,130  15,123"
-                  fill={gls} stroke={c} strokeWidth="2"
-                />
-                {/* hinge marks on left frame stile */}
-                <rect x="10" y="30" width="6" height="10" rx="1" fill={c} opacity="0.85"/>
-                <rect x="10" y="98" width="6" height="10" rx="1" fill={c} opacity="0.85"/>
-                {/* handle on free edge of open sash */}
-                <rect x="42" y="64" width="5" height="12" rx="2" fill={c} opacity="0.8"/>
-                {/* crank at sill */}
-                <circle cx="65" cy="122" r="4" fill="none" stroke={c} strokeWidth="1.5" opacity="0.8"/>
-                <line x1="65" y1="118" x2="65" y2="113" stroke={c} strokeWidth="1.5" opacity="0.8"/>
-                <text x="55" y="136" textAnchor="middle" fill={c} fontSize="7" fontFamily="monospace" opacity="0.6">LEFT-HINGED OUTSWING</text>
+              <svg viewBox="0 0 160 200" width="160" height="200">
+                <rect width="160" height="200" fill={bg} rx="4"/>
+                {/* outer thick frame */}
+                <rect x="5" y="8" width="150" height="162" fill={gl} stroke={fr} strokeWidth="4" rx="1"/>
+                {/* inner inset line */}
+                <rect x="13" y="16" width="134" height="146" fill="none" stroke={fr} strokeWidth="1.5"/>
+                {/* interior glass — full opening (ghost closed) */}
+                <rect x="13" y="16" width="134" height="146" fill={gls} opacity="0.5"/>
+                {/* ghost closed sash — dashed */}
+                <rect x="19" y="22" width="122" height="134" fill={gl} stroke={c} strokeWidth="1" strokeDasharray="3,2" opacity="0.25"/>
+
+                {/* === OPEN SASH — left-hinged, ~15° outswing === */}
+                {/* Wider sash face — barely open, parallelogram */}
+                <polygon points="19,22 110,14 110,162 19,156" fill={gl} stroke={fr} strokeWidth="2"/>
+                {/* inner glass */}
+                <polygon points="27,30 102,23 102,154 27,148" fill={gls} stroke={fr} strokeWidth="1"/>
+                {/* reflection on sash glass */}
+                <line x1="40" y1="42" x2="80" y2="60" stroke={fr} strokeWidth="1.5" opacity="0.4"/>
+                <line x1="40" y1="56" x2="80" y2="74" stroke={fr} strokeWidth="1" opacity="0.22"/>
+
+                {/* 3D edge — right side of sash showing depth */}
+                <polygon points="110,14 120,18 120,158 110,162" fill={gl} stroke={fr} strokeWidth="1.2" opacity="0.7"/>
+                {/* top edge depth */}
+                <polygon points="19,22 110,14 120,18 19,26" fill={gl} stroke={fr} strokeWidth="1" opacity="0.5"/>
+
+                {/* hinge indicator — lines from left hinge midpoint to top-right and bottom-right glass corners */}
+                <line x1="27" y1="89" x2="102" y2="23" stroke={c} strokeWidth="1.8" opacity="0.7"/>
+                <line x1="27" y1="89" x2="102" y2="154" stroke={c} strokeWidth="1.8" opacity="0.7"/>
+
+                {/* outer perimeter lines */}
+                <line x1="13" y1="16" x2="147" y2="16" stroke={fr} strokeWidth="1.5"/>
+                <line x1="13" y1="162" x2="147" y2="162" stroke={fr} strokeWidth="1.5"/>
+                <line x1="13" y1="16" x2="13" y2="162" stroke={fr} strokeWidth="1.5"/>
+                <line x1="147" y1="16" x2="147" y2="162" stroke={fr} strokeWidth="1.5"/>
+
+                <text x="80" y="186" textAnchor="middle" fill={c} fontSize="7" fontFamily="monospace" opacity="0.65">LEFT-HINGED OUTSWING</text>
               </svg>
             ),
             double_hung:(
-              <svg viewBox="0 0 120 100" width="120" height="100">
-                <rect width="120" height="100" fill={bg} rx="4"/>
-                <rect x="10" y="8" width="100" height="84" rx="2" fill="none" stroke={fr} strokeWidth="5"/>
-                {/* upper sash — down */}
-                <rect x="14" y="13" width="92" height="36" fill={gls} stroke={c} strokeWidth="1.5"/>
-                <rect x="14" y="43" width="92" height="6" fill={fr} opacity="0.8"/>
-                {/* lower sash — up */}
-                <rect x="14" y="49" width="92" height="36" fill={gl} stroke={c} strokeWidth="1"/>
-                {/* arrows */}
-                <text x="60" y="34" textAnchor="middle" fill={c} fontSize="12" opacity="0.5">{"\u2193"}</text>
-                <text x="60" y="74" textAnchor="middle" fill={c} fontSize="12" opacity="0.5">{"\u2191"}</text>
-                {/* lock rail center */}
-                <rect x="50" y="43" width="20" height="7" rx="2" fill={c} opacity="0.4"/>
-                <text x="60" y="98" textAnchor="middle" fill={c} fontSize="7" fontFamily="monospace" opacity="0.6">BOTH SASHES MOVE</text>
+              <svg viewBox="0 0 140 200" width="140" height="200">
+                <rect width="140" height="200" fill={bg} rx="4"/>
+                {/* outer thick frame */}
+                <rect x="5" y="6" width="130" height="162" fill={gl} stroke={fr} strokeWidth="4" rx="1"/>
+                {/* inner inset line */}
+                <rect x="12" y="13" width="116" height="148" fill="none" stroke={fr} strokeWidth="1.5"/>
+                {/* bottom panel fill — drawn first, behind */}
+                <rect x="12" y="88" width="116" height="73" fill={gl}/>
+                {/* bottom glass */}
+                <rect x="24" y="100" width="92" height="49" fill={gls}/>
+                {/* bottom panel — UP arrow, centered in bottom glass */}
+                <line x1="70" y1="130" x2="70" y2="116" stroke={fr} strokeWidth="1.8" opacity="0.7"/>
+                <polygon points="66,116 74,116 70,110" fill={fr} opacity="0.7"/>
+                {/* top panel fill — drawn on top */}
+                <rect x="12" y="13" width="116" height="81" fill={gl}/>
+                {/* top glass */}
+                <rect x="24" y="25" width="92" height="57" fill={gls}/>
+                {/* top panel — DOWN arrow, centered in top glass */}
+                <line x1="70" y1="48" x2="70" y2="62" stroke={fr} strokeWidth="1.8" opacity="0.7"/>
+                <polygon points="66,62 74,62 70,68" fill={fr} opacity="0.7"/>
+                {/* === explicit sash lines === */}
+                {/* outer perimeter */}
+                <line x1="12" y1="13" x2="128" y2="13" stroke={fr} strokeWidth="1.5"/>
+                <line x1="12" y1="161" x2="128" y2="161" stroke={fr} strokeWidth="1.5"/>
+                <line x1="12" y1="13" x2="12" y2="161" stroke={fr} strokeWidth="1.5"/>
+                <line x1="128" y1="13" x2="128" y2="161" stroke={fr} strokeWidth="1.5"/>
+                {/* top glass box */}
+                <line x1="24" y1="25" x2="116" y2="25" stroke={fr} strokeWidth="1.2"/>
+                <line x1="24" y1="82" x2="116" y2="82" stroke={fr} strokeWidth="1.2"/>
+                <line x1="24" y1="25" x2="24" y2="82" stroke={fr} strokeWidth="1.2"/>
+                <line x1="116" y1="25" x2="116" y2="82" stroke={fr} strokeWidth="1.2"/>
+                {/* top panel bottom edge — the only center line */}
+                <line x1="12" y1="94" x2="128" y2="94" stroke={fr} strokeWidth="1.5"/>
+                {/* bottom glass box */}
+                <line x1="24" y1="100" x2="116" y2="100" stroke={fr} strokeWidth="1.2"/>
+                <line x1="24" y1="149" x2="116" y2="149" stroke={fr} strokeWidth="1.2"/>
+                <line x1="24" y1="100" x2="24" y2="149" stroke={fr} strokeWidth="1.2"/>
+                <line x1="116" y1="100" x2="116" y2="149" stroke={fr} strokeWidth="1.2"/>
+                <text x="70" y="186" textAnchor="middle" fill={c} fontSize="7" fontFamily="monospace" opacity="0.65">BOTH SASHES SLIDE</text>
               </svg>
             ),
             awning:(
-              <svg viewBox="0 0 140 110" width="140" height="110">
-                <rect width="140" height="110" fill={bg} rx="4"/>
-                {/* outer frame */}
-                <rect x="8" y="8" width="124" height="94" rx="2" fill="none" stroke={fr} strokeWidth="5"/>
-                {/* closed sash ghost — full interior dashed */}
-                <rect x="13" y="13" width="114" height="82" fill={gl} stroke="#C4CEC8" strokeWidth="1" strokeDasharray="3,2"/>
-                {/* Open sash at ~30°: top edge hinged to frame top, bottom swings outward
-                    Trapezoid wider at bottom to give perspective depth of outswing */}
-                <polygon
-                  points="13,15  127,15  131,62  9,62"
-                  fill={gls} stroke={c} strokeWidth="2"
-                />
-                {/* top hinge marks */}
-                <rect x="22" y="8" width="10" height="6" rx="1" fill={c} opacity="0.85"/>
-                <rect x="108" y="8" width="10" height="6" rx="1" fill={c} opacity="0.85"/>
-                {/* crank at sill corner */}
-                <circle cx="120" cy="97" r="4" fill="none" stroke={c} strokeWidth="1.5" opacity="0.8"/>
-                <line x1="120" y1="93" x2="120" y2="89" stroke={c} strokeWidth="1.5" opacity="0.8"/>
-                <text x="70" y="108" textAnchor="middle" fill={c} fontSize="7" fontFamily="monospace" opacity="0.6">TOP-HINGED OUTSWING</text>
+              <svg viewBox="0 0 210 148" width="210" height="148">
+                <rect width="210" height="148" fill={bg} rx="4"/>
+
+                {/* === FRAME — front face === */}
+                <rect x="16" y="24" width="10" height="94" fill={gl} stroke={fr} strokeWidth="2"/>
+                <rect x="184" y="24" width="10" height="94" fill={gl} stroke={fr} strokeWidth="2"/>
+                <rect x="16" y="24" width="178" height="10" fill={gl} stroke={fr} strokeWidth="2"/>
+                <rect x="16" y="118" width="178" height="10" fill={gl} stroke={fr} strokeWidth="2"/>
+                <rect x="20" y="28" width="170" height="90" fill="none" stroke={fr} strokeWidth="1.2"/>
+
+                {/* open gap at bottom 1/4 — shows through */}
+                <rect x="26" y="96" width="158" height="22" fill={gls} opacity="0.5"/>
+
+                {/* === SASH — covers top 3/4, bottom barely open === */}
+                {/* slightly wider at bottom since it has swung toward viewer */}
+                <polygon points="26,34 184,34 190,96 20,96" fill={gl} stroke={fr} strokeWidth="2"/>
+                {/* inner glass face — more inset for thicker sash */}
+                <polygon points="38,42 172,42 178,90 32,90" fill={gls} stroke={fr} strokeWidth="1"/>
+                {/* reflection */}
+                <line x1="50" y1="52" x2="70" y2="78" stroke={fr} strokeWidth="1.5" opacity="0.4"/>
+                <line x1="64" y1="52" x2="84" y2="78" stroke={fr} strokeWidth="1" opacity="0.22"/>
+                {/* 3D edge — underside of sash visible at bottom (sash tilted toward viewer) */}
+                <polygon points="20,96 190,96 192,103 18,103" fill={gl} stroke={fr} strokeWidth="1.2" opacity="0.75"/>
+                {/* 3D left side edge */}
+                <polygon points="26,34 20,96 18,103 24,37" fill={gl} stroke={fr} strokeWidth="1" opacity="0.6"/>
+                {/* 3D right side edge */}
+                <polygon points="184,34 190,96 192,103 186,37" fill={gl} stroke={fr} strokeWidth="1" opacity="0.6"/>
+
+                {/* === OPERATOR — single center arm with up arrow === */}
+                <line x1="105" y1="118" x2="105" y2="96" stroke={c} strokeWidth="2" strokeLinecap="round" opacity="0.75"/>
+                <polygon points="101,100 109,100 105,94" fill={c} opacity="0.75"/>
+
+                <text x="105" y="142" textAnchor="middle" fill={c} fontSize="7" fontFamily="monospace" opacity="0.65">TOP-HINGED — OPENS FROM BOTTOM</text>
               </svg>
             ),
             gas_strut_awning:(
-              <svg viewBox="0 0 160 130" width="160" height="130">
-                <rect width="160" height="130" fill={bg} rx="4"/>
-                {/* Side-view cross-section: wall left, frame, sash fully horizontal at 90° */}
+              <svg viewBox="0 0 210 148" width="210" height="148">
+                <rect width="210" height="148" fill={bg} rx="4"/>
 
-                {/* Wall section */}
-                <rect x="0" y="10" width="22" height="110" fill="#EEF4F2"/>
-                <rect x="20" y="10" width="3" height="110" fill={fr} opacity="0.6"/>
+                {/* === SASH — above frame, hinged at top rail, tilted outward past 90° === */}
+                {/* Free end closer to viewer = wider at top, narrows at hinge */}
+                <polygon points="16,56 194,56 202,22 8,22" fill={gl} stroke={fr} strokeWidth="2.5"/>
+                {/* inner glass on sash face */}
+                <polygon points="21,53 189,53 197,26 13,26" fill={gls} stroke={fr} strokeWidth="1"/>
+                {/* reflection line on sash glass */}
+                <line x1="38" y1="48" x2="62" y2="30" stroke={fr} strokeWidth="1.5" opacity="0.35"/>
+                <line x1="50" y1="48" x2="74" y2="30" stroke={fr} strokeWidth="1" opacity="0.2"/>
 
-                {/* Fixed frame — top and bottom rails visible from side */}
-                {/* Top frame rail */}
-                <rect x="20" y="28" width="6" height="6" fill={fr}/>
-                {/* Bottom frame rail (sill) */}
-                <rect x="20" y="88" width="6" height="6" fill={fr}/>
-                {/* Frame depth lines */}
-                <line x1="26" y1="28" x2="26" y2="94" stroke={fr} strokeWidth="2"/>
+                {/* handle at center top of sash */}
+                <path d="M 98,22 Q 105,16 112,22" fill="none" stroke={fr} strokeWidth="2.5" strokeLinecap="round"/>
 
-                {/* Ghost closed position — vertical sash (dashed) */}
-                <rect x="26" y="28" width="110" height="6" fill={gls} stroke={c} strokeDasharray="3,2" strokeWidth="1" opacity="0.3"/>
-                <rect x="26" y="88" width="110" height="6" fill={gls} stroke={c} strokeDasharray="3,2" strokeWidth="1" opacity="0.2"/>
-                <line x1="136" y1="34" x2="136" y2="88" stroke={c} strokeWidth="1" strokeDasharray="2,2" opacity="0.25"/>
+                {/* hinge line — frame top / sash bottom meeting point */}
+                <rect x="16" y="54" width="178" height="5" fill={c} opacity="0.25"/>
 
-                {/* OPEN SASH — horizontal at 90°, top-hinged */}
-                {/* Sash sits horizontal from hinge point (top of frame) extending outward */}
-                <rect x="26" y="28" width="118" height="8" fill={gls} stroke={c} strokeWidth="2" rx="1"/>
-                {/* Glass fill on the horizontal sash face */}
-                <rect x="28" y="30" width="114" height="4" fill={c} opacity="0.25"/>
+                {/* === FRAME — front face === */}
+                {/* left rail */}
+                <rect x="16" y="56" width="10" height="68" fill={gl} stroke={fr} strokeWidth="2"/>
+                {/* right rail */}
+                <rect x="184" y="56" width="10" height="68" fill={gl} stroke={fr} strokeWidth="2"/>
+                {/* bottom sill */}
+                <rect x="16" y="124" width="178" height="10" fill={gl} stroke={fr} strokeWidth="2"/>
+                {/* frame opening — interior */}
+                <rect x="26" y="56" width="158" height="68" fill={gls} opacity="0.7"/>
 
-                {/* Hinge at pivot point — top left corner */}
-                <circle cx="26" cy="31" r="4" fill={c} opacity="0.9"/>
-                <circle cx="26" cy="31" r="2" fill={bg}/>
+                {/* === GAS STRUTS — one each side === */}
+                {/* left strut: left rail mid-height → sash bottom-left corner */}
+                <line x1="20" y1="98" x2="19" y2="48" stroke={c} strokeWidth="3" strokeLinecap="round" opacity="0.9"/>
+                <circle cx="20" cy="98" r="3.5" fill={c} opacity="0.85"/>
+                <circle cx="19" cy="48" r="3.5" fill={c} opacity="0.85"/>
 
-                {/* GAS STRUTS — two diagonal lines from frame to underside of sash */}
-                {/* Strut 1 */}
-                <line x1="26" y1="70" x2="68" y2="36" stroke={c} strokeWidth="3" strokeLinecap="round" opacity="0.8"/>
-                <circle cx="26" cy="70" r="3" fill={c} opacity="0.7"/>
-                <circle cx="68" cy="36" r="3" fill={c} opacity="0.7"/>
-                {/* Strut 2 */}
-                <line x1="26" y1="85" x2="100" y2="36" stroke={c} strokeWidth="3" strokeLinecap="round" opacity="0.6"/>
-                <circle cx="26" cy="85" r="3" fill={c} opacity="0.55"/>
-                <circle cx="100" cy="36" r="3" fill={c} opacity="0.55"/>
+                {/* right strut: right rail mid-height → sash bottom-right corner */}
+                <line x1="190" y1="98" x2="191" y2="48" stroke={c} strokeWidth="3" strokeLinecap="round" opacity="0.9"/>
+                <circle cx="190" cy="98" r="3.5" fill={c} opacity="0.85"/>
+                <circle cx="191" cy="48" r="3.5" fill={c} opacity="0.85"/>
 
-                {/* 90° angle arc indicator */}
-                <path d="M 26,55 A 24,24 0 0,1 50,31" fill="none" stroke={c} strokeWidth="1.2" strokeDasharray="2,2" opacity="0.5"/>
-                <text x="44" y="50" fill={c} fontSize="8" fontFamily="monospace" fontWeight="700" opacity="0.8">90{"\u00B0"}</text>
+                {/* === COUNTER — full width === */}
+                <rect x="0" y="134" width="210" height="10" fill={gl} stroke={fr} strokeWidth="1.5" opacity="0.8"/>
+                <text x="105" y="141" textAnchor="middle" fill={c} fontSize="6" fontFamily="monospace" opacity="0.5">PASS-THROUGH COUNTER</text>
 
-                {/* Pass-through counter suggestion below */}
-                <rect x="26" y="94" width="130" height="10" rx="2" fill="#FAF6EE" stroke={c} strokeWidth="1" opacity="0.5"/>
-                <text x="91" y="101" textAnchor="middle" fill={c} fontSize="6" fontFamily="monospace" opacity="0.5">PASS-THROUGH COUNTER</text>
-
-                {/* Label */}
-                <text x="80" y="122" textAnchor="middle" fill={c} fontSize="7" fontFamily="monospace" opacity="0.65">GAS STRUT {"\u2014"} FULL 90° OPEN</text>
-
-                {/* Side label: INTERIOR / EXTERIOR */}
-                <text x="10" y="55" textAnchor="middle" fill={c} fontSize="5.5" fontFamily="monospace" opacity="0.4" transform="rotate(-90,10,55)">INTERIOR</text>
-                <text x="150" y="65" textAnchor="middle" fill={c} fontSize="5.5" fontFamily="monospace" opacity="0.4" transform="rotate(-90,150,65)">EXTERIOR</text>
+                <text x="105" y="146" textAnchor="middle" fill={c} fontSize="7" fontFamily="monospace" opacity="0">.</text>
               </svg>
             ),
+
             sliding:(
               <svg viewBox="0 0 200 140" width="200" height="140">
                 <rect width="200" height="140" fill={bg} rx="4"/>
@@ -3082,21 +3128,42 @@ export default function App() {
                 <rect x="5" y="8" width="190" height="124" fill={gl} stroke={fr} strokeWidth="4" rx="1"/>
                 {/* inner inset line */}
                 <rect x="12" y="15" width="176" height="110" fill="none" stroke={fr} strokeWidth="1.5"/>
-                {/* center sash — thick vertical piece */}
-                <rect x="97" y="8" width="10" height="124" fill={fr}/>
-                {/* left panel inner sash */}
-                <rect x="12" y="15" width="85" height="110" fill={gls} stroke={fr} strokeWidth="1.5"/>
-                {/* left panel — glass reflection lines (top-left) */}
-                <line x1="28" y1="28" x2="50" y2="52" stroke={fr} strokeWidth="1.8" opacity="0.55"/>
-                <line x1="38" y1="28" x2="60" y2="52" stroke={fr} strokeWidth="1.8" opacity="0.55"/>
-                {/* left panel — arrow (bottom-left) */}
-                <line x1="34" y1="88" x2="60" y2="88" stroke={fr} strokeWidth="1.8" opacity="0.7"/>
-                <polygon points="60,84 60,92 68,88" fill={fr} opacity="0.7"/>
-                {/* right panel inner sash */}
-                <rect x="107" y="15" width="81" height="110" fill={gls} stroke={fr} strokeWidth="1.5"/>
-                {/* right panel — glass reflection lines (center-right) */}
-                <line x1="130" y1="52" x2="152" y2="76" stroke={fr} strokeWidth="1.8" opacity="0.55"/>
-                <line x1="140" y1="52" x2="162" y2="76" stroke={fr} strokeWidth="1.8" opacity="0.55"/>
+                {/* right panel fill — drawn first, behind */}
+                <rect x="91" y="15" width="97" height="110" fill={gl}/>
+                {/* right glass — left sash hidden behind left panel */}
+                <rect x="103" y="27" width="73" height="86" fill={gls}/>
+                {/* right panel — reflection lines */}
+                <line x1="118" y1="52" x2="140" y2="78" stroke={fr} strokeWidth="1.8" opacity="0.55"/>
+                <line x1="128" y1="52" x2="150" y2="78" stroke={fr} strokeWidth="1.8" opacity="0.55"/>
+                {/* left panel fill — drawn on top */}
+                <rect x="12" y="15" width="91" height="110" fill={gl}/>
+                {/* left glass */}
+                <rect x="24" y="27" width="67" height="86" fill={gls}/>
+                {/* left panel — reflection lines */}
+                <line x1="32" y1="36" x2="54" y2="62" stroke={fr} strokeWidth="1.8" opacity="0.55"/>
+                <line x1="42" y1="36" x2="64" y2="62" stroke={fr} strokeWidth="1.8" opacity="0.55"/>
+                {/* left panel — arrow */}
+                <line x1="34" y1="92" x2="62" y2="92" stroke={fr} strokeWidth="1.8" opacity="0.7"/>
+                <polygon points="62,88 62,96 70,92" fill={fr} opacity="0.7"/>
+                {/* === explicit sash lines === */}
+                {/* outer perimeter */}
+                <line x1="12" y1="15" x2="12" y2="125" stroke={fr} strokeWidth="1.5"/>
+                <line x1="188" y1="15" x2="188" y2="125" stroke={fr} strokeWidth="1.5"/>
+                <line x1="12" y1="15" x2="188" y2="15" stroke={fr} strokeWidth="1.5"/>
+                <line x1="12" y1="125" x2="188" y2="125" stroke={fr} strokeWidth="1.5"/>
+                {/* left glass box — full sash visible */}
+                <line x1="24" y1="27" x2="91" y2="27" stroke={fr} strokeWidth="1.2"/>
+                <line x1="24" y1="113" x2="91" y2="113" stroke={fr} strokeWidth="1.2"/>
+                <line x1="24" y1="27" x2="24" y2="113" stroke={fr} strokeWidth="1.2"/>
+                <line x1="91" y1="27" x2="91" y2="113" stroke={fr} strokeWidth="1.2"/>
+                {/* left panel right outer edge — the only center line */}
+                <line x1="103" y1="15" x2="103" y2="125" stroke={fr} strokeWidth="1.5"/>
+                {/* right glass box — no left sash, glass starts at x=103 */}
+                <line x1="103" y1="27" x2="176" y2="27" stroke={fr} strokeWidth="1.2"/>
+                <line x1="103" y1="113" x2="176" y2="113" stroke={fr} strokeWidth="1.2"/>
+                <line x1="176" y1="27" x2="176" y2="113" stroke={fr} strokeWidth="1.2"/>
+                {/* right panel right outer edge */}
+                <line x1="188" y1="15" x2="188" y2="125" stroke={fr} strokeWidth="1.5"/>
               </svg>
             ),
 
