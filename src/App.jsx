@@ -3076,52 +3076,66 @@ export default function App() {
               </svg>
             ),
             sliding:(
-              <svg viewBox="0 0 120 100" width="120" height="100">
-                <rect width="120" height="100" fill={bg} rx="4"/>
-                <rect x="10" y="8" width="100" height="84" rx="2" fill="none" stroke={fr} strokeWidth="5"/>
-                {/* fixed left sash */}
-                <rect x="14" y="13" width="46" height="74" fill={gl} stroke={fr} strokeWidth="2"/>
-                <text x="37" y="52" textAnchor="middle" fill={c} fontSize="8" fontFamily="monospace" opacity="0.35">FIXED</text>
-                {/* operable right sash — offset/open */}
-                <rect x="62" y="13" width="44" height="74" fill={gls} stroke={c} strokeWidth="1.5"/>
-                <rect x="59" y="13" width="5" height="74" fill={fr} opacity="0.5"/>
-                {/* arrow */}
-                <text x="84" y="54" textAnchor="middle" fill={c} fontSize="14" opacity="0.5">{"\u2190"}</text>
-                {/* track lines */}
-                <line x1="14" y1="84" x2="106" y2="84" stroke={c} strokeWidth="1" opacity="0.3" strokeDasharray="2,2"/>
-                <text x="60" y="98" textAnchor="middle" fill={c} fontSize="7" fontFamily="monospace" opacity="0.6">GLIDES HORIZONTALLY</text>
+              <svg viewBox="0 0 200 140" width="200" height="140">
+                <rect width="200" height="140" fill={bg} rx="4"/>
+                {/* outer thick frame */}
+                <rect x="5" y="8" width="190" height="124" fill={gl} stroke={fr} strokeWidth="4" rx="1"/>
+                {/* inner inset line */}
+                <rect x="12" y="15" width="176" height="110" fill="none" stroke={fr} strokeWidth="1.5"/>
+                {/* center sash — thick vertical piece */}
+                <rect x="97" y="8" width="10" height="124" fill={fr}/>
+                {/* left panel inner sash */}
+                <rect x="12" y="15" width="85" height="110" fill={gls} stroke={fr} strokeWidth="1.5"/>
+                {/* left panel — glass reflection lines (top-left) */}
+                <line x1="28" y1="28" x2="50" y2="52" stroke={fr} strokeWidth="1.8" opacity="0.55"/>
+                <line x1="38" y1="28" x2="60" y2="52" stroke={fr} strokeWidth="1.8" opacity="0.55"/>
+                {/* left panel — arrow (bottom-left) */}
+                <line x1="34" y1="88" x2="60" y2="88" stroke={fr} strokeWidth="1.8" opacity="0.7"/>
+                <polygon points="60,84 60,92 68,88" fill={fr} opacity="0.7"/>
+                {/* right panel inner sash */}
+                <rect x="107" y="15" width="81" height="110" fill={gls} stroke={fr} strokeWidth="1.5"/>
+                {/* right panel — glass reflection lines (center-right) */}
+                <line x1="130" y1="52" x2="152" y2="76" stroke={fr} strokeWidth="1.8" opacity="0.55"/>
+                <line x1="140" y1="52" x2="162" y2="76" stroke={fr} strokeWidth="1.8" opacity="0.55"/>
               </svg>
             ),
+
             picture:(
               <svg viewBox="0 0 120 100" width="120" height="100">
                 <rect width="120" height="100" fill={bg} rx="4"/>
-                <rect x="10" y="8" width="100" height="84" rx="2" fill="none" stroke={fr} strokeWidth="6"/>
-                {/* large fixed glass */}
-                <rect x="16" y="14" width="88" height="72" fill={gls}/>
+                {/* outer frame */}
+                <rect x="10" y="8" width="100" height="84" rx="2" fill={gl} stroke={fr} strokeWidth="6"/>
+                {/* inner sash */}
+                <rect x="18" y="16" width="84" height="68" fill={gls} stroke={fr} strokeWidth="1.5"/>
                 {/* mountain view silhouette */}
-                <polygon points="20,70 45,38 60,55 80,30 106,70" fill={c} opacity="0.08"/>
-                <rect x="16" y="70" width="88" height="16" fill={c} opacity="0.04"/>
-                {/* no-operation X */}
-                <text x="60" y="54" textAnchor="middle" fill={c} fontSize="22" opacity="0.12">{"\u25A3"}</text>
+                <polygon points="22,72 46,42 62,57 80,32 100,72" fill={c} opacity="0.08"/>
+                <rect x="18" y="72" width="84" height="12" fill={c} opacity="0.04"/>
+                {/* glass reflection lines */}
+                <line x1="32" y1="24" x2="55" y2="60" stroke={fr} strokeWidth="2" opacity="0.4"/>
+                <line x1="43" y1="24" x2="66" y2="60" stroke={fr} strokeWidth="1.2" opacity="0.22"/>
                 <text x="60" y="98" textAnchor="middle" fill={c} fontSize="7" fontFamily="monospace" opacity="0.6">FIXED {"\u2014"} NO OPERATION</text>
               </svg>
             ),
             bay_bow:(
-              <svg viewBox="0 0 220 110" width="220" height="110">
-                <rect width="220" height="110" fill={bg} rx="4"/>
-                {/* wall plane indicators */}
-                <rect x="5" y="18" width="5" height="74" fill={fr} opacity="0.5" rx="1"/>
-                <rect x="210" y="18" width="5" height="74" fill={fr} opacity="0.5" rx="1"/>
-                {/* left angled panel — trapezoid from wall to center-left edge */}
-                <polygon points="10,20  80,12  80,92  10,92" fill={gl} stroke={fr} strokeWidth="2.5"/>
-                <polygon points="12,22  78,14  78,90  12,90" fill={gls}/>
-                {/* center panel — front-facing, same visual weight as flanking */}
-                <rect x="80" y="8" width="60" height="88" fill={gl} stroke={c} strokeWidth="3" rx="1"/>
-                <rect x="83" y="11" width="54" height="82" fill={gls}/>
-                {/* right angled panel — trapezoid from center-right edge to wall */}
-                <polygon points="140,12  210,20  210,92  140,92" fill={gl} stroke={fr} strokeWidth="2.5"/>
-                <polygon points="142,14  208,22  208,90  142,90" fill={gls}/>
-                <text x="110" y="106" textAnchor="middle" fill={c} fontSize="7" fontFamily="monospace" opacity="0.6">PROJECTS FROM WALL</text>
+              <svg viewBox="0 0 220 140" width="220" height="140">
+                <rect width="220" height="140" fill={bg} rx="4"/>
+                {/* outer wall frame */}
+                <rect x="8" y="22" width="204" height="96" fill="none" stroke={fr} strokeWidth="2.5" rx="1"/>
+                {/* left angled side panel — outer frame */}
+                <polygon points="8,22 72,8 72,132 8,118" fill={gl} stroke={fr} strokeWidth="2.5"/>
+                {/* left panel inner sash */}
+                <polygon points="16,30 64,18 64,122 16,110" fill={gls} stroke={fr} strokeWidth="1.2"/>
+                {/* right angled side panel — outer frame */}
+                <polygon points="148,8 212,22 212,118 148,132" fill={gl} stroke={fr} strokeWidth="2.5"/>
+                {/* right panel inner sash */}
+                <polygon points="156,18 204,30 204,110 156,122" fill={gls} stroke={fr} strokeWidth="1.2"/>
+                {/* center front panel — outer frame */}
+                <rect x="72" y="8" width="76" height="124" fill={gl} stroke={fr} strokeWidth="2.5" rx="1"/>
+                {/* center panel inner sash */}
+                <rect x="80" y="16" width="60" height="108" fill={gls} stroke={fr} strokeWidth="1.2"/>
+                {/* glass reflection lines on center panel */}
+                <line x1="95" y1="32" x2="118" y2="76" stroke={fr} strokeWidth="2" opacity="0.4"/>
+                <line x1="106" y1="32" x2="129" y2="76" stroke={fr} strokeWidth="1.2" opacity="0.22"/>
               </svg>
             ),
             specialty:(
