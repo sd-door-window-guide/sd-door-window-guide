@@ -1855,7 +1855,7 @@ export default function App() {
   const [tierFilter,setTierFilter]=useState("all");
   const [materialFilter,setMaterialFilter]=useState("all");
   // door type state
-  const [doorTypeTab,setDoorTypeTab]=useState("exterior");
+  const [doorTypeTab,setDoorTypeTab]=useState("operation");
   const [openOp,setOpenOp]=useState(null);
   const [largeDoorSub,setLargeDoorSub]=useState("folding");
   const [windowSub,setWindowSub]=useState("frame_materials");
@@ -2013,11 +2013,11 @@ export default function App() {
               {/* Hero image */}
               <div style={{position:"relative",width:"100%",height:"clamp(220px,35vw,420px)",borderRadius:"12px",overflow:"hidden",marginBottom:"28px"}}>
                 <img src="/sd-hero.jpg" alt="San Diego coastline" style={{width:"100%",height:"100%",objectFit:"cover",objectPosition:"center 40%"}}/>
-                <div style={{position:"absolute",inset:0,background:"linear-gradient(to bottom, rgba(20,28,26,0.15) 0%, rgba(20,28,26,0.55) 100%)"}}/>
+                <div style={{position:"absolute",inset:0,background:"linear-gradient(to bottom, rgba(20,28,26,0.05) 0%, rgba(20,28,26,0.72) 100%)"}}/>
                 <div style={{position:"absolute",bottom:0,left:0,right:0,padding:"clamp(16px,4vw,36px)",textAlign:"left"}}>
-                  <div style={{fontSize:"9px",letterSpacing:"5px",color:"rgba(255,255,255,0.7)",marginBottom:"8px",fontFamily:"monospace"}}>SD WINDOW & DOOR GUIDE · SAN DIEGO COUNTY</div>
-                  <h1 style={{fontSize:"clamp(20px,4vw,34px)",fontWeight:400,margin:"0 0 8px",lineHeight:1.2,color:"#FFFFFF"}}>Find the right window & door system<br/><em style={{color:"#E8C87A"}}>for your project — free expert matching</em></h1>
-                  <p style={{color:"rgba(255,255,255,0.8)",fontSize:"13px",lineHeight:1.6,maxWidth:"480px",margin:0}}>San Diego's independent resource for comparing windows, doors, and glass systems.</p>
+                  <div style={{fontSize:"9px",letterSpacing:"5px",color:"rgba(255,255,255,0.85)",marginBottom:"8px",fontFamily:"monospace",textShadow:"0 1px 6px rgba(0,0,0,0.5)"}}>SD WINDOW & DOOR GUIDE · SAN DIEGO COUNTY</div>
+                  <h1 style={{fontSize:"clamp(20px,4vw,34px)",fontWeight:400,margin:"0 0 8px",lineHeight:1.2,color:"#FFFFFF",textShadow:"0 1px 8px rgba(0,0,0,0.5), 0 2px 20px rgba(0,0,0,0.35)"}}>Find the right window & door system<br/><em style={{color:"#E8C87A"}}>for your project — free expert matching</em></h1>
+                  <p style={{color:"rgba(255,255,255,0.9)",fontSize:"13px",lineHeight:1.6,maxWidth:"480px",margin:0,textShadow:"0 1px 6px rgba(0,0,0,0.5)"}}>San Diego's independent resource for comparing windows, doors, and glass systems.</p>
                 </div>
               </div>
               {/* Audience pills */}
@@ -2458,7 +2458,7 @@ export default function App() {
       {mainTab==="door_types"&&(
         <div style={{padding:"26px",maxWidth:"1200px",margin:"0 auto",animation:"fadeUp 0.25s ease"}}>
           <div style={{display:"flex",gap:0,borderBottom:`1px solid ${T.border}`,marginBottom:"22px"}}>
-            {[{id:"exterior",label:"Exterior Materials",color:T.rust},{id:"interior",label:"Interior Materials",color:T.teal},{id:"operation",label:"Door Operation Types",color:T.gold}].map(t=>(
+            {[{id:"operation",label:"Door Operation Types",color:T.gold},{id:"exterior",label:"Exterior Materials",color:T.rust},{id:"interior",label:"Interior Materials",color:T.teal}].map(t=>(
               <button key={t.id} onClick={()=>setDoorTypeTab(t.id)} style={{background:"none",border:"none",borderBottom:`2px solid ${doorTypeTab===t.id?t.color:"transparent"}`,color:doorTypeTab===t.id?T.text:T.dim,padding:"10px 18px",cursor:"pointer",fontSize:"10px",letterSpacing:"2px",textTransform:"uppercase",fontFamily:"monospace"}}>
                 {t.label}
               </button>
