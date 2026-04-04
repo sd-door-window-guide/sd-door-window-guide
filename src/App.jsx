@@ -1924,11 +1924,11 @@ export default function App() {
   const restart=()=>{setStep(0);setAnswers({});setContact({name:"",phone:"",email:"",zip:"",notes:""});setSelOpt(null);setSubmitted(false);setPhotos([]);setScheduleFiles([]);setMainTab("quiz");};
 
   const mainTabs=[
-    {id:"quiz",label:"Find My Product",icon:"◈"},
+    {id:"quiz",label:"Find My Fit",icon:"◈"},
     {id:"vendors",label:"Vendors",icon:"",svgIcon:<><rect x="1" y="1" width="6" height="6" rx="1" fill="none" stroke="currentColor" strokeWidth="1"/><rect x="9" y="1" width="6" height="6" rx="1" fill="none" stroke="currentColor" strokeWidth="1"/><rect x="1" y="9" width="6" height="6" rx="1" fill="none" stroke="currentColor" strokeWidth="1"/><rect x="9" y="9" width="6" height="6" rx="1" fill="none" stroke="currentColor" strokeWidth="1"/><line x1="3" y1="4" x2="5" y2="4" stroke="currentColor" strokeWidth="0.8"/><line x1="11" y1="4" x2="13" y2="4" stroke="currentColor" strokeWidth="0.8"/><line x1="3" y1="12" x2="5" y2="12" stroke="currentColor" strokeWidth="0.8"/><line x1="11" y1="12" x2="13" y2="12" stroke="currentColor" strokeWidth="0.8"/></>},
     {id:"door_types",label:"Door Types",icon:"🚪"},
     {id:"windows",label:"Windows",icon:"⊞"},
-    {id:"large_doors",label:"Patio & Door Systems",icon:"⧉"},
+    {id:"large_doors",label:"Patio Systems",icon:"⧉"},
     {id:"glass_guide",label:"Glass Guide",icon:"◑"},
     {id:"hardware",label:"Hardware",icon:"",svgIcon:<><circle cx="8" cy="8" r="7" fill="none" stroke="currentColor" strokeWidth="1"/><circle cx="8" cy="8" r="3.5" fill="none" stroke="currentColor" strokeWidth="1"/><circle cx="8" cy="8" r="1.2" fill="currentColor"/><line x1="8" y1="1.5" x2="8" y2="3.5" stroke="currentColor" strokeWidth="0.8"/><line x1="8" y1="12.5" x2="8" y2="14.5" stroke="currentColor" strokeWidth="0.8"/><line x1="1.5" y1="8" x2="3.5" y2="8" stroke="currentColor" strokeWidth="0.8"/><line x1="12.5" y1="8" x2="14.5" y2="8" stroke="currentColor" strokeWidth="0.8"/><line x1="3" y1="3" x2="4.4" y2="4.4" stroke="currentColor" strokeWidth="0.8"/><line x1="11.6" y1="11.6" x2="13" y2="13" stroke="currentColor" strokeWidth="0.8"/><line x1="13" y1="3" x2="11.6" y2="4.4" stroke="currentColor" strokeWidth="0.8"/><line x1="4.4" y1="11.6" x2="3" y2="13" stroke="currentColor" strokeWidth="0.8"/></>},
     {id:"favorites",label:"Quote List"+(favorites.length>0?" ("+favorites.length+")":""),icon:"",svgIcon:<><rect x="2.5" y="1" width="11" height="14" rx="1.2" fill="none" stroke="currentColor" strokeWidth="1"/><line x1="5" y1="5" x2="11" y2="5" stroke="currentColor" strokeWidth="0.9"/><line x1="5" y1="7.5" x2="11" y2="7.5" stroke="currentColor" strokeWidth="0.9"/><line x1="5" y1="10" x2="11" y2="10" stroke="currentColor" strokeWidth="0.9"/><line x1="5" y1="12.5" x2="8.5" y2="12.5" stroke="currentColor" strokeWidth="0.9"/></>},
@@ -1972,7 +1972,7 @@ export default function App() {
           .sidebar-nav::-webkit-scrollbar{display:none;}
           .sidebar-nav button{flex-shrink:0;display:flex!important;flex-direction:row!important;align-items:center;gap:7px;padding:11px 14px!important;border-left:none!important;border-bottom:3px solid transparent;white-space:nowrap;width:auto!important;text-align:left;}
           .sidebar-nav .sidebar-icon{font-size:15px!important;margin-bottom:0!important;}
-          .sidebar-nav .sidebar-label{display:none;}
+          .sidebar-nav .sidebar-label{display:block;font-size:9px!important;letter-spacing:0.5px!important;}
           .sidebar-content{padding:16px 14px!important;}
           .grid-2col{grid-template-columns:1fr!important;}
           .grid-4col{grid-template-columns:1fr 1fr!important;}
@@ -2002,7 +2002,7 @@ export default function App() {
         <div style={{padding:"0 24px 10px"}}>
           <div className="main-nav">
             {mainTabs.map(t=>(
-              <button key={t.id} onClick={()=>setMainTab(t.id)} className="nav-tab" style={{background:mainTab===t.id?`${T.teal}18`:"none",border:`1px solid ${mainTab===t.id?T.teal:T.border}`,color:mainTab===t.id?T.teal:T.muted,borderRadius:"4px",cursor:"pointer",letterSpacing:"2px",textTransform:"uppercase",fontFamily:"monospace",fontSize:"9px",transition:"all 0.15s",display:"inline-flex",alignItems:"center",gap:"5px"}}>
+              <button key={t.id} onClick={()=>setMainTab(t.id)} className="nav-tab" style={{background:mainTab===t.id?`${T.teal}18`:"none",border:`1px solid ${mainTab===t.id?T.teal:T.border}`,color:mainTab===t.id?T.teal:T.muted,borderRadius:"4px",cursor:"pointer",letterSpacing:"1px",textTransform:"uppercase",fontFamily:"monospace",fontSize:"9px",transition:"all 0.15s",display:"inline-flex",alignItems:"center",gap:"4px"}}>
                 {t.svgIcon ? (
                   <svg viewBox="0 0 16 16" width="13" height="13" style={{display:"inline-block",verticalAlign:"middle",opacity:mainTab===t.id?1:0.65}}>
                     {t.svgIcon}
@@ -2813,7 +2813,7 @@ export default function App() {
           {id:"operation_types",label:"Operation Types",icon:"↔",color:T.teal},
           {id:"finishes",label:"Finishes by Frame",icon:"◑",color:T.gold},
           {id:"glazing",label:"Glazing Options",icon:"⬡",color:T.sage},
-          {id:"sd_specs",label:"SD Climate Guide",icon:"",color:T.rust},
+          {id:"sd_specs",label:"SD Climate Guide",icon:"☀",color:T.rust},
         ];
         const active=windowNavItems.find(n=>n.id===windowSub)||windowNavItems[0];
 
