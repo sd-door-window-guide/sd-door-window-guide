@@ -1069,19 +1069,19 @@ function VendorLogo({ id, size = 52, wide = false }) {
     // ── TM Cobb ── real logo
     tmcobb: (
       <div style={{width:w,height:h,borderRadius:6,overflow:"hidden",background:"#fff",display:"flex",alignItems:"center",justifyContent:"center",padding:"6px 10px"}}>
-        <img src="/tmcobblogo.jpg" alt="TM Cobb" style={{width:"100%",height:"100%",objectFit:"contain"}}/>
+        <img src="/tmcobblogo.png" alt="TM Cobb" style={{width:"100%",height:"100%",objectFit:"contain"}}/>
       </div>
     ),
 
     tmcobb_int: (
       <div style={{width:w,height:h,borderRadius:6,overflow:"hidden",background:"#fff",display:"flex",alignItems:"center",justifyContent:"center",padding:"6px 10px"}}>
-        <img src="/tmcobblogo.jpg" alt="TM Cobb" style={{width:"100%",height:"100%",objectFit:"contain"}}/>
+        <img src="/tmcobblogo.png" alt="TM Cobb" style={{width:"100%",height:"100%",objectFit:"contain"}}/>
       </div>
     ),
 
     tmcobb_util: (
       <div style={{width:w,height:h,borderRadius:6,overflow:"hidden",background:"#fff",display:"flex",alignItems:"center",justifyContent:"center",padding:"6px 10px"}}>
-        <img src="/tmcobblogo.jpg" alt="TM Cobb" style={{width:"100%",height:"100%",objectFit:"contain"}}/>
+        <img src="/tmcobblogo.png" alt="TM Cobb" style={{width:"100%",height:"100%",objectFit:"contain"}}/>
       </div>
     ),
 
