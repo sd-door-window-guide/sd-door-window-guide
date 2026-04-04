@@ -323,7 +323,7 @@ const largeDoorSystems = [
     id: "folding",
     name: "Folding / Bi-fold Door Systems",
     bg: "◇",
-    icon: `<svg width="34" height="28" viewBox="0 0 34 28" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><rect x="4.5" y="2" width="28" height="24" rx="0.5" stroke-width="2"/><line x1="11.5" y1="2" x2="11.5" y2="26" stroke-width="1.2"/><line x1="18.5" y1="2" x2="18.5" y2="26" stroke-width="1.2"/><line x1="25.5" y1="2" x2="25.5" y2="26" stroke-width="1.2"/><rect x="27" y="3.5" width="4" height="21" rx="0.3" stroke-width="0.9" opacity="0.55"/><rect x="20" y="3.5" width="4" height="21" rx="0.3" stroke-width="0.9" opacity="0.55"/><rect x="13" y="3.5" width="4" height="21" rx="0.3" stroke-width="0.9" opacity="0.55"/><rect x="6" y="3.5" width="4" height="21" rx="0.3" stroke-width="0.9" opacity="0.55"/><polyline points="25.5,2 32.5,14 25.5,26" stroke-width="1.1" opacity="0.75"/><polyline points="18.5,2 25.5,14 18.5,26" stroke-width="1.1" opacity="0.75"/><polyline points="11.5,2 18.5,14 11.5,26" stroke-width="1.1" opacity="0.75"/><polyline points="4.5,2 11.5,14 4.5,26" stroke-width="1.1" opacity="0.75"/><line x1="4.5" y1="11" x2="1" y2="11" stroke-width="1.8"/><line x1="4.5" y1="17" x2="1" y2="17" stroke-width="1.8"/><line x1="7" y1="14" x2="10" y2="14" stroke-width="1.1" opacity="0.9"/><polyline points="9,12.3 10.8,14 9,15.7" stroke-width="1.1" opacity="0.9"/><line x1="14" y1="14" x2="17" y2="14" stroke-width="1.1" opacity="0.9"/><polyline points="16,12.3 17.8,14 16,15.7" stroke-width="1.1" opacity="0.9"/><line x1="21" y1="14" x2="24" y2="14" stroke-width="1.1" opacity="0.9"/><polyline points="23,12.3 24.8,14 23,15.7" stroke-width="1.1" opacity="0.9"/><line x1="28" y1="14" x2="31" y2="14" stroke-width="1.1" opacity="0.9"/><polyline points="30,12.3 31.8,14 30,15.7" stroke-width="1.1" opacity="0.9"/></svg>`,
+    icon: `<svg width="34" height="28" viewBox="0 0 34 28" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><rect x="4.5" y="2" width="28" height="24" rx="0.5" stroke-width="2"/><line x1="11.5" y1="2" x2="11.5" y2="26" stroke-width="1.2"/><line x1="18.5" y1="2" x2="18.5" y2="26" stroke-width="1.2"/><line x1="25.5" y1="2" x2="25.5" y2="26" stroke-width="1.2"/><rect x="27" y="3.5" width="4" height="21" rx="0.3" stroke-width="0.9" opacity="0.55"/><rect x="20" y="3.5" width="4" height="21" rx="0.3" stroke-width="0.9" opacity="0.55"/><rect x="13" y="3.5" width="4" height="21" rx="0.3" stroke-width="0.9" opacity="0.55"/><rect x="6" y="3.5" width="4" height="21" rx="0.3" stroke-width="0.9" opacity="0.55"/><polyline points="25.5,2 32.5,14 25.5,26" stroke-width="1.1" opacity="0.75"/><polyline points="18.5,2 25.5,14 18.5,26" stroke-width="1.1" opacity="0.75"/><polyline points="11.5,2 18.5,14 11.5,26" stroke-width="1.1" opacity="0.75"/><polyline points="4.5,2 11.5,14 4.5,26" stroke-width="1.1" opacity="0.75"/><line x1="7" y1="14" x2="10" y2="14" stroke-width="1.1" opacity="0.9"/><polyline points="9,12.3 10.8,14 9,15.7" stroke-width="1.1" opacity="0.9"/><line x1="14" y1="14" x2="17" y2="14" stroke-width="1.1" opacity="0.9"/><polyline points="16,12.3 17.8,14 16,15.7" stroke-width="1.1" opacity="0.9"/><line x1="21" y1="14" x2="24" y2="14" stroke-width="1.1" opacity="0.9"/><polyline points="23,12.3 24.8,14 23,15.7" stroke-width="1.1" opacity="0.9"/><line x1="28" y1="14" x2="31" y2="14" stroke-width="1.1" opacity="0.9"/><polyline points="30,12.3 31.8,14 30,15.7" stroke-width="1.1" opacity="0.9"/></svg>`,
     color: T.gold,
     price: "$$$$–$$$$$",
     leadTime: "8–16 weeks (custom); some stock configs 4–6 weeks",
@@ -419,7 +419,7 @@ const largeDoorSystems = [
     id: "pocket_exterior",
     name: "Pocketing Multi-Slide (Exterior)",
     bg: "▶",
-    icon: `<svg width="32" height="28" viewBox="0 0 32 28" fill="none" stroke="currentColor" stroke-linecap="round"><line x1="2" y1="2" x2="2" y2="26" stroke-width="2"/><line x1="2" y1="2" x2="30" y2="2" stroke-width="1.5" opacity="0.45"/><line x1="2" y1="26" x2="30" y2="26" stroke-width="1.5" opacity="0.45"/><rect x="2" y="2" width="13" height="24" rx="0.3" stroke-width="1.6"/><rect x="3.5" y="3.5" width="10" height="21" rx="0.3" stroke-width="0.9" opacity="0.7"/><line x1="19" y1="2" x2="19" y2="26" stroke-width="2.2"/><line x1="30" y1="2" x2="30" y2="26" stroke-width="2.2"/><rect x="19" y="2" width="11" height="24" fill="currentColor" opacity="0.08" stroke="none"/><line x1="20" y1="4" x2="28" y2="11" stroke-width="0.9" opacity="0.32"/><line x1="20" y1="11" x2="28" y2="18" stroke-width="0.9" opacity="0.32"/><line x1="20" y1="18" x2="28" y2="25" stroke-width="0.9" opacity="0.32"/><path d="M8,13.5 L11.5,14.5 L8,15.5" stroke-width="1.3"/><line x1="15" y1="14.5" x2="19" y2="14.5" stroke-width="1.1" stroke-dasharray="1.8,1.4" opacity="0.6"/></svg>`,
+    icon: `<svg width="32" height="28" viewBox="0 0 32 28" fill="none" stroke="currentColor" stroke-linecap="round"><line x1="2" y1="2" x2="2" y2="26" stroke-width="2"/><line x1="2" y1="2" x2="30" y2="2" stroke-width="1.5"/><line x1="2" y1="26" x2="30" y2="26" stroke-width="1.5"/><rect x="2" y="2" width="9" height="24" rx="0.3" stroke-width="1.5"/><rect x="11" y="2" width="9" height="24" rx="0.3" stroke-width="1.5"/><line x1="22" y1="2" x2="22" y2="26" stroke-width="2.2"/><line x1="30" y1="2" x2="30" y2="26" stroke-width="2.2"/><rect x="22" y="2" width="8" height="24" fill="currentColor" opacity="0.08" stroke="none"/><line x1="23" y1="4" x2="29" y2="10" stroke-width="0.9" opacity="0.3"/><line x1="23" y1="11" x2="29" y2="17" stroke-width="0.9" opacity="0.3"/><line x1="23" y1="18" x2="29" y2="24" stroke-width="0.9" opacity="0.3"/><path d="M6,13.5 L9,14.5 L6,15.5" stroke-width="1.2"/><line x1="11" y1="14.5" x2="14" y2="14.5" stroke-width="1" stroke-dasharray="1.5,1.2" opacity="0.55"/><path d="M15,13.5 L18,14.5 L15,15.5" stroke-width="1.2"/><line x1="20" y1="14.5" x2="22" y2="14.5" stroke-width="1" stroke-dasharray="1.5,1.2" opacity="0.55"/></svg>`,
     color: T.rust,
     price: "$$$$–$$$$$",
     leadTime: "10–18 weeks (wall pocket must be framed in advance)",
@@ -2003,13 +2003,22 @@ export default function App() {
       {/* Header */}
       <div style={{background:"#FFFFFF",borderBottom:`1px solid ${T.border}`,boxShadow:"0 1px 8px rgba(0,0,0,0.06)"}}>
         {/* Brand row */}
-        <div style={{padding:"12px 24px 8px",display:"flex",alignItems:"baseline",justifyContent:"space-between",flexWrap:"wrap",gap:"6px"}}>
-          <div>
-            <div style={{display:"flex",alignItems:"baseline",gap:"8px",flexWrap:"wrap"}}>
-              <div style={{fontSize:"18px",letterSpacing:"-0.3px",fontWeight:400}}>SD <em style={{color:T.gold}}>Window &amp; Door</em> Guide</div>
-              <div style={{fontSize:"9px",letterSpacing:"3px",color:T.dim,fontFamily:"monospace",whiteSpace:"nowrap"}}>SAN DIEGO COUNTY</div>
+        <div style={{padding:"12px 24px 8px",display:"flex",alignItems:"center",justifyContent:"space-between",flexWrap:"wrap",gap:"6px"}}>
+          <div style={{display:"flex",alignItems:"center",gap:"12px"}}>
+            {/* Pivot door mark */}
+            <svg width="28" height="44" viewBox="0 0 18 28" fill="none" strokeLinecap="round" strokeLinejoin="round" style={{flexShrink:0}}>
+              <rect x="1" y="1" width="16" height="26" rx="0.5" stroke={T.text} strokeWidth="2"/>
+              <rect x="2.5" y="2.5" width="13" height="23" rx="0.5" stroke={T.text} strokeWidth="1"/>
+              <polygon points="1,0.5 10,2.5 10,25.5 1,27.5" fill="none" stroke={T.gold} strokeWidth="2"/>
+              <line x1="9" y1="13" x2="9" y2="17" stroke={T.gold} strokeWidth="1.8"/>
+            </svg>
+            <div>
+              <div style={{display:"flex",alignItems:"baseline",gap:"8px",flexWrap:"wrap"}}>
+                <div style={{fontSize:"18px",letterSpacing:"-0.3px",fontWeight:400}}>SD <em style={{color:T.gold}}>Window &amp; Door</em> Guide</div>
+                <div style={{fontSize:"9px",letterSpacing:"3px",color:T.dim,fontFamily:"monospace",whiteSpace:"nowrap"}}>SAN DIEGO COUNTY</div>
+              </div>
+              <div style={{fontSize:"10px",color:T.faint,marginTop:"2px",fontStyle:"italic",letterSpacing:"0.3px"}}>Find the right window &amp; door system for your project {"\u2014"} free expert matching</div>
             </div>
-            <div style={{fontSize:"10px",color:T.faint,marginTop:"2px",fontStyle:"italic",letterSpacing:"0.3px"}}>Find the right window &amp; door system for your project {"\u2014"} free expert matching</div>
           </div>
         </div>
         {/* Nav row — always full width, always scrollable */}
