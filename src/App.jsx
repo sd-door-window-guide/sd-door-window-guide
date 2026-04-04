@@ -989,7 +989,7 @@ function VendorLogo({ id, size = 52, wide = false }) {
       <div style={{width:w,height:h,borderRadius:6,overflow:"hidden",background:"#fff",display:"flex",alignItems:"center",justifyContent:"center",padding:"6px 12px"}}>
         <img src="/milgard_logo.svg" alt="Milgard" style={{width:"100%",height:"auto",objectFit:"contain"}}/>
       </div>
-    )
+    ),
 
     // ── Pella ── bold red wordmark on white, clean horizontal rule
     pella: (
