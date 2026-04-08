@@ -3232,26 +3232,36 @@ export default function App() {
               </svg>
             ),
             specialty:(
-              <svg viewBox="0 0 200 110" width="200" height="110">
-                <rect width="200" height="110" fill={bg} rx="4"/>
+              <svg viewBox="0 0 200 200" width="200" height="200">
+                <rect width="200" height="200" fill={bg} rx="4"/>
 
-                {/* ── ROUND / OCULUS ── centered at x=30 */}
-                <circle cx="30" cy="46" r="22" fill={gl} stroke={fr} strokeWidth="3"/>
-                <circle cx="30" cy="46" r="18" fill={gls}/>
-                <text x="30" y="78" textAnchor="middle" fill={c} fontSize="6" fontFamily="monospace" opacity="0.65">ROUND</text>
+                {/* section label */}
+                <text x="100" y="14" textAnchor="middle" fill={c} fontSize="6.5" fontFamily="monospace" letterSpacing="2" opacity="0.45">SPECIALTY / GEOMETRIC</text>
 
-                {/* ── TRIANGLE ── centered at x=100 */}
-                <polygon points="100,12  130,72  70,72" fill={gl} stroke={fr} strokeWidth="3"/>
-                <polygon points="100,17  125,68  75,68" fill={gls}/>
-                <text x="100" y="82" textAnchor="middle" fill={c} fontSize="6" fontFamily="monospace" opacity="0.65">TRIANGLE</text>
+                {/* ── OCULUS / ROUND ── left column, y centred at 62 */}
+                <circle cx="46" cy="62" r="36" fill={gl} stroke={fr} strokeWidth="4"/>
+                <circle cx="46" cy="62" r="28" fill="none" stroke={fr} strokeWidth="1.5"/>
+                <circle cx="46" cy="62" r="28" fill={gls} opacity="0.7"/>
+                <line x1="18" y1="62" x2="74" y2="62" stroke={fr} strokeWidth="1.2" opacity="0.5"/>
+                <line x1="46" y1="34" x2="46" y2="90" stroke={fr} strokeWidth="1.2" opacity="0.5"/>
+                <line x1="28" y1="46" x2="48" y2="56" stroke={fr} strokeWidth="1.5" opacity="0.35"/>
+                <line x1="30" y1="54" x2="44" y2="61" stroke={fr} strokeWidth="1" opacity="0.22"/>
+                <text x="46" y="112" textAnchor="middle" fill={c} fontSize="7" fontFamily="monospace" letterSpacing="1" opacity="0.75">ROUND / OCULUS</text>
 
-                {/* ── RAKE — right trapezoid: left/bottom/right square, top diagonal ── */}
-                <polygon points="148,22  188,68  148,68" fill="none"/>
-                <polygon points="148,68  188,68  188,28  148,22" fill={gl} stroke={fr} strokeWidth="3"/>
-                <polygon points="151,65  185,65  185,31  151,25" fill={gls}/>
-                <text x="170" y="82" textAnchor="middle" fill={c} fontSize="6" fontFamily="monospace" opacity="0.65">RAKE</text>
+                {/* ── TRIANGLE ── right column — outer fill+stroke, inner glass fill only (no stroke) */}
+                <polygon points="154,26 194,102 114,102" fill={gl} stroke={fr} strokeWidth="4" strokeLinejoin="round"/>
+                <polygon points="154,36 186,98 122,98" fill={gls} opacity="0.7"/>
+                <line x1="138" y1="74" x2="158" y2="50" stroke={fr} strokeWidth="1.5" opacity="0.35"/>
+                <line x1="141" y1="82" x2="156" y2="63" stroke={fr} strokeWidth="1" opacity="0.22"/>
+                <text x="154" y="118" textAnchor="middle" fill={c} fontSize="7" fontFamily="monospace" letterSpacing="1" opacity="0.75">TRIANGLE</text>
 
-                <text x="100" y="96" textAnchor="middle" fill={c} fontSize="6.5" fontFamily="monospace" opacity="0.5">SPECIALTY / GEOMETRIC</text>
+                {/* ── ARCH ── outer arc center=(100,155) r=38, inner arc SAME center r=30 → uniform 8px frame */}
+                <path d="M 62,178 L 62,155 A 38,38 0 0 1 138,155 L 138,178 Z" fill={gl} stroke={fr} strokeWidth="4" strokeLinejoin="round"/>
+                <path d="M 70,172 L 70,155 A 30,30 0 0 1 130,155 L 130,172 Z" fill={gls} opacity="0.7"/>
+                <line x1="62" y1="172" x2="138" y2="172" stroke={fr} strokeWidth="1.5" opacity="0.6"/>
+                <line x1="78" y1="168" x2="96" y2="158" stroke={fr} strokeWidth="1.5" opacity="0.35"/>
+                <line x1="83" y1="170" x2="98" y2="163" stroke={fr} strokeWidth="1" opacity="0.22"/>
+                <text x="100" y="196" textAnchor="middle" fill={c} fontSize="7" fontFamily="monospace" letterSpacing="1" opacity="0.75">ARCH / EYEBROW</text>
               </svg>
             ),
           };
