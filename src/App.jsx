@@ -45,11 +45,11 @@ const exteriorDoorTypes = [
     color: T.rust,
     price: "$$$$",
     leadTime: "4–12 weeks (custom); 1–2 weeks (stock)",
-    blurb: "The classic for warmth and custom beauty — stainable, fully paintable, and any size. Requires resealing every few years; not ideal for coastal moisture or fire zones.",
+    blurb: "The warmest, most beautiful material — fully stainable and custom to any size. Requires resealing every few years and isn't ideal for coastal moisture or fire zones.",
     pros: ["Unmatched natural beauty", "Fully paintable and stainable", "Completely custom sizes/designs", "Best acoustic performance"],
     cons: ["Requires periodic repainting/sealing", "Can warp or crack in extreme moisture", "Higher maintenance than fiberglass or steel"],
     bestFor: ["Traditional, craftsman, Mediterranean homes", "Clients wanting natural grain stain finish", "Custom architectural statements"],
-    fireNote: "Standard wood does NOT meet WUI (Wildland-Urban Interface) fire requirements. Fire-rated solid core or fire-rated fiberglass required in fire zones.",
+    fireNote: "Standard wood does NOT meet WUI fire requirements. Fire-rated solid core or fire-rated fiberglass required in fire zones.",
     vendors: ["TM Cobb", "Therma-Tru Classic-Craft (simulated)", "Custom mills"],
     finishOptions: ["Any stain", "Any paint", "Natural / clear coat", "Gel stain for grain pop"],
   },
@@ -60,11 +60,11 @@ const exteriorDoorTypes = [
     color: T.teal,
     price: "$$$–$$$$",
     leadTime: "1–3 weeks (standard); 4–6 weeks (custom paint/glass)",
-    blurb: "Best all-around for San Diego. Won't warp, rot, or corrode, and modern textures can mimic real wood grain convincingly. Low-maintenance even in coastal climates.",
+    blurb: "The best all-around choice for San Diego. Won't warp, rot, or corrode, and modern textures convincingly mimic real wood grain with minimal upkeep.",
     pros: ["Won't warp, rot, or corrode", "Can mimic real wood grain convincingly", "Excellent insulation / energy efficiency", "Low maintenance — no repainting needed for decades", "Available fire-rated for WUI zones"],
     cons: ["High-quality fiberglass can approach wood pricing", "Texture painting requires skilled finisher for wood look", "Fewer fully custom profile options vs. wood"],
     bestFor: ["Coastal and high-humidity locations", "Clients wanting wood look without wood upkeep", "Fire zone properties"],
-    fireNote: "Fire-rated fiberglass doors are available and meet WUI requirements. Specify fire rating when in designated fire hazard zone.",
+    fireNote: "Fire-rated fiberglass doors are available and meet WUI requirements. Specify fire rating when in a designated fire hazard zone.",
     vendors: ["Therma-Tru", "Plastpro", "ProVia"],
     finishOptions: ["Factory-primed (paintable)", "Gel stain (wood-look)", "Factory finish colors", "Custom paint"],
   },
@@ -75,7 +75,7 @@ const exteriorDoorTypes = [
     color: T.slate,
     price: "$$–$$$",
     leadTime: "1–2 weeks (standard); 3–4 weeks (custom)",
-    blurb: "Most affordable and most secure exterior door material. Solid foam-core insulation, won't warp — but conducts heat and will rust if the finish is scratched.",
+    blurb: "Most affordable and most secure. Foam-core insulation, won't warp — but conducts heat and will rust if the finish is scratched.",
     pros: ["Most affordable option", "Excellent security — hardest to kick in", "Won't warp or twist", "Good basic insulation (polyurethane foam core)"],
     cons: ["Conducts temperature (thermal bridging)", "Can dent", "Will rust if surface is scratched and unpainted", "Limited design aesthetic vs. wood/fiberglass"],
     bestFor: ["Secondary entries, garage access doors", "Budget-conscious whole-house projects", "Security-first applications"],
@@ -90,7 +90,7 @@ const exteriorDoorTypes = [
     color: T.plum,
     price: "$$$$$",
     leadTime: "8–16 weeks (all custom)",
-    blurb: "The architectural statement entry. Slim black metal frames with large glass panels — all custom, all dramatic. Long lead times and premium pricing.",
+    blurb: "Slim black metal frames with large glass panels — the architectural statement entry. All custom, all dramatic.",
     pros: ["Unmatched visual drama and presence", "Slim frames — maximum glass visibility", "Extremely durable and secure", "Custom to exact dimensions and design"],
     cons: ["Highest price point — all custom", "Long lead times (custom fabrication)", "Metal conducts temperature", "Requires experienced installer"],
     bestFor: ["Spanish, Mediterranean, and Tuscan architecture", "Modern luxury entry statements", "Courtyard gates and passages"],
@@ -105,120 +105,13 @@ const exteriorDoorTypes = [
     color: T.sage,
     price: "$$–$$$",
     leadTime: "1–2 weeks",
-    blurb: "Zero maintenance, best energy efficiency. Very limited color and style options — best for ADUs, secondary entries, and rental properties rather than primary entries.",
+    blurb: "Zero maintenance, best energy efficiency — but very limited style options. Best for ADUs, secondary entries, and rental properties.",
     pros: ["Zero maintenance required", "Best energy efficiency of all door types", "Will never warp, rot, or rust", "Lowest long-term cost"],
-    cons: ["Very limited color and design options", "Cannot be repainted", "Lower-end aesthetic — not appropriate for luxury entries", "Less common in premium residential"],
+    cons: ["Very limited color and design options", "Cannot be repainted", "Lower-end aesthetic — not for luxury entries"],
     bestFor: ["ADUs and accessory structures", "Rental properties", "Secondary and utility entries", "Budget remodels"],
     fireNote: "Standard vinyl does not meet fire ratings. Consult code requirements for fire zone applications.",
     vendors: ["ProVia", "JELD-WEN", "Milgard (composite)"],
     finishOptions: ["White", "Beige / Sandstone", "Bronze (limited)", "Clay"],
-  },
-];
-
-const interiorDoorOperations = [
-  {
-    id:"swing",
-    label:"Swing Door",
-    icon:"↪",
-    color:T.slate,
-    tagline:"The universal interior door — hinged, single-action",
-    blurb:"The standard interior door — hinged, single-action, works anywhere with room for the swing arc. Best acoustic seal of any interior door type.",
-    pros:["Simplest operation — no track or pocket","Works with any door slab style","Easy to install and adjust","Best acoustic seal when closed","Most hardware options available"],
-    cons:["Requires swing clearance — unusable in very tight spaces","Door arc can interfere with furniture placement","Cannot be left partially open without a door stop"],
-    bestFor:["Bedrooms","Home offices","Dining rooms","Any room with adequate floor space"],
-    variants:["Single swing (standard)","Double swing / saloon doors","Barn-style swing (surface-mounted hinge)"],
-    sdContext:"The standard interior door throughout San Diego residential. When in doubt, it's a swing door.",
-  },
-  {
-    id:"french",
-    label:"French Doors",
-    icon:"⊞",
-    color:T.rust,
-    tagline:"Double glass doors that borrow light and open spaces visually",
-    blurb:"Double glass-panel doors that share light between rooms while still closing off the space. A classic detail for home offices, dining rooms, and master suites.",
-    pros:["Borrow light between rooms","Classic, elegant appearance","Can open both panels for a full-width opening","Wide variety of glass and divided lite options","Available in wood, fiberglass, and steel"],
-    cons:["Both doors need swing clearance","Center meeting point can rattle if not latched","Less acoustic privacy than solid doors","Requires more wall space than a single swing door"],
-    bestFor:["Home office to living room connection","Dining room to kitchen or hallway","Master bedroom to sitting room or balcony","Library or study with natural light needs"],
-    variants:["Full-lite (all glass)","Half-lite (glass over solid panel)","True divided lite (individual glass panes)","Simulated divided lite (applied grilles)","Single French door (one panel with glass lites)"],
-    sdContext:"French doors on a home office or study are a signature detail in La Jolla, Coronado, and Del Mar traditional homes. Steel French doors from French Steel or Steel Traditions have become a popular contemporary take on the classic.",
-  },
-  {
-    id:"sliding",
-    label:"Sliding Doors",
-    icon:"⇄",
-    color:T.teal,
-    tagline:"Space-efficient doors that glide on a track — no swing needed",
-    blurb:"Slides horizontally on a track — no swing clearance needed. The go-to for closets, tight bathrooms, and compact spaces.",
-    pros:["No swing clearance needed — ideal for tight spaces","Clean contemporary look","Multi-panel options for wide openings","Available in glass for light borrowing"],
-    cons:["Bypass sliders can only expose half the opening at a time","Track can collect dust and debris","Less acoustic performance than swing doors","Hardware and track must be well-installed for smooth operation"],
-    bestFor:["Closet doors (bypass is the classic closet door)","Small bathrooms and powder rooms","Pantry and utility room access","Contemporary open-plan homes separating zones"],
-    variants:["Bypass slider (two panels passing each other)","Single panel slider (slides to one side)","Multi-panel stacking slider","Mirror panel bypass (common for closets)"],
-    sdContext:"Bypass closet sliders are nearly universal in San Diego residential construction. Single-panel sliders on a barn door track are popular in contemporary and farmhouse-style SD remodels.",
-  },
-  {
-    id:"bifold",
-    label:"Bi-Fold Doors",
-    icon:"⟩⟨",
-    color:T.sage,
-    tagline:"Folding panels that maximize opening width in minimal space",
-    blurb:"Hinged panels that fold accordion-style, exposing the full opening width. The standard closet door — best when you need full visibility into the space.",
-    pros:["Full opening width when folded — best closet access","Minimal clearance required to operate","Wide variety of styles including louvered and mirrored","Can span large openings with multiple panel sets"],
-    cons:["Not as architecturally refined as other door types","Bottom guide pin can be a trip hazard or pop out of track","Center fold point can flex or warp on lower-quality units","Not ideal for acoustic privacy"],
-    bestFor:["Reach-in closets (the classic application)","Laundry room and utility room access","Pantry doors","Mechanical room access"],
-    variants:["2-panel bi-fold (single pair)","4-panel bi-fold (two pairs, stacks to both sides)","Louvered bi-fold (ventilated — classic for closets)","Mirror bi-fold","Glass panel bi-fold"],
-    sdContext:"Louvered bi-fold closet doors are common throughout older San Diego residential stock. Modern remodels typically upgrade to bypass sliders or barn doors, but bi-folds remain practical for reach-in closets where full access matters.",
-  },
-  {
-    id:"pocket",
-    label:"Pocket Doors",
-    icon:"⬚",
-    color:T.plum,
-    tagline:"The space-free door — slides entirely into the wall",
-    blurb:"Slides entirely into a wall cavity and disappears when open. Zero floor space used — but requires special wall framing, best done during construction or full remodel.",
-    pros:["Zero floor space consumed — door fully disappears","Clean flush wall plane when open","Perfect for tight spaces with no swing room","Can create a completely open plan when desired"],
-    cons:["Wall must be framed as a pocket — harder to retrofit","Cannot run plumbing or electrical in pocket wall","Hardware access is limited when door is recessed","Sound seal is less effective than swing doors","Track and rollers require occasional maintenance"],
-    bestFor:["Master bathroom to closet connections","Kitchen to dining room pass-throughs","Great room flex space dividers","Anywhere zero swing clearance is available"],
-    variants:["Single panel pocket","Double bi-parting pocket (two panels disappear into opposite walls)","Glass panel pocket (borrows light when closed)","Barn-track pocket hybrid"],
-    sdContext:"Double bi-parting glass pocket doors between great room and covered outdoor room are a signature move in La Jolla and Del Mar custom builds. TM Cobb custom shaker in paint grade is the most specified interior pocket door panel in SD luxury remodels.",
-  },
-  {
-    id:"barn",
-    label:"Barn Doors",
-    icon:"⊟",
-    color:T.gold,
-    tagline:"Surface-mounted sliding doors — the modern-rustic statement",
-    blurb:"Hangs on a surface-mounted track and slides in front of the wall. Statement hardware, easy retrofit — but covers wall space beside the opening when open.",
-    pros:["Statement hardware — a design element in itself","No wall framing required — easier retrofit than pocket doors","Large panel sizes possible","Wide variety of styles from rustic plank to modern flush"],
-    cons:["Panel hangs on wall beside opening when open — uses wall space","Not acoustically tight — light gap around all edges","Not ADA compliant in most configurations","Hardware quality varies widely — invest in quality track and rollers"],
-    bestFor:["Laundry rooms and utility rooms","Home office to hallway","Master bathroom or closet access","Pantry and mudroom entries","Any space where barn door aesthetic fits the design"],
-    variants:["Single barn door (slides to one side)","Double barn door (two panels slide to opposite sides)","Bypass barn door (two panels on parallel tracks)","Glass panel barn door","Shiplap / plank barn door"],
-    sdContext:"Barn doors are extremely popular in San Diego transitional and farmhouse-adjacent remodels. The Emtek barn door hardware line is the most specified in SD luxury residential — the quality of the hardware is as visible as the door itself, so don't spec cheap track on an expensive project.",
-  },
-  {
-    id:"dutch",
-    label:"Dutch Doors",
-    icon:"⊟",
-    color:T.ember,
-    tagline:"Split horizontally — top and bottom operate independently",
-    blurb:"A Dutch door is split horizontally at mid-height, allowing the top half and bottom half to open and close independently. When the full door is open, it functions as a standard swing door. When just the top half is open, it creates a counter-like opening — ventilation and communication without full access. Dutch doors are a classic feature in craftsman, coastal cottage, farmhouse, and traditional residential architecture. They're most often used at kitchen back doors, laundry room entries, nurseries, mudrooms, and home office pass-throughs. Practically, they're a charming functional detail — rare enough to be a conversation piece, common enough in the SD market to have solid vendor options.",
-    pros:["Top and bottom operate independently — ventilation without full access","Classic craftsman and coastal cottage aesthetic","Keep children or pets contained while maintaining airflow","Works as a counter for pass-through applications"],
-    cons:["Latch mechanism at the split requires alignment — can wear over time","More expensive than a standard swing door","Not suitable for every architectural style","Most common in wood — limited fiberglass options"],
-    bestFor:["Kitchen back door or secondary entry","Mudroom and laundry room exterior access","Nurseries and children's rooms","Coastal cottage, craftsman, and farmhouse homes"],
-    variants:["Exterior Dutch door (most common)","Interior Dutch door (less common — home office or nursery)","Dutch door with glass lites in top half"],
-    sdContext:"Dutch doors are a classic detail in Point Loma and Coronado craftsman homes, and in the beach cottage stock of Ocean Beach and Pacific Beach. Rogue Valley and Simpson both offer wood Dutch doors. TM Cobb can custom-build interior Dutch doors.",
-  },
-  {
-    id:"utility",
-    label:"Utility & Service Doors",
-    icon:"⬡",
-    color:T.muted,
-    tagline:"Functional doors for garages, laundry, and service areas",
-    blurb:"Utility doors are the workhorse interior and secondary exterior doors found throughout every home — the door from the garage into the house, the laundry room door, the mechanical room door, the door from the mudroom to the backyard. These doors are functional first and decorative second. Key considerations are fire rating (garage-to-living-space doors are code-required to be fire-rated in California), insulation, durability, and security. Most utility doors are hollow-core or solid-core in paint-grade wood or fiberglass. Steel utility doors are used where security and fire rating are the priority. These are not glamorous products, but they're non-negotiable on every project.",
-    pros:["Affordable and widely available","Fire-rated options for code compliance","Fiberglass resists moisture and rot in garages and laundry rooms","Easy to paint and maintain"],
-    cons:["Limited design options — functional not decorative","Hollow-core options lack acoustic performance","Steel can rust in humid environments without maintenance"],
-    bestFor:["Garage-to-living-space access (fire-rated required by code)","Laundry room exterior access","Mechanical room and storage room access","Secondary exterior entries (side doors, back doors)"],
-    variants:["Hollow-core swing (lightest, least expensive — interiors only)","Solid-core swing (better acoustics and feel)","Fiberglass utility (exterior laundry and garage entries)","Steel utility with insulated foam core (garage exterior)","Fire-rated steel or fiberglass (garage-to-house — code required)"],
-    sdContext:"California code requires a fire-rated door between an attached garage and living space — this is a non-negotiable on every attached garage project. Therma-Tru's fire-rated utility line is the most commonly spec'd for this application in SD. Always ask about the garage access door when selling an entry door — it's a natural upsell and a code requirement the client may not know about.",
   },
 ];
 
@@ -230,7 +123,7 @@ const interiorDoorTypes = [
     color: T.gold,
     price: "$–$$",
     leadTime: "In stock to 1–2 weeks",
-    blurb: "Moulded panel doors are the most common interior door in residential construction. They're made from a composite skin pressed over a hollow or solid core, giving the appearance of a raised or flat panel door. The surface mimics wood but is actually a smooth composite material — it accepts paint beautifully but cannot be stained to show grain. The workhorse of interior doors: affordable, consistent, widely available, and works in most settings. Pre-primed and ready to paint. Great value for whole-house interior packages.",
+    blurb: "Composite skin pressed over a hollow or solid core — the workhorse interior door. Pre-primed and paint-ready, widely available, and works for most settings.",
     pros: ["Most affordable option", "Widely available — fast lead times", "Pre-primed — ready to paint", "Consistent appearance panel to panel"],
     cons: ["Cannot be stained (composite surface)", "Hollow-core versions lack acoustic performance", "Not appropriate for high-end custom settings"],
     bestFor: ["Production homes and remodels", "Paint-grade whole-house packages", "Secondary bedrooms and closets"],
@@ -245,7 +138,7 @@ const interiorDoorTypes = [
     color: T.teal,
     price: "$$$–$$$$",
     leadTime: "2–6 weeks (standard); 6–10 weeks (custom)",
-    blurb: "Stile and rail doors are the traditional, furniture-quality interior door. They're constructed from solid vertical stiles and horizontal rails joined together, with flat or raised panels inset between them — the same way fine furniture is built. This construction allows the door to expand and contract with seasonal humidity changes without warping. Available in both paint grade and stain grade wood species. The most versatile door type: appropriate for traditional, transitional, and even contemporary homes depending on panel design.",
+    blurb: "Furniture-quality construction — solid vertical stiles and horizontal rails joined with inset panels. Available in paint or stain grade; won't warp with seasonal humidity changes.",
     pros: ["True furniture-quality construction", "Available stain grade or paint grade", "Expands/contracts naturally — won't warp", "Wide range of panel styles: flat, raised, shaker, arch"],
     cons: ["Higher cost than moulded", "Longer lead times for custom sizes/species", "Heavier than hollow-core options"],
     bestFor: ["Custom homes and high-end remodels", "Stain grade applications with visible wood grain", "Traditional, craftsman, and transitional architecture"],
@@ -260,24 +153,24 @@ const interiorDoorTypes = [
     color: T.slate,
     price: "$$–$$$",
     leadTime: "1–4 weeks",
-    blurb: "The Shaker door is the most popular interior door style in the current market — and for good reason. Its clean, minimal design with a single flat recessed panel works equally well in modern, transitional, and casual-contemporary homes. It's the interior door equivalent of a white t-shirt: simple, elegant, and matches everything. Available in moulded composite (paint only) or solid wood stile and rail construction (paint or stain). The TM Cobb 1-panel flat shaker is the most specified interior door in San Diego luxury remodels right now.",
-    pros: ["Most versatile style — works in any modern or transitional home", "Available in many price points (composite to solid wood)", "Clean aesthetic pairs with modern cabinetry", "Easy to paint cleanly due to flat panel"],
-    cons: ["Extremely common — less distinctive if uniqueness matters", "Moulded shaker can look flat vs. solid wood version"],
-    bestFor: ["Modern, contemporary, and transitional homes", "Whole-house consistency in current design trends", "Clients wanting a clean minimal interior"],
+    blurb: "The most popular interior door style right now — a single flat recessed panel that works in modern, transitional, and contemporary homes. The TM Cobb 1-panel flat shaker is the most specified interior door in SD luxury remodels.",
+    pros: ["Most versatile style — works in any modern or transitional home", "Available in many price points", "Clean aesthetic pairs with modern cabinetry", "Easy to paint cleanly due to flat panel"],
+    cons: ["Extremely common — less distinctive if uniqueness matters", "Moulded shaker looks flat vs. solid wood version"],
+    bestFor: ["Modern, contemporary, and transitional homes", "Whole-house consistency", "Clients wanting a clean minimal interior"],
     vendors: ["TM Cobb", "Masonite", "JELD-WEN", "Simpson Door"],
     finishOptions: ["Paint grade (pre-primed)", "Stain grade (solid wood versions)", "Factory white", "Any custom color"],
     grades: ["Paint Grade", "Stain Grade (solid wood versions)"],
   },
   {
     id: "raised_moulding",
-    name: "Raised Panel / Raised Moulding",
+    name: "Raised Panel",
     icon: "◈",
     color: T.rust,
     price: "$$–$$$",
     leadTime: "1–4 weeks (standard); 4–8 weeks (custom profiles)",
-    blurb: "Raised panel doors have panels that project forward from the door face, creating depth and shadow lines. The raised profile adds dimension and formality — historically the signature of traditional American residential architecture. Common in colonial, classical, and formal traditional homes. Available in moulded composite (paint grade) or solid wood stile and rail (paint or stain grade). The profile of the raised panel matters a lot — cathedral, ogee, and flat-top are common choices that each read differently in a space.",
+    blurb: "Panels that project forward from the door face, adding depth and shadow lines. The signature of traditional American residential architecture — formal and classic.",
     pros: ["Adds traditional character and dimension", "Widely available at many price points", "Works beautifully in formal and traditional interiors"],
-    cons: ["Can feel dated in modern contexts", "More surface area in panel profile — harder to paint cleanly", "Limited stain grade options in raised moulded versions"],
+    cons: ["Can feel dated in modern contexts", "More surface area — harder to paint cleanly", "Limited stain grade options in moulded versions"],
     bestFor: ["Traditional, colonial, and formal interiors", "Homes with crown moulding and built-in details", "Clients wanting classic American interior character"],
     vendors: ["Masonite", "JELD-WEN", "TM Cobb", "Karona"],
     finishOptions: ["Paint grade (pre-primed)", "Stain grade (solid wood)", "Any paint color"],
@@ -290,7 +183,7 @@ const interiorDoorTypes = [
     color: T.plum,
     price: "$$$$–$$$$$",
     leadTime: "4–10 weeks (all custom)",
-    blurb: "Router carved and CNC carved doors are custom pieces where a router or CNC machine carves decorative patterns, geometric designs, or architectural details directly into a solid wood door face. This is the highest expression of custom interior doors — often seen in Mediterranean, Spanish Colonial, and Moroccan-influenced interiors. Designs can range from simple geometric patterns to elaborate floral or architectural motifs. Every door is one-of-a-kind. These are statement pieces, not whole-house doors.",
+    blurb: "Decorative patterns or architectural details carved directly into a solid wood face — one-of-a-kind statement pieces for Mediterranean, Spanish Colonial, and Moroccan-influenced interiors.",
     pros: ["Completely unique — custom to client's design vision", "Unmatched decorative impact", "Pairs with premium hardware beautifully"],
     cons: ["Very high cost — specialty fabrication", "Long lead times", "Not appropriate for casual or modern interiors"],
     bestFor: ["Feature entry doors and master bedroom doors", "Mediterranean, Spanish, and Moroccan-influenced homes", "Clients who want an architectural art piece"],
@@ -305,13 +198,133 @@ const interiorDoorTypes = [
     color: T.sage,
     price: "$–$$",
     leadTime: "In stock to 1 week",
-    blurb: "MDF (Medium Density Fiberboard) doors are the most popular paint-grade interior door for contemporary and modern homes. The surface is perfectly smooth — no wood grain — which produces flawlessly smooth paint finish without any grain telegraphing through. MDF doesn't expand or contract with humidity changes like solid wood, making it dimensionally stable and paintable without cracking. It's heavier than hollow-core doors and has a satisfying solid feel. The flat flush version is the cleanest modern interior door available. MDF cannot be stained.",
+    blurb: "Perfectly smooth paint surface with zero wood grain — the cleanest modern interior door available. Dimensionally stable, solid feel, paint-grade only.",
     pros: ["Perfectly smooth paint surface — zero grain", "Dimensionally stable — won't warp", "Heavier, more solid feel than hollow-core", "Best paint-grade surface in class"],
-    cons: ["Cannot be stained — paint only", "Heavy — requires solid hinges", "Susceptible to moisture damage if unfinished edge is exposed", "Less character than wood stile and rail"],
+    cons: ["Cannot be stained — paint only", "Heavy — requires solid hinges", "Susceptible to moisture if unfinished edge is exposed"],
     bestFor: ["Modern and contemporary interiors", "Flush / slab door aesthetic", "Anywhere a perfect paint finish is the goal"],
     vendors: ["TM Cobb", "Masonite", "JELD-WEN", "Algoma"],
     finishOptions: ["Paint grade only (any color)", "Factory white primer"],
     grades: ["Paint Grade only"],
+  },
+];
+
+const interiorDoorOperations = [
+  {
+    id:"swing",
+    label:"Swing Door",
+    icon:"↪",
+    color:T.slate,
+    tagline:"The universal interior door — hinged, single-action",
+    blurb:"The standard door — hinged on one side, swings open on an arc. Works anywhere you have clearance for the swing.",
+    pros:["Simplest operation — no track or pocket","Works with any door slab style","Easy to install and adjust","Best acoustic seal when closed","Most hardware options available"],
+    cons:["Requires swing clearance — unusable in very tight spaces","Door arc can interfere with furniture placement","Cannot be left partially open without a door stop"],
+    bestFor:["Bedrooms","Home offices","Dining rooms","Any room with adequate floor space"],
+    variants:["Single swing (standard)","Double swing / saloon doors","Barn-style swing (surface-mounted hinge)"],
+    sdContext:"The default interior door throughout San Diego residential. When in doubt, it's a swing door.",
+  },
+  {
+    id:"french",
+    label:"French Doors",
+    icon:"⊞",
+    color:T.rust,
+    tagline:"Double glass doors that borrow light between rooms",
+    blurb:"Two glass-panel doors hinged at opposite jambs, meeting at the center. Borrows light between rooms while still closing off the space.",
+    pros:["Borrow light between rooms","Classic, elegant appearance","Can open both panels for a full-width opening","Wide variety of glass and divided lite options","Available in wood, fiberglass, and steel"],
+    cons:["Both doors need swing clearance","Center meeting point can rattle if not latched","Less acoustic privacy than solid doors","Requires more wall space than a single swing door"],
+    bestFor:["Home office to living room","Dining room to kitchen","Master bedroom to sitting room","Any room needing light without losing separation"],
+    variants:["Full-lite (all glass)","Half-lite (glass over solid panel)","True divided lite","Simulated divided lite (applied grilles)","Single French door"],
+    sdContext:"A signature detail in La Jolla and Coronado traditional homes. Steel French doors have become a popular contemporary take.",
+  },
+  {
+    id:"sliding",
+    label:"Sliding Doors",
+    icon:"⇄",
+    color:T.teal,
+    tagline:"Glides on a track — no swing clearance needed",
+    blurb:"Panel slides horizontally on a track. The go-to for closets, tight bathrooms, and any space where a swing door won't fit.",
+    pros:["No swing clearance needed","Clean contemporary look","Multi-panel options for wide openings","Available in glass for light borrowing"],
+    cons:["Bypass sliders only expose half the opening at once","Track collects dust and debris","Less acoustic performance than swing doors"],
+    bestFor:["Closet doors","Small bathrooms and powder rooms","Pantry access","Contemporary open-plan zone dividers"],
+    variants:["Bypass slider (two panels)","Single panel slider","Multi-panel stacking","Mirror panel bypass"],
+    sdContext:"Bypass closet sliders are nearly universal in SD residential. Single-panel sliders on barn track are popular in contemporary remodels.",
+  },
+  {
+    id:"bifold",
+    label:"Bi-Fold Doors",
+    icon:"⟩⟨",
+    color:T.sage,
+    tagline:"Accordion panels — full opening width in minimal space",
+    blurb:"Panels fold accordion-style to stack beside the opening. Exposes the full opening width — the standard for reach-in closets.",
+    pros:["Full opening width when folded","Minimal clearance required","Available in louvered and mirrored styles","Works across large openings"],
+    cons:["Less refined than other door types","Bottom guide pin can pop out of track","Center fold can flex on cheaper units","Not great for acoustic privacy"],
+    bestFor:["Reach-in closets","Laundry and utility rooms","Pantry doors","Mechanical room access"],
+    variants:["2-panel bi-fold","4-panel bi-fold","Louvered bi-fold","Mirror bi-fold","Glass panel bi-fold"],
+    sdContext:"Common in older SD stock. Modern remodels often upgrade to bypass sliders or barn doors, but bi-folds remain practical where full closet access matters.",
+  },
+  {
+    id:"pocket",
+    label:"Pocket Doors",
+    icon:"⬚",
+    color:T.plum,
+    tagline:"Slides into the wall and disappears completely",
+    blurb:"Slides into a wall cavity when open — zero floor space consumed. Requires a pocket-framed wall, so best planned during construction or a full remodel.",
+    pros:["Zero floor space consumed","Clean flush wall plane when open","Perfect for tight spaces with no swing room","Can create a fully open plan"],
+    cons:["Wall must be framed as a pocket — harder to retrofit","Can't run plumbing or electrical in pocket wall","Less effective sound seal than swing doors"],
+    bestFor:["Master bath to closet","Kitchen to dining pass-throughs","Great room flex dividers","Anywhere zero swing clearance is available"],
+    variants:["Single panel pocket","Double bi-parting pocket","Glass panel pocket","Barn-track pocket hybrid"],
+    sdContext:"Double bi-parting glass pocket doors between great room and patio are a signature move in La Jolla and Del Mar custom builds. TM Cobb shaker is the most specified pocket door panel in SD luxury remodels.",
+  },
+  {
+    id:"barn",
+    label:"Barn Doors",
+    icon:"⊟",
+    color:T.gold,
+    tagline:"Surface-mounted sliding — statement hardware, easy retrofit",
+    blurb:"Hangs on a surface-mounted track and slides in front of the wall. No pocket framing needed — but the panel covers wall space beside the opening when open.",
+    pros:["Statement hardware — a design element in itself","No wall framing required — easy retrofit","Large panel sizes possible","Wide style range from rustic plank to modern flush"],
+    cons:["Panel uses wall space beside opening when open","Light gap around all edges — not acoustically tight","Not ADA compliant in most configurations"],
+    bestFor:["Laundry and utility rooms","Home office to hallway","Master bath or closet access","Pantry and mudroom entries"],
+    variants:["Single barn door","Double barn door","Bypass barn door","Glass panel","Shiplap / plank"],
+    sdContext:"Very popular in SD transitional remodels. Emtek barn door hardware is the most specified locally — the hardware is as visible as the door, so invest accordingly.",
+  },
+  {
+    id:"dutch",
+    label:"Dutch Doors",
+    icon:"⊟",
+    color:T.ember,
+    tagline:"Split horizontally — top and bottom open independently",
+    blurb:"Split at mid-height so the top and bottom halves open independently. Classic craftsman and cottage detail — ventilation and light without full access.",
+    pros:["Top and bottom operate independently","Classic craftsman and coastal cottage aesthetic","Keep pets or children in while maintaining airflow","Works as a pass-through counter"],
+    cons:["Split latch mechanism can wear over time","More expensive than a standard swing door","Primarily available in wood — limited fiberglass options"],
+    bestFor:["Kitchen back door or secondary entry","Mudroom exterior access","Nurseries","Coastal cottage and craftsman homes"],
+    variants:["Exterior Dutch door (most common)","Interior Dutch door","Dutch door with glass lites in top half"],
+    sdContext:"A classic detail in Point Loma and Coronado craftsman homes. Simpson and Rogue Valley offer wood Dutch doors; TM Cobb can custom-build interior versions.",
+  },
+  {
+    id:"pivot",
+    label:"Pivot Doors",
+    icon:"⊡",
+    color:T.slate,
+    tagline:"Rotates on an offset pivot — the statement entry",
+    blurb:"Rotates on a floor-to-header pivot set ~8–12\" from one edge. The large face swings in, a small tail swings out — supports massive panels no hinge could handle.",
+    pros:["Dramatic architectural statement","Supports very large, heavy panels (up to 1,000+ lbs)","Smooth counterbalanced operation","Cleaner frame appearance — no visible hinges"],
+    cons:["Higher cost than hinged doors","Requires structural consideration at floor and header","Tail needs exterior clearance space","Requires experienced installer"],
+    bestFor:["Contemporary luxury entries","Oversized entries wider than a standard single door","Homes where the entry is the design focal point"],
+    variants:["Offset pivot (most common)","Full-height floor-to-ceiling panel","Pivot with sidelites","Double pivot"],
+    sdContext:"A defining feature of luxury contemporary homes in La Jolla, Del Mar, and RSF. Fleetwood's Series 4400-T is the most specified residential pivot in SD.",
+  },
+  {
+    id:"utility",
+    label:"Utility & Service Doors",
+    icon:"⬡",
+    color:T.muted,
+    tagline:"Functional doors for garages, laundry, and service areas",
+    blurb:"Workhorse doors for garages, laundry rooms, and secondary entries. Functional first — fire rating is the key spec for garage-to-living-space doors, which California code requires.",
+    pros:["Affordable and widely available","Fire-rated options for code compliance","Fiberglass resists moisture in garages and laundry rooms","Easy to paint and maintain"],
+    cons:["Limited design options","Hollow-core lacks acoustic performance","Steel can rust if finish is damaged"],
+    bestFor:["Garage-to-living-space (fire-rated required)","Laundry room exterior access","Mechanical and storage rooms","Secondary exterior entries"],
+    variants:["Hollow-core swing","Solid-core swing","Fiberglass utility","Steel with foam core","Fire-rated steel or fiberglass"],
+    sdContext:"California requires a fire-rated door between an attached garage and living space — non-negotiable on every attached garage project. Always ask about it when selling an entry door.",
   },
 ];
 
@@ -1867,7 +1880,7 @@ export default function App() {
   const [doorTypeTab,setDoorTypeTab]=useState("operation");
   const [openOp,setOpenOp]=useState(null);
   const [largeDoorSub,setLargeDoorSub]=useState("folding");
-  const [windowSub,setWindowSub]=useState("frame_materials");
+  const [windowSub,setWindowSub]=useState("operation_types");
   // hardware state
   const [selFinish,setSelFinish]=useState(null);
   const [hwOpen,setHwOpen]=useState(null);
@@ -2506,7 +2519,7 @@ export default function App() {
       {mainTab==="door_types"&&(
         <div style={{padding:"26px",maxWidth:"1200px",margin:"0 auto",animation:"fadeUp 0.25s ease"}}>
           <div style={{display:"flex",gap:0,borderBottom:`1px solid ${T.border}`,marginBottom:"22px"}}>
-            {[{id:"operation",label:"Door Operation Types",color:T.gold},{id:"exterior",label:"Exterior Materials",color:T.rust},{id:"interior",label:"Interior Materials",color:T.teal}].map(t=>(
+            {[{id:"operation",label:"Door Operation Types",color:T.gold},{id:"exterior",label:"Exterior Door Types",color:T.rust},{id:"interior",label:"Interior Door Types",color:T.teal}].map(t=>(
               <button key={t.id} onClick={()=>setDoorTypeTab(t.id)} style={{background:"none",border:"none",borderBottom:`2px solid ${doorTypeTab===t.id?t.color:"transparent"}`,color:doorTypeTab===t.id?T.text:T.dim,padding:"10px 18px",cursor:"pointer",fontSize:"10px",letterSpacing:"2px",textTransform:"uppercase",fontFamily:"monospace"}}>
                 {t.label}
               </button>
@@ -2635,145 +2648,114 @@ export default function App() {
                       <div key={op.id} style={{background:T.card,border:`1px solid ${isOpen?op.color:T.border}`,borderRadius:"12px",overflow:"hidden",transition:"border-color 0.2s"}}>
                         {/* Header */}
                         <div onClick={()=>setOpenOp(isOpen?null:op.id)} style={{padding:"18px 20px",cursor:"pointer",display:"flex",alignItems:"center",gap:"14px"}}>
-                          <div style={{width:"40px",height:"40px",borderRadius:"8px",background:`${op.color}18`,display:"flex",alignItems:"center",justifyContent:"center",flexShrink:0,fontSize:"18px",color:op.color,fontFamily:"monospace",border:`1px solid ${op.color}30`}}>
+                          <div style={{width:"54px",height:"54px",borderRadius:"10px",background:`${op.color}14`,display:"flex",alignItems:"center",justifyContent:"center",flexShrink:0,fontSize:"18px",color:op.color,fontFamily:"monospace",border:`1px solid ${op.color}35`}}>
                             {op.id==="utility"?(
-                              <svg width="28" height="28" viewBox="0 0 28 28">
-                                {/* door frame */}
-                                <rect x="5" y="3" width="18" height="22" rx="1" fill="none" stroke={op.color} strokeWidth="1.5" opacity="0.8"/>
-                                {/* louvered slats — angled lines suggesting ventilation */}
-                                {[7,10,13,16,19].map(y=>(
-                                  <line key={y} x1="7" y1={y} x2="21" y2={y+2} stroke={op.color} strokeWidth="1.3" opacity="0.75" strokeLinecap="round"/>
+                              <svg width="36" height="36" viewBox="0 0 28 28">
+                                <rect x="3" y="2" width="22" height="24" rx="1" fill="none" stroke={op.color} strokeWidth="1.8"/>
+                                <rect x="5" y="4" width="18" height="20" rx="0.5" fill="none" stroke={op.color} strokeWidth="1" opacity="0.5"/>
+                                {[7,10.5,14,17.5,21].map(y=>(
+                                  <line key={y} x1="6" y1={y} x2="22" y2={y+1.8} stroke={op.color} strokeWidth="1.3" opacity="0.7" strokeLinecap="round"/>
                                 ))}
-                                {/* door knob */}
-                                <circle cx="19" cy="14" r="1.2" fill={op.color} opacity="0.7"/>
+                                <circle cx="20.5" cy="13" r="1.4" fill={op.color}/>
                               </svg>
                             ):op.id==="barn"?(
-                              <svg width="28" height="28" viewBox="0 0 28 28">
-                                {/* rail */}
-                                <rect x="2" y="5" width="24" height="2.5" rx="1.2" fill={op.color} opacity="0.85"/>
-                                {/* left wheel */}
-                                <circle cx="7" cy="5" r="2.2" fill="none" stroke={op.color} strokeWidth="1.4"/>
-                                <circle cx="7" cy="5" r="0.7" fill={op.color}/>
-                                {/* right wheel */}
-                                <circle cx="21" cy="5" r="2.2" fill="none" stroke={op.color} strokeWidth="1.4"/>
-                                <circle cx="21" cy="5" r="0.7" fill={op.color}/>
-                                {/* door panel */}
-                                <rect x="4" y="9" width="20" height="16" rx="1" fill="none" stroke={op.color} strokeWidth="1.5" opacity="0.8"/>
-                                {/* door handle */}
-                                <rect x="18" y="16" width="1.2" height="4" rx="0.6" fill={op.color} opacity="0.7"/>
+                              <svg width="36" height="36" viewBox="0 0 28 28">
+                                <line x1="1" y1="6" x2="27" y2="6" stroke={op.color} strokeWidth="2" strokeLinecap="round"/>
+                                <line x1="1" y1="8" x2="27" y2="8" stroke={op.color} strokeWidth="1" opacity="0.5" strokeLinecap="round"/>
+                                <circle cx="7" cy="6" r="2.8" fill="none" stroke={op.color} strokeWidth="1.5"/>
+                                <circle cx="7" cy="6" r="1" fill={op.color}/>
+                                <circle cx="21" cy="6" r="2.8" fill="none" stroke={op.color} strokeWidth="1.5"/>
+                                <circle cx="21" cy="6" r="1" fill={op.color}/>
+                                <rect x="5" y="9" width="18" height="16" rx="1" fill="none" stroke={op.color} strokeWidth="1.8"/>
+                                <rect x="7" y="11" width="14" height="12" rx="0.5" fill="none" stroke={op.color} strokeWidth="1" opacity="0.5"/>
+                                <line x1="19.5" y1="16" x2="19.5" y2="20" stroke={op.color} strokeWidth="2" strokeLinecap="round"/>
                               </svg>
                             ):op.id==="french"?(
-                              <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
-                                {/* outer door frame */}
-                                <rect x="2" y="2" width="24" height="24" rx="1" fill="none" stroke={op.color} strokeWidth="1.5" opacity="0.65"/>
-                                {/* center mullion — where doors meet when closed */}
-                                <line x1="14" y1="2" x2="14" y2="26" stroke={op.color} strokeWidth="1" opacity="0.35" strokeDasharray="2 1.5"/>
-                                {/* LEFT panel — hinged on left jamb, swinging out-left (foreshortened parallelogram) */}
-                                <path d="M 2,3 L 11,6 L 11,22 L 2,25 Z" fill={`${op.color}20`} stroke={op.color} strokeWidth="1.3"/>
-                                {/* left knob — on free edge of left panel */}
-                                <circle cx="10" cy="14" r="1.2" fill={op.color} opacity="0.9"/>
-                                {/* left hinge marks */}
-                                <line x1="2" y1="7" x2="4" y2="7.5" stroke={op.color} strokeWidth="1" opacity="0.6" strokeLinecap="round"/>
-                                <line x1="2" y1="21" x2="4" y2="21.5" stroke={op.color} strokeWidth="1" opacity="0.6" strokeLinecap="round"/>
-                                {/* left swing arc */}
-                                <path d="M 11,6 A 9.5 9.5 0 0 0 2.5,3" stroke={op.color} strokeWidth="1.1" strokeDasharray="1.8 1.3" strokeLinecap="round" opacity="0.6"/>
-                                {/* left arc arrowhead */}
-                                <polyline points="4.5,2.2 2.2,3.2 3.5,5.5" fill="none" stroke={op.color} strokeWidth="1.1" strokeLinejoin="round" strokeLinecap="round" opacity="0.75"/>
-                                {/* RIGHT panel — hinged on right jamb, swinging out-right (mirror) */}
-                                <path d="M 26,3 L 17,6 L 17,22 L 26,25 Z" fill={`${op.color}20`} stroke={op.color} strokeWidth="1.3"/>
-                                {/* right knob */}
-                                <circle cx="18" cy="14" r="1.2" fill={op.color} opacity="0.9"/>
-                                {/* right hinge marks */}
-                                <line x1="26" y1="7" x2="24" y2="7.5" stroke={op.color} strokeWidth="1" opacity="0.6" strokeLinecap="round"/>
-                                <line x1="26" y1="21" x2="24" y2="21.5" stroke={op.color} strokeWidth="1" opacity="0.6" strokeLinecap="round"/>
-                                {/* right swing arc */}
-                                <path d="M 17,6 A 9.5 9.5 0 0 1 25.5,3" stroke={op.color} strokeWidth="1.1" strokeDasharray="1.8 1.3" strokeLinecap="round" opacity="0.6"/>
-                                {/* right arc arrowhead */}
-                                <polyline points="23.5,2.2 25.8,3.2 24.5,5.5" fill="none" stroke={op.color} strokeWidth="1.1" strokeLinejoin="round" strokeLinecap="round" opacity="0.75"/>
+                              <svg width="36" height="36" viewBox="0 0 28 28" fill="none">
+                                <rect x="1" y="1" width="26" height="26" rx="1" stroke={op.color} strokeWidth="1.8"/>
+                                <rect x="3" y="3" width="22" height="22" rx="0.5" stroke={op.color} strokeWidth="1" opacity="0.45"/>
+                                <path d="M 1,2 L 11,5 L 11,23 L 1,26 Z" fill={`${op.color}18`} stroke={op.color} strokeWidth="1.5"/>
+                                <circle cx="10" cy="14" r="1.4" fill={op.color}/>
+                                <line x1="1" y1="7" x2="4" y2="7.5" stroke={op.color} strokeWidth="1.2" strokeLinecap="round" opacity="0.7"/>
+                                <line x1="1" y1="21" x2="4" y2="21.5" stroke={op.color} strokeWidth="1.2" strokeLinecap="round" opacity="0.7"/>
+                                <path d="M 11,5 A 10,10 0 0 0 2,2" stroke={op.color} strokeWidth="1.1" strokeDasharray="2 1.5" strokeLinecap="round" opacity="0.7"/>
+                                <polyline points="4,1.5 2,2.5 3.2,4.8" fill="none" stroke={op.color} strokeWidth="1.1" strokeLinejoin="round" strokeLinecap="round" opacity="0.8"/>
+                                <path d="M 27,2 L 17,5 L 17,23 L 27,26 Z" fill={`${op.color}18`} stroke={op.color} strokeWidth="1.5"/>
+                                <circle cx="18" cy="14" r="1.4" fill={op.color}/>
+                                <line x1="27" y1="7" x2="24" y2="7.5" stroke={op.color} strokeWidth="1.2" strokeLinecap="round" opacity="0.7"/>
+                                <line x1="27" y1="21" x2="24" y2="21.5" stroke={op.color} strokeWidth="1.2" strokeLinecap="round" opacity="0.7"/>
+                                <path d="M 17,5 A 10,10 0 0 1 26,2" stroke={op.color} strokeWidth="1.1" strokeDasharray="2 1.5" strokeLinecap="round" opacity="0.7"/>
+                                <polyline points="24,1.5 26,2.5 24.8,4.8" fill="none" stroke={op.color} strokeWidth="1.1" strokeLinejoin="round" strokeLinecap="round" opacity="0.8"/>
                               </svg>
                             ):op.id==="pocket"?(
-                              <svg width="28" height="28" viewBox="0 0 28 28">
-                                {/* pocket cavity — dotted frame */}
-                                <rect x="13" y="4" width="13" height="20" rx="1" fill="none" stroke={op.color} strokeWidth="1.4" strokeDasharray="2.2 1.8" opacity="0.6"/>
-                                {/* door panel sliding in from the left */}
-                                <rect x="3" y="4" width="12" height="20" rx="1" fill={`${op.color}18`} stroke={op.color} strokeWidth="1.5" opacity="0.9"/>
-                                {/* door handle on trailing edge */}
-                                <rect x="4.5" y="13" width="1.2" height="3.5" rx="0.6" fill={op.color} opacity="0.8"/>
-                                {/* motion arrow */}
-                                <line x1="9" y1="14" x2="13.5" y2="14" stroke={op.color} strokeWidth="1" opacity="0.5" strokeDasharray="1.5 1"/>
+                              <svg width="36" height="36" viewBox="0 0 28 28">
+                                <rect x="14" y="3" width="12" height="22" rx="1" fill="none" stroke={op.color} strokeWidth="1.5" strokeDasharray="2.5 2" opacity="0.55"/>
+                                <line x1="14" y1="3" x2="14" y2="25" stroke={op.color} strokeWidth="2.5" opacity="0.4"/>
+                                <rect x="3" y="3" width="13" height="22" rx="1" fill={`${op.color}18`} stroke={op.color} strokeWidth="1.8"/>
+                                <rect x="5" y="5" width="9" height="18" rx="0.5" fill="none" stroke={op.color} strokeWidth="1" opacity="0.5"/>
+                                <line x1="5" y1="13" x2="5" y2="17" stroke={op.color} strokeWidth="2.2" strokeLinecap="round" opacity="0.9"/>
+                                <line x1="11" y1="14" x2="16" y2="14" stroke={op.color} strokeWidth="1.2" strokeDasharray="1.5 1.2" opacity="0.5"/>
+                                <polyline points="14,11.5 17,14 14,16.5" fill="none" stroke={op.color} strokeWidth="1.3" strokeLinejoin="round" strokeLinecap="round" opacity="0.6"/>
                               </svg>
                             ):op.id==="dutch"?(
-                              <svg width="28" height="28" viewBox="0 0 28 28">
-                                {/* outer door frame */}
-                                <rect x="5" y="3" width="18" height="22" rx="1" fill="none" stroke={op.color} strokeWidth="1.5" opacity="0.8"/>
-                                {/* horizontal split line */}
-                                <line x1="5" y1="13.5" x2="23" y2="13.5" stroke={op.color} strokeWidth="1.5" opacity="0.9"/>
-                                {/* top half window — small inset rect */}
-                                <rect x="8" y="5.5" width="12" height="6" rx="0.8" fill={`${op.color}20`} stroke={op.color} strokeWidth="1" opacity="0.8"/>
-                                {/* bottom knob */}
-                                <circle cx="19.5" cy="19" r="1.4" fill={op.color} opacity="0.8"/>
-                                {/* top lock / thumb turn */}
-                                <rect x="18.5" y="10" width="2" height="2.5" rx="0.5" fill={op.color} opacity="0.75"/>
+                              <svg width="36" height="36" viewBox="0 0 28 28">
+                                <rect x="3" y="2" width="22" height="24" rx="1" fill="none" stroke={op.color} strokeWidth="1.8"/>
+                                <rect x="5" y="4" width="18" height="22" rx="0.5" fill="none" stroke={op.color} strokeWidth="1" opacity="0.45"/>
+                                <line x1="3" y1="14" x2="25" y2="14" stroke={op.color} strokeWidth="1.8"/>
+                                <rect x="7" y="5.5" width="14" height="6.5" rx="1" fill={`${op.color}20`} stroke={op.color} strokeWidth="1.1"/>
+                                <circle cx="21" cy="20.5" r="1.6" fill={op.color}/>
+                                <rect x="19.5" y="10.5" width="2.5" height="3" rx="0.5" fill={op.color} opacity="0.8"/>
                               </svg>
                             ):op.id==="swing"?(
-                              <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
-                                {/* outer door frame */}
-                                <rect x="3" y="2" width="18" height="24" rx="1" fill="none" stroke={op.color} strokeWidth="1.5" opacity="0.7"/>
-                                {/* door panel — shown swung open ~50°, foreshortened, hinged left */}
-                                {/* panel as a parallelogram: top-left at hinge (3,3), swings right and into depth */}
-                                <path d="M 3,3 L 14,5 L 14,23 L 3,25 Z" fill={`${op.color}20`} stroke={op.color} strokeWidth="1.3" opacity="0.9"/>
-                                {/* lockset / knob on free edge of panel */}
-                                <circle cx="12.5" cy="14.5" r="1.3" fill={op.color} opacity="0.9"/>
-                                {/* hinge marks on left jamb */}
-                                <line x1="3" y1="7" x2="5.5" y2="7.4" stroke={op.color} strokeWidth="1.1" opacity="0.6" strokeLinecap="round"/>
-                                <line x1="3" y1="21" x2="5.5" y2="21.4" stroke={op.color} strokeWidth="1.1" opacity="0.6" strokeLinecap="round"/>
-                                {/* swing arc from free corner to closed position */}
-                                <path d="M 14,5 A 11.2 11.2 0 0 1 21,3" stroke={op.color} strokeWidth="1.2" strokeDasharray="2 1.5" strokeLinecap="round" opacity="0.65"/>
-                                {/* arrowhead at arc end */}
-                                <polyline points="19,2.2 21.2,3.2 20,5.2" fill="none" stroke={op.color} strokeWidth="1.2" strokeLinejoin="round" strokeLinecap="round" opacity="0.8"/>
+                              <svg width="36" height="36" viewBox="0 0 28 28" fill="none">
+                                <rect x="2" y="1" width="20" height="26" rx="1" stroke={op.color} strokeWidth="1.8" opacity="0.7"/>
+                                <rect x="4" y="3" width="16" height="22" rx="0.5" stroke={op.color} strokeWidth="1" opacity="0.4"/>
+                                <path d="M 2,2 L 14,4 L 14,24 L 2,26 Z" fill={`${op.color}18`} stroke={op.color} strokeWidth="1.5"/>
+                                <circle cx="12.5" cy="14" r="1.5" fill={op.color}/>
+                                <line x1="2" y1="7" x2="5.5" y2="7.5" stroke={op.color} strokeWidth="1.3" strokeLinecap="round" opacity="0.65"/>
+                                <line x1="2" y1="21" x2="5.5" y2="21.5" stroke={op.color} strokeWidth="1.3" strokeLinecap="round" opacity="0.65"/>
+                                <path d="M 14,4 A 12,12 0 0 1 22,2" stroke={op.color} strokeWidth="1.3" strokeDasharray="2.2 1.6" strokeLinecap="round" opacity="0.7"/>
+                                <polyline points="20,1 22.5,2 21,4.5" fill="none" stroke={op.color} strokeWidth="1.3" strokeLinejoin="round" strokeLinecap="round" opacity="0.85"/>
                               </svg>
                             ):op.id==="sliding"?(
-                              <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
-                                {/* track rail top */}
-                                <rect x="2" y="4" width="24" height="2" rx="1" fill={op.color} opacity="0.45"/>
-                                {/* track rail bottom */}
-                                <rect x="2" y="22" width="24" height="2" rx="1" fill={op.color} opacity="0.45"/>
-                                {/* back panel — left, faded */}
-                                <rect x="3" y="6" width="13" height="16" rx="0.5" fill="none" stroke={op.color} strokeWidth="1.2" opacity="0.35"/>
-                                {/* front panel — right, overlapping, the one in motion */}
-                                <rect x="12" y="6" width="13" height="16" rx="0.5" fill={`${op.color}18`} stroke={op.color} strokeWidth="1.5"/>
-                                {/* handle on front panel */}
-                                <rect x="13.5" y="12.5" width="1.2" height="4" rx="0.6" fill={op.color} opacity="0.85"/>
-                                {/* rightward motion arrow on front panel */}
-                                <line x1="17.5" y1="14" x2="22.5" y2="14" stroke={op.color} strokeWidth="1.3" strokeLinecap="round"/>
-                                <polyline points="20,11.5 23,14 20,16.5" fill="none" stroke={op.color} strokeWidth="1.3" strokeLinejoin="round" strokeLinecap="round"/>
+                              <svg width="36" height="36" viewBox="0 0 28 28" fill="none">
+                                <rect x="1" y="3" width="26" height="2.5" rx="1.2" fill={op.color} opacity="0.45"/>
+                                <rect x="1" y="22.5" width="26" height="2.5" rx="1.2" fill={op.color} opacity="0.45"/>
+                                <rect x="2" y="5.5" width="14" height="17" rx="0.5" stroke={op.color} strokeWidth="1.3" opacity="0.35"/>
+                                <rect x="12" y="5.5" width="14" height="17" rx="0.5" fill={`${op.color}18`} stroke={op.color} strokeWidth="1.8"/>
+                                <rect x="7" y="7.5" width="8" height="13" rx="0.5" stroke={op.color} strokeWidth="0.8" opacity="0.25"/>
+                                <rect x="14" y="7.5" width="10" height="13" rx="0.5" stroke={op.color} strokeWidth="0.8" opacity="0.3"/>
+                                <line x1="13.5" y1="12.5" x2="13.5" y2="16.5" stroke={op.color} strokeWidth="2.2" strokeLinecap="round"/>
+                                <line x1="18" y1="14" x2="23.5" y2="14" stroke={op.color} strokeWidth="1.4" strokeLinecap="round"/>
+                                <polyline points="21,11 24,14 21,17" fill="none" stroke={op.color} strokeWidth="1.4" strokeLinejoin="round" strokeLinecap="round"/>
                               </svg>
                             ):op.id==="bifold"?(
-                              <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
-                                {/* top track */}
-                                <rect x="2" y="4" width="24" height="1.8" rx="0.9" fill={op.color} opacity="0.45"/>
-                                {/* bottom track */}
-                                <rect x="2" y="22.2" width="24" height="1.8" rx="0.9" fill={op.color} opacity="0.45"/>
-                                {/* left jamb pin */}
-                                <circle cx="3.5" cy="5" r="1.2" fill={op.color} opacity="0.6"/>
-                                {/* right jamb pin */}
-                                <circle cx="24.5" cy="5" r="1.2" fill={op.color} opacity="0.6"/>
-                                {/* left pair: panel A (attached to left jamb) */}
-                                <rect x="3" y="6" width="5.5" height="16" rx="0.5" fill={`${op.color}20`} stroke={op.color} strokeWidth="1.4"/>
-                                {/* left pair: panel B (folds toward center) */}
-                                <rect x="9.5" y="6" width="5.5" height="16" rx="0.5" fill={`${op.color}10`} stroke={op.color} strokeWidth="1.2" opacity="0.7"/>
-                                {/* left hinge pivot dot */}
-                                <circle cx="9.2" cy="14" r="1.4" fill={op.color} opacity="0.8"/>
-                                {/* right pair: panel C (folds toward center) */}
-                                <rect x="13" y="6" width="5.5" height="16" rx="0.5" fill={`${op.color}10`} stroke={op.color} strokeWidth="1.2" opacity="0.7"/>
-                                {/* right pair: panel D (attached to right jamb) */}
-                                <rect x="19.5" y="6" width="5.5" height="16" rx="0.5" fill={`${op.color}20`} stroke={op.color} strokeWidth="1.4"/>
-                                {/* right hinge pivot dot */}
-                                <circle cx="18.8" cy="14" r="1.4" fill={op.color} opacity="0.8"/>
-                                {/* left fold arrow — panels accordion toward left */}
-                                <polyline points="11.5,11 9,14 11.5,17" fill="none" stroke={op.color} strokeWidth="1.1" strokeLinejoin="round" strokeLinecap="round" opacity="0.65"/>
-                                {/* right fold arrow — mirror */}
-                                <polyline points="16.5,11 19,14 16.5,17" fill="none" stroke={op.color} strokeWidth="1.1" strokeLinejoin="round" strokeLinecap="round" opacity="0.65"/>
+                              <svg width="36" height="36" viewBox="0 0 28 28" fill="none">
+                                <rect x="1" y="3.5" width="26" height="2" rx="1" fill={op.color} opacity="0.45"/>
+                                <rect x="1" y="22.5" width="26" height="2" rx="1" fill={op.color} opacity="0.45"/>
+                                <circle cx="2.5" cy="4.5" r="1.4" fill={op.color} opacity="0.6"/>
+                                <circle cx="25.5" cy="4.5" r="1.4" fill={op.color} opacity="0.6"/>
+                                <rect x="2" y="5.5" width="6" height="17" rx="0.5" fill={`${op.color}20`} stroke={op.color} strokeWidth="1.5"/>
+                                <rect x="9" y="5.5" width="6" height="17" rx="0.5" fill={`${op.color}10`} stroke={op.color} strokeWidth="1.2" opacity="0.75"/>
+                                <circle cx="8.8" cy="14" r="1.6" fill={op.color} opacity="0.85"/>
+                                <rect x="13" y="5.5" width="6" height="17" rx="0.5" fill={`${op.color}10`} stroke={op.color} strokeWidth="1.2" opacity="0.75"/>
+                                <rect x="20" y="5.5" width="6" height="17" rx="0.5" fill={`${op.color}20`} stroke={op.color} strokeWidth="1.5"/>
+                                <circle cx="19.2" cy="14" r="1.6" fill={op.color} opacity="0.85"/>
+                                <polyline points="11.5,11 8.5,14 11.5,17" fill="none" stroke={op.color} strokeWidth="1.2" strokeLinejoin="round" strokeLinecap="round" opacity="0.7"/>
+                                <polyline points="16.5,11 19.5,14 16.5,17" fill="none" stroke={op.color} strokeWidth="1.2" strokeLinejoin="round" strokeLinecap="round" opacity="0.7"/>
+                              </svg>
+                            ):op.id==="pivot"?(
+                              <svg width="36" height="36" viewBox="0 0 28 28" fill="none">
+                                <rect x="1" y="1" width="26" height="26" rx="1" stroke={op.color} strokeWidth="2"/>
+                                <rect x="3" y="3" width="22" height="22" rx="0.5" stroke={op.color} strokeWidth="1.1"/>
+                                {/* pivot offset ~25% from left — small tail left, large face right */}
+                                <polygon points="1,0.5 8,3 8,25 1,27.5" fill={`${op.color}25`} stroke={op.color} strokeWidth="1.5" strokeLinejoin="round"/>
+                                <polygon points="8,2.5 26,5 26,23 8,25.5" fill={`${op.color}12`} stroke={op.color} strokeWidth="1.8" strokeLinejoin="round"/>
+                                {/* pivot dots at top and bottom */}
+                                <circle cx="8" cy="3" r="2" fill={op.color}/>
+                                <circle cx="8" cy="25" r="2" fill={op.color}/>
+                                {/* long pull on large face */}
+                                <line x1="22" y1="11.5" x2="22" y2="16.5" stroke={op.color} strokeWidth="2.2" strokeLinecap="round"/>
                               </svg>
                             ):(
                               <span style={{fontSize:"18px"}}>{op.icon}</span>
@@ -2853,8 +2835,8 @@ export default function App() {
       {/* ─── WINDOWS ─── */}
       {mainTab==="windows"&&(()=>{
         const windowNavItems=[
-          {id:"frame_materials",label:"Frame Materials",icon:"◻",color:T.slate},
           {id:"operation_types",label:"Operation Types",icon:"↔",color:T.teal},
+          {id:"frame_materials",label:"Frame Materials",icon:"◻",color:T.slate},
           {id:"finishes",label:"Finishes by Frame",icon:"◑",color:T.gold},
           {id:"glazing",label:"Glazing Options",icon:"⬡",color:T.sage},
           {id:"sd_specs",label:"SD Climate Guide",icon:"☀",color:T.rust},
