@@ -1938,6 +1938,7 @@ export default function App() {
     {id:"large_doors",label:"Patio Systems",icon:"⧉"},
     {id:"glass_guide",label:"Glass Guide",icon:"◑"},
     {id:"hardware",label:"Hardware",icon:"",svgIcon:<><circle cx="8" cy="8" r="7" fill="none" stroke="currentColor" strokeWidth="1"/><circle cx="8" cy="8" r="3.5" fill="none" stroke="currentColor" strokeWidth="1"/><circle cx="8" cy="8" r="1.2" fill="currentColor"/><line x1="8" y1="1.5" x2="8" y2="3.5" stroke="currentColor" strokeWidth="0.8"/><line x1="8" y1="12.5" x2="8" y2="14.5" stroke="currentColor" strokeWidth="0.8"/><line x1="1.5" y1="8" x2="3.5" y2="8" stroke="currentColor" strokeWidth="0.8"/><line x1="12.5" y1="8" x2="14.5" y2="8" stroke="currentColor" strokeWidth="0.8"/><line x1="3" y1="3" x2="4.4" y2="4.4" stroke="currentColor" strokeWidth="0.8"/><line x1="11.6" y1="11.6" x2="13" y2="13" stroke="currentColor" strokeWidth="0.8"/><line x1="13" y1="3" x2="11.6" y2="4.4" stroke="currentColor" strokeWidth="0.8"/><line x1="4.4" y1="11.6" x2="3" y2="13" stroke="currentColor" strokeWidth="0.8"/></>},
+    {id:"lead_times",label:"Lead Times",icon:"⏱"},
     {id:"favorites",label:"Quote List"+(favorites.length>0?" ("+favorites.length+")":""),icon:"",svgIcon:<><rect x="2.5" y="1" width="11" height="14" rx="1.2" fill="none" stroke="currentColor" strokeWidth="1"/><line x1="5" y1="5" x2="11" y2="5" stroke="currentColor" strokeWidth="0.9"/><line x1="5" y1="7.5" x2="11" y2="7.5" stroke="currentColor" strokeWidth="0.9"/><line x1="5" y1="10" x2="11" y2="10" stroke="currentColor" strokeWidth="0.9"/><line x1="5" y1="12.5" x2="8.5" y2="12.5" stroke="currentColor" strokeWidth="0.9"/></>},
   ];
   if(submitted)mainTabs.splice(1,0,{id:"results",label:"My Results",icon:""});
@@ -1984,6 +1985,13 @@ export default function App() {
         .win-op-grid{display:grid;grid-template-columns:auto 1fr;gap:20px;align-items:start;}
         @media(max-width:600px){
           .win-op-grid{grid-template-columns:1fr;}
+        }
+
+        /* ── LEAD TIME GRID ── */
+        @media(max-width:640px){
+          .lt-row{grid-template-columns:1fr 1fr !important;}
+          .lt-product{display:none;}
+          .lt-note{grid-column:1/-1;}
         }
 
         @media(max-width:640px){
@@ -3902,6 +3910,131 @@ export default function App() {
 
       {/* ─── GLASS GUIDE ─── */}
       {mainTab==="glass_guide"&&<GlassGuideTab/>}
+
+      {/* ─── LEAD TIMES ─── */}
+      {mainTab==="lead_times"&&(()=>{
+        const lastUpdated = "August 8, 2026";
+        const categories = [
+          {
+            label: "Large Opening / Patio Systems",
+            color: T.teal,
+            items: [
+              { brand:"NanaWall", logoId:"nanawall", product:"Folding door systems", lead:"8–12 weeks", status:"normal", note:"Standard residential configs. Custom sizes add 2–4 weeks." },
+              { brand:"LaCantina", logoId:"lacantina", product:"Multi-slide & folding", lead:"6–10 weeks", status:"normal", note:"Good availability on standard aluminum configs." },
+              { brand:"Fleetwood", logoId:"fleetwood", product:"All systems", lead:"8–10 weeks", status:"caution", note:"Price increase effective Sept 2026 — order before end of August to lock current pricing." },
+              { brand:"Western Window Systems", logoId:"westernwindow", product:"Multi-slide & casement walls", lead:"6–8 weeks", status:"normal", note:"Competitive lead times, strong SD availability." },
+              { brand:"Milgard", logoId:"milgard", product:"Moving Glass Wall (vinyl)", lead:"3–5 weeks", status:"good", note:"Fast turnaround, widely stocked through SD distributors." },
+            ],
+          },
+          {
+            label: "Windows",
+            color: T.slate,
+            items: [
+              { brand:"Milgard", logoId:"milgard", product:"Trinsic, Tuscany, Style Line", lead:"3–5 weeks", status:"good", note:"Price increase effective Sept 2026 — same urgency as Fleetwood for active bids." },
+              { brand:"Milgard", logoId:"milgard", product:"C700 Fiberglass (new)", lead:"14–16 weeks", status:"extended", note:"Extended due to new product ramp. Normalizing to 4–6 weeks as production scales." },
+              { brand:"Andersen", logoId:"andersen", product:"400 Series, E-Series", lead:"4–8 weeks", status:"normal", note:"Varies by series and configuration. E-Series custom runs longer." },
+              { brand:"Marvin", logoId:"marvin", product:"Elevate, Essential, Signature", lead:"6–10 weeks", status:"normal", note:"Signature and custom wood runs to the longer end." },
+              { brand:"Pella", logoId:"pella", product:"Lifestyle, Architect Series", lead:"5–8 weeks", status:"normal", note:"Now through Dixieline in So-Cal — contact them directly for quotes." },
+              { brand:"Weather Shield", logoId:"weathershield", product:"All series", lead:"6–10 weeks", status:"normal", note:"Custom-built to order. Standard sizing runs faster." },
+              { brand:"Simonton", logoId:"simonton", product:"Impressions, ProFinish", lead:"2–4 weeks", status:"good", note:"Production vinyl — fast availability." },
+              { brand:"Alpine", logoId:"alpine", product:"All series", lead:"3–6 weeks", status:"good", note:"Good SD distribution. Budget-friendly lead times." },
+            ],
+          },
+          {
+            label: "Entry Doors",
+            color: T.rust,
+            items: [
+              { brand:"Therma-Tru", logoId:"thermatru", product:"Fiber-Classic, Classic-Craft", lead:"1–3 weeks", status:"good", note:"Widely stocked. Custom glass and finish adds time." },
+              { brand:"Simpson Door", logoId:"simpson", product:"Standard catalog", lead:"3–5 weeks", status:"good", note:"Custom wood species or sizes: 6–10 weeks." },
+              { brand:"TM Cobb", logoId:"tmcobb", product:"Paint grade, stain grade", lead:"3–6 weeks", status:"good", note:"Custom profiles and species can extend to 8–10 weeks." },
+              { brand:"Rogue Valley", logoId:"roguevalley", product:"All series", lead:"4–8 weeks", status:"normal", note:"Custom wood entry doors — lead time varies by complexity." },
+              { brand:"Steel Traditions", logoId:"steeltraditions", product:"Steel & iron systems", lead:"8–14 weeks", status:"normal", note:"Custom fabrication. Complex divided lite designs at the longer end." },
+              { brand:"French Steel", logoId:"frenchsteel", product:"Steel divided lite", lead:"10–16 weeks", status:"caution", note:"All custom fabrication. Plan early — these are statement pieces." },
+            ],
+          },
+          {
+            label: "Interior Doors",
+            color: T.gold,
+            items: [
+              { brand:"TM Cobb", logoId:"tmcobb_int", product:"Shaker, stile & rail", lead:"2–4 weeks", status:"good", note:"Most popular SD interior door. Paint grade runs faster than stain grade." },
+              { brand:"Masonite", logoId:"masonite", product:"Moulded panel, hollow core", lead:"In stock – 1 week", status:"good", note:"Commodity product. Usually available off the shelf." },
+              { brand:"JELD-WEN", logoId:"jeldwen_win", product:"Moulded, stile & rail", lead:"1–3 weeks", status:"good", note:"Good availability through SD distributors." },
+              { brand:"Simpson Door", logoId:"simpson", product:"Interior stile & rail", lead:"3–6 weeks", status:"good", note:"Custom wood interiors extend to 8–10 weeks." },
+            ],
+          },
+        ];
+
+        const statusConfig = {
+          good:     { label:"Normal",   color:T.teal,  bg:`${T.teal}14` },
+          normal:   { label:"Normal",   color:T.slate, bg:`${T.slate}12` },
+          caution:  { label:"Watch",    color:T.gold,  bg:`${T.gold}14` },
+          extended: { label:"Extended", color:T.rust,  bg:`${T.rust}14` },
+        };
+
+        return (
+          <div style={{padding:"26px",maxWidth:"1100px",margin:"0 auto",animation:"fadeUp 0.25s ease"}}>
+
+            {/* Header */}
+            <div style={{marginBottom:"20px"}}>
+              <h2 style={{fontSize:"20px",fontWeight:400,color:T.text,margin:"0 0 6px"}}>SD Market Lead Times</h2>
+              <p style={{fontSize:"12px",color:T.muted,margin:"0 0 10px",lineHeight:1.6,maxWidth:"680px"}}>
+                Estimated lead times based on current San Diego market conditions. These are ranges heard from local distributors and dealer networks — <strong style={{color:T.text}}>not manufacturer guarantees</strong>. Lead times shift constantly with volume, product mix, and supply chain conditions. Always confirm with your dealer before committing to a project schedule.
+              </p>
+              <div style={{display:"flex",alignItems:"center",gap:"16px",flexWrap:"wrap"}}>
+                <div style={{fontSize:"9px",fontFamily:"monospace",letterSpacing:"2px",color:T.faint}}>LAST UPDATED: {lastUpdated}</div>
+                <div style={{display:"flex",gap:"8px",flexWrap:"wrap"}}>
+                  {Object.entries(statusConfig).map(([k,v])=>(
+                    <span key={k} style={{fontSize:"9px",fontFamily:"monospace",letterSpacing:"1px",color:v.color,background:v.bg,border:`1px solid ${v.color}33`,padding:"2px 8px",borderRadius:"3px"}}>{v.label}</span>
+                  ))}
+                </div>
+              </div>
+            </div>
+
+            {/* Categories */}
+            <div style={{display:"flex",flexDirection:"column",gap:"20px"}}>
+              {categories.map(cat=>(
+                <div key={cat.label} style={{background:T.card,border:`1px solid ${T.border}`,borderRadius:"10px",overflow:"hidden"}}>
+                  {/* Category header */}
+                  <div style={{padding:"12px 18px",borderBottom:`1px solid ${T.border}`,background:`${cat.color}08`,display:"flex",alignItems:"center",gap:"10px"}}>
+                    <div style={{width:"3px",height:"16px",background:cat.color,borderRadius:"2px",flexShrink:0}}/>
+                    <span style={{fontSize:"11px",fontFamily:"monospace",letterSpacing:"2px",color:cat.color,fontWeight:600}}>{cat.label.toUpperCase()}</span>
+                  </div>
+
+                  {/* Rows */}
+                  <div>
+                    {cat.items.map((item,i)=>{
+                      const sc = statusConfig[item.status] || statusConfig.normal;
+                      return (
+                        <div key={i} style={{
+                          display:"grid",
+                          gridTemplateColumns:"100px 180px 110px 1fr",
+                          gap:"12px",
+                          padding:"10px 18px",
+                          borderBottom: i < cat.items.length-1 ? `1px solid ${T.border}` : "none",
+                          alignItems:"center",
+                        }}>
+                          <VendorLogo id={item.logoId} size={36} wide={true}/>
+                          <div style={{fontSize:"11px",color:T.muted}}>{item.product}</div>
+                          <div style={{fontSize:"12px",fontWeight:600,color:sc.color,background:sc.bg,border:`1px solid ${sc.color}33`,padding:"3px 8px",borderRadius:"4px",textAlign:"center",whiteSpace:"nowrap"}}>{item.lead}</div>
+                          <div style={{fontSize:"11px",color:T.dim,lineHeight:1.5}}>{item.note}</div>
+                        </div>
+                      );
+                    })}
+                  </div>
+                </div>
+              ))}
+            </div>
+
+            {/* Footer disclaimer */}
+            <div style={{marginTop:"20px",padding:"14px 18px",background:`${T.gold}10`,border:`1px solid ${T.gold}33`,borderRadius:"8px"}}>
+              <div style={{fontSize:"9px",fontFamily:"monospace",letterSpacing:"2px",color:T.gold,marginBottom:"6px"}}>IMPORTANT DISCLAIMER</div>
+              <p style={{fontSize:"11px",color:T.muted,margin:0,lineHeight:1.7}}>
+                Lead times listed here are estimates based on current San Diego market intelligence and are updated periodically. They do not constitute a commitment or guarantee from any manufacturer or dealer. Actual lead times vary based on product configuration, order volume, raw material availability, and manufacturing capacity. Always verify current lead times directly with your dealer before submitting bids or making project commitments. SD Window & Door Guide assumes no liability for project delays resulting from lead time estimates published here.
+              </p>
+            </div>
+          </div>
+        );
+      })()}
 
       {/* ─── FAVORITES ─── */}
       {mainTab==="favorites"&&(
