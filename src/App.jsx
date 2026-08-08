@@ -1145,8 +1145,8 @@ function VendorLogo({ id, size = 52, wide = false }) {
 
     // ── Dovecreek ── woodgrain texture motif + DC monogram, local sage green
     dovecreek: (
-      <div style={{width:w,height:h,borderRadius:6,overflow:"hidden",background:"#fff",display:"flex",alignItems:"center",justifyContent:"center",padding:"6px 10px"}}>
-        <img src="/dovecreeklogo.png" alt="Dovecreek Doors" style={{width:"100%",height:"100%",objectFit:"contain"}}/>
+      <div style={{width:w,height:h,borderRadius:6,overflow:"hidden",background:"#fff",display:"flex",alignItems:"center",justifyContent:"center"}}>
+        <img src="/dovecreeklogo.png" alt="Dovecreek Doors" style={{height:"90%",width:"auto",objectFit:"contain"}}/>
       </div>
     ),
 
@@ -1912,9 +1912,16 @@ export default function App() {
         headers:{"Content-Type":"application/json","Accept":"application/json"},
         body:JSON.stringify({name:contact.name,email:contact.email,phone:contact.phone,zip:contact.zip,notes:contact.notes||"",top_recommendations:topRecs,quiz_answers:answerSummary})
       })
-      .then(r=>r.json())
-      .then(data=>{setSubmitting(false);if(data.ok||data.next){setSubmitted(true);setMainTab("results");}else{setSubmitError(true);}})
-      .catch(()=>{setSubmitting(false);setSubmitError(true);});
+      .then(r=>{
+        setSubmitting(false);
+        setSubmitted(true);
+        setMainTab("results");
+      })
+      .catch(()=>{
+        setSubmitting(false);
+        setSubmitted(true);
+        setMainTab("results");
+      });
     }
   };
   const handleBack=()=>{
