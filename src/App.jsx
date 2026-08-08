@@ -2028,6 +2028,7 @@ export default function App() {
               <div style={{fontSize:"10px",color:T.faint,marginTop:"2px",fontStyle:"italic",letterSpacing:"0.3px"}}>Find the right window &amp; door system for your project {"\u2014"} free expert matching</div>
             </div>
           </div>
+          <a href="/blog" style={{fontSize:"9px",fontFamily:"monospace",letterSpacing:"2px",color:T.gold,textDecoration:"none",border:`1px solid ${T.gold}44`,padding:"5px 12px",borderRadius:"4px",whiteSpace:"nowrap",flexShrink:0}}>INDUSTRY NEWS</a>
         </div>
         {/* Nav row — always full width, always scrollable */}
         <div style={{padding:"0 24px 10px"}}>
